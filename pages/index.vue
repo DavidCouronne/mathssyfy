@@ -3,11 +3,11 @@
     <div>
       <app-logo/>
       <h1 class="title">
-      mathssyfy $$x = {-b \pm \sqrt{b^2-4ac} \over 2a}$$
+      mathssyfy 
       </h1>
       
-      <h2 class="subtitle">
-        Nuxt.js project
+      <h2>
+        $$x = {-b \pm \sqrt{b^2-4ac} \over 2a}$$
       </h2>
       <div class="links">
         <a
@@ -46,7 +46,7 @@ export default {
   font-family: "Quicksand", "Source Sans Pro", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif; /* 1 */
   display: block;
   font-weight: 300;
-  font-size: 100px;
+  font-size: 80px;
   color: #35495e;
   letter-spacing: 1px;
 }
