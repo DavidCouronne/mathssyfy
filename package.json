@@ -13,7 +13,11 @@
     "precommit": "npm run lint"
   },
   "dependencies": {
-    "nuxt": "^2.0.0"
+    "@nuxtjs/markdownit": "^1.2.2",
+    "markdown-it-attrs": "^2.3.2",
+    "markdown-it-container": "^2.0.0",
+    "nuxt": "^2.0.0",
+    "vue-mathjax": "0.0.5"
   },
   "devDependencies": {
     "babel-eslint": "^10.0.1",

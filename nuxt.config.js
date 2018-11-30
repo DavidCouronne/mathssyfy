@@ -9,6 +9,9 @@ module.exports = {
       { name: 'viewport', content: 'width=device-width, initial-scale=1' },
       { hid: 'description', name: 'description', content: 'Nuxt.js project' }
     ],
+    script: [
+      {src: 'https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.2/MathJax.js?config=TeX-AMS_HTML'}
+    ],
     link: [
       { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }
     ]
@@ -34,6 +37,10 @@ module.exports = {
         })
       }
     }
-  }
+  },
+  plugins: [
+    { src: '~plugins/VueMathJax.js'},
+  ],
+  
 }
 

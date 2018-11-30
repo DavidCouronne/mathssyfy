@@ -3,8 +3,9 @@
     <div>
       <app-logo/>
       <h1 class="title">
-        mathssyfy
+      mathssyfy $$x = {-b \pm \sqrt{b^2-4ac} \over 2a}$$
       </h1>
+      
       <h2 class="subtitle">
         Nuxt.js project
       </h2>
