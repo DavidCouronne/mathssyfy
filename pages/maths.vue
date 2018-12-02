@@ -2,7 +2,6 @@
 <div>
 <textarea v-model="formula" cols="30" rows="10"></textarea>
   <vue-mathjax :formula="formula"></vue-mathjax>
-  <vue-mathjax :formula="hop"></vue-mathjax>
   <p>
         <strong>Exercice 1  6 points</strong><br>
 
@@ -41,7 +40,6 @@ export default {
   data () {
     return {
       formula: '$$x = {-b \\pm \\sqrt{b^2-4ac} \\over 2a}.$$',
-      hop: '$\\vec{u}$',
       msg: 'Welcome to Your Vue.js App'
     }
   }
