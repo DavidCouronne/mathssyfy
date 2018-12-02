@@ -17,6 +17,7 @@
     "markdown-it-attrs": "^2.3.2",
     "markdown-it-container": "^2.0.0",
     "nuxt": "^2.0.0",
+    "nuxt-buefy": "^0.3.2",
     "vue-mathjax": "0.0.5"
   },
   "devDependencies": {

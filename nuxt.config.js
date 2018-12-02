@@ -10,6 +10,7 @@ module.exports = {
       { hid: 'description', name: 'description', content: 'Nuxt.js project' }
     ],
     script: [
+      {type: "text/javascript", scr: '~plugins/MathJax.js?config=TeX-AMS_HTML'},
       {src: 'https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.2/MathJax.js?config=TeX-AMS_HTML'}
     ],
     link: [
@@ -41,6 +42,9 @@ module.exports = {
   plugins: [
     { src: '~plugins/VueMathJax.js'},
   ],
-  
+  modules: [
+    // Simple usage
+    'nuxt-buefy',
+ ],
 }
 
