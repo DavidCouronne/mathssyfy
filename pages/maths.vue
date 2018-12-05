@@ -4,28 +4,10 @@
   <vue-mathjax :formula="formula"></vue-mathjax>
   <p>
         <strong>Exercice 1  6 points</strong><br>
-
+<textarea v-model="test" cols="30" rows="10"></textarea>
+<p> {{ test }} </p>
 <strong>Commun  à tous les candidats</strong><br>
 
-<br>
-
-<em>Les parties </em> A <em>et</em>   B <em>peuvent être traitées de façon indépendante.</em><br>
-
-<br>
-
-
-Dans une usine, un four cuit des céramiques à la température de 1000 &deg;  C. À la fin de la
-cuisson, il est éteint et il refroidit.<br>
-
-<br>
-
-On s'intéresse à la phase de refroidissement du four, qui débute dès l'instant où il est éteint.<br>
-
-
-La température du four est exprimée en degré Celsius ( &deg; C).<br>
-Le plan est muni d'un repère orthonormé \( \vec{u} \) .
-Vérifier que. pour tout nombre réel \( t \) positif: \( d(t) = 980\left(1 - \text{e}^{- \frac{1}{5}}\right)\text{e}^{- \frac{t}{5}} \).
-  </p>
 </div>
 </template>
 
@@ -39,8 +21,9 @@ export default {
   name: 'HelloWorld',
   data () {
     return {
-      formula: '$$x = {-b \\pm \\sqrt{b^2-4ac} \\over 2a}.$$',
-      msg: 'Welcome to Your Vue.js App'
+      formula: '$$x = {-b \\pm \\sqrt{b^2-4ac} \\over 2a}.$$ La température du four est exprimée en degré Celsius ( &deg; C).<br> !!!',
+      msg: 'Welcome/> to Your Vue.js App',
+      test: ""
     }
   }
 }

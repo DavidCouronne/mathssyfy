@@ -2,22 +2,21 @@
   <section class="container">
     <div>
       <app-logo/>
+      <vuemathjax/>
       <h1 class="title">
-      mathssyfy 
+      mathssyfy $\def \RR { { \bf R} } $
       </h1>
       
       <h2>
-        $$x = {-b \pm \sqrt{b^2-4ac} \over 2a}$$
+        $$x = {-b \pm \sqrt{b^2-4ac} \over 2a} $$
       </h2>
       <div class="links">
-        <a
-          href="https://nuxtjs.org/"
-          target="_blank"
-          class="button--green">Documentation</a>
-        <a
-          href="https://github.com/nuxt/nuxt.js"
-          target="_blank"
-          class="button--grey">GitHub</a>
+        
+          <nuxt-link to="/sujets"
+          class="button--green">Sujets</nuxt-link>
+          <nuxt-link to="maths"
+          class="button--green">Tests</nuxt-link>
+        
       </div>
     </div>
   </section>
@@ -26,10 +25,13 @@
 <script>
 import AppLogo from '~/components/AppLogo.vue'
 
+import vuemathjax from '~/components/vue-mathjax.vue'
 export default {
   components: {
-    AppLogo
-  }
+    AppLogo,
+    vuemathjax
+  },
+
 }
 </script>
 
