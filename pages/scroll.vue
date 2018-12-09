@@ -19,7 +19,7 @@
       offsetTop: 0
     }),
     methods:  {
-   myFunction: function() {alert("pageXOffset:"+ window.pageXOffset)
+   myFunction: function() {alert("pageXOffset:"+ document.documentElement.scrollTop)
 }},
   }
 </script>
