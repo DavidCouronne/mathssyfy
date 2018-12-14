@@ -6,17 +6,17 @@
       <h1 class="title">
       mathssyfy $\def \RR { { \bf R} } $
       </h1>
-      
+
       <h2>
         $$x = {-b \pm \sqrt{b^2-4ac} \over 2a} $$
       </h2>
       <div class="links">
-        
+
           <nuxt-link to="/sujets"
           class="button--green">Sujets</nuxt-link>
           <nuxt-link to="maths"
           class="button--green">Tests</nuxt-link>
-        
+
       </div>
     </div>
   </section>
@@ -24,12 +24,13 @@
 
 <script>
 import AppLogo from '~/components/AppLogo.vue'
-
+import ButtonBackToTop from '~/components/ButtonBackToTop/ButtonBackToTop.vue'
 import vuemathjax from '~/components/vue-mathjax.vue'
 export default {
   components: {
     AppLogo,
-    vuemathjax
+    vuemathjax,
+    ButtonBackToTop
   },
 
 }

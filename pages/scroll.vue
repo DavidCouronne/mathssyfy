@@ -1,6 +1,6 @@
 <template>
-  <v-layout column align-center justify-center>
-    <button v-on:click="myFunction()" style="position:fixed;">Click me to scroll</button><br><br>
+  <v-layout  column align-center justify-center>
+
 
     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam neque turpis, tempor vitae accumsan eget, bibendum eget dui. Vestibulum fringilla mi ac nunc malesuada accumsan. Proin mattis, ex vitae rhoncus dapibus, tellus tortor tincidunt metus, sed scelerisque dolor nunc rhoncus enim. Pellentesque semper interdum quam in placerat. Sed ut finibus mi. Aliquam placerat tellus ac tincidunt sodales. Quisque pharetra neque a risus placerat, sed suscipit felis mattis. Maecenas pretium efficitur fringilla. Sed commodo leo congue velit pretium, in consequat ex egestas. Pellentesque gravida vitae elit varius condimentum. Fusce in magna tellus. Proin in odio ac est elementum pharetra.</p>
     <p>Vivamus dapibus libero sem, eu sagittis lorem hendrerit id. Suspendisse faucibus sapien quis cursus lobortis. Phasellus blandit tellus at arcu ornare fermentum. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Morbi ac massa sollicitudin, lacinia lacus porta, cursus mi. Interdum et malesuada fames ac ante ipsum primis in faucibus. Nunc aliquam quis elit ut maximus. Integer blandit ipsum sed elit laoreet consequat. Pellentesque quis volutpat tellus, vitae finibus nulla. Etiam a porta orci. Morbi at libero sit amet tortor eleifend congue. Integer egestas fermentum lacinia. Curabitur dignissim, enim eget consectetur tempor, lacus felis auctor ante, in egestas arcu turpis ut tellus. Phasellus mattis dictum leo, a gravida purus tristique sed. Pellentesque sollicitudin arcu eu augue vehicula, molestie hendrerit sapien mollis.</p>
@@ -18,8 +18,6 @@
     data: () => ({
       offsetTop: 0
     }),
-    methods:  {
-   myFunction: function() {alert("pageXOffset:"+ document.documentElement.scrollTop)
-}},
+
   }
 </script>

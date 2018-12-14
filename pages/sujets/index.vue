@@ -1,6 +1,7 @@
 <template>
   <section class="container">
     <div>
+
       <strong>Exercice 1  6 points</strong>
       <strong>Commun  à tous les candidats</strong><br>
 
@@ -102,3 +103,13 @@ les céramiques ?</li>
   text-align: left;
 }
 </style>
+
+<script>
+import ButtonBackToTop from '~/components/ButtonBackToTop/ButtonBackToTop.vue'
+export default {
+components: {
+  ButtonBackToTop
+}
+}
+</script>
+
