@@ -22,7 +22,8 @@ module.exports = {
         items: [
           { text: 'Sujets', link: '/guide/' },
           { text: 'Cours', link: '/docs/cours/' },
-    ]},     
+    ]},
+    {text: 'GitHub', link: 'https://github.com/DavidCouronne/mathssyfy'},     
     ],
     sidebar: {
       '/docs/informatique/Vuepress/': [

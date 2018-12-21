@@ -8,7 +8,7 @@ features:
 - title: Sujets Bac
   details: Quelques sujets de Bac S
 - title: Tuto informatique
-  details: Quelques tutoriels informatiques
+  details: Quelques tutoriels informatiques sur Vuepress, Vue.js, Python, LaTeX...
 - title: Cours de mathématiques
   details: Cours de mathématiques de différents niveaux.
 footer: MIT Licensed | Copyright © 2018-present David Couronné

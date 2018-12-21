@@ -7,3 +7,6 @@ En utilisant Pandoc: [Pandoc](http://pandoc.org/)
 ``` bash
 pandoc -s file.tex -o file.md
 ```
+::: warning Attention
+Cette conversion automatique en prend pas en compte les figures (pstricks/TikZ) et les packages personnalisés.
+:::

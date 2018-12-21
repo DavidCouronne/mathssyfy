@@ -1,64 +1,24 @@
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.5.1/katex.min.css">
 
+# Présentation du site
 
-[Accueil](/)
-[one](/docs/one.md)
-
-# documents
-
-
-
-$x^2$
-$$x^2$$
-
-
-<button>hop hop hop</button>
-## Emoticone
-
-``` markdown{5}
-:tada: :100:
-```
-
-:tada: :100:
-
-## Toc
-
-[[toc]]
-
-## Container
-
-::: tip
-Une astuce
+::: warning Attention
+Ce site est en construction !
 :::
 
-::: warning
-Un avertissement
-:::
+## Mathématiques
 
-::: danger
-Un danger !!!!
-:::
+- Pour les sujets de Bac S: 
+- Pour les cours de mathématiques:
 
-## Code
+## Informatique
 
-$x^2$
+### Vuepress
+Ce site est construit à l'aide de Vuepress.
 
-
-``` html{5}
-<ul>
-<li>Le contenu de ma première puce</li>
-<li>Le contenu de ma seconde puce</li>
-<li>Et encore une autre puce</li>
-</ul>
-```
+Pour bien démarrer: [Vuepress](/docs/informatique/Vuepress/)
 
 
-``` js{4}
-export default {
-  data () {
-    return {
-      msg: 'Highlighted!'
-    }
-  }
-}
-```
+### How To...
+Astuces diverses et variées: [How To...](/docs/informatique/HowTo/)
+

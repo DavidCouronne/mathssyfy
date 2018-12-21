@@ -53,3 +53,16 @@ Vous devez avoir la structure suivante:
 ├ README.md
 ```
 :::
+
+::: warning Attention aux noms de fichiers et de dossiers
+Les noms de fichiers et de dossiers ne doivent pas:
+- contenir d'espace
+- contenir de caractères spéciaux ou de lettres accentuées
+- bien respecter la "casse", c'est-à-dire les majuscules et les minuscules.
+:::
+
+## Quelques explications
+
+- Le dossier `docs` va contenir le contenu du site. En fait on pourrait le nommer comme on veut, ou presque.
+- le dossier `.vuepress` est un dossier qui est lu automatiquement par Vuepress. Il contient en particulier le fichier `config.js` que nous allons commencer à manipuler dans la prochaine partie.
+
