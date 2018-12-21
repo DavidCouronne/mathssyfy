@@ -10,7 +10,7 @@ features:
 - title: Tuto informatique
   details: Quelques tutoriels informatiques
 - title: Cours de mathématiques
-  details: Cours de mathématiques de différenst niveaux.
+  details: Cours de mathématiques de différents niveaux.
 footer: MIT Licensed | Copyright © 2018-present David Couronné
 sidebarDepth: 3
 sidebar: auto

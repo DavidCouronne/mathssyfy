@@ -4,6 +4,6 @@
 
 En utilisant Pandoc: [Pandoc](http://pandoc.org/)
 
-``` batch
+``` bash
 pandoc -s file.tex -o file.md
 ```

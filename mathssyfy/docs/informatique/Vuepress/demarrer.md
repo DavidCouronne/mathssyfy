@@ -25,7 +25,7 @@ Pour tester si tout fonctionne bien, nous allons ouvrir un terminal dans Visual 
 
 Dans le terminal taper:
 
-``` batch
+``` bash
 vuepress dev
 ```
 Après un certain temps, un server de développement est créé. Ouvrir votre navigateur Internet préféré puis taper `localhost:8080`
@@ -34,7 +34,7 @@ Vous devriez voir le texte s'afficher. Bien sûr pour le moment, ce n'est pas tr
 
 ## Structurer son dossier
 
-Vuepress suit le principe **"Convvention est mieux que configuration"** (**"Convention is better than configuration"**), nous allons donc créer les dossier suivant (toujours dans Visual Studio Code):
+Vuepress suit le principe **"Convention est mieux que configuration"** (**"Convention is better than configuration"**), nous allons donc créer les dossier suivant (toujours dans Visual Studio Code):
 
 - un dossier `.vuepress`
 - un dossier `docs`

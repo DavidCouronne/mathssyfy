@@ -35,7 +35,7 @@ La documentation officielle: [yarn](https://yarnpkg.com/fr/)
 
 Le plus simple est de l'installer en ligne de commande, avec privilèges administrateur:
 
-``` batch{4}
+``` bash{4}
 choco install yarn
 ```
 
