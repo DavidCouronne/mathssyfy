@@ -5,6 +5,7 @@
   },
   "dependencies": {
     "markdown-it-container": "^2.0.0",
-    "markdown-it-katex": "^2.0.3"
+    "markdown-it-katex": "^2.0.3",
+    "vuepress": "^0.14.8"
   }
 }
