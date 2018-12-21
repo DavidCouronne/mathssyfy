@@ -1,0 +1,10 @@
+{
+  "devDependencies": {
+    "@vuepress/plugin-active-header-links": "^1.0.0-alpha.0",
+    "@vuepress/plugin-back-to-top": "^1.0.0-alpha.0"
+  },
+  "dependencies": {
+    "markdown-it-container": "^2.0.0",
+    "markdown-it-katex": "^2.0.3"
+  }
+}

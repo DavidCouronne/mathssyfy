@@ -1,0 +1,57 @@
+---
+sidebarDepth: 3
+---
+# Vuepress
+
+## Installation et configuration de Vuepress
+
+La documentation officielle est ici: [VuePress](https://vuepress.vuejs.org/)
+
+## Les différents outils
+
+Nous avons besoin de:
+
+- NodeJS
+- Yarn (optionnel mais fortement recommendé)
+- Un éditeur: Visual Studio Code est recommandé
+- Et bien sur Vuepress !
+
+### Installation de NodeJS
+
+1. Télécharger la dernière version de NodeJS sur le site officiel: [NodeJS](https://nodejs.org/en/)
+2. Lancer l'installation
+::: warning Attention
+- L'installation prend du temps. Après une partie graphique, elle passe en ligne de commande. Ne pas avoir peur :)
+- L'installation nécessite un redémarrage sous Windows 10
+:::
+
+### Installation de yarn
+
+yarn est un gestionnaire de packages, comme npm qui est fourni avec NodeJS.
+
+yarn permet une meilleure gestion des dépendances, et il est préconisé par la documentation officielle de Vuepress.
+
+La documentation officielle: [yarn](https://yarnpkg.com/fr/)
+
+Le plus simple est de l'installer en ligne de commande, avec privilèges administrateur:
+
+``` batch{4}
+choco install yarn
+```
+
+### Installatation de Visual Studio Code
+
+Vous pouvez bien sûr utiliser un autre éditeur, mais celui-ci est vraiment pratique.
+Site officiel: [Visual Studio Code](https://code.visualstudio.com/)
+
+### Installation de Vuepress
+
+En ligne de commande:
+
+``` sh
+yarn global add vuepress
+```
+
+
+
+
