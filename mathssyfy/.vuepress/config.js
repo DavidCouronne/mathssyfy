@@ -29,6 +29,8 @@ module.exports = {
       '/docs/informatique/Vuepress/': [
         '',
         'demarrer',
+        'config1',
+        'config2',
         'utilisation',
       ],
       '/docs/informatique/HowTo/': [
