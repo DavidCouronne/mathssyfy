@@ -66,7 +66,8 @@ export default {
   bottom: 2rem;
   right: 2.5rem;
   width: 2rem;
-  color: #72cda4;
+  /* color: #72cda4; */
+  color: red;
   z-index: 1;
 }
 

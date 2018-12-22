@@ -8,7 +8,7 @@ Le fichier `config.js` est un fichier Javascript. Dans cette partie, nous allons
 
 La "sidebar", c'est la barre de navigation qui se trouve à gauche, avec les liens vers les différentes parties du documents, et les différentes pages.
 
-Si vous avez encore le serveur de développement est route, il faut faire CTRL+C dans le terminal pour le quitter.
+Si vous avez encore le serveur de développement en route, il faut faire CTRL+C dans le terminal pour le quitter.
 
 Dans le fichier `config.js` vous aller taper, ou copier-coller le code suivant.
 

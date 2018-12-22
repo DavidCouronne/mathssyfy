@@ -31,6 +31,8 @@ module.exports = {
         'demarrer',
         'config1',
         'config2',
+        'sidebar',
+        'deploy',
         'utilisation',
       ],
       '/docs/informatique/HowTo/': [

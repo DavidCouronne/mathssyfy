@@ -1,5 +1,8 @@
 ---
 sidebarDepth: 3
+title: Installation de Vuepress
+metaTitle: Les bases de l'installation de Vuepress, NodeJS, Yarn, Visual Studio Code
+lang: fr-FR
 ---
 # Vuepress
 

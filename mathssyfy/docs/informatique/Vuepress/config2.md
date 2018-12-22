@@ -1,16 +1,17 @@
 # Ajouter quelques détails...
 
-Dans cette partie, nous allons voir:
+<BackToTop />
+Dans cette partie, nous allons voir: 
 
 [[toc]]
 
-## Restructer (encore..) son projet
+## Restructurer (encore..) son projet
 
 Vuepress est un outil permettant de créer de la documentation, et donc des cours, des tutos. Vous pouvez bien sûr en faire un site de recettes de cuisine :)
 
 Vuepress utilise le Javascript pour la logique, et  Markdown pour le contenu.
 
-Nous allons structure notre dossier `/docs/` pour y mettre notre contenu, puis utiliser notre fichier `config.js` pour gérer le rendu.
+Nous allons structurer notre dossier `/docs/` pour y mettre notre contenu, puis utiliser notre fichier `config.js` pour gérer le rendu.
 
 Supposons que nous ayons deux parties principales dans notre site: une partie cours et une partie exercices. Chaque partie comporte plusieurs sous-parties, et chaque sous-partie comporte plusieurs pages.
 
@@ -77,3 +78,97 @@ Dans le dossier `/docs/cours/multiplication/` nous allons créer le fichier `tab
 
 ...
 ```
+
+Dans le dossier `/docs/exercices/` nous allons créer un fichier `README.md`
+``` md
+// .docs/exercices/README.md
+# Quelques exercices
+...
+```
+
+## Ajouter la navbar
+
+La navbar, c'est la barre de navigation en haut du site, qui permet d'accéder directement à certaines pages.
+
+Les liens pointent vers des dossiers. Si le dossier contient un fichier README.md, celui-ci est ouvert automatiquement. Sinon, il faut spécifier le nom du fichier cible.
+
+Pour ce tuto, nous allons créer:
+- un lien vers la page d'accueil
+- un lien vers la page d'exercices
+- un "menu déroulant" vers la page d'accueil des cours, vers les additions et les multiplications
+
+Tout va se passer dans le fichier `config.js`.
+
+Je vais vous montrer le code, puis vous expliquer comment l'injecter dans le fichier de configuration:
+
+``` js
+      nav: [
+        { text: 'Accueil', 
+        link: '/' },
+        { text: 'Exercices', 
+        link: '/docs/exercices/' },
+        { text: 'Cours', 
+          items: [
+            { text: 'Accueil Cours', 
+            link: '/docs/cours/' },
+            { text: 'Additions', 
+            items: [
+              { text: 'table de 1',
+              link: '/docs/cours/addition/table1.md' },
+              { text: 'table de 2', 
+              link: '/docs/cours/addition/table2.md'}
+            ]},
+            { text: 'Multiplications', 
+            link: '/docs/cours/multiplication/tables-multiplication.md'},
+
+      ]}, 
+      ],
+```
+
+Pour bien voir comment tout ceci fonctionne, nous allons l'injecter dans `config.js`
+
+``` js
+// .vuepress/config.js
+module.exports = {
+    themeConfig: {
+      sidebar: [
+        '/',
+        '/docs/',
+      ],
+      nav: [
+        { text: 'Accueil', 
+        link: '/' },
+        { text: 'Exercices', 
+        link: '/docs/exercices/' },
+        { text: 'Cours', 
+          items: [
+            { text: 'Accueil Cours', 
+            link: '/docs/cours/' },
+            { text: 'Additions', 
+            items: [
+              { text: 'table de 1',
+              link: '/docs/cours/addtion/table1.md' },
+              { text: 'table de 2', 
+              link: '/docs/cours/addtion/table2.md'}
+            ]},
+            { text: 'Multiplications', 
+            link: '/docs/cours/multiplication/tables-multiplication.md'},
+
+      ]}, 
+      ],
+    }
+  }
+  
+```
+::: tip Pratique
+Vous pouvez bien sûr copier coller le code, mais essayez de le taper directement dans VS Code pour voir la complétion automatique, et surtout commencer à coder par vous-même
+:::
+Vous allez relancer le serveur en tapant dans le terminal:
+
+```bash
+vuepress dev
+```
+
+Testez les liens pour comprendre le fonctionnement.
+
+Et là: mais la sidebar alors ??? Elle est toujours bloquée avec la configuration du début !!!
