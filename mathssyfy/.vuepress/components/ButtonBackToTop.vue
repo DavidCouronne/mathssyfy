@@ -8,7 +8,6 @@
         key="keyboard_arrow_up"
         v-model="fab"
         dark
-        small
         fab
         fixed
         bottom

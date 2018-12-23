@@ -1,6 +1,8 @@
 # Rédiger une feuille d'exercices avec solution
 
+<ClientOnly>
 <ButtonBackToTop />
+</ClientOnly>
 
 L'idée est de générer le fichier suivant:
 
