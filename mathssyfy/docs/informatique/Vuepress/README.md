@@ -6,7 +6,7 @@ lang: fr-FR
 ---
 # Vuepress
 
-## Installation et configuration de Vuepress
+
 
 La documentation officielle est ici: [VuePress](https://vuepress.vuejs.org/)
 
@@ -15,8 +15,8 @@ La documentation officielle est ici: [VuePress](https://vuepress.vuejs.org/)
 Nous avons besoin de:
 
 - NodeJS
-- Yarn (optionnel mais fortement recommendé)
-- Un éditeur: Visual Studio Code est recommandé
+- Yarn (optionnel mais fortement recommandé)
+- Un éditeur: Visual Studio Code
 - Et bien sur Vuepress !
 
 ### Installation de NodeJS
@@ -42,7 +42,7 @@ Le plus simple est de l'installer en ligne de commande, avec privilèges adminis
 choco install yarn
 ```
 
-### Installatation de Visual Studio Code
+### Installation de Visual Studio Code
 
 Vous pouvez bien sûr utiliser un autre éditeur, mais celui-ci est vraiment pratique.
 Site officiel: [Visual Studio Code](https://code.visualstudio.com/)

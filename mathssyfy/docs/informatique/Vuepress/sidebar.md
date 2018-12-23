@@ -1,7 +1,12 @@
 
 # La sidebar
 
+<BackToTop />
+
+
+
 Le paramétrage de la sidebar va ressembler à celui de la navbar, avec quelques difficultés supplémentaires.
+
 
 ## Si le document n'a qu'une seule page
 

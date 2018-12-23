@@ -2,14 +2,14 @@ const container = require('markdown-it-container')
 
 module.exports = {
   head: [
-    ['link', {rel: "stylesheet", href: "https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.5.1/katex.min.css"}]
-
+    ['link', {rel: "stylesheet", href: "https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.5.1/katex.min.css"}],
+    ['link', {rel: "stylesheet", href: "https://fonts.googleapis.com/css?family=Roboto:100,300,400,500,700,900|Material+Icons"}],
+    ['link', {rel: "stylesheet", href: "https://cdn.jsdelivr.net/npm/vuetify/dist/vuetify.min.css"}],
   ],
   title: 'MathsSyfy',
   description: 'Mathématiques et Informatique',
   plugins: [
-  '@vuepress/active-header-links',
-  ['@vuepress/back-to-top', true],
+  '@vuepress/active-header-links'
 ] ,
 
   themeConfig: {
@@ -32,6 +32,7 @@ module.exports = {
         'config1',
         'config2',
         'sidebar',
+        'exercice',
         'deploy',
         'utilisation',
       ],
