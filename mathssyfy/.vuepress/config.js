@@ -1,5 +1,4 @@
 module.exports = {
-  theme: '@vuepress/theme-vue',
   globalUIComponents: [
     'BackToTop'
   ],
