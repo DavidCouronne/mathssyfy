@@ -1,0 +1,48 @@
+<template>
+  <div>
+    <v-fab-transition>
+      <v-btn
+        v-show="isVisible"
+        @click="scrollToTop"
+        color="#72cda4"
+        key="keyboard_arrow_up"
+        v-model="fab"
+        dark
+        small
+        fab
+        fixed
+        bottom
+        right
+      >
+        <v-icon>keyboard_arrow_up</v-icon>
+        <v-icon>close</v-icon>
+      </v-btn>
+    </v-fab-transition>
+  </div>
+</template>
+
+<script>
+export default {
+  data: () => ({
+    isVisible: false,
+    positiony: 0,
+  }),
+  methods: {
+    scrollFunction() {
+      this.postiony = window.scrollY;
+      if (this.postiony > 20) {
+        this.isVisible = true;
+      } else {
+        this.isVisible = false;
+      }
+    },
+    scrollToTop() {
+      document.documentElement.scrollTop = 0;
+      document.body.scrollTop = 0;
+    },
+  },
+  created() {
+    window.addEventListener('scroll', this.scrollFunction);
+  },
+};
+</script>

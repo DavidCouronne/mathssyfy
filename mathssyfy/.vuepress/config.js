@@ -1,4 +1,8 @@
 module.exports = {
+  theme: '@vuepress/theme-vue',
+  globalUIComponents: [
+    'BackToTop'
+  ],
   head: [
     ['link', {rel: "stylesheet", href: "https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.5.1/katex.min.css"}],
     ['link', {rel: "stylesheet", href: "https://fonts.googleapis.com/css?family=Roboto:100,300,400,500,700,900|Material+Icons"}],
@@ -9,6 +13,7 @@ module.exports = {
   plugins: [
   '@vuepress/active-header-links'
 ] ,
+
 
   themeConfig: {
     sidebarDepth: 2,
@@ -48,14 +53,7 @@ module.exports = {
     config: md => {
       // use more markdown-it plugins!
       var mk = require('markdown-it-katex');
-      md.use(mk,      
-      {"throwOnError" : false,
-       "errorColor" : " red",
-       "displayMode" : "true",
-       "macros" :{
-        "\\RR": "coucou"
-       }
-      });
+      md.use(mk);
     }
   }
 }

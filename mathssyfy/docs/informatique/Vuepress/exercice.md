@@ -1,5 +1,7 @@
 # Rédiger une feuille d'exercices avec solution
 
+<ButtonBackToTop />
+
 L'idée est de générer le fichier suivant:
 
 Exercice 1:
