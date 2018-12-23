@@ -5,7 +5,7 @@ Dans cette partie, nous allons voir:
 
 [[toc]]
 
-## Restructurer (encore..) son projet
+## Restructurer son projet
 
 Vuepress est un outil permettant de créer de la documentation, et donc des cours, des tutos. Vous pouvez bien sûr en faire un site de recettes de cuisine :)
 

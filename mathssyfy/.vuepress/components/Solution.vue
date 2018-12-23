@@ -1,5 +1,4 @@
 <template>
-<div>
   <v-expansion-panel>
     <v-expansion-panel-content>
       <div class="solution" slot="header">{{ title }}</div>
@@ -8,7 +7,6 @@
       </v-card>
     </v-expansion-panel-content>
   </v-expansion-panel>
-  </div>
 </template>
 
 <script>

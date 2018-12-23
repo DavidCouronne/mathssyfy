@@ -1,5 +1,3 @@
-const container = require('markdown-it-container')
-
 module.exports = {
   head: [
     ['link', {rel: "stylesheet", href: "https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.5.1/katex.min.css"}],
@@ -49,11 +47,15 @@ module.exports = {
     lineNumbers: false,
     config: md => {
       // use more markdown-it plugins!
-      md.use(require("markdown-it-katex"),      
+      var mk = require('markdown-it-katex');
+      md.use(mk,      
       {"throwOnError" : false,
-       "errorColor" : " #cc0000",
-       "displayMode" : true
-      })
+       "errorColor" : " red",
+       "displayMode" : "true",
+       "macros" :{
+        "\\RR": "coucou"
+       }
+      });
     }
   }
 }
