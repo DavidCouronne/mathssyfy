@@ -10,8 +10,10 @@ module.exports = {
   title: 'MathsSyfy',
   description: 'Mathématiques et Informatique',
   plugins: [
-  '@vuepress/active-header-links'
+  '@vuepress/active-header-links',
+  '@vuepress/google-analytics'
 ] ,
+ga: 'UA-131298008-1',
 
 
   themeConfig: {
@@ -22,8 +24,8 @@ module.exports = {
       { text: 'Vuepress', link: '/docs/informatique/Vuepress/'},
       { text: 'Mathématiques', 
         items: [
-          { text: 'Sujets', link: '/guide/' },
-          { text: 'Cours', link: '/docs/cours/' },
+          { text: 'Sujets', link: '/docs/maths/sujets/' },
+          { text: 'Cours', link: '/docs/maths/cours/' },
     ]},
     {text: 'GitHub', link: 'https://github.com/DavidCouronne/mathssyfy'},     
     ],
