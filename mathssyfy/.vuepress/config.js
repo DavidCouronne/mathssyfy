@@ -1,12 +1,19 @@
 module.exports = {
-  globalUIComponents: [
-    'BackToTop'
-  ],
   head: [
+    ['meta', {name: "google-site-verification", content: "oJi9F2YoTJCMrpn-9Y8pDsfKfgIWeR_r-w2axieKqgQ"}],
     ['link', {rel: "stylesheet", href: "https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.5.1/katex.min.css"}],
     ['link', {rel: "stylesheet", href: "https://fonts.googleapis.com/css?family=Roboto:100,300,400,500,700,900|Material+Icons"}],
     ['link', {rel: "stylesheet", href: "https://cdn.jsdelivr.net/npm/vuetify/dist/vuetify.min.css"}],
   ],
+  locales: {
+    // The key is the path for the locale to be nested under.
+    // As a special case, the default locale can use '/' as its path.
+    '/': {
+      lang: 'fr-FR', // this will be set as the lang attribute on <html>
+      title: 'MathsSyfy',
+      description: 'Mathématiques, Vuepress, Markdown, Python, Github, NodeJS'
+    }
+  },
   title: 'MathsSyfy',
   description: 'Mathématiques et Informatique',
   plugins: [

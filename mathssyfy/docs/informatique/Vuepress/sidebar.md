@@ -1,8 +1,9 @@
 
 # La sidebar
 
-<BackToTop />
-
+<ClientOnly>
+  <ButtonBackToTop/>
+</ClientOnly>
 
 
 Le paramétrage de la sidebar va ressembler à celui de la navbar, avec quelques difficultés supplémentaires.

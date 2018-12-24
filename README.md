@@ -1,3 +1,9 @@
+<p align="center">
+  <a href="https://www.npmjs.com/package/vuepress"><img src="https://img.shields.io/npm/v/vuepress.svg" alt="Version"></a>
+  <a href="https://www.npmjs.com/package/vuepress"><img src="https://badgen.net/npm/v/vuepress/next" alt="npm next version"></a>
+  <a href="https://www.npmjs.com/package/vuepress"><img src="https://img.shields.io/npm/l/vuepress.svg" alt="License"></a>
+</p>
+
 # mathssyfy
 
 > Vuepress project
@@ -8,7 +14,7 @@
 # install dependencies
 $ npm install # Or yarn install
 
-# serve with hot reload at localhost:3000
+# serve with hot reload at localhost:8080
 $ vuepress dev
 
 # build for production

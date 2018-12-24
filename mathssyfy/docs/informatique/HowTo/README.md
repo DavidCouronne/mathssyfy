@@ -1,5 +1,9 @@
 # Astuces diverses
 
+<ClientOnly>
+  <ButtonBackToTop/>
+</ClientOnly>
+
 ## Convertir du LaTeX en Markdown
 
 En utilisant Pandoc: [Pandoc](http://pandoc.org/)

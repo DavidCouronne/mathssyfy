@@ -1,5 +1,9 @@
 # Premières configurations
 
+<ClientOnly>
+  <ButtonBackToTop/>
+</ClientOnly>
+
 ::: warning Information importante
 Le fichier `config.js` est un fichier Javascript. Dans cette partie, nous allons faire "comme si" vous n'aviez jamais entendu parler de Javascript, ou en tout cas que vous ne savez pas trop vous en servir. Les explications détaillées viendront plus tard.
 :::

@@ -12,6 +12,7 @@
         fixed
         bottom
         right
+        outline
       >
         <v-icon>keyboard_arrow_up</v-icon>
         <v-icon>close</v-icon>
@@ -21,6 +22,10 @@
 </template>
 
 <script>
+import Vue from 'vue'
+import Vuetify from 'vuetify'
+
+Vue.use(Vuetify)
 export default {
   data: () => ({
     isVisible: false,

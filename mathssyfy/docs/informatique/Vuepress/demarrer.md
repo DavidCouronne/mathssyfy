@@ -1,5 +1,9 @@
 # Démarrage
 
+<ClientOnly>
+  <ButtonBackToTop/>
+</ClientOnly>
+
 Dans cette partie, nous allons voir comment créer un site avec Vuepress à partir de zéro ("from scratch"). Les explications détaillées sur la syntaxe des codes ou le pourquoi du parce que seront vues dans d'autres parties.
 
 ## Création du projet
@@ -11,7 +15,7 @@ Visual Studio Code s'ouvre :)
 Créer un nouveau fichier nommé `README.md`
 Dans ce fichier, vous pouvez taper (ou copier-coller) le code suivant:
 
-``` markdown
+```markdown
 # Ma première page
 Quelques tests
 ## Une première partie
@@ -25,7 +29,7 @@ Pour tester si tout fonctionne bien, nous allons ouvrir un terminal dans Visual 
 
 Dans le terminal taper:
 
-``` bash
+```powershell
 vuepress dev
 ```
 Après un certain temps, un server de développement est créé. Ouvrir votre navigateur Internet préféré puis taper `localhost:8080`

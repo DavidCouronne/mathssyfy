@@ -6,7 +6,9 @@ lang: fr-FR
 ---
 # Vuepress
 
-
+<ClientOnly>
+  <ButtonBackToTop/>
+</ClientOnly>
 
 La documentation officielle est ici: [VuePress](https://vuepress.vuejs.org/)
 

@@ -1,6 +1,9 @@
 # Ajouter quelques détails...
 
-<BackToTop />
+<ClientOnly>
+  <ButtonBackToTop/>
+</ClientOnly>
+
 Dans cette partie, nous allons voir: 
 
 [[toc]]

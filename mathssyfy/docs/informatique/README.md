@@ -1,5 +1,9 @@
 #Vuepress
 
+<ClientOnly>
+  <ButtonBackToTop/>
+</ClientOnly>
+
 ## Installation et configuration de Vuepress
 
 La documentation officielle est ici: [VuePress](https://vuepress.vuejs.org/)
@@ -9,6 +13,6 @@ La documentation officielle est ici: [VuePress](https://vuepress.vuejs.org/)
 Nous avons besoin de:
 
 - NodeJS
-- Yarn (optionnel mais fortement recommendé)
+- Yarn (optionnel mais fortement recommandé)
 - Un éditeur: Visual Studio Code est recommandé
 

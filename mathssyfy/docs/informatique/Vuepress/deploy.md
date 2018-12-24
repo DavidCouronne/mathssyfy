@@ -1,4 +1,9 @@
 # Hébergement du site
+
+<ClientOnly>
+  <ButtonBackToTop/>
+</ClientOnly>
+
 Nous avons bien sûr envie de déployer notre site sur Internet pour qu'il soit visible du monde entier !
 
 Il existe plusieurs solutions. Nous allons présenter le déploiement avec Firebase (Google).
