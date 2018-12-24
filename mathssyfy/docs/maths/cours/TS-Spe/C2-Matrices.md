@@ -6,7 +6,7 @@ sidebar: auto
 # Matrices
 
 <ClientOnly>
-  <BackTop/>
+  <ButtonBackToTop/>
 </ClientOnly>
 
 ## Définitions et vocabulaire
