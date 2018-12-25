@@ -1,5 +1,9 @@
 # Utiliser katex
 
+<ClientOnly>
+<ButtonBackToTop />
+</ClientOnly>
+
 ::: tip Avertissement
 Nous allons utiliser le plugin markdown-it-katex, basé sur katex, qui permet d'utiliser une syntaxe équivalente à LaTeX dans les fichiers Markdown.
 

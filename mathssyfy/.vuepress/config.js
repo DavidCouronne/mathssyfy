@@ -77,7 +77,9 @@ ga: 'UA-131298008-1',
     config: md => {
       // use more markdown-it plugins!
       var mk = require('markdown-it-katex');
+      var mf = require('markdown-it-footnote');
       md.use(mk);
+      md.use(mf);
     }
   }
 }

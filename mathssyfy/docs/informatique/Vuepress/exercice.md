@@ -1,4 +1,4 @@
-# Rédiger une feuille d'exercices avec solution
+# Rédiger une feuille d'exercices
 
 <ClientOnly>
 <ButtonBackToTop />
@@ -18,19 +18,12 @@ Exercice 1:
 2. Calculer 3*4
 
 <ClientOnly>
-<Solution title='Cherchez un peu avant de regarder la solution !'>
-3*4=12
-
-$\displaystyle\lim_{n \to +\infty} \frac{n+1}{2n+4}=\frac{1}{2}$
-
-$\RR$
-
-</Solution>
+<Solution title='Cherchez un peu avant de regarder la solution !'>3*4=12</Solution>
 </ClientOnly>
 
 etc...
 
-## Préparation
+## Installer Vuetify
 
 Vuepress utilise le framework [Vue.js](https://fr.vuejs.org/).
 
@@ -46,6 +39,52 @@ Pour commencer, ouvrez un terminal à la racine du projet:
 
 ``` bash
 yarn add vuetify
+```
+Nous avons besoin des styles CSS^[Cascading Style Sheets]. Pour cela dans le fichier `config.js`, nous devons rajouter:
+
+```javascript
+head: [
+    ['link', {rel: "stylesheet", href: "https://fonts.googleapis.com/css?family=Roboto:100,300,400,500,700,900|Material+Icons"}],
+    ['link', {rel: "stylesheet", href: "https://cdn.jsdelivr.net/npm/vuetify/dist/vuetify.min.css"}],
+  ],
+```
+
+Votre fichier devrait ressembler à ça:
+
+```javascript
+// .vuepress/config.js
+module.exports = {
+  head: [
+    ['link', {rel: "stylesheet", href: "https://fonts.googleapis.com/css?family=Roboto:100,300,400,500,700,900|Material+Icons"}],
+    ['link', {rel: "stylesheet", href: "https://cdn.jsdelivr.net/npm/vuetify/dist/vuetify.min.css"}],
+  ],
+    themeConfig: {
+      sidebar: {
+        '/docs/cours/addition/': [
+          'table1.md',
+          'table2.md'
+        ],
+        '/': [''],
+        '/docs/':['']
+        
+      },
+      nav: [
+        { text: 'Accueil', link: '/' },
+        { text: 'Exercices', link: '/docs/exercices/' },
+        { text: 'Cours', 
+          items: [
+            { text: 'Accueil Cours', link: '/docs/cours/' },
+            { text: 'Additions', 
+            items: [
+              { text: 'table de 1',link: '/docs/cours/addition/table1.md' },
+              { text: 'table de 2', link: '/docs/cours/addition/table2.md'}
+            ]},
+            { text: 'Multiplications', link: '/docs/cours/multiplication/tables-multiplication.md'},
+
+      ]}, 
+      ],
+    },
+  } 
 ```
 
 Puis dans le dossier `.vuepress` vous allez créer un dossier `components`. Dans ce dossier vous allez créer un fichier `Solution.vue` dans lequel vous allez copier-coller le code suivant:
@@ -111,7 +150,7 @@ Quand on est en mode développement, avec le `vuepress dev` tout se passe bien. 
 
 Notre component ne pourra pas être compilé tel quel, il va falloir l'entourer de balises spéciales.
 
-Sans plus tarder, voici le code à mettre dans notre fichier d'exercices
+Sans plus tarder, voici le code à mettre dans notre fichier d'exercices:
 
 ``` md
 // docs/exercices/README.md
@@ -126,18 +165,14 @@ sidebar: auto
 1. Calculer 2+3
 
 <ClientOnly>
-  <Solution>
-  2+3=5
-  </Solution>
+  <Solution>2+3=5</Solution>
 </ClientOnly>
 
 
 2. Calculer 3*4
 
 <ClientOnly>
-<Solution title='Cherchez un peu !'>
-3*4=12
-</Solution>
+<Solution title='Cherchez un peu !'>3*4=12</Solution>
 </ClientOnly>
 
 etc...
