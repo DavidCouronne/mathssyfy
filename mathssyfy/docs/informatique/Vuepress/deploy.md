@@ -16,7 +16,7 @@ Si vous avez déjà un compte Google (Gmail ou autre...) l'inscription va être 
 
 Une fois l'inscription faite, créer un nouveau projet. Votre site sera hébergé sous l'URL:
 
-`www.firebaseapp.nomduprojet.com`
+`nomduprojet.firebaseapp.com`
 
 ### Les outils
 Nous allons installer les outils globalement. Dans un terminal:
