@@ -1,18 +1,14 @@
-#Vuepress
+# Tuto Informatique
 
 <ClientOnly>
   <ButtonBackToTop/>
 </ClientOnly>
 
-## Installation et configuration de Vuepress
+[[toc]]
 
-La documentation officielle est ici: [VuePress](https://vuepress.vuejs.org/)
+## Web Developpement
 
-## Les différents outils
+### Batir un site avec Vuepress
 
-Nous avons besoin de:
-
-- NodeJS
-- Yarn (optionnel mais fortement recommandé)
-- Un éditeur: Visual Studio Code est recommandé
+[Batir un site avec Vuepress](./Vuepress/)
 

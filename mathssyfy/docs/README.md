@@ -8,8 +8,8 @@ Ce site est en construction !
 
 ## Mathématiques
 
-- Pour les sujets de Bac S: 
-- Pour les cours de mathématiques:
+- Pour les sujets de Bac S: [Sujet](/docs/maths/sujets/)
+- Pour les cours de mathématiques: [Cours](/docs/maths/cours/)
 
 ## Informatique
 

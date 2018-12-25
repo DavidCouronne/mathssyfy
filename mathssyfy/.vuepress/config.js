@@ -24,6 +24,14 @@ ga: 'UA-131298008-1',
 
 
   themeConfig: {
+    repo: 'DavidCouronne/mathssyfy',
+    
+    locales: {
+      '/': {
+        label: 'Français',
+        selectText: 'Languages',
+        lastUpdated: 'Last Updated'
+      }},
     sidebarDepth: 2,
     nav: [
       { text: 'Accueil', link: '/' },
@@ -33,8 +41,7 @@ ga: 'UA-131298008-1',
         items: [
           { text: 'Sujets', link: '/docs/maths/sujets/' },
           { text: 'Cours', link: '/docs/maths/cours/' },
-    ]},
-    {text: 'GitHub', link: 'https://github.com/DavidCouronne/mathssyfy'},     
+    ]},    
     ],
     sidebar: {
       '/docs/informatique/Vuepress/': [
@@ -44,8 +51,9 @@ ga: 'UA-131298008-1',
         'config2',
         'sidebar',
         'exercice',
+        'katex',
         'deploy',
-        'utilisation',
+        
       ],
       '/docs/informatique/HowTo/': [
         ''
@@ -53,6 +61,14 @@ ga: 'UA-131298008-1',
       '/docs/': [
         '',
       ],
+    },
+    serviceWorker: {
+      updatePopup: true, // Boolean | Object, default to undefined.
+      // If set to true, the default text config will be: 
+      updatePopup: { 
+          message: "Nouveau contenu disponible.", 
+          buttonText: "Rafraîchir" 
+      }
     }
   },
   
