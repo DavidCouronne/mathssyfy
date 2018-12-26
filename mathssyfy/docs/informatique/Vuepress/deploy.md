@@ -32,7 +32,7 @@ firebase login
 ```
 Le script va vous demander votre identifiant et votre mot de passe.
 
-### Préparer le déploiment
+### Préparer le déploiement
 Ouvrir un terminal dans le dossier du projet
 
 ``` bash
