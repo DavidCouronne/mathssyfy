@@ -189,7 +189,7 @@ export default {
 
 <style>
 .ajustBackToTop{
-  color: #72cda4;
+  color: white;
 }
 </style>
 
