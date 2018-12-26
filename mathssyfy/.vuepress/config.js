@@ -25,6 +25,9 @@ ga: 'UA-131298008-1',
 
   themeConfig: {
     repo: 'DavidCouronne/mathssyfy',
+    docsDir: 'mathssyfy',
+    editLinks: true,
+    editLinkText: 'Edit this page on GitHub',
     
     locales: {
       '/': {
