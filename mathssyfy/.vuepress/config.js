@@ -16,10 +16,6 @@ module.exports = {
   },
   title: 'MathsSyfy',
   description: 'Mathématiques et Informatique',
-  plugins: [
-  '@vuepress/active-header-links',
-  '@vuepress/google-analytics'
-] ,
 ga: 'UA-131298008-1',
 
 
