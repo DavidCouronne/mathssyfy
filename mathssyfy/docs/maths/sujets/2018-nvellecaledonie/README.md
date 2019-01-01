@@ -9,7 +9,8 @@ sidebar: auto
 
 
 
-## Exercice 1  6 points
+## Exercice 1 
+ 6 points
 
 
 **Commun à tous les candidats**
