@@ -2,7 +2,9 @@
 title: Nouvelle Calédonie 27 novembre 2018
 sidebar: auto
 ---
-
+<ClientOnly>
+  <ButtonBackToTop/>
+</ClientOnly>
 
 # Baccalauréat S -- Nouvelle Calédonie
 27 novembre 2018
@@ -229,7 +231,7 @@ On considère
 
 
 
-On se place dans le repère orthonormé $\left ( \text{A};\frac{1}{2}\overrightarrow{AB}\;,\;\frac{1}{2}\overrightarrow{AD}\;,\;\frac{1}{2}\overrightarrow{AE}\right )$.
+On se place dans le repère orthonormé $\left( \text{A};\frac{1}{2}\overrightarrow{AB}\;,\;\frac{1}{2}\overrightarrow{AD}\;,\;\frac{1}{2}\overrightarrow{AE}\right)$.
 
 Dans tout l'exercice, on pourra utiliser les coordonnées des points de la figure sans les justifier.
 
@@ -238,11 +240,11 @@ Dans tout l'exercice, on pourra utiliser les coordonnées des points de la figur
 On admet qu'une représentation paramétrique de la droite (IJ) est
 
  $$\left\{
-\begin{array}{ll}
+\begin{matrix}
 x &= r\\
 y &= 1\\
 z &= 0\\
-\end{array}
+\end{matrix}
 \right. , \quad r \in \R $$ 
 
 
@@ -251,11 +253,11 @@ z &= 0\\
 1.  Vérifier qu'une représentation paramétrique de la droite (PQ) est
 
  $$ \left\{
-\begin{array}{ll}
+\begin{matrix}
 x&= 1+t\\
 y &= t \\
 z &= 1+t\\
-\end{array}
+\end{matrix}
 \right . ,\quad t\in\R $$ 
 
 
