@@ -76,11 +76,11 @@ ga: 'UA-131298008-1',
     lineNumbers: false,
     config: md => {
       // use more markdown-it plugins!
-      // var mk = require('markdown-it-katex');
+      var mk = require('markdown-it-katex');
       let kt = require('katex'),
        tm = require('markdown-it-texmath').use(kt),
        mf = require('markdown-it-footnote');
-      // md.use(mk);
+      md.use(mk);
       md.use(mf);
       md.use(tm,{delimiters:'dollars',macros:{"\\RR": "\\mathbb{R}"}});
     }
