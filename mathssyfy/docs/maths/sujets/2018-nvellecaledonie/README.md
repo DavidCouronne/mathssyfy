@@ -251,7 +251,7 @@ z &= 0\\
 1.  Vérifier qu'une représentation paramétrique de la droite (PQ) est
 
  $$ \left\{
-\begin{array}{lr}
+\begin{array}{ll}
 x&= 1+t\\
 y &= t \\
 z &= 1+t\\
