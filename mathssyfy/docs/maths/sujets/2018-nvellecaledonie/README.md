@@ -145,7 +145,7 @@ Dans tout l'exercice, on pourra utiliser les coordonnées des points de la figur
 
 On admet qu'une représentation paramétrique de la droite (IJ) est
 
-$$
+$$\left\{
 \begin{matrix}
 x &= r\\
 y &= 1\\
@@ -154,14 +154,14 @@ z &= 0\\
 \right. , \quad r \in \R $$
 
 1. Vérifier qu'une représentation paramétrique de la droite (PQ) est
-$$
 
+$$\left\{
 \begin{matrix}
 x&= 1+t\\
 y &= t \\
 z &= 1+t\\
 \end{matrix}
-\right . ,\quad t\in\R \$\$
+\right . ,\quad t\in\R $$
 
 Soient $t$ un nombre réel et M\,$(1+t;t;1+t)$ le point de la droite (PQ) de paramètre $t$.
 
