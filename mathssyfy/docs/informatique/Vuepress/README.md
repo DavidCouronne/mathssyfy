@@ -1,6 +1,6 @@
 ---
 sidebarDepth: 3
-title: Vuepress: Batir un site de A à Z
+title: Vuepress bâtir un site de A à Z
 metaTitle: Les bases de l'installation de Vuepress, NodeJS, Yarn, Visual Studio Code
 lang: fr-FR
 ---
