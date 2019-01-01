@@ -1,9 +1,7 @@
 module.exports = {
   head: [
     ['meta', {name: "google-site-verification", content: "oJi9F2YoTJCMrpn-9Y8pDsfKfgIWeR_r-w2axieKqgQ"}],
-    // ['link', {rel: "stylesheet", href: "https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.5.1/katex.min.css"}],
-    ['link', {rel: "stylesheet", href:"katex.min.css"}]
-    ['link', {rel: "stylesheet", href: "https://gitcdn.xyz/cdn/goessner/markdown-it-texmath/master/texmath.css"}],
+    ['link', {rel: "stylesheet", href: "https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.5.1/katex.min.css"}],
     ['link', {rel: "stylesheet", href: "https://fonts.googleapis.com/css?family=Roboto:100,300,400,500,700,900|Material+Icons"}],
     ['link', {rel: "stylesheet", href: "https://cdn.jsdelivr.net/npm/vuetify/dist/vuetify.min.css"}],
   ],
@@ -77,13 +75,13 @@ ga: 'UA-131298008-1',
     lineNumbers: false,
     config: md => {
       // use more markdown-it plugins!
-      // var mk = require('markdown-it-katex');
-      var kt = require('katex');
-      var tm = require('markdown-it-texmath').use(kt);
+      var mk = require('markdown-it-katex');
+      // var kt = require('katex');
+      // var tm = require('markdown-it-texmath').use(kt);
       var mf = require('markdown-it-footnote');
-      // md.use(mk);
+      md.use(mk);
       md.use(mf);
-      md.use(tm);
+      // md.use(tm);
      //  md.use(tm,{delimiters:'dollars',macros:{"\\RR": "\\mathbb{R}"}});
     }
   }
