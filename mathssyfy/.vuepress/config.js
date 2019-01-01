@@ -78,7 +78,7 @@ ga: 'UA-131298008-1',
       // use more markdown-it plugins!
       var mk = require('markdown-it-katex');
       let kt = require('katex'),
-      tm = require('markdown-it-texmath').use(kt),
+      tm = require('markdown-it-texmath').use(kt);
       var mf = require('markdown-it-footnote');
       md.use(mk);
       md.use(mf);
