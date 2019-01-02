@@ -33,13 +33,10 @@ ga: 'UA-131298008-1',
     sidebarDepth: 2,
     nav: [
       { text: 'Accueil', link: '/' },
-      { text: 'Astuces', link: '/docs/informatique/HowTo/' },
+      { text: 'Ressources Web', link: '/docs/informatique/HowTo/' },
       { text: 'Vuepress', link: '/docs/informatique/Vuepress/'},
-      { text: 'Mathématiques', 
-        items: [
-          { text: 'Sujets', link: '/docs/maths/sujets/' },
-          { text: 'Cours', link: '/docs/maths/cours/' },
-    ]},    
+      { text: 'Cours Maths', link: '/docs/maths/cours/' },
+      { text: 'Sujets Bac', link: '/docs/maths/sujets/'},    
     ],
     sidebar: {
       '/docs/maths/sujets/2018-nvellecaledonie/': [
