@@ -11,6 +11,8 @@ sidebar: auto
 
 27 novembre 2018
 
+[Corrigé](./corrige.md)
+
 ## Exercice 1
 
 6 points

@@ -203,12 +203,13 @@ $\displaystyle\int_{a}^{1} \left ( f(x)-g(x)\right ) d x  = e^{-a} + e^{-\frac{1
 
 $\displaystyle\lim_{a\to 0} e^{-a} = e^{0}=1$
 
-$$\left .
-\begin{array}{l}
+$$\left.
+\begin{matrix}
 \displaystyle\lim_{a\to 0} -\dfrac{1}{a} = -\infty\\
 \displaystyle\lim_{X\to -\infty} e^{X} = 0\\
-\end{array}
-\right \rbrace$$ donc
+\end{matrix}
+\right\}$$ 
+donc
 $\displaystyle\lim_{a\to 0} e^{-\frac{1}{a}} = 0$
 
 On peut donc déduire que
@@ -221,17 +222,13 @@ $\displaystyle\lim_{a\to 0} \displaystyle\int_{a}^{1} \left ( f(x)-g(x)\right ) 
 1.  On admet que
 $\displaystyle\lim_{a\to 0} \displaystyle\int_{a}^{1} \left ( f(x)-g(x)\right ) d x =\displaystyle\lim_{b\to +\infty} \displaystyle\int_{1}^{b} \left ( g(x)-f(x)\right ) d x .$
 
-
-
-Sur l'intervalle $]0;1[$, la courbe $\mathcal{C}_f$ est au dessus de la courbe $\mathcal{C}_g$ donc
-
-
-$\displaystyle\lim_{a\to 0} \displaystyle\int_{a}^{1} \left ( f(x)-g(x)\right ) d x$ représente l'aire de la partie du plan comprise entre les courbes $\mathcal{C}_f$ et $\mathcal{C}_g$, et les droites d'équation $x=0$ et $x=1$. 
+Sur l'intervalle $]0;1[$, la courbe $\mathcal{C}_f$ est au dessus de la courbe $\mathcal{C}_g$ donc $\displaystyle\lim_{ a\to 0} \displaystyle\int_{a}^{1} \left( f(x)-g(x)\right) dx$ représente l'aire de la partie du plan comprise entre les courbes $\mathcal{C}_f$ et $\mathcal{C}_g$, et les droites d'équation $x=0$ et $x=1$. 
 
 C'est l'aire de la région hachurée sur le graphique.
 
 Sur l'intervalle $]1;+\infty[$, la courbe $\mathcal{C}_g$ est au dessus de la courbe $\mathcal{C}_f$ donc
-$$\displaystyle\lim_{b\to +\infty} \displaystyle\int_{1}^{b} \left ( g(x)-f(x)\right ) d x $$ représente l'aire de la partie du plan comprise entre les courbes $\mathcal{C}_g$ et $\mathcal{C}_f$, et les droites $x=1$ et $x=b$ quand $b$ tend vers $+\infty$. \\
+$$\displaystyle\lim_{b\to +\infty} \displaystyle\int_{1}^{b} \left ( g(x)-f(x)\right ) d x $$ 
+représente l'aire de la partie du plan comprise entre les courbes $\mathcal{C}_g$ et $\mathcal{C}_f$, et les droites $x=1$ et $x=b$ quand $b$ tend vers $+\infty$. \\
 C'est l'aire de la région grisée sur le graphique.
 
 On peut donc dire que ces deux aires sont égales.
@@ -401,52 +398,43 @@ z &= 0\\
 
 
 
-1. % Vérifier qu'une représentation paramétrique de la droite (PQ) est
-%
-% $$ \left \lbrace
-%\begin{array}{l !{=} l}
-%x& 1+t\\
-%y & t \\
-%z & 1+t\\
-%\end{array}
-%\right . ,\quad t\in\R $$ 
-La droite (PQ) est l'ensemble des points M$\coo{x}{y}{z}$ tels que les vecteurs $\overrightarrow{PM}$ et $\overrightarrow{PQ}$ soient colinéaires, c'est-à-dire tels que $\overrightarrow{PM} = t.\overrightarrow{PQ}$ avec $t\in\R$.
+1. 
+La droite (PQ) est l'ensemble des points M$(x;y;z)$ tels que les vecteurs $\overrightarrow{PM}$ et $\overrightarrow{PQ}$ soient colinéaires, c'est-à-dire tels que $\overrightarrow{PM} = t.\overrightarrow{PQ}$ avec $t\in\R$.
 
-$\overrightarrow{PM}$ a pour coordonnées $\coo{x-1}{y}{z-1}$ et $\overrightarrow{PQ}$ a pour coordonnées $\coo{2-1}{1-0}{2-1}=\coo{1}{1}{1}$
+$\overrightarrow{PM}$ a pour coordonnées $(x-1;y;z-1)$ et $\overrightarrow{PQ}$ a pour coordonnées $(2-1;1-0;2-1)=(1;1;1)$
 
-$\overrightarrow{PM} = t.\overrightarrow{PQ}
+$$\overrightarrow{PM} = t.\overrightarrow{PQ}
 \iff
 \left \lbrace
-\begin{array}{l !{=} l} } } } } } } } }
-x-1& t\times 1\\
-y & t\times 1 \\
-z-1 & t\times 1\\
-\end{array}
+\begin{matrix}
+x-1&= t\times 1\\
+y &= t\times 1 \\
+z-1 &= t\times 1\\
+\end{matrix}
 \right .
 \iff
 \left \lbrace
-\begin{array}{l !{=} l}
-x& 1+ t\\
-y & t \\
-z & 1+t\\
+\begin{array}{ll}
+x&= 1+ t\\
+y &= t \\
+z &= 1+t\\
 \end{array}
-\right .$
+\right .$$
 
 La droite (PQ) a pour représentation paramétrique
-$\left \lbrace
-\begin{array}{l !{=} l}
-x& 1+t\\
-y & t \\
-z & 1+t\\
-\end{array}
-\right . ,\quad t\in\R$.
+
+$$\left\{
+\begin{matrix}
+x &= 1+t\\
+y &= t \\
+z &= 1+t\\
+\end{matrix}
+\right. ,\quad t\in\R$$
 
 
 
 Soient $t$ un nombre réel et M\,$(1+t;t;1+t)$ le point de la droite (PQ) de paramètre $t$.
 
-
-\setcounter{enumi}{1}
 
 
 1. 
@@ -457,23 +445,23 @@ a)  On admet qu'il existe un unique point K appartenant à la droite (IJ) tel qu
 
 %Démontrer que les coordonnées de ce point K sont $(1+t;1;0)$.
 
-Le point K appartient à la droite (IJ) dont on connait une représentation paramétrique donc les coordonnées de K sont de la forme $\coo{r}{1}{0}$.
+Le point K appartient à la droite (IJ) dont on connait une représentation paramétrique donc les coordonnées de K sont de la forme $(r;1;0)$.
 
 Les droites (IJ) et (MK) sont orthogonales donc les vecteurs $\overrightarrow{IJ}$ et $\overrightarrow{MK}$ sont orthogonaux; leur produit scalaire est donc nul.
 
-$\overrightarrow{IJ}$ a pour coordonnées $\coo{2-0}{1-1}{0-0} = \coo{2}{0}{0}$, et $\overrightarrow{MK}$ a pour coordonnées $\coo{x_{\text K} - x_{\text M} } } } } }{y_{\text K} - y_{\text M}}{z_{\text K} - z_{\text M}}=\coo{r-1-t}{1-t}{-1-t}$.
+$\overrightarrow{IJ}$ a pour coordonnées $(2-0;1-1;0-0) = (2;0;0)$, et $\overrightarrow{MK}$ a pour coordonnées $(x_K - x_M ;y_K - y_M;z_{\text K} - z_{\text M})=(r-1-t;1-t;-1-t)$.
 
 $\overrightarrow{IJ}.\overrightarrow{MK}=0
 \iff
 2(r-1-t)+0(1-t) + 0(-1-t) = 0 \iff r=1+t$
 
-Le point K a donc pour coordonnées $\coo{1+t}{1}{0}$.
+Le point K a donc pour coordonnées $(1+t;1;0)$.
 
 
 
-b) % En déduire que $\text{MK} = \displaystyle\sqrt{2+2t^2}$.
+b) 
 D'après la question précédente, le vecteur $\overrightarrow{MK}$ a pour coordonnées
-$\coo{0}{1-t}{-1-t}$ donc
+$(0;1-t;-1-t)$ donc
 $\text{MK} = \displaystyle\sqrt{0^2 + (1-t)^2+ (-1-t)^2}
 = \displaystyle\sqrt{1-2t+t^2+1+2t+t^2} = \displaystyle\sqrt{2+2t^2}$.
 
@@ -481,7 +469,7 @@ $\text{MK} = \displaystyle\sqrt{0^2 + (1-t)^2+ (-1-t)^2}
 
 
 
-2. 
+1. 
 
 
 
@@ -505,28 +493,27 @@ b)  On admet qu'il existe un unique point L appartenant au plan (HGB) tel que (M
 
 On suppose que  le point L a pour coordonnées $\left (1+t;\dfrac{1}{2}+t;\dfrac{1}{2}+t\right )$.
 
-\begin{list}{\textbullet}{}
 
 
-c)  $y_{\text L} - z_{\text L} = \dfrac{1}{2}+t - \left ( \dfrac{1}{2}+t\right ) = 0$ donc $\text L \in \text{(HGB)}$.
+
++  $y_{\text L} - z_{\text L} = \dfrac{1}{2}+t - \left ( \dfrac{1}{2}+t\right ) = 0$ donc $\text L \in \text{(HGB)}$.
 
 
-d)  Le vecteur $\overrightarrow{ML}$ a pour coordonnées\\
++  Le vecteur $\overrightarrow{ML}$ a pour coordonnées\\
 $\coo{1+t -\left (1+t \right )}{\dfrac{1}{2}+t-t} } } } }{\dfrac{1}{2}+t- \left ( 1+t\right )}=\coo{0}{\dfrac{1}{2}}{-\dfrac{1}{2}}$.
 
 
 
-e)  Le vecteur $\overrightarrow{HG}$ a pour coordonnées $\coo{2-0}{2-2}{2-2} = \coo{2}{0}{0}$.
++  Le vecteur $\overrightarrow{HG}$ a pour coordonnées $\coo{2-0}{2-2}{2-2} = \coo{2}{0}{0}$.
 
 $\overrightarrow{ML}.\overrightarrow{HG} = 0\times 2 + \dfrac{1}{2}\times 0 + \left (-\dfrac{1}{2}\right )\times 0 = 0$ donc $\overrightarrow{ML}\perp \overrightarrow{HG}$.
 
 
 
-f)  Le vecteur $\overrightarrow{HB}$ a pour coordonnées $\coo{2-0}{0-2}{0-2} = \coo{2}{-2}{-2}$.
++  Le vecteur $\overrightarrow{HB}$ a pour coordonnées $\coo{2-0}{0-2}{0-2} = \coo{2}{-2}{-2}$.
 
 $\overrightarrow{ML}.\overrightarrow{HB} = 0\times 2 + \dfrac{1}{2}\times (-2) + \left (-\dfrac{1}{2}\right )\times 2 = 0-1+1 = 0$ donc $\overrightarrow{ML}\perp \overrightarrow{HB}$.
 
-\end{list}
 
 Le vecteur $\overrightarrow{ML}$ est orthogonal à deux vecteurs $\overrightarrow{HG}$ et $\overrightarrow{HB}$ non colinéaires, donc le  vecteur $\overrightarrow{ML}$ est orthogonal au plan (HGB).
 
@@ -534,8 +521,8 @@ Si L a pour coordonnées $\left (1+t;\dfrac{1}{2}+t;\dfrac{1}{2}+t\right )$, alo
 
 
 
-g)  %En déduire que la distance ML est indépendante de $t$.
-Le vecteur $\overrightarrow{ML}$ a pour coordonnées $\coo{0}{\dfrac{1}{2}} } } } } } } } } } } } } } } }{-\dfrac{1}{2}}$; ces coordonnées ne dépendent pas de $t$ donc la distance ML ne dépend pas de $t$.
+g)  
+Le vecteur $\overrightarrow{ML}$ a pour coordonnées $(0;\dfrac{1}{2};-\dfrac{1}{2})$; ces coordonnées ne dépendent pas de $t$ donc la distance ML ne dépend pas de $t$.
 
 $\text{ML} = \displaystyle\sqrt{0^2 + \left (\dfrac{1}{2}\right )^2 + \left ( -\dfrac{1}{2}\right )^2}
 = \displaystyle\sqrt{\dfrac{1}{4}+\dfrac{1}{4}}= \displaystyle\sqrt{\dfrac{1}{2}} = \displaystyle\dfrac{\sqrt{2}}{2}$
@@ -544,7 +531,7 @@ $\text{ML} = \displaystyle\sqrt{0^2 + \left (\dfrac{1}{2}\right )^2 + \left ( -\
 
 
 
-3.  %Existe-t-il une valeur de $t$ pour laquelle la distance MK est égale à la distance ML?
+1.  
 La distance MK est égale à ML si et seulement si
 $\displaystyle\sqrt{2+2t^2} = \displaystyle\sqrt{\dfrac{1}{2}}$
 ce qui équivaut à
@@ -581,7 +568,7 @@ On note C le point d'affixe $i$.
 
 1.  De $u_n=z_n-i$, on  déduit que $z_n=u_n+i$.
 
-%Exprimer $u_{n+1}$ en fonction de $u_n$, pour tout entier naturel $n$.
+
 
 $u_{n+1}= z_{n+1} -i = \dfrac{1}{3} z_n +\dfrac{2}{3}i - i
 = \dfrac{1}{3} \left ( u_n+i \right ) -\dfrac{1}{3}i
@@ -590,7 +577,7 @@ $u_{n+1}= z_{n+1} -i = \dfrac{1}{3} z_n +\dfrac{2}{3}i - i
 
 
 
-2. % Démontrer que,  pour tout entier naturel $n$, $u_n=\left (\dfrac{1}{3}\right )^{n} \left (1-i\right )$.
+1. 
 La suite $(u_n)$ est géométrique de raison $q=\dfrac{1}{3}$ et de premier terme $u_0=v_0 -i = 1-i$.
 
 On a donc, pour tout $n$, $u_n=u_0\times q^n = \left (1-i\right ) \left (\dfrac{1}{3} \right )^n$.
@@ -602,14 +589,14 @@ On a donc, pour tout $n$, $u_n=u_0\times q^n = \left (1-i\right ) \left (\dfrac{
 
 
 
-a)  Pour tout entier naturel $n$, \\
+a)  Pour tout entier naturel $n$, 
 $\left |u_n\right | = \left | \left (\dfrac{1}{3}\right )^n\left (1-i\right )\right | = \left (\dfrac{1}{3}\right )^n \left |1-i\right |
 = \left (\dfrac{1}{3}\right )^n \displaystyle\sqrt{1^2 + (-1)^2}
 = \displaystyle\sqrt{2}\left (\dfrac{1}{3}\right )^n$.
 
 
 
-b)  %Démontrer que  $$ \lim_{n\to +\infty} \left |z_n-i \right |=0. $$ 
+b)  
 $\left |z_n-i \right | = \left |u_n \right | = \displaystyle\sqrt{2}\left (\dfrac{1}{3}\right )^n$
 
 Or $-1<\dfrac{1}{3} < \dfrac{1}{3}$, donc $\displaystyle\lim_{n \to +\infty} \left (\dfrac{1}{3} \right )^n =0$ donc
@@ -617,7 +604,7 @@ $\displaystyle\lim_{n\to +\infty} \left |z_n-i \right |=0$.
 
 
 
-c) % Quelle interprétation géométrique peut-on donner de ce résultat?
+c) 
 $z_n$ est l'affixe du point A$_n$, et $i$ est l'affixe du point C; donc $\left |z_n-i \right |=\text{A}_n\text{C}$.
 
 $\displaystyle\lim_{n\to +\infty} \left |z_n-i \right |=0$ signifie que $\displaystyle\lim_{n\to +\infty} \text{A}_n\text{C}=0$ ce qui veut dire que, lorsque $n$ tend vers $+\infty$, le point A$_n$ tend vers le point C.
@@ -626,11 +613,11 @@ $\displaystyle\lim_{n\to +\infty} \left |z_n-i \right |=0$ signifie que $\displa
 
 
 
-4. 
+1. 
 
 
 
-a)  Soit $n$ un entier naturel.% Déterminer un argument de $u_n$.
+a)  Soit $n$ un entier naturel.
 
 $u_n=\left (\dfrac{1}{3}\right )^n\left (1-i\right )$ donc $\arg(u_n)=\arg\left (1-i\right )$
 
@@ -642,17 +629,17 @@ On en déduit que $\arg(u_n)=-\dfrac{\pi}{4} + k2\pi$ avec $k$ entier relatif.
 
 
 
-b) % Démontrer que, lorsque $n$ décrit l'ensemble des entiers naturels, les points B$_n$ sont alignés.
+b) 
 Les points B$_n$ ont pour affixes les nombres $u_n$ dont l'argument est constant à $2\pi$ près. Pour tout $n$, chaque point B$_n$ appartient à la droite d'équation $y=-x$; donc tous les points B$_n$ sont alignés.
 
 
 
-c) % Démontrer que, pour tout entier naturel $n$, le point A$_n$ appartient à la droite d'équation réduite:  $$ y=-x+1. $$ 
+c) 
 
 $z_n=u_n+i = \left (\dfrac{1}{3}\right )^n \left (1-i\right ) + i
 = \left (\dfrac{1}{3}\right )^n + \left ( 1-\left( \dfrac{1}{3}\right )^n\right  ) i$
 
-Soit $x$ la partie réelle de $z_n$ et $y$ sa partie imaginaire.
+Soit $x$ la partie réelle de $z_n$ et $y$ sa partie ima2ginaire.
 
 $x=\left (\dfrac{1}{3}\right )^n$ et $y=1-\left (\dfrac{1}{3}\right )^n$ donc $y=1-x$.
 
@@ -676,9 +663,7 @@ $u_{n+2} = u_{n+1} + u_{n}.$
 
 On admet que, pour tout entier naturel $n$, $u_n$ est un entier naturel.
 
-%
-%
-%_Les parties _A_ et _B_ peuvent être traitées de façon indépendante._
+
 
 
 
@@ -696,22 +681,18 @@ On admet que, pour tout entier naturel $n$, $u_n$ est un entier naturel.
 a)  On calcule les termes de la suite de Fibonacci jusqu'à $u_{10}$:
 
 
-{\footnotesize
-\newcommand{\ca}{\centering\arraybackslash}
-\begin{tabular}{|c|*{9}{>{\ca}m{0.6cm}|}*{2}{>{\ca}m{0.75cm}|}}
-\hline
-$n$ &0 & 1 & 2 & 3 & 4 & 5 & 6 & 7 & 8 & 9 & 10\\
-\hline
-$u_n$ & 0 & 1 & {\blue $0+1\newline = 1$} & {\blue $1+1\newline = 2$} & {\blue $1+2\newline = 3$} & {\blue $2+3\newline = 5$} & {\blue $3+5\newline = 8$}  & {\blue $5+8\newline = 13$} & {\blue $8+13\newline = 21$} & {\blue $13+21\newline = 34$} & {\blue $21+34\newline = 55$} \\
-\hline
-\end{tabular}
-}
+$$\begin{matrix}
+n &0 & 1 & 2 & 3 & 4 & 5 & 6 & 7 & 8 & 9 & 10\\
+
+u_n & 0 & 1 & 0+1 = 1 & 1+1 = 2 & 1+2 = 3 & 2+3= 5 & 3+5= 8  & 5+8 = 13 & 8+13 = 21 & 13+21 = 34 & 21+34 = 55 \\
+\end{matrix}$$
 
 
 
 
 
-b)  %Que peut-on conjecturer sur le PGCD de $u_{n}$ et $u_{n+1}$ pour tout entier naturel $n$?
+
+b)  
 $\text{PGCD}(u_0,u_1) = \text{PGCD}(0,1) = 1$
 
 $\text{PGCD}(u_1,u_2) = \text{PGCD}(1,1) = 1$
@@ -737,7 +718,7 @@ On peut conjecturer que le PGCD de $u_{n}$ et $u_{n+1}$ est 1.
 
 
 
-2.  On définit la suite $(v_n)$ par $v_n=u_n^2 - u_{n+1}\times u_{n-1}$ pour tout entier naturel $n$ non nul.
+1.  On définit la suite $(v_n)$ par $v_n=u_n^2 - u_{n+1}\times u_{n-1}$ pour tout entier naturel $n$ non nul.
 
 
 
@@ -747,18 +728,20 @@ $u_{n+1} = u_{n} + u_{n-1}$ de laquelle on déduit $u_{n+1} - u_n = u_{n-1}$.
 
 Pour tout entier naturel $n$ non nul:
 
-$v_{n+1}= u_{n+1}^2 - u_{n+2}\times u_{n}
-= u_{n+1}^2 - \left (u_{n+1} + u_{n}\right )\times u_{n}
-= u_{n+1}^2 - u_{n+1}\times u_{n} - u_{n}^2\ $$ 3pt]
-\phantom{v_{n+1}}
-= u_{n+1} \left ( u_{n+1} - u_n\right )  - u_n^2
-= u_{n+1}\times u_{n-1} - u_n^2
-= - \left (  u_n^2 - u_{n+1}\times u_{n-1}\right )
-= - v_n$
+$v_{n+1}= u_{n+1}^2 - u_{n+2}\times u_{n}$
+
+$= u_{n+1}^2 - \left (u_{n+1} + u_{n}\right )\times u_{n}$
+
+$= u_{n+1}^2 - u_{n+1}\times u_{n} - u_{n}^2 $
+
+$= u_{n+1} \left ( u_{n+1} - u_n\right )  - u_n^2$
+$= u_{n+1}\times u_{n-1} - u_n^2$
+$= - \left (  u_n^2 - u_{n+1}\times u_{n-1}\right )$
+$= - v_n$
 
 
 
-b) % En déduire que, pour tout entier naturel $n$ non nul, $u_n^2 - u_{n+1}\times u_{n-1} = \left (-1\right )^{n-1}.$
+b) 
 
 On déduit de la question précédente que la suite $(v_n)$ est géométrique de raison $q=-1$ et de premier terme $v_1=u_1^2 - u_2\times u_0=1^2-1\times 0 = 1$.
 
@@ -771,7 +754,7 @@ Et donc pour tout entier naturel $n$ non nul, $u_n^2 - u_{n+1}\times u_{n-1} = \
 c) % Démontrer alors la conjecture émise à la question **1.b.**
 Pour tout entier naturel $n$ non nul, on appelle $d$ le PGCD de $u_{n}$ et $u_{n+1}$.
 
-Alors $d$ divise toute combinaison linéaire de $u_{n}$ et $u_{n+1}$ donc $d$ divise $u_n\times u_n - u_{n+1}\times u_{n-1} $; on en déduit que $d$ divise $(-1)^{n-1}$ et comme le PGCD est un nombre positif, on peut déduire que $d=1$.
+Alors $d$ divise toute combinaison linéaire de $u_{n}$ et $u_{n+1}$ donc $d$ divise $u_n\times u_n - u_{n+1}\times u_{n-1}$; on en déduit que $d$ divise $(-1)^{n-1}$ et comme le PGCD est un nombre positif, on peut déduire que $d=1$.
 
 Pour $n=0$, on a vu que le PGCD de $u_0$ et $u_1$ était 1.
 
@@ -801,64 +784,67 @@ $F^3=\begin{pmatrix} 3 & 2 \\ 2 & 1\end{pmatrix}$.% On pourra utiliser la calcul
 
 2.  Soit $\mathcal{P}_n$ la propriété $F^n = \begin{pmatrix} u_{n+1} & u_n \\ u_n & u_{n-1} \end{pmatrix}$.
 
-\begin{list}{\textbullet}{}
 
 
-3.  Pour $n=1$, $F^{n}=F^{1}=F = \begin{pmatrix} 1 & 1 \\ 1 & 0\end{pmatrix}
+
++  Pour $n=1$, $F^{n}=F^{1}=F = \begin{pmatrix} 1 & 1 \\ 1 & 0\end{pmatrix}
 = \begin{pmatrix} u_2 & u_1 \\ u_1 & u_0\end{pmatrix}$ d'après la question **A.1.a.**
 
 Donc la propriété est vraie au rang $1$
 
 
 
-4.  Soit $k$ un entier naturel non nul tel que la propriété soit vraie au rang $k$; on a donc
-$F^k = \begin{pmatrix} u_{k+1} & u_k \\ u_k & u_{k-1} \end{pmatrix}$ (hypothèse de récurrence).
++  Soit $k$ un entier naturel non nul tel que la propriété soit vraie au rang $k$; on a donc
+  
+$$F^k = \begin{pmatrix} u_{k+1} & u_k \\ u_k & u_{k-1} \end{pmatrix}$$
+(hypothèse de récurrence).
 
-$F^{k+1} = F^k \times F
+$$F^{k+1} = F^k \times F
 = \begin{pmatrix} u_{k+1} & u_k \\ u_k & u_{k-1} \end{pmatrix}
 \times \begin{pmatrix} 1 & 1 \\ 1 & 0\end{pmatrix}
 =
 \begin{pmatrix} u_{k+1} + u_k & u_{k+1} +0 \\ u_k+u_{k-1} & u_k+0\end{pmatrix}
 =
 \begin{pmatrix} u_{k+2} & u_{k+1}  \\ u_{k+1} & u_k\end{pmatrix}
-$
+$$
 
 Donc la propriété est vraie au rang $k+1$.
 
 
 
-5.  La propriété est vraie au rang 1 et elle est héréditaire pour tout $k \geqslant 1$; d'après le principe de récurrence, la propriété est vraie pour tout $n\geqslant 1$.
++ La propriété est vraie au rang 1 et elle est héréditaire pour tout $k \geqslant 1$; d'après le principe de récurrence, la propriété est vraie pour tout $n\geqslant 1$.
 
-\end{list}
+
 
 On a donc démontré que, pour tout entier naturel $n$ non nul, $F^n = \begin{pmatrix} u_{n+1} & u_n \\ u_n & u_{n-1} \end{pmatrix}$.
 
 
 
-6. 
+1. 
 
 
 
-a)  Soit $n$ un entier naturel non nul. %En remarquant que $F^{2n+2} = F^{n+2}\times F^{n}$, démontrer que  $$ u_{2n+2} =u_{n+2}\times u_{n+1}+ u_{n+1}\times u_n. $$ 
+a)  Soit $n$ un entier naturel non nul. 
 
 $F^{2n+2} = F^{n+2}\times F^{n}$ équivaut à
-$\begin{pmatrix} u_{2n+3} & u_{2n+2} \\ u_{2n+2} & u_{2n+1} \end{pmatrix}
+
+$$\begin{pmatrix} u_{2n+3} & u_{2n+2} \\ u_{2n+2} & u_{2n+1} \end{pmatrix}
 =
 \begin{pmatrix} u_{n+3} & u_{n+2} \\ u_{n+2} & u_{n+1} \end{pmatrix}
 \times
-\begin{pmatrix} u_{n+1} & u_n \\ u_n & u_{n-1} \end{pmatrix} \iff$
+\begin{pmatrix} u_{n+1} & u_n \\ u_n & u_{n-1} \end{pmatrix} \iff$$
 
-$\begin{pmatrix} u_{2n+3} & {u_{2n+2}} \\ {\blue u_{2n+2}} & u_{2n+1} \end{pmatrix}
+$$\begin{pmatrix} u_{2n+3} & {u_{2n+2}} \\ {\blue u_{2n+2}} & u_{2n+1} \end{pmatrix}
 =
-\begin{pmatrix} u_{n+3}\times u_{n+1}+u_{n+2}\times u_n &  u_{n+3}\times u_n + u_{n+2}\times u_{n-1}  \\ {\blue u_{n+2}\times u_{n+1} + u_{n+1}\times u_n} & u_{n+2}\times u_n + u_{n+1}\times u_{n-1} \end{pmatrix}$
+\begin{pmatrix} u_{n+3}\times u_{n+1}+u_{n+2}\times u_n &  u_{n+3}\times u_n + u_{n+2}\times u_{n-1}  \\ {\blue u_{n+2}\times u_{n+1} + u_{n+1}\times u_n} & u_{n+2}\times u_n + u_{n+1}\times u_{n-1} \end{pmatrix}$$
 
-En identifiant les termes situés sur la 1\iere{} colonne 2\ieme{} ligne, on a
+En identifiant les termes situés sur la première colonne deuxième ligne, on a
 
-{}$u_{2n+2} = u_{n+2}\times u_{n+1} + u_{n+1}\times u_n$.{}
+$u_{2n+2} = u_{n+2}\times u_{n+1} + u_{n+1}\times u_n$.
 
 
 
-b) % En déduire que, pour tout entier naturel $n$ non nul,  $$ u_{2n+2}^{\phantom{2}} = u_{n+2}^2 - u_n^2. $$ 
+b) 
 
 On sait que $u_{n+2}=u_{n+1}+u_n$ donc $u_{n+1}=u_{n+2} -u_n$.
 
@@ -877,11 +863,9 @@ $u_{2n+2} = u_{n+2}^2  - u_n^2$.
 
 
 
-7.  On donne $u_{12}=144$.
+1.  On donne $u_{12}=144$.
 
-%Démontrer en utilisant la question **3.** qu'il existe un triangle rectangle dont les longueurs des côtés sont toutes des nombres entiers, l'une étant égale à 12.
-%
-%Donner la longueur des deux autres côtés.
+
 
 $u_{2n+2} = u_{n+2}^2  - u_n^2$; pour $n=5$, $u_{12} = u_7^2 -u_5^2$ donc $u_5^2+u_{12} = u_7^2$.
 
@@ -891,4 +875,3 @@ On a donc $5^2+12^2=13^2$.
 
 D'après la réciproque du théorème de Pythagore, on peut affirmer qu'il existe un triangle rectangle dont les longueurs des côtés sont 5, 12 et 13.
 
-\end{document}
