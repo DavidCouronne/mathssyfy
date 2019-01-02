@@ -1,7 +1,7 @@
 # Corrigé du baccalauréat S -- Nouvelle Calédonie
 27 novembre 2018
 
-
+$\global\def\coo#1#2#3{\left( #1~;~#2~;~#3\right ) }$
 
 ## Exercice 1
   6 points
