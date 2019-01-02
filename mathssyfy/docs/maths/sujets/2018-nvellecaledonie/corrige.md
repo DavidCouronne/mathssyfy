@@ -622,7 +622,7 @@ $u_n=\left (\dfrac{1}{3}\right )^n\left (1-i\right )$ donc $\arg(u_n)=\arg\left 
 
 $1-i =\displaystyle\sqrt{2}\left (\dfrac{\displaystyle\sqrt{2}}{2} - i\dfrac{\displaystyle\sqrt{2}}{2} \right ) =
 \displaystyle\sqrt{2} \left ( \cos\left (-\dfrac{\pi}{4}\right ) + i \sin\left (-\dfrac{\pi}{4}\right )\right )$ donc
-$1-i$ a pour argument $ -\dfrac{\pi}{4}$.
+$1-i$ a pour argument $-\dfrac{\pi}{4}$.
 
 On en déduit que $\arg(u_n)=-\dfrac{\pi}{4} + k2\pi$ avec $k$ entier relatif.
 
