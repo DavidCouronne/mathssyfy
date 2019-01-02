@@ -3,6 +3,8 @@
 
 $\global\def\coo#1#2#3{\left( #1~;~#2~;~#3\right ) }$
 
+$\gdef\bar#1{#1^2} \bar{y} + \bar{y}$
+
 ## Exercice 1
   6 points
 
