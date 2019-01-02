@@ -1,4 +1,4 @@
-# Astuces diverses
+# Outils Dev
 
 <ClientOnly>
   <ButtonBackToTop/>
