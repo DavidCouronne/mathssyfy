@@ -21,3 +21,9 @@ En ligne de commande avec privilèges administrateur:
 ``` bash
 pip install pipenv
 ```
+
+## Katex
+
++ Site officiel: [Katex.org](https://katex.org/)
++ Liste des commandes supportées: [Commandes LateX](https://katex.org/docs/support_table.html)
++ newcommand: [macros](https://katex.org/docs/supported.html#macros)
