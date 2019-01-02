@@ -1,9 +1,6 @@
 # Corrigé du baccalauréat S -- Nouvelle Calédonie
 27 novembre 2018
 
-$\global\def\coo#1#2#3{\left( #1~;~#2~;~#3\right ) }$
-
-$\gdef\bar#1{#1^2} \bar{y} + \bar{y}$
 
 ## Exercice 1
   6 points
@@ -502,17 +499,17 @@ On suppose que  le point L a pour coordonnées $\left (1+t;\dfrac{1}{2}+t;\dfrac
 
 
 +  Le vecteur $\overrightarrow{ML}$ a pour coordonnées\\
-$\coo{1+t -\left (1+t \right )}{\dfrac{1}{2}+t-t} } } } }{\dfrac{1}{2}+t- \left ( 1+t\right )}=\coo{0}{\dfrac{1}{2}}{-\dfrac{1}{2}}$.
+$(1+t -\left (1+t \right );\dfrac{1}{2}+t-t;\dfrac{1}{2}+t- \left ( 1+t\right ))=(0;\dfrac{1}{2};-\dfrac{1}{2}$.
 
 
 
-+  Le vecteur $\overrightarrow{HG}$ a pour coordonnées $\coo{2-0}{2-2}{2-2} = \coo{2}{0}{0}$.
++  Le vecteur $\overrightarrow{HG}$ a pour coordonnées $(2-0;2-2;2-2) = (2;0;0)$.
 
 $\overrightarrow{ML}.\overrightarrow{HG} = 0\times 2 + \dfrac{1}{2}\times 0 + \left (-\dfrac{1}{2}\right )\times 0 = 0$ donc $\overrightarrow{ML}\perp \overrightarrow{HG}$.
 
 
 
-+  Le vecteur $\overrightarrow{HB}$ a pour coordonnées $\coo{2-0}{0-2}{0-2} = \coo{2}{-2}{-2}$.
++  Le vecteur $\overrightarrow{HB}$ a pour coordonnées $(2-0;0-2;0-2) = (2;-2;-2)$.
 
 $\overrightarrow{ML}.\overrightarrow{HB} = 0\times 2 + \dfrac{1}{2}\times (-2) + \left (-\dfrac{1}{2}\right )\times 2 = 0-1+1 = 0$ donc $\overrightarrow{ML}\perp \overrightarrow{HB}$.
 
