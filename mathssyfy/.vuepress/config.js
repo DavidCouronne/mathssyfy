@@ -33,7 +33,7 @@ ga: 'UA-131298008-1',
     sidebarDepth: 2,
     nav: [
       { text: 'Accueil', link: '/' },
-      { text: 'Ressources Web', link: '/docs/informatique/HowTo/' },
+      { text: 'Ressources Dev', link: '/docs/informatique/HowTo/' },
       { text: 'Vuepress', link: '/docs/informatique/Vuepress/'},
       { text: 'Cours Maths', link: '/docs/maths/cours/' },
       { text: 'Sujets Bac', link: '/docs/maths/sujets/'},    
