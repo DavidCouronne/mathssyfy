@@ -27,3 +27,13 @@ pip install pipenv
 + Site officiel: [Katex.org](https://katex.org/)
 + Liste des commandes supportées: [Commandes LateX](https://katex.org/docs/support_table.html)
 + newcommand: [macros](https://katex.org/docs/supported.html#macros)
+
+## Visual Studio Code Extensions
+
++ Material Icon Theme
++ Markdown All in One
++ Vetur
++ Bracket Pair Colorizer (1.0.61)
++ Live Server
++ Prettier - Code formatteur
++ Python
