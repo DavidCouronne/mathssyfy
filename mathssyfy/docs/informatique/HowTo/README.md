@@ -30,10 +30,11 @@ pip install pipenv
 
 ## Visual Studio Code Extensions
 
++ Python
 + Material Icon Theme
++ GitLens - Git supercharged
 + Markdown All in One
 + Vetur
 + Bracket Pair Colorizer (1.0.61)
 + Live Server
 + Prettier - Code formatteur
-+ Python
