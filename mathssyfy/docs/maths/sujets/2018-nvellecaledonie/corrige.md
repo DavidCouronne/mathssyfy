@@ -186,11 +186,10 @@ La fonction $\left (f-g\right )$ a donc pour primitive la fonction $x\mapsto -e^
 
 On en déduit que
 
-$$\displaystyle\int_{a}^{b} \left ( f(x)-g(x)\right ) d x
-= \left [ -e^{-x} - e^{-\frac{1}{x}} \right ]_{a}^{b}
-=  - e^{-b} - e^{-\frac{1}{b}} - \left ( -e^{-a} - e^{-\frac{1}{a}} \right )\\
-\phantom{\displaystyle\int_{a}^{b} \left ( f(x)-g(x)\right ) \d x}
-= e^{-a} + e^{-\frac{1}{a}} - e^{-b} - e^{-\frac{1}{b}}$$
+$\displaystyle\int_{a}^{b} \left ( f(x)-g(x)\right ) d x= \left [ -e^{-x} - e^{-\frac{1}{x}} \right ]_{a}^{b}$
+
+$=  - e^{-b} - e^{-\frac{1}{b}} - \left ( -e^{-a} - e^{-\frac{1}{a}} \right )$
+$= e^{-a} + e^{-\frac{1}{a}} - e^{-b} - e^{-\frac{1}{b}}$
 
 
 
