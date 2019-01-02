@@ -42,6 +42,10 @@ ga: 'UA-131298008-1',
     ]},    
     ],
     sidebar: {
+      '/docs/maths/sujets/2018-nvellecaledonie/': [
+        '',
+        'corrige',
+      ],
       '/docs/informatique/Vuepress/': [
         '',
         'demarrer',
@@ -73,16 +77,9 @@ ga: 'UA-131298008-1',
   markdown: {
     lineNumbers: false,
     config: md => {
-      // use more markdown-it plugins!
-      // var mk = require('markdown-it-katex');
-      // var kt = require('katex');
-      // var tm = require('markdown-it-texmath').use(kt);
       var mf = require('markdown-it-footnote');
       md.use(require('./param-katex'));
-      // md.use(mk);
       md.use(mf);
-      // md.use(tm);
-     //  md.use(tm,{delimiters:'dollars',macros:{"\\RR": "\\mathbb{R}"}});
     }
   }
 }
