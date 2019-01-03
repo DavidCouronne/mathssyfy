@@ -58,3 +58,8 @@ python setup.py sdist bdist_wheel
 ```bash
 twine upload --repository-url https://test.pypi.org/legacy/ dist/*
 ```
+
+4. Installer
+```bash
+python -m pip install --index-url https://test.pypi.org/simple/ nom-du-package
+```
