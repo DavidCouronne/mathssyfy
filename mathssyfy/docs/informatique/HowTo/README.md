@@ -32,9 +32,29 @@ pip install pipenv
 
 + Python
 + Material Icon Theme
-+ GitLens - Git supercharged
 + Markdown All in One
 + Vetur
 + Bracket Pair Colorizer (1.0.61)
 + Live Server
 + Prettier - Code formatteur
+
+## Créer un package Python installable avec pip
+
+Documentation officielle: [PiPy](https://packaging.python.org/tutorials/packaging-projects/)
+
+1. Installer les dépendances (en mode adminstrateur):
+
+``` bash
+python -m pip install --user --upgrade setuptools wheel
+python -m pip install --user --upgrade twine
+```
+
+2. Compiler le package
+```bash
+python setup.py sdist bdist_wheel
+```
+
+3. Déployer sur TestPyPi
+```bash
+twine upload --repository-url https://test.pypi.org/legacy/ dist/*
+```
