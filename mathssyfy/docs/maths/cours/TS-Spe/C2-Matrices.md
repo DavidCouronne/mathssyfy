@@ -7,30 +7,11 @@
 
 %Dans tout ce chapitre, sauf indication contraire, $m$, $n$ , $p$, $i$ et $j$ désignent des entiers naturels non nuls.
 
-::: tip Définition[Matrice]
+::: tip Définition [Matrice]
 Une **matrice** de **taille** $m\times n$ est un tableau de nombres formé de $m$ lignes et $n$ colonnes qui s’écrit sous la forme :
 
 
-\begin{tikzpicture}[>=latex]
-% les matrices
-\matrix (A) [matrix of math nodes,%
-nodes = {node style ge},%
-left delimiter  = (,%
-right delimiter = )] at (0,0)
-{%
-a_{11} & a_{12} & \ldots & a_{1n}  \\
-{a_{21}}%
-& {a_{22}}%
-& \ldots%
-& {a_{2n}} \\
-\vdots & \vdots & \ddots & \vdots  \\
-a_{m1} & a_{m2} & \ldots & a_{mn}  \\
-};
-\node[draw,below=10pt] at (A.south)
-{ $n$ colonnes };
-\node[draw,left=10pt] at (A.west)
-{  $m$ lignes};
-\end{tikzpicture}
+![Image](./figure1.svg)
 
 
 Le nombre $a_{ij}$ (avec $1\leqslant i \leqslant m$ et $1\leqslant j \leqslant n$) est situé dans la $i$-ième ligne et la $j$-ième colonne.
@@ -38,12 +19,12 @@ Le nombre $a_{ij}$ (avec $1\leqslant i \leqslant m$ et $1\leqslant j \leqslant n
 Il est appelé un **coefficient** de la matrice.
 :::
 
-::: tip Remarque
+::: tip Remarque 
 En général, on note une matrice avec une lettre majuscule ou avec le coefficient général entre parenthèses, par exemple $(a_{ij})$.\\
 Si $i>9$ ou $j>9$, on écrira par exemple $a_{1,11}$ et pas $a_{111}$ pour éviter la confusion avec $a_{11,1}$.
 :::
 
-::: tip Exemple
+::: tip Exemple 
 Soit $A=(a_{ij})$ la matrice de taille $2\times3$ égale à  $\left(\begin{array}{ccc}
 4 & 7 & -5 \\
 3 & -1 & 8 \\
@@ -51,7 +32,7 @@ Soit $A=(a_{ij})$ la matrice de taille $2\times3$ égale à  $\left(\begin{array
 Le coefficient $a_{12}$  vaut $7$. Le coefficient $a_{21}$  vaut $3$.
 :::
 
-::: tip Définition[Matrice ligne, matrice colonne, matrice carrée]
+::: tip Définition [Matrice ligne, matrice colonne, matrice carrée]
 
 
 
@@ -69,7 +50,7 @@ Le coefficient $a_{12}$  vaut $7$. Le coefficient $a_{21}$  vaut $3$.
 
 :::
 
-::: tip Exemple
+::: tip Exemple 
 $A=\begin{pmatrix}
 4 & -2 & 1
 \end{pmatrix}$, $B=\begin{pmatrix}
@@ -81,13 +62,13 @@ $A=\begin{pmatrix}
 :::
 
 
-::: tip Définition[Matrices égales]
+::: tip Définition [Matrices égales]
 Deux matrices $A=(a_{ij})$  et $B=(b_{ij})$  sont **égales** si elles ont la même taille $m\times n$ et si,
 pour tout couple $(i;j)$ tel que $1\leqslant i \leqslant m$ et $1\leqslant j \leqslant n$, on a $a_{ij}=b_{ij}$.
 :::
 
 
-::: tip Définition[Matrice diagonale]
+::: tip Définition [Matrice diagonale]
 Une **matrice diagonale** $(a_{ij})$ est une matrice carrée dont les coefficients à l'extérieur
 de la **diagonale principale**  sont nuls, c'est-à-dire tels que $a_{ij}=0$ pour $i\neq j$.
 
@@ -102,35 +83,35 @@ a_1    & 0      & \cdots & 0      \\
 
 :::
 
-::: tip Remarque
+::: tip Remarque 
 Une matrice diagonale  se note aussi $\boldsymbol{\text{diag}(a_1, a_2, \ldots, a_n)}$.\\
 Dans une matrice diagonale, un ou plusieurs coefficients $a_{i}$ peuvent être  nuls.
 :::
 
 
-::: tip Définition[Matrice identité]
+::: tip Définition [Matrice identité]
 La matrice identité d'ordre $\boldsymbol{n}$, dont la diagonale principale ne contient que des $1$.
 :::
 
-::: tip Exemple
+::: tip Exemple 
 L'identité d'ordre 3 est $I_3 = \begin{pmatrix}
 1 & 0 & 0 \\
 0 & 1 & 0 \\
 0 & 0 & 1 \end{pmatrix}$. On peut aussi la noter $\mathrm{diag}(1, 1, 1)$.
 :::
 
-::: tip Remarque
+::: tip Remarque 
 S'il n'y a pas d'ambiguïté, on note l'identité $I$ sans préciser son ordre en indice.
 :::
 
 
 
-::: tip Définition[Matrice transposée]
+::: tip Définition [Matrice transposée]
 La **matrice transposée** d'une matrice $A$ de taille  $m\times n$ est la matrice notée $\boldsymbol{A^\mathsf{T}}$,
 de taille  $n\times m$, obtenue en échangeant les lignes et les colonnes de $A$.
 :::
 
-::: tip Exemple
+::: tip Exemple 
 $\begin{pmatrix}1 & 2 & 3 \\ 4 & 5 & 6\end{pmatrix}^\mathsf{T}=\begin{pmatrix}1 & 4 \\ 2 & 5\\ 3 & 6 \end{pmatrix}$  ; 
 $\begin{pmatrix}1 & 2 \\ 3 & 4 \end{pmatrix}^\mathsf{T}=\begin{pmatrix}1 & 3 \\ 2 & 4 \end{pmatrix}$  ;  $\begin{pmatrix}0,3 & 0,7\end{pmatrix}^\mathsf{T}=\begin{pmatrix}0,3 \\ 0,7  \end{pmatrix}$.
 :::
@@ -139,13 +120,13 @@ $\begin{pmatrix}1 & 2 \\ 3 & 4 \end{pmatrix}^\mathsf{T}=\begin{pmatrix}1 & 3 \\ 
 
 ### Somme de deux matrices
 
-::: tip Définition[Somme de deux matrices]
+::: tip Définition [Somme de deux matrices]
 Soit $A=(a_{ij})$ et $B=(b_{ij})$ deux matrices de même taille $m\times n$.\\
 La **somme** des matrices $A$ et $B$ est la matrice notée $A+B$ définie par :\\
 $A+B=(c_{ij})$ avec $c_{ij}=a_{ij}+b_{ij}$ pour tout couple $(i;j)$ tel que $1\leqslant i\leqslant m$ et $1\leqslant j\leqslant n$.
 :::
 
-::: tip Exemple
+::: tip Exemple 
 Soit $A=\begin{pmatrix}
 -3 & 5  \\
 -1 & 3  \\
@@ -163,12 +144,12 @@ Soit $A=\begin{pmatrix}
 
 
 
-%::: tip Définition[Matrice opposée]
+%::: tip Définition [Matrice opposée]
 %La **matrice opposée** d'une matrice $A$ est la matrice notée $-A$ dont les coefficients sont les opposés des coefficients de $A$.
 %:::
 
 
-\begin{propriete}
+::: tip Propriété 
 Soit $A$, $B$, $C$ trois matrices de même taille.
 \begin{colitemize}{2}
 
@@ -178,15 +159,15 @@ Soit $A$, $B$, $C$ trois matrices de même taille.
 
 +  $(A+B)+C=A+(B+C)$ (associativité)
 \end{colitemize}
-\end{propriete}
+:::
 
-::: tip Définition[Différence de deux matrices]
+::: tip Définition [Différence de deux matrices]
 Soit $A$ et $B$ deux matrices de même taille.\\
 La **différence** des matrices $A$ et $B$ est la matrice notée $A-B$ égale à la somme $A+(-B)$ où $-B$ est
 la matrice **opposée** de $B$ dont les coefficients sont les opposés des coefficients de $B$.
 :::
 
-::: tip Exemple
+::: tip Exemple 
 Soit $A=\begin{pmatrix}
 -3 & 5  \\
 -1 & 3  \\
@@ -215,12 +196,12 @@ $A-B=A+(-B)=
 ### Produit d'une matrice par un réel
 
 
-::: tip Définition[Produit d'une matrice par un réel]
+::: tip Définition [Produit d'une matrice par un réel]
 Soit $A$ une matrice et $k$ un nombre réel.\\
 Le Produit d'une matrice par un réel de $A$ par le réel $k$ est la matrice notée $kA$ dont les coefficients sont obtenus en multipliant tous les coefficients de $A$ par $k$.
 :::
 
-::: tip Exemple
+::: tip Exemple 
 $A=\begin{pmatrix}
 3,5 & -5 & 2,5\\
 -1 & 0,5 & -5,5
@@ -235,7 +216,7 @@ Alors, $-2A=\begin{pmatrix}
 :::
 
 
-\begin{propriete}
+::: tip Propriété 
 Soit $A$ et $B$ deux matrices de même taille et deux réels $k$ et $k'$.
 \begin{colitemize}{2}
 
@@ -251,17 +232,17 @@ Soit $A$ et $B$ deux matrices de même taille et deux réels $k$ et $k'$.
 
 +  $(kk')A=k(k'A)$
 \end{colitemize}
-\end{propriete}
+:::
 
 
-::: tip Remarque
+::: tip Remarque 
 Dans l'égalité $0A=0$, le $0$ de gauche est un réel mais celui de droite désigne la matrice nulle,
 matrice ayant la même taille que $A$ et dont tous les coefficients sont nuls.
 :::
 
 ### Produit de deux matrices
 
-::: tip Définition[Produit d'une matrice ligne par une matrice colonne]
+::: tip Définition [Produit d'une matrice ligne par une matrice colonne]
 Le produit d'une matrice ligne par une matrice colonne de la matrice ligne $A=\begin{pmatrix}
 a_1 &  \cdots & a_n
 \end{pmatrix}$   par la matrice colonne \mbox{$B=\begin{pmatrix}
@@ -269,7 +250,7 @@ b_1\\ \vdots \\ b_n \end{pmatrix}$}  est noté $AB$ et est égal au réel $\disp
 :::
 
 
-::: tip Exemple
+::: tip Exemple 
 Soit $A=\begin{pmatrix}
 3 & 0 & -2
 \end{pmatrix}$ et $B=\begin{pmatrix}
@@ -277,83 +258,19 @@ Soit $A=\begin{pmatrix}
 :::
 
 
-::: tip Définition[Produit de deux matrices]
+::: tip Définition [Produit de deux matrices]
 Soit $A$ une matrice de taille $m\times n$ et $B$ une matrice de taille $n\times p$.\\
 Le produit de deux matrices de $A$ par $B$, noté $AB$, est la matrice $C=(c_{ij})$ de taille $m\times p$ telle que $c_{ij}$ est égal au produit de la $i$-ième ligne de $A$ par la $j$-ième colonne de $B$.
 :::
 
 
 
-\begin{tikzpicture}[>=latex]
-% les matrices
-\matrix (A) [matrix of math nodes,%
-nodes = {node style ge},%
-left delimiter  = (,%
-right delimiter = )] at (0,0)
-{%
-a_{11} & a_{12} & \ldots & a_{1p}  \\
-\node[node style sp](A-2-1) {a_{21}};%
-& \node[node style sp](A-2-2) {a_{22}};%
-& \ldots%
-& \node[node style sp](A-2-4) {a_{2n}}; \\
-\vdots & \vdots & \ddots & \vdots  \\
-a_{m1} & a_{m2} & \ldots & a_{mn}  \\
-};
-\node[draw,below=10pt] at (A.south)
-{ $A$ : \textcolor{red}{$m$ lignes} $n$ colonnes};
-
-\matrix (B) [matrix of math nodes,%
-nodes = {node style ge},%
-left delimiter  = (,%
-right delimiter =)] at (6*\myunit,6*\myunit)
-{%
-b_{11} & \node[node style sp](B-1-2) {b_{12}};%
-& \ldots & b_{1p}  \\
-b_{21} & \node[node style sp](B-2-2) {b_{22}};%
-& \ldots & b_{2p}  \\
-\vdots & \vdots & \ddots & \vdots  \\
-b_{n1} & \node[node style sp](B-4-2) {b_{n2}};%
-& \ldots & b_{np}  \\
-};
-\node[draw,above=10pt] at (B.north)
-{ $B$ : $n$ lignes \textcolor{red}{$p$ colonnes}};
-% matrice rÃƒÂ©sultat
-\matrix (C) [matrix of math nodes,%
-nodes = {node style ge},%
-left delimiter  = (,%
-right delimiter = )] at (6*\myunit,0)
-{%
-c_{11} & c_{12} & \ldots & c_{1q} \\
-c_{21} & \node[node style sp,red](C-2-2) {c_{22}};%
-& \ldots & c_{2p} \\
-\vdots & \vdots & \ddots & \vdots \\
-c_{m1} & c_{m2} & \ldots & c_{mp} \\
-};
-% les fleches
-\draw[blue] (A-2-1.north) -- (C-2-2.north);
-\draw[blue] (A-2-1.south) -- (C-2-2.south);
-\draw[blue] (B-1-2.west)  -- (C-2-2.west);
-\draw[blue] (B-1-2.east)  -- (C-2-2.east);
-\draw[<->,red](A-2-1) to[in=180,out=90]
-node[arrow style mul] (x) {$a_{21}\times b_{12}$} (B-1-2);
-\draw[<->,red](A-2-2) to[in=180,out=90]
-node[arrow style mul] (y) {$a_{22}\times b_{22}$} (B-2-2);
-\draw[<->,red](A-2-4) to[in=180,out=90]
-node[arrow style mul] (z) {$a_{2p}\times b_{p2}$} (B-4-2);
-\draw[red,->] (x) to node[arrow style plus] {$+$} (y)%
-to node[arrow style plus] {$+\raisebox{.5ex}{\ldots}+$} (z)%
-to (C-2-2.north west);
-
-
-\node[draw,below=10pt] at (C.south)
-{$ C=A\times B$ : \textcolor{red}{$m$ lignes}  \textcolor{red}{$p$ colonnes}};
-
-\end{tikzpicture}
+![Image](./figure2.svg)
 
 
 
 
-\begin{remarques}
+::: tip Remarques 
 
 
 
@@ -367,7 +284,7 @@ to (C-2-2.north west);
 
 
 
-\end{remarques}
+:::
 
 \begin{methode}[Multiplier deux matrices]
 Pour calculer la matrice $C$ égale à $AB$, on vérifie que le nombre de colonnes de $A$ est égal au nombre de lignes de $B$, puis on dispose
@@ -422,11 +339,11 @@ $\begin{pmatrix}
 \end{exercice}
 \end{methode}
 
-::: tip Remarque
+::: tip Remarque 
 Il n'est pas nécessaire que l'une des matrices $A$ ou $B$ soit nulle pour que $AB\!=\!0$.
 :::
 
-::: tip Exemple
+::: tip Exemple 
 Soit $A=\begin{pmatrix}1 & -1 \\ 0 & 0\end{pmatrix}$ et $B=\begin{pmatrix}1 & 2 & 3 \\ 1 & 2 & 3\end{pmatrix}$. Alors, $AB=\begin{pmatrix}0 & 0 & 0 \\ 0 & 0 & 0\end{pmatrix}$.
 :::
 
@@ -454,7 +371,7 @@ Soit $A$, $B$ et $C$ trois matrices compatibles avec les produits écrits ci-apr
 
 ### Puissance d'une matrice carrée
 
-::: tip Définition
+::: tip Définition 
 Soit $A$ une matrice carrée et $n$ un entier naturel.\\
 La puissance $n$-ième de $A$ est la matrice notée $A^n$ égale :
 
@@ -471,7 +388,7 @@ La puissance $n$-ième de $A$ est la matrice notée $A^n$ égale :
 
 :::
 
-::: tip Exemple
+::: tip Exemple 
 Soit $A=\begin{pmatrix}
 2 & 0 \\
 0 & -3
@@ -568,13 +485,13 @@ Compléter la formule et taper "Entrer".
 
 ### Inverse d'une matrice carrée
 
-::: tip Définition[Inverse d'une matrice carrée]
+::: tip Définition [Inverse d'une matrice carrée]
 Une matrice carrée $A$ d’ordre $n$ est **inversible** s’il existe une matrice carrée $B$ d’ordre $n$ telle que $AB=BA=I$.\\
 La matrice $B$, notée $\boldsymbol{A^{-1}}$, est appelée la
 **matrice inverse** de $A$.
 :::
 
-::: tip Exemple{\arraycolsep}{3.5pt}
+::: tip Exemple {\arraycolsep}{3.5pt}
 Soit $A\hskip-.5mm=\hskip-.5mm\begin{pmatrix}
 3 & 5 \\
 4 & 7
@@ -587,9 +504,9 @@ Soit $A\hskip-.5mm=\hskip-.5mm\begin{pmatrix}
 \end{pmatrix}$ donc $B$ est l'inverse de $A$.
 :::
 
-\begin{propriete}
+::: tip Propriété 
 Si une matrice est inversible, alors son inverse est unique.
-\end{propriete}
+:::
 
 \begin{preuve}
 Soit $A$ une matrice inversible ayant deux inverses  $B$ et $C$.\\
@@ -598,15 +515,15 @@ On a $B=BI=B(AC)=(BA)C=IC=C$. Ainsi, $B=C$. Donc, l'inverse de $A$ est unique.
 
 
 
-\begin{propriete}
+::: tip Propriété 
 Si $AB=I$, alors $A$ est inversible et $B=A^{-1}$.
-\end{propriete}
+:::
 
-::: tip Remarque
+::: tip Remarque 
 Il suffit donc  seulement  de vérifier l'une des égalités $AB=I$ ou $BA=I$ pour montrer que $A$ et $B$ sont inverses l'une de l'autre.
 :::
 
-::: tip Exemple
+::: tip Exemple 
 
 Soit $A=\begin{pmatrix}
 1 & 1  & 0\\
@@ -628,7 +545,7 @@ Donc $A$ et $B$ sont inverses l'une de l'autre et on a les égalités $A^{-1}=B$
 
 ### Inverse d'une matrice carrée d'ordre 2
 
-::: tip Définition[Déterminant d'une matrice carrée d'ordre 2]
+::: tip Définition [Déterminant d'une matrice carrée d'ordre 2]
 Le **déterminant** de la matrice $M=\begin{pmatrix}
 a & b \\
 c & d
@@ -705,14 +622,14 @@ Alors, on aurait $PMN=IN=N$ et  $PMN=P0=0$ et donc $N=0$, ce qui est absurde car
 
 \end{preuve}
 
-::: tip Remarque
+::: tip Remarque 
 Un peu logique: si $A$  et $B$ sont deux propositions, alors $(A \Rightarrow B) \iff (\text{non}(B) \Rightarrow \text{non}(A))$\newline
 En revenant à la démonstration prédente: notons $A$ la proposition "$ad-bc \neq 0$" et $B$ la proposition "$M$ est inversible"\newline
 On montre dans un premier temps que $A \Rightarrow B$\newline
 On montre ensuite que $\text{non}(A) \Rightarrow \text{non}(B)$, ce qui nous donne bien $B \Rightarrow A$.
 :::
 
-\begin{remarques}
+::: tip Remarques 
 
 
 
@@ -726,9 +643,9 @@ il n'existe pas de formule simple pour le calculer et on utilisera une calculatr
 
 
 
-\end{remarques}
+:::
 
-::: tip Exemple
+::: tip Exemple 
 $A=\begin{pmatrix}
 3 & 8 \\
 2 & 6\end{pmatrix}$. Alors, $\det(A)=\begin{vmatrix}
@@ -746,7 +663,7 @@ Ainsi, $A$ est inversible et $A^{-1}=\dfrac{1}{2}
 
 ## Résolution d'un système linéaire
 
-\begin{propriete}[Écriture matricielle d'un système]
+::: tip Propriété [Écriture matricielle d'un système]
 Le système linéaire
 $\left\{\begin{array}{ccc}
 ax+by & = & c\\
@@ -760,7 +677,7 @@ x  \\
 y \end{pmatrix}=\begin{pmatrix}
 c  \\
 c' \end{pmatrix}$.
-\end{propriete}
+:::
 
 \begin{preuve}
 $\begin{pmatrix}
@@ -784,14 +701,14 @@ a'x+b'y & = & c'
 \end{array}\right.$.
 \end{preuve}
 
-::: tip Remarque
+::: tip Remarque 
 Cette propriété se généralise à un système  de dimension quelconque.
 :::
 
 
 
 
-::: tip Exemple
+::: tip Exemple 
 $\begin{pmatrix}
 2 & -3 & 1 \\
 3 & -2 & -1 \end{pmatrix}\begin{pmatrix}
@@ -807,11 +724,11 @@ $\left\{\begin{array}{ccc}
 :::
 
 
-\begin{propriete}
+::: tip Propriété 
 Soit $A$ une matrice carrée inversible d'ordre $n$ et $B$ une matrice colonne de taille $n$.\\
 Alors, le système linéaire d'écriture matricielle $AX=B$ admet une unique solution :\\
 le $n$-uplet  correspondant à la matrice colonne $A^{-1}B$.
-\end{propriete}
+:::
 
 \begin{preuve}
 Soit un système linéaire d'écriture matricielle $AX=B$ où $A$ est inversible.\\
@@ -858,14 +775,14 @@ On calcule $X=\dfrac{-1}{23}\begin{pmatrix} -4 & -5 \\
 Le système admet donc pour unique solution le couple $\left(\dfrac{107}{23};\dfrac{-6}{23}\right)$.
 \end{methode}
 
-::: tip Remarque
+::: tip Remarque 
 Un système linéaire d'écriture matricielle $AX=B$ où $A$ n'est pas inversible a soit une infinité de solutions, soit aucune.
 :::
 
 
 
 
-::: tip Exemple
+::: tip Exemple 
 Le système $\left\{\begin{array}{lcc}
 3x+6y & = & a \\
 4x+8y & = & b
