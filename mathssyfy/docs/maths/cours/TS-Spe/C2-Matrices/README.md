@@ -246,11 +246,7 @@ Le produit de deux matrices de $A$ par $B$, noté $AB$, est la matrice $C=(c_{ij
 ::: tip Méthode [Multiplier deux matrices]
 Pour calculer la matrice $C$ égale à $AB$, on vérifie que le nombre de colonnes de $A$ est égal au nombre de lignes de $B$, puis on dispose
 les matrices suivant le schéma
-\begin{tabular}{c|c}
-& $B$ \\
-\hline
-$A$ & $C$
-\end{tabular} de sorte que  $c_{ij}$ soit à l'intersection du prolongement de la $i$-ème ligne de $A$ et de la $j$-ième colonne de $B$.
+![Image](./figure3.svg)
 
 ::: tip Exercice 
 Soit
@@ -275,21 +271,7 @@ $c_{11}=\textcolor{B2}{\mathbf{1\times2+3\times3+5\times0-2\times2=7}}$.
 \end{minipage}
 
 \begin{minipage}{0.45\linewidth}
-\begin{tabular}{cc}
-& $\begin{pmatrix}
-\textcolor{B2}{\mathbf{2}} & 1  & -3 \\
-\textcolor{B2}{\mathbf{3}} &  -1 & 0 \\
-\textcolor{B2}{\mathbf{0}} & -2 & 2 \\
-\textcolor{B2}{\mathbf{2}} & -3 & -4
-\end{pmatrix}$\\
-$\begin{pmatrix}
-\textcolor{B2}{\mathbf{1}} &  \textcolor{B2}{\mathbf{3}} & \textcolor{B2}{\mathbf{5}} & \textcolor{B2}{\mathbf{-2}} \\
--2 & 0 & -3 & 2
-\end{pmatrix}$ & $\begin{pmatrix}
-\textcolor{B2}{\mathbf{7}} & -6  & 15 \\
-0 &  -2 & -8 \\
-\end{pmatrix}$
-\end{tabular}\\
+![Image](./figure4.svg)
 \end{minipage}
 :::
 :::
@@ -398,7 +380,7 @@ La matrice $B$, notée $\boldsymbol{A^{-1}}$, est appelée la
 **matrice inverse** de $A$.
 :::
 
-::: tip Exemple {}{3.5pt}
+::: tip Exemple {3.5pt}
 Soit $A\hskip-.5mm=\hskip-.5mm\begin{pmatrix}
 3 & 5 \\
 4 & 7
@@ -477,7 +459,7 @@ d & -b \\
 
 :::
 
-::: tip Preuve {}{3.5pt}
+::: tip Preuve {3.5pt}
 Soit $N=\begin{pmatrix}
 d & -b \\
 -c & a
