@@ -210,8 +210,8 @@ matrice ayant la même taille que $A$ et dont tous les coefficients sont nuls.
 ::: warning Définition [Produit d'une matrice ligne par une matrice colonne]
 Le produit d'une matrice ligne par une matrice colonne de la matrice ligne $A=\begin{pmatrix}
 a_1 &  \cdots & a_n
-\end{pmatrix}$   par la matrice colonne \mbox{$B=\begin{pmatrix}
-b_1\\ \vdots \\ b_n \end{pmatrix}$}  est noté $AB$ et est égal au réel $\displaystyle\sum_{i=1}^na_ib_i=a_1b_1+a_2b_2+\cdots+a_nb_n$.
+\end{pmatrix}$   par la matrice colonne $B=\begin{pmatrix}
+b_1\\ \vdots \\ b_n \end{pmatrix}$  est noté $AB$ et est égal au réel $\displaystyle\sum_{i=1}^na_ib_i=a_1b_1+a_2b_2+\cdots+a_nb_n$.
 :::
 
 ::: tip Exemple 
@@ -261,7 +261,7 @@ $A$ est de taille $2\times4$ et $B$ de taille $4\times3$.\\
 $A$ a autant de colonnes que $B$ a de lignes, donc $C=AB$ existe et sa taille est $2\times3$.\\
 On dispose les matrices comme ci-contre.\\
 On calcule alors, par exemple :\\
-$c_{11}=\textcolor{B2}{\mathbf{1\times2+3\times3+5\times0-2\times2=7}}$.
+$c_{11}=\mathbf{1\times2+3\times3+5\times0-2\times2=7}$.
 \end{minipage}
 
 \begin{minipage}{0.45\linewidth}
@@ -339,8 +339,7 @@ $A=\begin{pmatrix}
 
 **Correction**
 
-\textcolor{H1}{\bfseries Avec une calculatrice TI 
-}
+\bfseries Avec une calculatrice TI 
 
 +  Entrer dans le mode "Matrice"  puis le menu "EDIT".
 
@@ -349,9 +348,9 @@ $A=\begin{pmatrix}
 +  Quitter le mode "Matrice" puis y entrer à nouveau et, dans le menu "NOMS", sélectionner la matrice \includegraphics[height=4mm]{TI_[A].eps}.
 Compléter la formule et taper "Entrer".
 
-\fbox{\includegraphics[height=2.cm]{TI_screenshot1.eps}}  \fbox{\includegraphics[height=2.cm]{TI_screenshot2.eps}}
+\includegraphics[height=2.cm]{TI_screenshot1.eps}  \includegraphics[height=2.cm]{TI_screenshot2.eps}
 
-\textcolor{H1}{\bfseries Avec une calculatrice \includegraphics[height=2mm]{CASIO_logo.eps}}
+\bfseries Avec une calculatrice \includegraphics[height=2mm]{CASIO_logo.eps}
 
 +  Entrer dans le menu "RUN-MAT" puis choisir \includegraphics[height=3mm]{CASIO_MAT.eps} (touche \touchecalc{F3}).
 
@@ -359,8 +358,8 @@ Compléter la formule et taper "Entrer".
 
 +  Quitter \includegraphics[height=3mm]{CASIO_MAT.eps}, taper la formule en faisant précéder chaque nom de matrice par "Mat" (touches \touchecalc{SHIFT} puis \touchecalc{2}) : \includegraphics[height=3mm]{CASIO_screenshot2.eps}. Exécuter.
 
-\fbox{\includegraphics[height=2.cm]{CASIO_screenshot1.eps}}
- \fbox{\includegraphics[height=2.cm]{CASIO_screenshot3.eps}}
+\includegraphics[height=2.cm]{CASIO_screenshot1.eps}
+ \includegraphics[height=2.cm]{CASIO_screenshot3.eps}
 
 :::
 
