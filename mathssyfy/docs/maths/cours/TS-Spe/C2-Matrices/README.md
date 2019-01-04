@@ -398,7 +398,7 @@ La matrice $B$, notée $\boldsymbol{A^{-1}}$, est appelée la
 **matrice inverse** de $A$.
 :::
 
-::: tip Exemple {\arraycolsep}{3.5pt}
+::: tip Exemple {}{3.5pt}
 Soit $A\hskip-.5mm=\hskip-.5mm\begin{pmatrix}
 3 & 5 \\
 4 & 7
@@ -477,7 +477,7 @@ d & -b \\
 
 :::
 
-::: tip Preuve {\arraycolsep}{3.5pt}
+::: tip Preuve {}{3.5pt}
 Soit $N=\begin{pmatrix}
 d & -b \\
 -c & a
@@ -511,9 +511,12 @@ Alors, on aurait $PMN=IN=N$ et  $PMN=P0=0$ et donc $N=0$, ce qui est absurde car
 :::
 
 ::: tip Remarque 
-Un peu logique: si $A$  et $B$ sont deux propositions, alors $(A \Rightarrow B) \iff (\text{non}(B) \Rightarrow \text{non}(A))$\newline
-En revenant à la démonstration prédente: notons $A$ la proposition "$ad-bc \neq 0$" et $B$ la proposition "$M$ est inversible"\newline
-On montre dans un premier temps que $A \Rightarrow B$\newline
+Un peu logique: si $A$  et $B$ sont deux propositions, alors $(A \Rightarrow B) \iff (\text{non}(B) \Rightarrow \text{non}(A))$
+
+En revenant à la démonstration prédente: notons $A$ la proposition "$ad-bc \neq 0$" et $B$ la proposition "$M$ est inversible"
+
+On montre dans un premier temps que $A \Rightarrow B$
+
 On montre ensuite que $\text{non}(A) \Rightarrow \text{non}(B)$, ce qui nous donne bien $B \Rightarrow A$.
 :::
 

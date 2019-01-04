@@ -4,9 +4,31 @@
 \usepackage{dccornouaille}
 \usepackage{dctikz}
 \usepackage{dccours}
+\usepackage{sesatikz}
+%Les packages pstricks
+\usepackage{pst-plot,pst-tree,pstricks,pst-node,pst-func}
+\usepackage{pst-eucl}
+\usepackage{pstricks-add}
+\usepackage{pst-all}
+\usepackage{eurosym} %Pour le symbole euro: \euro
+\usepackage{enumitem}
+\usepackage{fourier} %Pour les symboles standards
+\usepackage[np]{numprint} % Permet de mettre en forme les nombres
+\usepackage{colortbl} %Pour colorer les tableaux
+\usepackage{diagbox} %Charge slashbox, calc, keyval, fp, pit2e Permet de faire des diagonales dans un tableau
+\usepackage{multicol} %Pour écrire sur plusieurs colonnes
+%Pour les tableaux de valeur et de variation
+\usepackage{tkz-tab}
+
 \usetikzlibrary{matrix,arrows,decorations.pathmorphing}
 % l' unité
 \newcommand{\myunit}{1 cm}
+%Nouveau type de colonne dans tabularx: C qui correspond à X centré
+\newcolumntype{C}{>{\centering\arraybackslash}X}
+
+%On écrit les maths tout le temps en grand
+\everymath{\displaystyle}
+
 \tikzset{
     node style sp/.style={draw,circle,minimum size=\myunit},
     node style ge/.style={circle,minimum size=\myunit},
