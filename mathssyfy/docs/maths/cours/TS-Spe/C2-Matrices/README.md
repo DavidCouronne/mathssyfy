@@ -345,21 +345,21 @@ $A=\begin{pmatrix}
 
 +  Saisir la taille de la matrice $A$ puis ses coefficients. Pour les coefficients négatifs, utiliser la touche "(-)". Faire de même pour $B$.
 
-+  Quitter le mode "Matrice" puis y entrer à nouveau et, dans le menu "NOMS", sélectionner la matrice  ![Image](./figure5.svg) .
++  Quitter le mode "Matrice" puis y entrer à nouveau et, dans le menu "NOMS", sélectionner la matrice  ![Image](./figure5.png) .
 Compléter la formule et taper "Entrer".
 
- ![Image](./figure6.svg)    ![Image](./figure7.svg) 
+ ![Image](./figure6.png)    ![Image](./figure7.png) 
 
-\bfseries Avec une calculatrice  ![Image](./figure8.svg) 
+\bfseries Avec une calculatrice  ![Image](./figure8.png) 
 
-+  Entrer dans le menu "RUN-MAT" puis choisir  ![Image](./figure9.svg)  (touche \touchecalc{F3}).
++  Entrer dans le menu "RUN-MAT" puis choisir  ![Image](./figure9.png)  (touche \touchecalc{F3}).
 
 +  Saisir la taille de la matrice $A$ puis ses coefficients. Faire de même pour $B$.
 
-+  Quitter  ![Image](./figure10.svg) , taper la formule en faisant précéder chaque nom de matrice par "Mat" (touches \touchecalc{SHIFT} puis \touchecalc{2}) :  ![Image](./figure11.svg) . Exécuter.
++  Quitter  ![Image](./figure10.png) , taper la formule en faisant précéder chaque nom de matrice par "Mat" (touches \touchecalc{SHIFT} puis \touchecalc{2}) :  ![Image](./figure11.png) . Exécuter.
 
- ![Image](./figure12.svg) 
-  ![Image](./figure13.svg) 
+ ![Image](./figure12.png) 
+  ![Image](./figure13.png) 
 
 :::
 
