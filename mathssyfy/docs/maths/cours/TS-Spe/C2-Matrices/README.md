@@ -6,8 +6,6 @@ sidebar: auto
 
 ## Définitions et vocabulaire
 
-%Dans tout ce chapitre, sauf indication contraire, $m$, $n$ , $p$, $i$ et $j$ désignent des entiers naturels non nuls.
-
 ::: warning Définition [Matrice]
 Une **matrice** de **taille** $m\times n$ est un tableau de nombres formé de $m$ lignes et $n$ colonnes qui s’écrit sous la forme :
 
@@ -125,10 +123,6 @@ Soit $A=\begin{pmatrix}
 3 & 3  \\
 \end{pmatrix}$.
 :::
-
-%::: warning Définition [Matrice opposée]
-%La **matrice opposée** d'une matrice $A$ est la matrice notée $-A$ dont les coefficients sont les opposés des coefficients de $A$.
-%:::
 
 ::: warning Propriété 
 Soit $A$, $B$, $C$ trois matrices de même taille.
@@ -345,7 +339,7 @@ $A=\begin{pmatrix}
 
 **Correction**
 
-\textcolor{H1}{\bfseries Avec une calculatrice TI % \raisebox{-1mm}{\includegraphics[height=4mm]{TI_logo.eps}}
+\textcolor{H1}{\bfseries Avec une calculatrice TI 
 }
 
 +  Entrer dans le mode "Matrice"  puis le menu "EDIT".
