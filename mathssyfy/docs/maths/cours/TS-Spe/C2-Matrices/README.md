@@ -345,21 +345,21 @@ $A=\begin{pmatrix}
 
 +  Saisir la taille de la matrice $A$ puis ses coefficients. Pour les coefficients négatifs, utiliser la touche "(-)". Faire de même pour $B$.
 
-+  Quitter le mode "Matrice" puis y entrer à nouveau et, dans le menu "NOMS", sélectionner la matrice \includegraphics[height=4mm]{TI_[A].eps}.
++  Quitter le mode "Matrice" puis y entrer à nouveau et, dans le menu "NOMS", sélectionner la matrice  ![Image](./figure5.svg) .
 Compléter la formule et taper "Entrer".
 
-\includegraphics[height=2.cm]{TI_screenshot1.eps}  \includegraphics[height=2.cm]{TI_screenshot2.eps}
+ ![Image](./figure6.svg)    ![Image](./figure7.svg) 
 
-\bfseries Avec une calculatrice \includegraphics[height=2mm]{CASIO_logo.eps}
+\bfseries Avec une calculatrice  ![Image](./figure8.svg) 
 
-+  Entrer dans le menu "RUN-MAT" puis choisir \includegraphics[height=3mm]{CASIO_MAT.eps} (touche \touchecalc{F3}).
++  Entrer dans le menu "RUN-MAT" puis choisir  ![Image](./figure9.svg)  (touche \touchecalc{F3}).
 
 +  Saisir la taille de la matrice $A$ puis ses coefficients. Faire de même pour $B$.
 
-+  Quitter \includegraphics[height=3mm]{CASIO_MAT.eps}, taper la formule en faisant précéder chaque nom de matrice par "Mat" (touches \touchecalc{SHIFT} puis \touchecalc{2}) : \includegraphics[height=3mm]{CASIO_screenshot2.eps}. Exécuter.
++  Quitter  ![Image](./figure10.svg) , taper la formule en faisant précéder chaque nom de matrice par "Mat" (touches \touchecalc{SHIFT} puis \touchecalc{2}) :  ![Image](./figure11.svg) . Exécuter.
 
-\includegraphics[height=2.cm]{CASIO_screenshot1.eps}
- \includegraphics[height=2.cm]{CASIO_screenshot3.eps}
+ ![Image](./figure12.svg) 
+  ![Image](./figure13.svg) 
 
 :::
 
