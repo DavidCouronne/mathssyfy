@@ -63,3 +63,9 @@ twine upload --repository-url https://test.pypi.org/legacy/ dist/*
 ```bash
 python -m pip install --index-url https://test.pypi.org/simple/ nom-du-package
 ```
+
+## Add To PATH
+
+``` bash
+setx /M PATH "$($env:path);c:\program files\monsuperprogramme"
+```
