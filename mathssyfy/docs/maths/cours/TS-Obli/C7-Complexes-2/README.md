@@ -481,7 +481,7 @@ $$z_3=4\left(\cos\left(\frac{2\pi}{3}\right)+i \sin\left(\frac{2\pi}{3}\right)\r
 ### Calculs avec la notation exponentielle
 
 ::: warning Théorème 
-Pour tous nombres r\'eels $\theta_1, \theta_2$ :
+Pour tous nombres réels $\theta_1, \theta_2$ :
 
 
 1.  $e^{i\theta_1}\times e^{i\theta_2} =e^{i(\theta_1+\theta_2)}$
@@ -494,7 +494,7 @@ Pour tous nombres r\'eels $\theta_1, \theta_2$ :
 
 :::
 
-::: tip Remarques 
+<!--::: tip Remarques 
 
 +  Ces propriétés sont admises. Elles résultent du fait que $|e^{i\theta}|=1$ et des propriétés des arguments.
 
@@ -504,7 +504,7 @@ $$(\cos \theta + i\sin \theta)^n = \cos(n\theta)+i\sin(n\theta), n\in\Z$$
 
 :::
 
-<!--::: tip Méthode [Utilisation de la forme exponentielle ]
+::: tip Méthode [Utilisation de la forme exponentielle ]
 
 **Exercice:**
 
@@ -516,7 +516,7 @@ $z_2=e^{-i\frac{\pi}{{6}}} z_1^2$,
 
 $z_3= \dfrac{2z_1}{e^{-i \frac{\pi}{6}}}$.
 
-1.  D\'eterminer les entiers $n$ tels que $\left(-z_1\right)^n$ est un nombre r\'eel.
+1.  Déterminer les entiers $n$ tels que $\left(-z_1\right)^n$ est un nombre r\'eel.
 
 2.  Soit  $Z=\dfrac{1+i}{\sqrt{6}+i\sqrt{2}}$ un complexe.
 
@@ -528,22 +528,25 @@ b)  Déterminer la forme algébrique du complexe $Z$. En déduire les valeurs ex
 
 1.  En employant la méthode 6 on trouve 
 $|z_1|=2$ puis $\arg(z_1)=\dfrac{5\pi}{6}\ [2\pi]$.
-Donc $z_1= 2 e^{i\frac{{5}\pi}{{6}}}$.
+Donc $z_1= 2 e^{i\frac{5\pi}{6}}$.
 
-On en déduit : $z_2=e^{-i\frac{\pi}{{6}}} \times \left( 2e^{i\frac{{5}\pi}{{6}}}\right)^2=
-4 e^{-i\frac{\pi}{{6}}} \times e^{\frac{2\times 5\pi}{6}}=
-4ie^{i\frac{{9}\pi}{{6}}}=4e^{i\frac{{3}\pi}{{2}}}=-4i$
+On en déduit : 
+$$z_2=e^{-i\frac{\pi}{{6}}} \times \left( 2e^{i\frac{5\pi}{6}}\right)^2=
+4 e^{-i\frac{\pi}{6}} \times e^{\frac{2\times 5\pi}{6}}=
+4ie^{i\frac{{9}\pi}{{6}}}=4e^{i\frac{3\pi}{2}}=-4i$$
 
-et $z_3=\dfrac{2\times2e^{i\frac{{5}\pi}{{6}}}}{5e^{-i\frac{{5}\pi}{{6}}}}=\dfrac{4}{5}
-e^{i\left(\frac{5\pi}{6}+\frac{\pi}{6}\right)}=\dfrac{4}{5}e^{i\pi}=-\dfrac{4}{5}.$
+et 
+$$z_3=\dfrac{2\times2e^{i\frac{{5}\pi}{{6}}}}{5e^{-i\frac{{5}\pi}{{6}}}}=\dfrac{4}{5}
+e^{i\left(\frac{5\pi}{6}+\frac{\pi}{6}\right)}=\dfrac{4}{5}e^{i\pi}=-\dfrac{4}{5}.$$
 
-2.  $z_1=2e^{-i\frac{\pi}{{6}}}$ et donc  $\left(-z_1\right)^n=\left(2 e^{i\frac{{-}\pi}{{6}}}\right)^n=2^n
-e^{i\frac{{-n}\pi}{{6}}}.$
+2.  $z_1=2e^{-i\frac{\pi}{{6}}}$ et donc  
+$$\left(-z_1\right)^n=\left(2 e^{i\frac{-\pi}{6}}\right)^n=2^n
+e^{i\frac{{-n}\pi}{{6}}}.$$
 
 $(-z_1)^n$ est réel  
 $\Longleftrightarrow \frac{-n\pi}{6}=0 [\pi]\Longleftrightarrow$ il existe  $k\in\Z$ tel que $\frac{-n\pi}{6}=k\pi\Longleftrightarrow n=-6k$. Donc $\left(-z_1\right)^n$ est réel si et seulement si $n$ est un multiple de 6.
 
-3. 
+1. 
 
 a)  On a : $1+i=\sqrt{2}e^{i\frac{\pi}{{4}}}$ et $\sqrt{6}+i\sqrt{2}=2\sqrt{2}e^{i\frac{\pi}{{6}}}$ donc
 
