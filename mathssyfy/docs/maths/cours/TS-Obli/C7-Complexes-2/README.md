@@ -567,7 +567,7 @@ $$Z=\dfrac{1+i}{\sqrt{6}+i\sqrt{2}}=
 
 b)  $Z=\dfrac{(1+i)(\sqrt{6}-i\sqrt{2})}{8}=\dfrac{\sqrt{6}+\sqrt{2}}{8}+i \dfrac{\sqrt{6}-\sqrt{2}}{8}$ est la forme algébrique de $Z$.
 
-On a donc : $\dfrac{1}{2}e^{i\dfrac{\pi}{12}}=\dfrac{\sqrt{6}+\sqrt{2}}{8}+i \frac{\sqrt{6}-\sqrt{2}}{8}$.
+On a donc : $\dfrac{1}{2}e^{i\frac{\pi}{12}}=\dfrac{\sqrt{6}+\sqrt{2}}{8}+i \frac{\sqrt{6}-\sqrt{2}}{8}$.
 
 D'où : $\dfrac{1}{2}\left(\cos\left(\frac{\pi}{12}\right)+i \sin\left(\frac{\pi}{12}\right)\right)=\frac{\sqrt{6}+\sqrt{2}}{8}+i \frac{\sqrt{6}-\sqrt{2}}{8}$.
 
