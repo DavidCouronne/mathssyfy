@@ -220,12 +220,13 @@ Ce qui prouve bien le point 4).
 
 :::
 ::: warning Théorème 
-![Image](./figure2.svg)
+1. $z\neq 0$ : $\left|\dfrac{1}{z}\right|=\dfrac{1}{|z|}$ & $\arg\left(\dfrac{1}{z}\right)=-\arg(z)$ $[2\pi]$
+2. $z'\neq 0$ : $\left|\dfrac{z}{z'}\right|=\dfrac{|z|}{|z'|}$ & $\arg\left(\dfrac{z}{z'}\right)=\arg(z)-\arg(z')$ $[2\pi]$ pour $z\neq 0$
 :::
 ::: tip Preuve 
 
 1.  $z$ est un complexe non nul. On a $z\times \dfrac{1}{z}=1$ qui donne
-d'une part $\left|z\times \dfrac{1}{z}\right|=1 $ c'est-à-dire $|z|\times \left|\dfrac{1}{z}\right|=1 $. Et enfin $\left|\dfrac{1}{z}\right|= \dfrac{1}{|z|}$.
+d'une part $\left|z\times \dfrac{1}{z}\right|=1$ c'est-à-dire $|z|\times \left|\dfrac{1}{z}\right|=1$. Et enfin $\left|\dfrac{1}{z}\right|= \dfrac{1}{|z|}$.
 
 D'autre part, $\arg\left(z\times \dfrac{1}{z}\right)=\arg(1) [2\pi]$ donne $\arg(z)+\arg\left(\dfrac{1}{z}\right)=0 [2\pi]$.
 
@@ -239,7 +240,7 @@ et si $z\neq 0$ : $\arg\left(\dfrac{z}{z'}\right)=\arg\left(z\times \dfrac{1}{z'
 
 :::
 
-<!-- ::: tip Méthode [Comment utiliser les propriétés des modules et arguments ]
+::: tip Méthode [Comment utiliser les propriétés des modules et arguments ]
 
 **Exercice:**
 
@@ -254,14 +255,14 @@ et si $z\neq 0$ : $\arg\left(\dfrac{z}{z'}\right)=\arg\left(z\times \dfrac{1}{z'
 2.  $|z_1|=\sqrt{3+1}=2$ et $|z_2|=\sqrt{\dfrac{1}{36}+\dfrac{3}{36}}=\dfrac{1}{3}$.
 Donc : $|z_1z_2|=|z_1||z_2|=2\times \dfrac{1}{3}=\dfrac{2}{3}.$
 
-3.  $\theta_1=\arg(z_1)$ est tel que
+<!-- 3.  $\theta_1=\arg(z_1)$ est tel que
 $$
 \left\lbrace
 \begin{array}{rcl}
 \cos(\theta_1)&=&\dfrac{-\sqrt{3}}{2} \\
 \sin(\theta_1)&=&\dfrac{1}{2}\\
 \end{array}\right.
-$
+$s
 
 $\sin(\theta_1)=\dfrac{1}{2} \Longleftrightarrow \theta_1=\dfrac{\pi}{6}\ [2\pi] \ \text{ou} \ \dfrac{5\pi}{6}\ [2\pi]$, or $\cos(\theta_1)<0$ donc $\theta_1= \dfrac{5\pi}{6} [2\pi]$
 
