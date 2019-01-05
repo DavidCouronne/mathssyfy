@@ -413,7 +413,7 @@ Comme de plus $f(0)=1$,
 
 on convient de noter par analogie : $\cos(\theta)+i\sin(\theta)=e^{i\theta}$.
 
-### Ecriture exponentielle des complexes de module 1
+<!-- ### Ecriture exponentielle des complexes de module 1
 
 ::: warning Définition 
 Tout nombre complexe de module 1 et d'argument $\theta$ peut s'écrire sous la forme :
@@ -473,7 +473,7 @@ $$z_3=4\left(\cos\left(\frac{2\pi}{3}\right)+i \sin\left(\frac{2\pi}{3}\right)\r
 
 :::
 
-<!-- ### Calculs avec la notation exponentielle
+### Calculs avec la notation exponentielle
 
 ::: warning Théorème 
 Pour tous nombres r\'eels $\theta_1, \theta_2$ :
