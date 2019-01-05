@@ -511,7 +511,7 @@ $$(\cos \theta + i\sin \theta)^n = \cos(n\theta)+i\sin(n\theta), n\in\Z$$
 1.  Mettre sous forme exponentielle :
 $z_1=-\sqrt{3}+i$,
 
-$z_2=e^{-i\frac{\pi}{{6}}} z_1^2$,
+$z_2=e^{-i\frac{\pi}{6}} z_1^2$,
 
 
 $z_3= \dfrac{2z_1}{e^{-i \frac{\pi}{6}}}$.
@@ -524,9 +524,9 @@ a)  Déterminer la forme exponentielle du complexe $Z$.
 
 b)  Déterminer la forme algébrique du complexe $Z$. En déduire les valeurs exactes de $\cos\left(\dfrac{\pi}{12}\right)$ et $\sin\left(\dfrac{\pi}{12}\right)$.
 
-**Correction**
+<!--**Correction**
 
-1.  En employant la méthode 6 on trouve 
+1.  En employant la méthode on trouve 
 $|z_1|=2$ puis $\arg(z_1)=\dfrac{5\pi}{6}\ [2\pi]$.
 Donc $z_1= 2 e^{i\frac{5\pi}{6}}$.
 
