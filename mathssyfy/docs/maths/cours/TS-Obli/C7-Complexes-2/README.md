@@ -25,7 +25,7 @@ Un argument de $z$ est noté $\arg (z).$
 
 
 :::
-
+<!-- 
 ::: tip Remarque 
 
 $\arg(z)$ peut prendre une infinité de valeurs différentes : si $\theta$ est une mesure de $\arg(z)$ alors $\theta +k 2 \pi$  est une autre mesure de $\arg(z)$ pour  $k\in \Z$. On notera : $\arg(z)=\theta\ [2\pi]$ et on dit que l'argument de $z$ vaut $\theta$  «  modulo $2\pi$ » \ou  «  à $2\pi$ près  » .
@@ -136,7 +136,7 @@ La preuve résulte directement des  formules précédentes.
 
 +  Attention, pour l'égalité des arguments, il faut la penser  « à $2\pi$ »  près.
 
-:::
+::: -->
 
 <!-- ## Forme trigonométrique d'un nombre complexe
 
