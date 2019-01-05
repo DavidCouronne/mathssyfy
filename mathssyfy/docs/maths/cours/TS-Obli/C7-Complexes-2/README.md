@@ -541,22 +541,22 @@ et
 $$z_3=\dfrac{2\times2e^{i\frac{5\pi}{6}}}{5e^{-i\frac{5\pi}{6}}}=\dfrac{4}{5}
 e^{i\left(\frac{5\pi}{6}+\frac{\pi}{6}\right)}=\dfrac{4}{5}e^{i\pi}=-\dfrac{4}{5}.$$
 
-<!-- 2.  $z_1=2e^{-i\frac{\pi}{{6}}}$ et donc  
+2.  $z_1=2e^{-i\frac{\pi}{6}}$ et donc  
 $$\left(-z_1\right)^n=\left(2 e^{i\frac{-\pi}{6}}\right)^n=2^n
-e^{i\frac{{-n}\pi}{{6}}}.$$
+e^{i\frac{-n\pi}{6}}.$$
 
 $(-z_1)^n$ est réel  
 $\Longleftrightarrow \frac{-n\pi}{6}=0 [\pi]\Longleftrightarrow$ il existe  $k\in\Z$ tel que $\frac{-n\pi}{6}=k\pi\Longleftrightarrow n=-6k$. Donc $\left(-z_1\right)^n$ est réel si et seulement si $n$ est un multiple de 6.
 
 1. 
 
-a)  On a : $1+i=\sqrt{2}e^{i\frac{\pi}{{4}}}$ et $\sqrt{6}+i\sqrt{2}=2\sqrt{2}e^{i\frac{\pi}{{6}}}$ donc
+a)  On a : $1+i=\sqrt{2}e^{i\frac{\pi}{4}}$ et $\sqrt{6}+i\sqrt{2}=2\sqrt{2}e^{i\frac{\pi}{6}}$ donc
 
 $$Z=\dfrac{1+i}{\sqrt{6}+i\sqrt{2}}=
 \dfrac{\sqrt{2}e^{i
 \frac{\pi}{4}}}{2\sqrt{2}e^{i
 \frac{\pi}{6}}}=\dfrac{1}{2}e^{i\left(\frac{\pi}{4}-
-\frac{\pi}{6}\right)}=\dfrac{1}{2}e^{i\frac{\pi}{{12}}}$$
+\frac{\pi}{6}\right)}=\dfrac{1}{2}e^{i\frac{\pi}{12}}$$
  est la forme exponentielle de $Z$.
 
 b)  $Z=\dfrac{(1+i)(\sqrt{6}-i\sqrt{2})}{8}=\dfrac{\sqrt{6}+\sqrt{2}}{8}+i \dfrac{\sqrt{6}-\sqrt{2}}{8}$ est la forme algébrique de $Z$.
@@ -567,7 +567,7 @@ D'où : $\dfrac{1}{2}\left(\cos\left(\frac{\pi}{12}\right)+i \sin\left(\frac{\pi
 
 On en déduit : $\cos\left(\frac{\pi}{12}\right)=\dfrac{\sqrt{6}+\sqrt{2}}{4}$ et $\sin\left(\frac{\pi}{12}\right)=\dfrac{\sqrt{6}-\sqrt{2}}{4}$.
 
-::: -->
+::: 
 
 ::: tip Remarque 
 
