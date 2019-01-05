@@ -431,7 +431,7 @@ $\cos(\theta)+i\sin(\theta)=e^{i\theta}.$
     $z_1=e^{i\frac{\pi}{{2}}}$;  $z_2=e^{i\pi}$;  $z_3=e^{i\frac{3\pi}{2}}$;  $z_4=e^{i2\pi}$; 
     $z_5=e^{i\frac{2\pi}{3}}$.
 
-<!--2.  La forme algébrique des complexes précédents est :
+2.  La forme algébrique des complexes précédents est :
 
 $z_1=e^{i\frac{\pi}{2}}=\cos\left(\frac{\pi}{2}\right) +i \sin\left(\frac{\pi}{2}\right) =i$;
 
