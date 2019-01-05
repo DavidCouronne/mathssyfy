@@ -439,13 +439,13 @@ $z_2=e^{i\pi}=\cos(\pi)+i \sin(\pi)=-1$;
 
 $z_3=e^{i\frac{3\pi}{2}}=\cos\left(\frac{3\pi}{2}\right) +i \sin\left(\frac{3\pi}{2}\right) =-i$;
 
-<!--$z_4=e^{i2\pi}=\cos(2\pi)+i \sin(2\pi)=1$;
+$z_4=e^{i2\pi}=\cos(2\pi)+i \sin(2\pi)=1$;
 
 $z_5=e^{i\frac{2\pi}{3}}=\cos\left(\frac{2\pi}{3}\right) +i \sin\left(\frac{2\pi}{3}\right) =-\frac{1}{2}+i \frac{\sqrt{3}}{2}$.
 
 :::
 
-### Cas général
+<!--### Cas général
 
 ::: warning Définition 
 Tout complexe $z\neq 0$  s'\'ecrit sous la forme $z=re^{i\theta}$ avec $r=|z|$ et $\theta\equiv \arg(z) [2\pi].$
