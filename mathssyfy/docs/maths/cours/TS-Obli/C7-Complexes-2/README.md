@@ -470,7 +470,7 @@ On peut déterminer le module et un argument par la méthode
 précédemment donnée mais on peut aussi opérer de la manière
 suivante :
 $$z_1=-2i=2(-1+0i)=2\left(\cos\left(\frac{-\pi}{2}\right)+i\sin\left(\frac{-\pi}{2}\right)\right)=2e^{-i\frac{\pi}{{2}}} $$
-$$ z_2=1+i= \sqrt{2}\left(\frac{1}{\sqrt{2}}+i \frac{1}{\sqrt{2}}\right)=\sqrt{2}\left(\cos\left(\frac{\pi}{4}\right)+i\sin\left(\frac{\pi}{4}\right)\right)=\sqrt{2}e^{i\frac{\pi}{{4}}}.$$
+$$ z_2=1+i= \sqrt{2}\left(\frac{1}{\sqrt{2}}+i \frac{1}{\sqrt{2}}\right)=\sqrt{2}\left(\cos\left(\frac{\pi}{4}\right)+i\sin\left(\frac{\pi}{4}\right)\right)=\sqrt{2}e^{i\frac{\pi}{4}}.$$
 
 2.  Déterminons la forme algébrique de $z_3=4e^{i\frac{2\pi}{3}}$ :
 $$z_3=4\left(\cos\left(\frac{2\pi}{3}\right)+i \sin\left(\frac{2\pi}{3}\right)\right)
@@ -480,7 +480,7 @@ $$z_3=4\left(\cos\left(\frac{2\pi}{3}\right)+i \sin\left(\frac{2\pi}{3}\right)\r
 
 ### Calculs avec la notation exponentielle
 
-<!--::: warning Théorème 
+::: warning Théorème 
 Pour tous nombres réels $\theta_1$, $\theta_2$ :
 
 
@@ -504,7 +504,7 @@ $$(\cos \theta + i\sin \theta)^n = \cos(n\theta)+i\sin(n\theta), n\in\Z$$
 
 :::
 
-::: tip Méthode [Utilisation de la forme exponentielle ]
+<!--::: tip Méthode [Utilisation de la forme exponentielle ]
 
 **Exercice:**
 
