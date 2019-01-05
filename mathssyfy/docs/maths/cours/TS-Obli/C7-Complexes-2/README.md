@@ -127,7 +127,7 @@ Deux nombres complexes non nuls sont égaux si et seulement si ils ont même mod
 La preuve résulte directement des  formules précédentes.
 :::
 
-::: tip Remarques 
+<!-- ::: tip Remarques 
 
 +  $|z|=0\ \iff\ z=0$.
 
@@ -569,4 +569,4 @@ La notation exponentielle permet de retrouver les formules d'addition pour le co
 
 :::
 
- 
+  -->
