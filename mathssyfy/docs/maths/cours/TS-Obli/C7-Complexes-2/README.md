@@ -255,8 +255,7 @@ et si $z\neq 0$ : $\arg\left(\dfrac{z}{z'}\right)=\arg\left(z\times \dfrac{1}{z'
 Donc : $|z_1z_2|=|z_1||z_2|=2\times \dfrac{1}{3}=\dfrac{2}{3}.$
 
 3.  $\theta_1=\arg(z_1)$ est tel que
-$
-\def\arraystretch{1.8}
+$$
 \left\lbrace
 \begin{array}{rcl}
 \cos(\theta_1)&=&\dfrac{-\sqrt{3}}{2} \\
