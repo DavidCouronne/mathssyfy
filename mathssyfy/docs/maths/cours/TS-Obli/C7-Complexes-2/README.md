@@ -96,21 +96,22 @@ Déterminer le module et un argument du complexe  $z=-1+i \sqrt{3}$.
 
 1.  On calcule d'abord le module  : $|z|=\sqrt{(-1)^2+(\sqrt{3})^2}=2.$
 
-2.  On cherche donc $\theta=\arg(z)$ tel que $\left\lbrace
+2.  On cherche donc $\theta=\arg(z)$ tel que 
+$$\left\lbrace
 \begin{array}{rcl}
 \cos(\theta)&=&\dfrac{-1}{2} \\
 \sin(\theta)&=&\overset{{\color{white} essa}}{\dfrac{\sqrt{3}}{2}}\\
 \end{array}\right.
-$
+$$
 
-$\cos(\theta)=\dfrac{-1}{2}\ \iff\ \cos\left(\theta\right)=\cos\left(\dfrac{2\pi}{3}\right)\Longleftrightarrow
+$$\cos(\theta)=\dfrac{-1}{2}\ \iff\ \cos\left(\theta\right)=\cos\left(\dfrac{2\pi}{3}\right)\Longleftrightarrow
 \left\lbrace
 \begin{array}{rcl}
 \theta&=&\dfrac{2\pi}{3} [2\pi]\\
 \text{ou}& & \\
 \theta&=& -\dfrac{2\pi}{3} [2\pi]\\
 \end{array}\right.
-$
+$$
 
 Or $\sin(\theta)>0$ donc $\arg(z)=\theta=\dfrac{2\pi}{3}$ $[2\pi]$.
 
