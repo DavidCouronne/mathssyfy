@@ -138,7 +138,7 @@ La preuve résulte directement des  formules précédentes.
 
 :::
 
-## Forme trigonométrique d'un nombre complexe
+<!-- ## Forme trigonométrique d'un nombre complexe
 
 ### Définition
 
@@ -568,3 +568,4 @@ La notation exponentielle permet de retrouver les formules d'addition pour le co
 
 :::
 
+ -->
