@@ -9,3 +9,5 @@ sidebar: auto
 [Chapitre 2: Matrices](./TS-Spe/C2-Matrices/)
 
 ## TS Obligatoire
+
+[Chapitre 7: Complexes partie 2](./TS-Obli/C7-Complexes-2/)
