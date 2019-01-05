@@ -472,7 +472,7 @@ suivante :
 $$z_1=-2i=2(-1+0i)=2\left(\cos\left(\frac{-\pi}{2}\right)+i\sin\left(\frac{-\pi}{2}\right)\right)=2e^{-i\frac{\pi}{{2}}} $$
 $$ z_2=1+i= \sqrt{2}\left(\frac{1}{\sqrt{2}}+i \frac{1}{\sqrt{2}}\right)=\sqrt{2}\left(\cos\left(\frac{\pi}{4}\right)+i\sin\left(\frac{\pi}{4}\right)\right)=\sqrt{2}e^{i\frac{\pi}{{4}}}.$$
 
-2.  Déterminons la forme alg\'ebrique de $z_3=4e^{i\frac{{2}\pi}{{3}}}$ :
+2.  Déterminons la forme algébrique de $z_3=4e^{i\frac{2\pi}{3}}$ :
 $$z_3=4\left(\cos\left(\frac{2\pi}{3}\right)+i \sin\left(\frac{2\pi}{3}\right)\right)
 =4\left(-\frac{1}{2}+\frac{\sqrt{3}}{2}i\right)=-2+2i \sqrt{3}.$$
 
