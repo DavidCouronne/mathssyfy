@@ -250,12 +250,11 @@ et si $z\neq 0$ : $\arg\left(\dfrac{z}{z'}\right)=\arg\left(z\times \dfrac{1}{z'
 
 **Correction**
 
-1. 
 
-2.  $|z_1|=\sqrt{3+1}=2$ et $|z_2|=\sqrt{\dfrac{1}{36}+\dfrac{3}{36}}=\dfrac{1}{3}$.
+1.  $|z_1|=\sqrt{3+1}=2$ et $|z_2|=\sqrt{\dfrac{1}{36}+\dfrac{3}{36}}=\dfrac{1}{3}$.
 Donc : $|z_1z_2|=|z_1||z_2|=2\times \dfrac{1}{3}=\dfrac{2}{3}.$
 
-3.  $\theta_1=\arg(z_1)$ est tel que
+2.  $\theta_1=\arg(z_1)$ est tel que
 $$
 \left\lbrace
 \begin{array}{rcl}
@@ -298,7 +297,7 @@ On en déduit : $z^{2016}=1\times(\cos(0)+i\sin(0))=1.$
 
 :::
 
-<!-- ## Applications des nombres complexes à la géométrie
+## Applications des nombres complexes à la géométrie
 
 ::: warning Théorème 
 
@@ -402,7 +401,7 @@ Donc $\left( \overrightarrow{BA} ;\overrightarrow{BC} \right)=\arg\left(\dfrac{z
 
 :::
 
-## Forme exponentielle
+<!-- ## Forme exponentielle
 
 Soit $f$ la fonction définie sur $\R$ par : $f(\theta)=\cos(\theta)+i \sin(\theta)$.
 
