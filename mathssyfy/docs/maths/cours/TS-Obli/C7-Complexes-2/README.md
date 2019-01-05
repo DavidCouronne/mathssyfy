@@ -117,7 +117,7 @@ Or $\sin(\theta)>0$ donc $\arg(z)=\theta=\dfrac{2\pi}{3}$ $[2\pi]$.
 
 :::
 
-<!--### Égalité de deux nombres complexes par module et argument
+### Égalité de deux nombres complexes par module et argument
 
 ::: warning Théorème 
 Deux nombres complexes non nuls sont égaux si et seulement si ils ont même module et même argument.
@@ -137,9 +137,9 @@ La preuve résulte directement des  formules précédentes.
 
 +  Attention, pour l'égalité des arguments, il faut la penser  « à $2\pi$ »  près.
 
-::: -->
+::: 
 
-<!-- ## Forme trigonométrique d'un nombre complexe
+## Forme trigonométrique d'un nombre complexe
 
 ### Définition
 
@@ -565,8 +565,8 @@ On en déduit : $\cos\left(\frac{\pi}{12}\right)=\dfrac{\sqrt{6}+\sqrt{2}}{4}$ e
 
 ::: tip Remarque 
 
-La notation exponentielle permet de retrouver les formules d'addition pour le cosinus et le sinus. Voir l'exercice \ref{retrouver-cos-sin}.
+La notation exponentielle permet de retrouver les formules d'addition pour le cosinus et le sinus. Voir l'exercice .
 
 :::
 
- -->
+ 
