@@ -531,12 +531,14 @@ $|z_1|=2$ puis $\arg(z_1)=\dfrac{5\pi}{6}\ [2\pi]$.
 Donc $z_1= 2 e^{i\frac{5\pi}{6}}$.
 
 On en déduit : 
-$$z_2=e^{-i\frac{\pi}{{6}}} \times \left( 2e^{i\frac{5\pi}{6}}\right)^2=
+
+$$z_2=e^{-i\frac{\pi}{6}} \times \left( 2e^{i\frac{5\pi}{6}}\right)^2=
 4 e^{-i\frac{\pi}{6}} \times e^{\frac{2\times 5\pi}{6}}=
-4ie^{i\frac{{9}\pi}{{6}}}=4e^{i\frac{3\pi}{2}}=-4i$$
+4ie^{i\frac{9\pi}{6}}=4e^{i\frac{3\pi}{2}}=-4i$$
 
 et 
-$$z_3=\dfrac{2\times2e^{i\frac{{5}\pi}{{6}}}}{5e^{-i\frac{{5}\pi}{{6}}}}=\dfrac{4}{5}
+
+$$z_3=\dfrac{2\times2e^{i\frac{5\pi}{6}}}{5e^{-i\frac{5\pi}{6}}}=\dfrac{4}{5}
 e^{i\left(\frac{5\pi}{6}+\frac{\pi}{6}\right)}=\dfrac{4}{5}e^{i\pi}=-\dfrac{4}{5}.$$
 
 <!-- 2.  $z_1=2e^{-i\frac{\pi}{{6}}}$ et donc  
@@ -546,7 +548,7 @@ e^{i\frac{{-n}\pi}{{6}}}.$$
 $(-z_1)^n$ est réel  
 $\Longleftrightarrow \frac{-n\pi}{6}=0 [\pi]\Longleftrightarrow$ il existe  $k\in\Z$ tel que $\frac{-n\pi}{6}=k\pi\Longleftrightarrow n=-6k$. Donc $\left(-z_1\right)^n$ est réel si et seulement si $n$ est un multiple de 6.
 
-3. 
+1. 
 
 a)  On a : $1+i=\sqrt{2}e^{i\frac{\pi}{{4}}}$ et $\sqrt{6}+i\sqrt{2}=2\sqrt{2}e^{i\frac{\pi}{{6}}}$ donc
 
