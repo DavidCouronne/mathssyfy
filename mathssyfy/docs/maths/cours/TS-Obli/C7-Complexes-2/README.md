@@ -104,7 +104,7 @@ $$\left\lbrace
 \end{array}\right.
 $$
 
-<!--$$\cos(\theta)=\dfrac{-1}{2}\ \iff\ \cos\left(\theta\right)=\cos\left(\dfrac{2\pi}{3}\right)\Longleftrightarrow
+$$\cos(\theta)=\dfrac{-1}{2}\ \iff\ \cos\left(\theta\right)=\cos\left(\dfrac{2\pi}{3}\right)\Longleftrightarrow
 \left\lbrace
 \begin{array}{rcl}
 \theta&=&\dfrac{2\pi}{3} [2\pi]\\
