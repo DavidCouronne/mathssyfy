@@ -63,13 +63,13 @@ Déterminer dans le repère orthonormé $(O\ ;\overrightarrow{u} ,\overrightarro
 
 Donc l'ensemble des points $M$ tel que $|z|=3$ est un cercle de centre $O$ et de rayon 3.
 
-1.  $\arg(z)=-\dfrac{\pi}{3}\ [2\pi] \Longleftrightarrow \left( \overrightarrow{u} ;\overrightarrow{OM} \right)=-\dfrac{\pi}{3}\ [2\pi]$.
+2.  $\arg(z)=-\dfrac{\pi}{3}\ [2\pi] \Longleftrightarrow \left( \overrightarrow{u} ;\overrightarrow{OM} \right)=-\dfrac{\pi}{3}\ [2\pi]$.
 
-Donc  l'ensemble des points $M$ tel que $\arg(z)=-\dfrac{\pi}{3}\ [2\pi]$ est une demi-droite d'origine $O$, privé de $O$, de vecteur directeur $\overrightarrow{u_1} $ tel que $\left( \overrightarrow{u} ;\overrightarrow{u_1} \right)=-\dfrac{\pi}{3}\ [2\pi]$.
+Donc  l'ensemble des points $M$ tel que $\arg(z)=-\dfrac{\pi}{3}\ [2\pi]$ est une demi-droite d'origine $O$, privé de $O$, de vecteur directeur $\overrightarrow{u_1}$ tel que $\left( \overrightarrow{u} ;\overrightarrow{u_1} \right)=-\dfrac{\pi}{3}\ [2\pi]$.
 
 :::
 
-<!-- ### Calcul algébrique du module et d'un argument
+ ### Calcul algébrique du module et d'un argument
 
 ::: warning Théorème 
 Soit $z=a+i b$ un complexe.
@@ -86,7 +86,7 @@ $$
 
 :::
 
-::: tip Méthode [Déterminer le module et un argument  d'un nombre complexe  ]
+<!--::: tip Méthode [Déterminer le module et un argument  d'un nombre complexe  ]
 
 **Exercice:**
 
