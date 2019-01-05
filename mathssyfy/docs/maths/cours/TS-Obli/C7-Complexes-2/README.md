@@ -55,7 +55,7 @@ Déterminer dans le repère orthonormé $(O\ ;\overrightarrow{u} ,\overrightarro
 1.   $|z|=3$
 
 2.  $\arg(z)=-\dfrac{\pi}{3}\ [2\pi]$
-\end{colenumerate}
+
 
 **Correction**
 
@@ -192,8 +192,14 @@ Pour déterminer la forme trigonométrique  $z=r(\cos (\theta)+i \sin(\theta))$ 
 Dans  les deux théorèmes qui suivent $z$ et $z'$ sont des nombres complexes.
 
 ::: warning Théorème 
-![Image](./figure1.svg)
+1. $z\neq 0$ : $\left|\dfrac{1}{z}\right|=\dfrac{1}{|z|}$
+
+ $\arg\left(\dfrac{1}{z}\right)=-\arg(z)$ $[2\pi]$
+ 2. $z'\neq 0$ : $\left|\dfrac{z}{z'}\right|=\dfrac{|z|}{|z'|}$
+   
+ $\arg\left(\dfrac{z}{z'}\right)=\arg(z)-\arg(z')$ $[2\pi]$ pour $z\neq 0$
 :::
+
 ::: tip Preuve 
 
 1.  Ce point a été déjà prouvé  précédemment.
@@ -288,7 +294,7 @@ Donc : $\arg(z_1z_2)=\arg(z_1)+\arg(z_2)=\dfrac{5\pi}{6}+\dfrac{\pi}{3}=\dfrac{7
 
 1.  On remarque :
 $z=-\dfrac{1}{2}+ \dfrac{\sqrt{3}}{2}i=-3z_2$ et donc :
-$$|z|=3\times |z_2|=1 \ \ \ \text{et} \ \ \ \arg(z)=\arg(z_2)+\pi [2\pi]= -\frac{2\pi}{3} [2\pi] $$
+$$|z|=3\times |z_2|=1 \text{ et }  \arg(z)=\arg(z_2)+\pi [2\pi]= -\frac{2\pi}{3} [2\pi] $$
 $\arg\left(z^{2016}\right)=2016 \times \arg(z) = 2016\times \dfrac{2\pi}{3} [2\pi]=672 \times 2\pi [2\pi]=0 [2\pi]$.
 
 De plus $|z|=1$ donc $\left|z^{2016}\right|=|z|^{2016}=1.$
