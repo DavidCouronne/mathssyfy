@@ -187,7 +187,7 @@ Pour déterminer la forme trigonométrique  $z=r(\cos (\theta)+i \sin(\theta))$ 
 
 
  
-<!-- ## Module argument et opérations avec les nombres complexes
+## Module argument et opérations avec les nombres complexes
 
 Dans  les deux théorèmes qui suivent $z$ et $z'$ sont des nombres complexes.
 
@@ -239,7 +239,7 @@ et si $z\neq 0$ : $\arg\left(\dfrac{z}{z'}\right)=\arg\left(z\times \dfrac{1}{z'
 
 :::
 
-::: tip Méthode [Comment utiliser les propriétés des modules et arguments ]
+<!-- ::: tip Méthode [Comment utiliser les propriétés des modules et arguments ]
 
 **Exercice:**
 
