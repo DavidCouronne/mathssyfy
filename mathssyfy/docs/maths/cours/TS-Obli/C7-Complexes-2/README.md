@@ -419,25 +419,29 @@ on convient de noter par analogie : $\cos(\theta)+i\sin(\theta)=e^{i\theta}$.
 Tout nombre complexe de module 1 et d'argument $\theta$ peut s'écrire sous la forme :
 
 $$\cos(\theta)+i\sin(\theta)=e^{i\theta}.$$
+
 :::
 
 ::: tip Exemples
 
 
 
-1.  Placer  sur le cercle trigonométrique  les points $M_i$ d'affixes $z_i$  tels que : $z_1=e^{i\frac{\pi}{{2}}}$;  $z_2=e^{i\pi}$;  $z_3=e^{i\frac{{3}\pi}{{2}}}$;  $z_4=e^{i2\pi}$; $z_5=e^{i\frac{{2}\pi}{{3}}}$.
+1.  Placer  sur le cercle trigonométrique  les points $M_i$ d'affixes $z_i$  tels que :
+    
+    $z_1=e^{i\frac{\pi}{{2}}}$;  $z_2=e^{i\pi}$;  $z_3=e^{i\frac{3\pi}{2}}$;  $z_4=e^{i2\pi}$; 
+    $z_5=e^{i\frac{2\pi}{3}}$.
 
 2.  La forme algébrique des complexes précédents est :
 
-$z_1=e^{i\frac{\pi}{{2}}}=\cos\left(\frac{\pi}{2}\right)+i \sin\left(\frac{\pi}{2}\right)=i$;
+$z_1=e^{i\frac{\pi}{2}}=\cos\left(\frac{\pi}{2}\right) +i \sin\left(\frac{\pi}{2}\right) =i$;
 
 $z_2=e^{i\pi}=\cos(\pi)+i \sin(\pi)=-1$;
 
-$z_3=e^{i\frac{{3}\pi}{{2}}}=\cos\left(\frac{3\pi}{2}\right)+i \sin\left(\frac{3\pi}{2}\right)=-i$;
+$z_3=e^{i\frac{{3}\pi}{{2}}}=\cos\left(\frac{3\pi}{2}\right) +i \sin\left(\frac{3\pi}{2}\right) =-i$;
 
 $z_4=e^{i2\pi}=\cos(2\pi)+i \sin(2\pi)=1$;
 
-$z_5=e^{i\frac{{2}\pi}{{3}}}=\cos\left(\frac{2\pi}{3}\right)+i \sin\left(\frac{2\pi}{3}\right)=-\frac{1}{2}+i \frac{\sqrt{3}}{2}$.
+$z_5=e^{i\frac{{2}\pi}{{3}}}=\cos\left(\frac{2\pi}{3}\right) +i \sin\left(\frac{2\pi}{3}\right) =-\frac{1}{2}+i \frac{\sqrt{3}}{2}$.
 
 :::
 
