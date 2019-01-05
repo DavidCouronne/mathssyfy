@@ -524,7 +524,7 @@ a)  Déterminer la forme exponentielle du complexe $Z$.
 
 b)  Déterminer la forme algébrique du complexe $Z$. En déduire les valeurs exactes de $\cos\left(\dfrac{\pi}{12}\right)$ et $\sin\left(\dfrac{\pi}{12}\right)$.
 
-<!--**Correction**
+**Correction**
 
 1.  En employant la méthode on trouve 
 $|z_1|=2$ puis $\arg(z_1)=\dfrac{5\pi}{6}\ [2\pi]$.
