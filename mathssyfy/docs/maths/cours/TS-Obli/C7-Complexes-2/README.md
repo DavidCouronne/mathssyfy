@@ -86,7 +86,7 @@ $$
 
 :::
 
-<!--::: tip Méthode [Déterminer le module et un argument  d'un nombre complexe  ]
+::: tip Méthode [Déterminer le module et un argument  d'un nombre complexe  ]
 
 **Exercice:**
 
@@ -116,7 +116,7 @@ Or $\sin(\theta)>0$ donc $\arg(z)=\theta=\dfrac{2\pi}{3}$ $[2\pi]$.
 
 :::
 
-### Égalité de deux nombres complexes par module et argument
+<!--### Égalité de deux nombres complexes par module et argument
 
 ::: warning Théorème 
 Deux nombres complexes non nuls sont égaux si et seulement si ils ont même module et même argument.
