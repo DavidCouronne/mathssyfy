@@ -70,6 +70,7 @@ Donc  l'ensemble des points $M$ tel que $\arg(z)=-\dfrac{\pi}{3}\ [2\pi]$ est un
 :::
 
 ### Calcul algébrique du module et d'un argument
+
 ::: warning Théorème 
 Soit $z=a+i b$ un complexe.
 
@@ -140,6 +141,7 @@ La preuve résulte directement des  formules précédentes.
 ## Forme trigonométrique d'un nombre complexe
 
 ### Définition
+
 ::: warning Définition 
 Tout nombre complexe non nul peut s'écrire sous la forme
 $z=r(\cos (\theta)+i \sin(\theta))$  avec $r=|z|$ et $\theta=\arg (z)$ $[2\pi]$.
@@ -158,6 +160,7 @@ Par exemple : $z=-2\left(\cos\left(\dfrac{\pi}{6}\right)+ i \sin\left(\dfrac{\pi
 :::
 
 ### Passage d'une forme à l'autre
+
 ::: warning Théorème 
 Soit $z$ un complexe non nul. $z=a+i b=r\left(\cos (\theta)+i \sin(\theta)\right)$
 
@@ -183,8 +186,8 @@ Pour déterminer la forme trigonométrique  $z=r(\cos (\theta)+i \sin(\theta))$ 
 :::
 
 
-
-## Module, argument et opérations avec les nombres complexes
+ 
+## Module argument et opérations avec les nombres complexes
 
 Dans  les deux théorèmes qui suivent $z$ et $z'$ sont des nombres complexes.
 
