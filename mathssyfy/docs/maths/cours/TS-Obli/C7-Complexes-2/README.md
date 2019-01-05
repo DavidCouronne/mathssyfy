@@ -127,7 +127,7 @@ Deux nombres complexes non nuls sont égaux si et seulement si ils ont même mod
 La preuve résulte directement des  formules précédentes.
 :::
 
-<!-- ::: tip Remarques 
+::: tip Remarques 
 
 +  $|z|=0\ \iff\ z=0$.
 
@@ -160,7 +160,7 @@ Par exemple : $z=-2\left(\cos\left(\dfrac{\pi}{6}\right)+ i \sin\left(\dfrac{\pi
 
 :::
 
-### Passage d'une forme à l'autre
+<!-- ### Passage d'une forme à l'autre
 
 ::: warning Théorème 
 Soit $z$ un complexe non nul. $z=a+i b=r\left(\cos (\theta)+i \sin(\theta)\right)$
