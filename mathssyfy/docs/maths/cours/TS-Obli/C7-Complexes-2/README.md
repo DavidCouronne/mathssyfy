@@ -481,7 +481,7 @@ $$z_3=4\left(\cos\left(\frac{2\pi}{3}\right)+i \sin\left(\frac{2\pi}{3}\right)\r
 ### Calculs avec la notation exponentielle
 
 ::: warning Théorème 
-Pour tous nombres réels $\theta_1, \theta_2$ :
+Pour tous nombres réels $\theta_1$, $\theta_2$ :
 
 
 1.  $e^{i\theta_1}\times e^{i\theta_2} =e^{i(\theta_1+\theta_2)}$
