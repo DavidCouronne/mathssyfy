@@ -486,7 +486,7 @@ Pour tous nombres réels $\theta_1, \theta_2$ :
 
 1.  $e^{i\theta_1}\times e^{i\theta_2} =e^{i(\theta_1+\theta_2)}$
 
-2.   $\left(e^{i\theta_1}\right)^n=e^{i n\theta_1},\ \ n\in \Z$
+<!--2.   $\left(e^{i\theta_1}\right)^n=e^{i n\theta_1},\ \ n\in \Z$
 
 3.  $\dfrac{1}{e^{i\theta_1}}=e^{-i\theta_1}=\overline{e^{i\theta_1}}$
 
@@ -494,7 +494,7 @@ Pour tous nombres réels $\theta_1, \theta_2$ :
 
 :::
 
-<!--::: tip Remarques 
+::: tip Remarques 
 
 +  Ces propriétés sont admises. Elles résultent du fait que $|e^{i\theta}|=1$ et des propriétés des arguments.
 
