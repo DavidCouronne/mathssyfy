@@ -25,13 +25,13 @@ Un argument de $z$ est noté $\arg (z).$
 
 
 :::
-<!-- 
+
 ::: tip Remarque 
 
 $\arg(z)$ peut prendre une infinité de valeurs différentes : si $\theta$ est une mesure de $\arg(z)$ alors $\theta +k 2 \pi$  est une autre mesure de $\arg(z)$ pour  $k\in \Z$. On notera : $\arg(z)=\theta\ [2\pi]$ et on dit que l'argument de $z$ vaut $\theta$  «  modulo $2\pi$ » \ou  «  à $2\pi$ près  » .
 :::
 
-::: tip Exemples
+<!-- ::: tip Exemples
 
 +  $|i|=OV=1$ et $\arg (i )=\left( \overrightarrow{u} ;\overrightarrow{OV} \right)=\dfrac{\pi}{2}$.
 

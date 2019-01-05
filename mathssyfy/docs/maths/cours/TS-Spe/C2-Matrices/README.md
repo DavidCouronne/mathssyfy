@@ -2,6 +2,10 @@
 sidebar: auto
 ---
 
+<ClientOnly>
+  <ButtonBackToTop/>
+</ClientOnly>
+
 # Calcul matriciel
 
 ## Définitions et vocabulaire
