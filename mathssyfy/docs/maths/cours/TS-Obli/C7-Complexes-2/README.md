@@ -160,13 +160,12 @@ Par exemple : $z=-2\left(\cos\left(\dfrac{\pi}{6}\right)+ i \sin\left(\dfrac{\pi
 
 :::
 
-<!-- ### Passage d'une forme à l'autre
+### Passage d'une forme à l'autre
 
 ::: warning Théorème 
 Soit $z$ un complexe non nul. $z=a+i b=r\left(\cos (\theta)+i \sin(\theta)\right)$
 
 $$
-\def\arraystretch{1.8}
 \left\lbrace
 \begin{array}{rcl}
 |z|&=&\sqrt{a^2+b^2}\\
@@ -183,12 +182,12 @@ $$
 :::
 
 ::: tip Remarque 
-Pour déterminer la forme trigonométrique  $z=r(\cos (\theta)+i \sin(\theta))$ d'un complexe, on reprend la méthode 6 pour la détermination de $r$ et de $\theta$.
+Pour déterminer la forme trigonométrique  $z=r(\cos (\theta)+i \sin(\theta))$ d'un complexe, on reprend la méthode pour la détermination de $r$ et de $\theta$.
 :::
 
 
  
-## Module argument et opérations avec les nombres complexes
+<!-- ## Module argument et opérations avec les nombres complexes
 
 Dans  les deux théorèmes qui suivent $z$ et $z'$ sont des nombres complexes.
 
