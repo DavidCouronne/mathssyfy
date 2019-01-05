@@ -16,7 +16,7 @@ d'affixe $z$.
 +  On appelle **module** de $z$ la distance $OM$ (ou la norme $||\overrightarrow{w}||$). Le module de $z$ est noté $|z|.$
 
 +  Si $z\neq 0$, on appelle **argument**
-de $z$ \underline{une} mesure en radians de l'angle
+de $z$ une mesure en radians de l'angle
 $\left( \overrightarrow{u};\overrightarrow{OM}\right)$ ( ou $\left( \overrightarrow{u} ;\overrightarrow{w} \right)$).
 
 Un argument de $z$ est noté $\arg (z).$
@@ -31,7 +31,7 @@ Un argument de $z$ est noté $\arg (z).$
 $\arg(z)$ peut prendre une infinité de valeurs différentes : si $\theta$ est une mesure de $\arg(z)$ alors $\theta +k 2 \pi$  est une autre mesure de $\arg(z)$ pour  $k\in \Z$. On notera : $\arg(z)=\theta\ [2\pi]$ et on dit que l'argument de $z$ vaut $\theta$  «  modulo $2\pi$ » \ou  «  à $2\pi$ près  » .
 :::
 
-<!-- ::: tip Exemples
+::: tip Exemples
 
 +  $|i|=OV=1$ et $\arg (i )=\left( \overrightarrow{u} ;\overrightarrow{OV} \right)=\dfrac{\pi}{2}$.
 
@@ -45,7 +45,7 @@ $\arg(1+i)=\left( \overrightarrow{u} ;\overrightarrow{OM_2} \right)=\dfrac{\pi}{
 
 :::
 
-::: tip Méthode [ Déterminer un ensemble de points ]
+<!-- ::: tip Méthode [ Déterminer un ensemble de points ]
 
 **Exercice:**
 
