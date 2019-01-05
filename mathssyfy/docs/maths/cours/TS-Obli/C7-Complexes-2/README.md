@@ -496,7 +496,7 @@ Pour tous nombres r\'eels $\theta_1, \theta_2$ :
 
 ::: tip Remarques 
 
-+  Ces propriétés sont admises. Elles résultent du fait que $|e^{i\theta}|=1 $ et des propriétés des arguments.
++  Ces propriétés sont admises. Elles résultent du fait que $|e^{i\theta}|=1$ et des propriétés des arguments.
 
 +  La propriété 1) s'appelle _formule de Moivre_ quand on l'écrit sous la forme
 
