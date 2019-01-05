@@ -516,7 +516,7 @@ $z_2=e^{-i\frac{\pi}{6}} z_1^2$,
 
 $z_3= \dfrac{2z_1}{e^{-i \frac{\pi}{6}}}$.
 
-1.  Déterminer les entiers $n$ tels que $\left(-z_1\right)^n$ est un nombre r\'eel.
+1.  Déterminer les entiers $n$ tels que $\left(-z_1\right)^n$ est un nombre réel.
 
 2.  Soit  $Z=\dfrac{1+i}{\sqrt{6}+i\sqrt{2}}$ un complexe.
 
