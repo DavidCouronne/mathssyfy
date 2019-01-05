@@ -435,7 +435,7 @@ $\cos(\theta)+i\sin(\theta)=e^{i\theta}.$
 
 $z_1=e^{i\frac{\pi}{2}}=\cos\left(\frac{\pi}{2}\right) +i \sin\left(\frac{\pi}{2}\right) =i$;
 
-$z_2=e^{i\pi}=\cos(\pi)+i \sin(\pi)=-1$;
+<!--$z_2=e^{i\pi}=\cos(\pi)+i \sin(\pi)=-1$;
 
 $z_3=e^{i\frac{{3}\pi}{{2}}}=\cos\left(\frac{3\pi}{2}\right) +i \sin\left(\frac{3\pi}{2}\right) =-i$;
 
@@ -445,7 +445,7 @@ $z_5=e^{i\frac{{2}\pi}{{3}}}=\cos\left(\frac{2\pi}{3}\right) +i \sin\left(\frac{
 
 :::
 
-<!--### Cas général
+### Cas général
 
 ::: warning Définition 
 Tout complexe $z\neq 0$  s'\'ecrit sous la forme $z=re^{i\theta}$ avec $r=|z|$ et $\theta\equiv \arg(z) [2\pi].$
