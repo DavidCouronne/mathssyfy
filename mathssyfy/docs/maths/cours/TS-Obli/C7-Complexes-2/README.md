@@ -496,17 +496,15 @@ Pour tous nombres r\'eels $\theta_1, \theta_2$ :
 
 ::: tip Remarques 
 
-+  Ces propriétés sont admises.
-Elles résultent du fait que $|e^{i\theta}|=1 $ et des propriétés des arguments.
++  Ces propriétés sont admises. Elles résultent du fait que $|e^{i\theta}|=1 $ et des propriétés des arguments.
 
-+  La propriété 
-1) s'appelle _formule de Moivre_ quand on l'écrit sous la forme
++  La propriété 1) s'appelle _formule de Moivre_ quand on l'écrit sous la forme
 
-$(\cos \theta + i\sin \theta)^n = \cos(n\theta)+i\sin(n\theta), n\in\Z$
+$$(\cos \theta + i\sin \theta)^n = \cos(n\theta)+i\sin(n\theta), n\in\Z$$
 
 :::
 
-::: tip Méthode [Utilisation de la forme exponentielle ]
+<!--::: tip Méthode [Utilisation de la forme exponentielle ]
 
 **Exercice:**
 
@@ -526,7 +524,7 @@ a)  Déterminer la forme exponentielle du complexe $Z$.
 
 b)  Déterminer la forme algébrique du complexe $Z$. En déduire les valeurs exactes de $\cos\left(\dfrac{\pi}{12}\right)$ et $\sin\left(\dfrac{\pi}{12}\right)$.
 
-<!--**Correction**
+**Correction**
 
 1.  En employant la méthode 6 on trouve 
 $|z_1|=2$ puis $\arg(z_1)=\dfrac{5\pi}{6}\ [2\pi]$.
