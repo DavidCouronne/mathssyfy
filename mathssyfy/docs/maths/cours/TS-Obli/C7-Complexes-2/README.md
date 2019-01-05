@@ -445,12 +445,12 @@ $z_5=e^{i\frac{2\pi}{3}}=\cos\left(\frac{2\pi}{3}\right) +i \sin\left(\frac{2\pi
 
 :::
 
-<!--### Cas général
+### Cas général
 
 ::: warning Définition 
-Tout complexe $z\neq 0$  s'\'ecrit sous la forme $z=re^{i\theta}$ avec $r=|z|$ et $\theta\equiv \arg(z) [2\pi].$
+Tout complexe $z\neq 0$  s'écrit sous la forme $z=re^{i\theta}$ avec $r=|z|$ et $\theta\equiv \arg(z) [2\pi].$
 
-Cette \'ecriture est appel\'ee  «  **forme exponentielle du complexe** $z$ » .
+Cette écriture est appelée  «  **forme exponentielle du complexe** $z$ » .
 
 Réciproque : Si $z\in \C^*$ et $z=re^{i\theta}$ avec $r>0$ alors $r=|z|$ et $\theta=\arg(z) [2\pi].$
 :::
@@ -458,10 +458,10 @@ Réciproque : Si $z\in \C^*$ et $z=re^{i\theta}$ avec $r>0$ alors $r=|z|$ et $\t
 ::: tip Remarque 
 Pour déterminer la forme exponentielle d'un complexe $z$, on reprend la
 
-méthode 6 pour la détermination de $r$ et de $\theta$.
+méthode  pour la détermination de $r$ et de $\theta$.
 :::
 
-::: tip Exemples
+<!--::: tip Exemples
 
 1.  Déterminons la forme exponentielle de $z_1=-2i$ et
 $z_2=1+i$.
