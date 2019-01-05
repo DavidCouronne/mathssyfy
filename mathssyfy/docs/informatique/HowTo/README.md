@@ -15,6 +15,8 @@ pandoc -s file.tex -o file.md
 Cette conversion automatique en prend pas en compte les figures (pstricks/TikZ) et les packages personnalisés.
 :::
 
+Les articles mathématiques de ce site utilisent un convertisseur LaTeX vers Markdown: [latexconvertmd](https://loving-booth-d9d454.netlify.com/)
+
 ## Installer pipenv
 
 En ligne de commande avec privilèges administrateur:
