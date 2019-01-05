@@ -45,7 +45,7 @@ $\arg(1+i)=\left( \overrightarrow{u} ;\overrightarrow{OM_2} \right)=\dfrac{\pi}{
 
 :::
 
-<!-- ::: tip Méthode [ Déterminer un ensemble de points ]
+::: tip Méthode [ Déterminer un ensemble de points ]
 
 **Exercice:**
 
@@ -69,7 +69,7 @@ Donc  l'ensemble des points $M$ tel que $\arg(z)=-\dfrac{\pi}{3}\ [2\pi]$ est un
 
 :::
 
-### Calcul algébrique du module et d'un argument
+<!-- ### Calcul algébrique du module et d'un argument
 
 ::: warning Théorème 
 Soit $z=a+i b$ un complexe.
