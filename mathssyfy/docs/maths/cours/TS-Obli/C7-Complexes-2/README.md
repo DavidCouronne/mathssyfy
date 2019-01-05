@@ -401,7 +401,7 @@ Donc $\left( \overrightarrow{BA} ;\overrightarrow{BC} \right)=\arg\left(\dfrac{z
 
 :::
 
-<!-- ## Forme exponentielle
+## Forme exponentielle
 
 Soit $f$ la fonction définie sur $\R$ par : $f(\theta)=\cos(\theta)+i \sin(\theta)$.
 
@@ -473,7 +473,7 @@ $$z_3=4\left(\cos\left(\frac{2\pi}{3}\right)+i \sin\left(\frac{2\pi}{3}\right)\r
 
 :::
 
-### Calculs avec la notation exponentielle
+<!-- ### Calculs avec la notation exponentielle
 
 ::: warning Théorème 
 Pour tous nombres r\'eels $\theta_1, \theta_2$ :
