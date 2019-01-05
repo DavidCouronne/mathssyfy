@@ -539,7 +539,7 @@ et
 $$z_3=\dfrac{2\times2e^{i\frac{{5}\pi}{{6}}}}{5e^{-i\frac{{5}\pi}{{6}}}}=\dfrac{4}{5}
 e^{i\left(\frac{5\pi}{6}+\frac{\pi}{6}\right)}=\dfrac{4}{5}e^{i\pi}=-\dfrac{4}{5}.$$
 
-2.  $z_1=2e^{-i\frac{\pi}{{6}}}$ et donc  
+<!-- 2.  $z_1=2e^{-i\frac{\pi}{{6}}}$ et donc  
 $$\left(-z_1\right)^n=\left(2 e^{i\frac{-\pi}{6}}\right)^n=2^n
 e^{i\frac{{-n}\pi}{{6}}}.$$
 
@@ -565,7 +565,7 @@ D'où : $\dfrac{1}{2}\left(\cos\left(\frac{\pi}{12}\right)+i \sin\left(\frac{\pi
 
 On en déduit : $\cos\left(\frac{\pi}{12}\right)=\dfrac{\sqrt{6}+\sqrt{2}}{4}$ et $\sin\left(\frac{\pi}{12}\right)=\dfrac{\sqrt{6}-\sqrt{2}}{4}$.
 
-:::
+::: -->
 
 ::: tip Remarque 
 
@@ -573,4 +573,3 @@ La notation exponentielle permet de retrouver les formules d'addition pour le co
 
 :::
 
-  -->
