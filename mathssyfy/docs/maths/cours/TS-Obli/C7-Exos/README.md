@@ -783,7 +783,7 @@ Dans le plan complexe on considère le point $A$ d'affixe $z_{A}=\sqrt{3}-i$. On
 
 4.  Donner un procédé de  construction géométrique permettant de construire facilement le point d'affixe $z'$ à partir du point d'affixe $z$.
 :::
-<!--::: tip Exercice 49 [Les formules d'Euler]
+::: tip Exercice 49 [Les formules d'Euler]
 Soit $\theta\in\mathbb{R}$
 
 1.  En utilisant la forme trigonométrique, montrer que
@@ -795,8 +795,8 @@ $$\begin{matrix}
 $$\begin{matrix}
 \sin\theta = \frac{e^{i\theta}-e^{-i\theta}}{2i}.
 \end{matrix}$$
-
-::: tip Exercice 50 
+:::
+<!--::: tip Exercice 50 
 En utilisant les formules d'Euler , établir les identités suivantes :
 
 1.  $\cos^2(\theta) = \frac{1+\cos 2\theta}{2}$
