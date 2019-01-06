@@ -735,8 +735,8 @@ Effectuer les calculs suivants. Donner le résultat sous forme exponentielle
 3.  $e^{i\frac{\pi}{6}}+e^{i\frac{\pi}{3}}$
 
 4.  $\frac{\left(e^{i\frac{\pi}{6}}\right)^2}{\left(e^{-i\pi}\right)^2}$
-
-<!--::: tip Exercice 46 
+:::
+::: tip Exercice 46 
 
 Effectuer les calculs suivants en utilisant la forme exponentielle.
 
@@ -760,13 +760,13 @@ $\frac{\sqrt{6}-i\sqrt{2}}{1+i}$
 
 2.  $\left(\frac{1+i}{1-i}\right)^3=(i)^3=-i$
 
-3.  $(1+i\sqrt{3})^2=\left(2e^{i\frac{\pi}{3}}\right)^2=4e^{i\frac{{2}\pi}{3}} $
+3.  $(1+i\sqrt{3})^2=\left(2e^{i\frac{\pi}{3}}\right)^2=4e^{i\frac{{2}\pi}{3}}$
 
 4.  $(1+i\sqrt{3})^3=\left(2e^{i\frac{\pi}{3}}\right)^3=8e^{i\pi}=-8$
 
 </Solution>
-
-::: tip Exercice 47 
+:::
+<!--::: tip Exercice 47 
 On considère le nombre complexe $z=1-i$.
 
 1.  Mettre $z$ sous forme exponentielle.
