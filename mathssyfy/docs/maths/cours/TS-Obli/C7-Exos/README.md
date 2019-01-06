@@ -521,13 +521,13 @@ Mettre les résultats des opérations suivantes sous forme exponentielle :
 
 3.  $\frac{e^{i\frac{\pi}{5}}}{e^{4}i\frac{\pi}{5}}$
 
-<!--4.  $\left(e^{{2}i\frac{\pi}{9}}\right)^2$
+4.  $\left(e^{{2}i\frac{\pi}{9}}\right)^2$
 
 5.  $\left(e^{i\frac{\pi}{3}}\right)^3$
 
 6.  $e^{-i\frac{\pi}{6}}\times e^{i\frac{\pi}{3}}$
 
-<ClientOnly><Solution>
+<!--<ClientOnly><Solution>
 
 1.  $e^{5i\frac{\pi}{6}}$
 
