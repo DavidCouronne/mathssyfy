@@ -621,11 +621,11 @@ $$\begin{matrix}
 
 3.  Déterminer, par deux méthodes différentes, l'écriture algébrique de $\frac{1}{\bar{z}}.$
 :::
-<!--::: tip Exercice 40 []
+::: tip Exercice 40 []
 
 On considère les nombres complexes
 $$\begin{matrix}
-z=\frac{\sqrt{6}-i\sqrt{2}}{2} \ \ \ \textnormal{et} \ \ \ \ z'=1-i
+z=\frac{\sqrt{6}-i\sqrt{2}}{2} \text{ et} z'=1-i
 \end{matrix}$$
 
 1.  Déterminer le module et un argument de $z$, $z'$ et $\frac{z}{z'}$.
@@ -641,7 +641,7 @@ $$\begin{matrix}
 \sin\frac{\pi}{12}=\frac{\sqrt{6}-\sqrt{2}}{4}.
 \end{matrix}$$
 
-<ClientOnly><Solution>
+<!--<ClientOnly><Solution>
 
 1.  On a $|z|= \frac{|\sqrt{6}-i\sqrt{2}|}{2}=\frac{\sqrt{8}}{2}=\sqrt{2}$. On en déduit que $z=\sqrt{2}\left(\frac{\sqrt{6}}{\sqrt{2}}-i\frac{1}{2}\right)=\sqrt{2}\left(\frac{\sqrt{3}}{2}-\frac{1}{2}i\right).$ Ce qui donne l'écriture trigonométrique de $z$. On en déduit $|z|=\sqrt{2}$ et $\arg(z)=-\frac{\pi}{6}.$
 
