@@ -753,7 +753,7 @@ Effectuer les calculs suivants en utilisant la forme exponentielle.
 6.  $\frac{1+i\sqrt{3}}{\sqrt{3}-i}$
 $\frac{\sqrt{6}-i\sqrt{2}}{1+i}$
 
-<ClientOnly><Solution>
+<!-- <ClientOnly><Solution>
 
 1.  $\frac{1+i}{1-i}=\frac{\sqrt{2}e^{i\frac{\pi}{4}}}{\sqrt{2}e^{{-}i\frac{\pi}{4}}}
 =e^{i\frac{\pi}{2}}=i$
@@ -764,7 +764,7 @@ $\frac{\sqrt{6}-i\sqrt{2}}{1+i}$
 
 4.  $(1+i\sqrt{3})^3=\left(2e^{i\frac{\pi}{3}}\right)^3=8e^{i\pi}=-8$
 
-</Solution>
+</Solution> -->
 :::
 <!--::: tip Exercice 47 
 On considère le nombre complexe $z=1-i$.
