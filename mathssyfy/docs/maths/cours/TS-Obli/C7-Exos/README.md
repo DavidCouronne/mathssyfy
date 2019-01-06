@@ -1,8 +1,9 @@
 ---
 sidebar: auto
+title: Exercices Complexes Partie 2
 ---
 
-# Complexes - Partie 2
+# Exercices Complexes - Partie 2
 
 ## Module et argument
 ::: tip Exercice 1 [ ]
@@ -598,7 +599,7 @@ Donner une valeur approchée au centième d'un argument de chacun des nombres co
 
 4.  $-3-i$
 :::
-<!--::: tip Exercice 38 
+::: tip Exercice 38 
 On considère le nombre complexe $z= \frac{2}{1-i}$.
 
 1.  Déterminer sa forme trigonométrique de deux façons différentes.
@@ -606,14 +607,12 @@ On considère le nombre complexe $z= \frac{2}{1-i}$.
 2.  En déduire que  $z^8$ est un nombre réel.
 
 3.  Généraliser le calcul précédent.
-
+:::
 ::: tip Exercice 39 
 On considère un nombre complexe $z$ tel que
 $$\begin{matrix}
-\begin{cases}
 |z| &= 2\\
 \arg(z) & =\frac{5\pi}{6}
-\end{cases}
 \end{matrix}$$
 
 1.  Déterminer les écritures trigonométriques et algébriques de $z$.
@@ -621,8 +620,8 @@ $$\begin{matrix}
 2.  Déterminer l'écriture algébrique de $\frac{1}{z}.$
 
 3.  Déterminer, par deux méthodes différentes, l'écriture algébrique de $\frac{1}{\bar{z}}.$
-
-::: tip Exercice 40 []
+:::
+<!--::: tip Exercice 40 []
 
 On considère les nombres complexes
 $$\begin{matrix}
