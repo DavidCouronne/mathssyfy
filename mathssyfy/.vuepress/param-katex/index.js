@@ -160,6 +160,8 @@ module.exports = function math_plugin(md, options) {
     // set KaTeX as the renderer for markdown-it-simplemath
     var katexInline = function(latex){
         options.displayMode = false;
+        options.throwOnError = false;
+        
         try{
             return katex.renderToString(latex, options);
         }
