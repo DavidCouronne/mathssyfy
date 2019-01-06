@@ -755,7 +755,7 @@ $\frac{\sqrt{6}-i\sqrt{2}}{1+i}$
 
  <ClientOnly><Solution>
 
-1.  $\frac{1+i}{1-i}=\frac{\sqrt{2}e^{i\frac{\pi}{4}}}{\sqrt{2}e^{{-}i\frac{\pi}{4}}}=e^{i\frac{\pi}{2}}=i$
+1.  $\frac{1+i}{1-i}=\frac{\sqrt{2}e^{i\frac{\pi}{4}}}{\sqrt{2}e^{-i\frac{\pi}{4}}}=e^{i\frac{\pi}{2}}=i$
 
 2.  $\left(\frac{1+i}{1-i}\right)^3=(i)^3=-i$
 
