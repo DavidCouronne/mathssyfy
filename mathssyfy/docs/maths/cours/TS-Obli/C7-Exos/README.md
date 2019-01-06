@@ -524,22 +524,22 @@ Mettre les résultats des opérations suivantes sous forme exponentielle :
 4.  $\left(e^{2i\frac{\pi}{9}}\right)^2$
 
 
-<!-- <ClientOnly><Solution>
+<ClientOnly><Solution>
 
-1.  $e^{5i\frac{\pi}{6}}$
+5.  $e^{5i\frac{\pi}{6}}$
 
-2.  $e^{-i\frac{\pi}{7}}$
+6.  $e^{-i\frac{\pi}{7}}$
 
-3.  $e^{-3i\frac{\pi}{5}}$
+7.  $e^{-3i\frac{\pi}{5}}$
 
-4.  $e^{4i\frac{\pi}{9}}$
+8.  $e^{4i\frac{\pi}{9}}$
 
 
-</Solution> -->
+</Solution>
 :::
 
 
-<!--## Forme trigonométrique
+## Forme trigonométrique
 ::: tip Exercice 34 
 Donner la forme trigonométrique des nombres complexes suivants :
 
@@ -579,7 +579,7 @@ Donner la forme algébrique des nombres complexes suivants :
 
 7.  $\cos\left(\frac{7\pi}{6}\right)+i\sin\left(\frac{7\pi}{6}\right)$
 
-::: tip Exercice 36 [Question ouverte]
+<!--::: tip Exercice 36 [Question ouverte]
 On considère les points suivants dans le plan complexe
 
 ![Image](./figure1.svg)
