@@ -509,7 +509,7 @@ $|z_3|=\sqrt{2}$ et $\arg(z_3)=\frac{3\pi}{2}$.
 
 </Solution>
 
-::: Exercice 32 
+<!--::: Exercice 32 
 Mettre les résultats des opérations suivantes sous forme exponentielle :
 
 1.  $e^{{\scriptstyle2i} \textstyle \frac{\pi}{6}} \times e^{{\scriptstyle 3i}\frac{\pi}{6}}$
@@ -739,7 +739,7 @@ Effectuer les calculs suivants. Donner le résultat sous forme exponentielle
 
 4.  $\frac{\left(e^{i\frac{\pi}{{6}}}\right)^2}{\left(e^{-i\pi}\right)^2}$
 
-<!-- ::: Exercice 46 [ ]
+::: Exercice 46 [ ]
 
 Effectuer les calculs suivants en utilisant la forme exponentielle.
 
