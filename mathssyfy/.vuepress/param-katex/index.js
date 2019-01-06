@@ -177,6 +177,7 @@ module.exports = function math_plugin(md, options) {
 
     var katexBlock = function(latex){
         options.displayMode = true;
+        options.throwOnError = false;
         try{
             return "<p>" + katex.renderToString(latex, options) + "</p>";
         }
