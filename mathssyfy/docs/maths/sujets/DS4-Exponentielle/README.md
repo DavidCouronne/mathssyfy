@@ -1,5 +1,6 @@
 ---
 sidebar: auto
+author: David Couronné
 ---
 
 # Devoir surveillé 4

@@ -1,6 +1,7 @@
 ---
 sidebar: auto
 title: Exercices Complexes Partie 2
+author: David Couronné
 ---
 
 # Exercices Complexes - Partie 2

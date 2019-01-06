@@ -1,3 +1,6 @@
+---
+author: David Couronné
+---
 # Corrigé du baccalauréat S -- Nouvelle Calédonie
 27 novembre 2018
 

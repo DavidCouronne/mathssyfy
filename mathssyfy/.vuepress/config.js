@@ -19,6 +19,14 @@ ga: 'UA-131298008-1',
 
 
   themeConfig: {
+    serviceWorker: {
+      updatePopup: true // Boolean | Object, default to undefined.
+      // If set to true, the default text config will be: 
+      // updatePopup: { 
+      //    message: "New content is available.", 
+      //    buttonText: "Refresh" 
+      // }
+    },
     repo: 'DavidCouronne/mathssyfy',
     docsDir: 'mathssyfy',
     editLinks: true,

@@ -1,5 +1,6 @@
 ---
 title: Nouvelle Calédonie 27 novembre 2018
+author: David Couronné
 ---
 
 <ClientOnly>
