@@ -11,7 +11,7 @@ for rendering output.
 'use strict';
 
 var katex = require('katex');
-const macroskatex = require('./macroskatex');
+const { macroskatex }= require('./macroskatex');
 // Test if potential opening or closing delimieter
 // Assumes that there is a "$" at state.src[pos]
 function isValidDelim(state, pos) {
