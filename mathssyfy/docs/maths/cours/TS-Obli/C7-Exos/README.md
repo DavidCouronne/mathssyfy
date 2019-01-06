@@ -510,7 +510,7 @@ $|z_3|=\sqrt{2}$ et $\arg(z_3)=\frac{3\pi}{2}$.
 
 </Solution>
 :::
-::: tip Exercice 32 
+<!--::: tip Exercice 32 
 Mettre les résultats des opérations suivantes sous forme exponentielle :
 
 1.  $e^{{\scriptstyle2i} \textstyle \frac{\pi}{6}} \times e^{{\scriptstyle 3i}\frac{\pi}{6}}$
@@ -543,7 +543,7 @@ Mettre les résultats des opérations suivantes sous forme exponentielle :
 :::
 
 
-<!--## Forme trigonométrique
+## Forme trigonométrique
 ::: tip Exercice 34 
 Donner la forme trigonométrique des nombres complexes suivants :
 
