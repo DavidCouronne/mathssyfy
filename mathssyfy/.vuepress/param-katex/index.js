@@ -179,7 +179,7 @@ module.exports = function math_plugin(md, options) {
         options.displayMode = true;
         options.throwOnError = false;
         options.macros = {
-            "\\RR": "\\mathbb{R}"
+            "\\RR": "hop"
           };
         try{
             return "<p>" + katex.renderToString(latex, options) + "</p>";
