@@ -515,7 +515,7 @@ $|z_3|=\sqrt{2}$ et $\arg(z_3)=\frac{3\pi}{2}$.
 ::: tip Exercice 32 
 Mettre les résultats des opérations suivantes sous forme exponentielle :
 
-1.  $e^{2i\frac{\pi}{6}}\times e^{ 3i\frac{\pi}{6}}$
+1.  $e^{2i\frac{\pi}{6}}\times e^{3i\frac{\pi}{6}}$
 
 <!--2.  $\frac{1}{e^{i\frac{\pi}{7}}}$
 
