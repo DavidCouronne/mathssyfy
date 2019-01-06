@@ -14,6 +14,7 @@ var katex = require('katex');
 const macroskatex = {
     "\\RR": "\\mathbb{R}"
 };
+const { newcommand } = require('./macroskatex')
 
 
 // Test if potential opening or closing delimieter
@@ -166,7 +167,7 @@ module.exports = function math_plugin(md, options) {
         options.displayMode = false;
         options.throwOnError = false;
         options.macros = macroskatex;
-        latex = "\\N " + latex;
+        latex = newcommand + latex;
         
         try{
             return katex.renderToString(latex, options);
