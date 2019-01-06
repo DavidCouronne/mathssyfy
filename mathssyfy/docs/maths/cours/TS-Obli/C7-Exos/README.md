@@ -558,6 +558,7 @@ Donner la forme trigonométrique des nombres complexes suivants :
 7.  $\frac{1}{2} + \frac{i}{2}$
 
 8.  $\frac{1}{3} - \frac{i}{3}$
+:::
 
 ::: tip Exercice 35 
 
@@ -578,14 +579,14 @@ Donner la forme algébrique des nombres complexes suivants :
 
 
 7.  $\cos\left(\frac{7\pi}{6}\right)+i\sin\left(\frac{7\pi}{6}\right)$
-
-<!--::: tip Exercice 36 [Question ouverte]
+:::
+::: tip Exercice 36 [Question ouverte]
 On considère les points suivants dans le plan complexe
 
 ![Image](./figure1.svg)
 
 Déterminer une écriture sous forme  trigonométrique des affixes des points $A$, $B$, $C$ et $D$.
-
+:::
 ::: tip Exercice 37 
 Donner une valeur approchée au centième d'un argument de chacun des nombres complexes suivants :
 
@@ -596,8 +597,8 @@ Donner une valeur approchée au centième d'un argument de chacun des nombres co
 3.  $-2 + i$
 
 4.  $-3-i$
-
-::: tip Exercice 38 
+:::
+<!--::: tip Exercice 38 
 On considère le nombre complexe $z= \frac{2}{1-i}$.
 
 1.  Déterminer sa forme trigonométrique de deux façons différentes.
