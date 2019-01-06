@@ -759,7 +759,7 @@ $\frac{\sqrt{6}-i\sqrt{2}}{1+i}$
 
 2.  $\left(\frac{1+i}{1-i}\right)^3=(i)^3=-i$
 
-3.  $(1+i\sqrt{3})^2=\left(2e^{i\frac{\pi}{3}}\right)^2=4e^{i\frac{{2}\pi}{3}}$
+3.  $(1+i\sqrt{3})^2=\left(2e^{i\frac{\pi}{3}}\right)^2=4e^{i\frac{2\pi}{3}}$
 
 4.  $(1+i\sqrt{3})^3=\left(2e^{i\frac{\pi}{3}}\right)^3=8e^{i\pi}=-8$
 
