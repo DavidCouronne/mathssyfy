@@ -739,7 +739,7 @@ Effectuer les calculs suivants. Donner le résultat sous forme exponentielle
 
 4.  $\frac{\left(e^{i\frac{\pi}{{6}}}\right)^2}{\left(e^{-i\pi}\right)^2}$
 
-::: Exercice 46 [ ]
+<!-- ::: Exercice 46 [ ]
 
 Effectuer les calculs suivants en utilisant la forme exponentielle.
 
@@ -828,4 +828,4 @@ $$z_{\theta}=1+e^{i\theta}.$$
 2.  En déduire le module et l'argument de $z_{\theta}$ en fonction de $\theta$ pour $\theta \in ]-\pi;\pi]$.
 
 3.  Démontrer que tous les points $M_{\theta}$ d'affixe $z_{\theta}$ se trouve sur le cercle de centre $A(1)$ et rayon 1.
-
+ -->
