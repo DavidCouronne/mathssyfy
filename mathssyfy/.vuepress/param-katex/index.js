@@ -14,7 +14,7 @@ var katex = require('katex');
 const macroskatex = {
     "\\RR": "\\mathbb{R}"
 };
-const { newcommand } = require('./macroskatex')
+const newcommand = "\\N ";
 
 
 // Test if potential opening or closing delimieter
