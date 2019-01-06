@@ -36,7 +36,7 @@ ga: 'UA-131298008-1',
       { text: 'Ressources Dev', link: '/docs/informatique/HowTo/' },
       { text: 'Vuepress', link: '/docs/informatique/Vuepress/'},
       { text: 'Cours Maths', link: '/docs/maths/cours/' },
-      { text: 'Sujets Bac', link: '/docs/maths/sujets/'},    
+      { text: 'Sujets Maths', link: '/docs/maths/sujets/'},    
     ],
     sidebar: {
       '/docs/maths/sujets/2018-nvellecaledonie/': [
