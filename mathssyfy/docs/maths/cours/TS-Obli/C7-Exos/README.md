@@ -517,9 +517,9 @@ Mettre les résultats des opérations suivantes sous forme exponentielle :
 
 1.  $e^{2i\frac{\pi}{6}}\times e^{3i\frac{\pi}{6}}$
 
-<!--2.  $\frac{1}{e^{i\frac{\pi}{7}}}$
+2.  $\frac{1}{e^{i\frac{\pi}{7}}}$
 
-3.  $\frac{e^{i\frac{\pi}{5}}}{e^{4}i\frac{\pi}{5}}$
+<!--3.  $\frac{e^{i\frac{\pi}{5}}}{e^{4}i\frac{\pi}{5}}$
 
 4.  $\left(e^{{2}i\frac{\pi}{9}}\right)^2$
 
