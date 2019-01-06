@@ -676,7 +676,7 @@ Mettre les nombres complexes suivants sous forme exponentielle :
 
 8.  $2 + 2i\sqrt{3}$
 :::
-<!--::: tip Exercice 42 
+::: tip Exercice 42 
 Mettre les nombres complexes suivants sous forme exponentielle :
 
 1.  $1 + i$
@@ -694,7 +694,7 @@ Mettre les nombres complexes suivants sous forme exponentielle :
 7.  $\frac{i -1}{1+i}$
 
 8.  $i\sqrt{2}$
-
+:::
 ::: tip Exercice 43 
 Mettre les nombres complexes suivants sous forme algébrique :
 
@@ -709,7 +709,7 @@ Mettre les nombres complexes suivants sous forme algébrique :
 5.  $e^{i\frac{\pi}{2}}$
 
 6.  $\frac{1}{2}e^{i\frac{\pi}{3}}$
-
+:::
 ::: tip Exercice 44 
 Effectuer les calculs suivants. Donner le résultat sous forme exponentielle
 
@@ -724,8 +724,8 @@ Effectuer les calculs suivants. Donner le résultat sous forme exponentielle
 5.  $\frac{2e^{i\frac{\pi}{2}}}{e^{i\pi}}$
 
 6.  $\frac{e^{i\pi}}{e^{i\frac{\pi}{6}}}$
-
-::: tip Exercice 45 
+:::
+<!--::: tip Exercice 45 
 Effectuer les calculs suivants. Donner le résultat sous forme exponentielle
 
 1.  $\frac{8e^{i\frac{{4}\pi}{{3}}}\times \frac{1}{2}e^{i\frac{\pi}{{6}}}}{e^{i\frac{\pi}{{3}}}}$
