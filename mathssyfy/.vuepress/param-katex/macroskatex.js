@@ -1,4 +1,4 @@
 const newcommand = "\\newcommand{\\RR}{\\mathbb{R}}";
 newcommand = "\\N ";
-export const macroskatex = newcommand;
+export const newcommand = "\\N ";
 
