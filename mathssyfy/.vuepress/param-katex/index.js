@@ -11,7 +11,9 @@ for rendering output.
 'use strict';
 
 var katex = require('katex');
-const { macroskatex }= require('./macroskatex');
+const macroskatex = {
+    "\\RR": "\\mathbb{R}"
+};
 
 
 // Test if potential opening or closing delimieter
