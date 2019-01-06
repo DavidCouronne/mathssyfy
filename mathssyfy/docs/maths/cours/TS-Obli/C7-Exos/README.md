@@ -753,9 +753,9 @@ Effectuer les calculs suivants en utilisant la forme exponentielle.
 6.  $\frac{1+i\sqrt{3}}{\sqrt{3}-i}$
 $\frac{\sqrt{6}-i\sqrt{2}}{1+i}$
 
-<!-- <ClientOnly><Solution>
+ <ClientOnly><Solution>
 
-1.  $\frac{1+i}{1-i}=\frac{\sqrt{2}e^{i\frac{\pi}{4}}}{\sqrt{2}e^{{-}i\frac{\pi}{4}}}=e^{i\frac{\pi}{2}}=i$
+<!-- 1.  $\frac{1+i}{1-i}=\frac{\sqrt{2}e^{i\frac{\pi}{4}}}{\sqrt{2}e^{{-}i\frac{\pi}{4}}}=e^{i\frac{\pi}{2}}=i$ -->
 
 2.  $\left(\frac{1+i}{1-i}\right)^3=(i)^3=-i$
 
@@ -763,7 +763,7 @@ $\frac{\sqrt{6}-i\sqrt{2}}{1+i}$
 
 4.  $(1+i\sqrt{3})^3=\left(2e^{i\frac{\pi}{3}}\right)^3=8e^{i\pi}=-8$
 
-</Solution> -->
+</Solution>
 :::
 ::: tip Exercice 47 
 On considère le nombre complexe $z=1-i$.
@@ -814,7 +814,7 @@ Soient $a$ et $b$ deux nombres réels. On pose $z_a=e^{i a}$ et $z_b=e^{i b}$.
 $$Z=z_a \times z_b.$$
 
 2.  Calculer de deux façons la  forme algébrique de $Z$ et en déduire les formules d'addition pour $\cos(a+b)$ et $\sin(a+b).$
-
+:::
 ::: tip Exercice 52 
 Pour tout $\theta \in \R$ on considère le complexe
 $$z_{\theta}=1+e^{i\theta}.$$
@@ -824,4 +824,4 @@ $$z_{\theta}=1+e^{i\theta}.$$
 2.  En déduire le module et l'argument de $z_{\theta}$ en fonction de $\theta$ pour $\theta \in ]-\pi;\pi]$.
 
 3.  Démontrer que tous les points $M_{\theta}$ d'affixe $z_{\theta}$ se trouve sur le cercle de centre $A(1)$ et rayon 1.
- <!---->
+ 
