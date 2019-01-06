@@ -121,7 +121,7 @@ Dans chacun des cas suivants, représenter l'ensemble des points $M$ dont l'affi
 3.  $|z-2|=|z-8|$
 
 4.  $\arg(z-3i+1)= \frac{3\pi}{2}$
-
+:::
 ::: tip Exercice 8 
 Dans le plan complexe, représenter dans chacun des cas suivants les points $M$ dont l'affixe $z$ vérifie :
 
@@ -140,13 +140,13 @@ Dans le plan complexe, représenter dans chacun des cas suivants les points $M$ 
 7.  $\left| \frac{z+1}{z+2}\right|=1$
 
 8.  $\arg(i z^2)= \frac{4\pi}{3}$
-
+:::
 ::: tip Exercice 9 
 
 1.  Traduire géométriquement la condition $z\bar{z}=4$.
 
 2.  Représenter dans le plan complexe l'ensemble des points dont l'affixe $z$ est telle que $z\bar{z}=4$.
-
+:::
 ::: tip Exercice 10 
 
 1.  Traduire géométriquement la condition
@@ -158,7 +158,7 @@ $$\begin{matrix}
 
 3.  Représenter dans le plan complexe l'ensemble des points dont l'affixe $z$ vérifie
 $|z|^2 - 2Im(z) = 8.$
-
+:::
 ::: tip Exercice 11 [D'après concours Geipi-2015]
 Le plan complexe est muni d'un repère orthonormé (O; $\vec{u}$, $\vec{v}$). On considère les points $A$, $B$ d'affixes respectives : $z_A=1$ et $z_B=-\frac{1}{2}+\frac{\sqrt{3}}{2}i.$
 Soit $C$ le symétrique de $B$ par rapport à l'axe des abscisses.
@@ -178,7 +178,7 @@ e)  Quelle est la nature du triangle $ABC$ ?
 a)  Déterminer $z_I$, $z_J$ et $z_K$ et donner leurs modules.
 
 b)  En déduire $L_O=OI+OJ+OK$ en justifiant la réponse.
-
+:::
 ::: tip Exercice 12 [**ROC**]
 On rappelle les prérequis suivants :
 
@@ -191,7 +191,7 @@ enterline{$\arg(z\times z')=\arg(z)+\arg(z')\ [2\pi]$.}
 enterline{$\arg(z^n)=n\arg(z)\ [2\pi].$}
 
 2.  Déterminer un argument du complexe $z=3-3i$ et en déduire que $z^n$ est un nombre réel si et seulement si $n$ est un multiple de 4.
-
+:::
 ::: tip Exercice 13 []
 
 Soient $A,B,C,D$ quatre points du plan distincts deux à deux. On note $z_A,z_B,z_C,z_D$ leurs affixes respectives.
@@ -232,7 +232,7 @@ Par contre dans le cas c) on a bien $|z_B-z_A|=|z_B-z_C|$ donc $BA=BC$ et le tri
 </Solution>
 
 ## Forme trigonométrique
-
+:::
 ::: tip Exercice 14 
 Donner la forme trigonométrique des nombres complexes suivants
 
@@ -251,7 +251,7 @@ Donner la forme trigonométrique des nombres complexes suivants
 7.  $\frac{1}{2} + \frac{i}{2}$
 
 8.  $\frac{1}{3} - \frac{i}{3}$
-
+:::
 ::: tip Exercice 15 
 
 Donner la forme algébrique des nombres complexes suivants
@@ -271,14 +271,14 @@ Donner la forme algébrique des nombres complexes suivants
 7.  $\newcommand{\formetrigo}[2]{#1\left(\cos\left(#2\right)+i\sin\left(#2\right)\right)}\formetrigo{2}{\frac{4\pi}{3}}$
 
 8.  $\cos\left(\frac{7\pi}{6}\right)+i\sin\left(\frac{7\pi}{6}\right)$
-
+:::
 ::: tip Exercice 16 
 On considère les points suivants dans le plan complexe
 
 ![Image](./figure1.svg)
 
 Déterminer une forme trigonométrique des points $A$, $B$, $C$ et $D$.
-
+:::
 ::: tip Exercice 17 
 Donner une valeur approchée au centième d'un argument de chacun des nombres complexes suivants
 
@@ -289,7 +289,7 @@ Donner une valeur approchée au centième d'un argument de chacun des nombres co
 3.  $-2 + i$
 
 4.  $-3-i$
-
+:::
 ::: tip Exercice 18 
 On considère le nombre complexe $z= \frac{2}{1-i}$.
 
@@ -298,7 +298,7 @@ On considère le nombre complexe $z= \frac{2}{1-i}$.
 2.  En déduire que  $z^8$ est un nombre réel.
 
 3.  Généraliser le calcul précédent.
-
+:::
 ::: tip Exercice 19 
 On considère un nombre complexe $z$ tel que
 $$\begin{matrix}
@@ -313,7 +313,7 @@ $$\begin{matrix}
 2.  Déterminer l'écritre algébrique de $\frac{1}{z}$
 
 3.  Déterminer par deux méthodes différentes l'écriture algébrique de $\frac{1}{\bar{z}}$
-
+:::
 ::: tip Exercice 20 
 On considère les nombres complexes
 $$\begin{matrix}
@@ -333,7 +333,7 @@ et
 $$\begin{matrix}
 \sin\frac{\pi}{12}=\frac{\sqrt{6}-\sqrt{2}}{4}
 \end{matrix}$$
-
+:::
 ::: tip Exercice 21 [ROC]
 On rappelle les prérequis suivants :
 
@@ -348,7 +348,7 @@ $$\arg(z^n)=n\arg(z) [2\pi] $$
 2.  Déterminer un argument du complexe $z=3-3i$ et en déduire que $z^n$ est un nombre réel si et seulement si $n$ est un multiple de 4.
 
 ## Forme exponentielle
-
+:::
 ::: tip Exercice 22 
 Mettre les nombres complexes suivants sous forme exponentielle
 
@@ -367,7 +367,7 @@ Mettre les nombres complexes suivants sous forme exponentielle
 7.  $-i$
 
 8.  $2 + 2i\sqrt{3}$
-
+:::
 ::: tip Exercice 23 
 Mettre les nombres complexes suivants sous forme exponentielle
 
@@ -386,7 +386,7 @@ Mettre les nombres complexes suivants sous forme exponentielle
 7.  $\sqrt{5} - 3i$
 
 8.  $i\sqrt{2}$
-
+:::
 ::: tip Exercice 24 
 Mettre les nombres complexes suivants sous forme algébrique
 
@@ -401,7 +401,7 @@ Mettre les nombres complexes suivants sous forme algébrique
 5.  $e^{-i\frac{\pi}{2}}$
 
 6.  $\frac{1}{2}e^{-i\frac{\pi}{3}}$
-
+:::
 ::: tip Exercice 25 
 Effectuer les calculs suivants. Donner le résultat sous forme exponentielle
 
@@ -416,7 +416,7 @@ Effectuer les calculs suivants. Donner le résultat sous forme exponentielle
 5.  $\frac{2e^{-i\frac{\pi}{2}}}{e^{i\pi}}$
 
 6.  $\frac{e^{i\pi}}{e^{i\frac{\pi}{6}}}$
-
+:::
 ::: tip Exercice 26 
 Effectuer les calculs suivants. Donner le résultat sous forme exponentielle
 
@@ -427,7 +427,7 @@ Effectuer les calculs suivants. Donner le résultat sous forme exponentielle
 3.  $e^{i\frac{\pi}{6}}+e^{i\frac{\pi}{3}}$
 
 4.  $\frac{\left(e^{i\frac{\pi}{6}}\right)^2}{\left(e^{-i\pi}\right)^2}$
-
+:::
 ::: tip Exercice 27 
 Effectuer les calculs suivants en utilisant la forme exponentielle.
 
@@ -443,7 +443,7 @@ Effectuer les calculs suivants en utilisant la forme exponentielle.
 
 6.  $\frac{1+i\sqrt{3}}{\sqrt{3}-i}$
 $\frac{\sqrt{6}-i\sqrt{2}}{1+i}$
-
+:::
 ::: tip Exercice 28 [Les formules d'Euler]
 Soit $\theta\in\mathbb{R}$
 
@@ -456,7 +456,7 @@ $$\begin{matrix}
 $$\begin{matrix}
 \sin\theta = \frac{e^{i\theta}-e^{-i\theta}}{2i}
 \end{matrix}$$
-
+:::
 ::: tip Exercice 29 
 En utilisant les formule d'Euler , établir les identités suivantes
 
@@ -469,7 +469,7 @@ En utilisant les formule d'Euler , établir les identités suivantes
 4.  $\cos(\theta)^3 = \frac{3\cos\theta-\cos 3\theta}{4}$
 
 
-
+:::
 ::: tip Exercice 31 
 Pour chacun des nombres complexes suivants, dire s'il est sous forme trigonométrique et déterminer, si c'est le cas, son module et son argument.
 
@@ -509,7 +509,7 @@ $|z_3|=\sqrt{2}$ et $\arg(z_3)=\frac{3\pi}{2}$.
 8.  $z_8$ est sous forme trigonométrique et on a $|z_8|=\frac{3}{2}$ et $\arg(z_8)=\frac{\pi}{3}$.
 
 </Solution>
-
+:::
 ::: tip Exercice 32 
 Mettre les résultats des opérations suivantes sous forme exponentielle :
 
@@ -540,7 +540,7 @@ Mettre les résultats des opérations suivantes sous forme exponentielle :
 6.  $e^{\frac{\pi}{6}}$
 
 </Solution>
-
+:::
 
 
 <!--## Forme trigonométrique
