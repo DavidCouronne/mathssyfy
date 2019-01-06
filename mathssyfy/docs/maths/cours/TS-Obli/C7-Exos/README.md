@@ -755,8 +755,7 @@ $\frac{\sqrt{6}-i\sqrt{2}}{1+i}$
 
 <!-- <ClientOnly><Solution>
 
-1.  $\frac{1+i}{1-i}=\frac{\sqrt{2}e^{i\frac{\pi}{4}}}{\sqrt{2}e^{{-}i\frac{\pi}{4}}}
-=e^{i\frac{\pi}{2}}=i$
+1.  $\frac{1+i}{1-i}=\frac{\sqrt{2}e^{i\frac{\pi}{4}}}{\sqrt{2}e^{{-}i\frac{\pi}{4}}}=e^{i\frac{\pi}{2}}=i$
 
 2.  $\left(\frac{1+i}{1-i}\right)^3=(i)^3=-i$
 
@@ -766,13 +765,13 @@ $\frac{\sqrt{6}-i\sqrt{2}}{1+i}$
 
 </Solution> -->
 :::
-<!--::: tip Exercice 47 
+::: tip Exercice 47 
 On considère le nombre complexe $z=1-i$.
 
 1.  Mettre $z$ sous forme exponentielle.
 
 2.  Démontrer que pour tout entier naturel $n$ multiple de $4$, $z^n$ est un nombre entier pair.
-
+:::
 ::: tip Exercice 48 
 Dans le plan complexe on considère le point $A$ d'affixe $z_{A}=\sqrt{3}-i$. On pose $r=e^{i \frac{\pi}{3}}$.
 
@@ -783,8 +782,8 @@ Dans le plan complexe on considère le point $A$ d'affixe $z_{A}=\sqrt{3}-i$. On
 3.  Plus généralement pour un complexe $z$ quelconque, on considère le complexe $z'=r\times z$. Déterminer le module et un argument de $z'$ en fonction de ceux de $z$.
 
 4.  Donner un procédé de  construction géométrique permettant de construire facilement le point d'affixe $z'$ à partir du point d'affixe $z$.
-
-::: tip Exercice 49 [Les formules d'Euler]
+:::
+<!--::: tip Exercice 49 [Les formules d'Euler]
 Soit $\theta\in\mathbb{R}$
 
 1.  En utilisant la forme trigonométrique, montrer que
