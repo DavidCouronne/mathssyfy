@@ -230,9 +230,10 @@ le triangle $ABC$ est rectangle en $B.$
 Par contre dans le cas c) on a bien $|z_B-z_A|=|z_B-z_C|$ donc $BA=BC$ et le triangle est isocèle en $B$.
 
 </Solution>
+:::
 
 ## Forme trigonométrique
-:::
+
 ::: tip Exercice 14 
 Donner la forme trigonométrique des nombres complexes suivants
 
@@ -346,9 +347,10 @@ $$\begin{matrix}
 $$\arg(z^n)=n\arg(z) [2\pi] $$
 
 2.  Déterminer un argument du complexe $z=3-3i$ et en déduire que $z^n$ est un nombre réel si et seulement si $n$ est un multiple de 4.
+:::
 
 ## Forme exponentielle
-:::
+
 ::: tip Exercice 22 
 Mettre les nombres complexes suivants sous forme exponentielle
 
@@ -510,10 +512,10 @@ $|z_3|=\sqrt{2}$ et $\arg(z_3)=\frac{3\pi}{2}$.
 
 </Solution>
 :::
-<!--::: tip Exercice 32 
+::: tip Exercice 32 
 Mettre les résultats des opérations suivantes sous forme exponentielle :
 
-1.  $e^{{\scriptstyle2i} \textstyle \frac{\pi}{6}} \times e^{{\scriptstyle 3i}\frac{\pi}{6}}$
+1.  $e^{2i  \frac{\pi}{6}} \times e^{ 3i\frac{\pi}{6}}$
 
 2.  $\frac{1}{e^{i\frac{\pi}{7}}}$
 
@@ -521,11 +523,11 @@ Mettre les résultats des opérations suivantes sous forme exponentielle :
 
 4.  $\left(e^{{2}i\frac{\pi}{9}}\right)^2$
 
-5.  $\left(e^{i\frac{\pi}{{3}}}\right)^3$
+5.  $\left(e^{i\frac{\pi}{3}}\right)^3$
 
-6.  $e^{-i\frac{\pi}{{6}}} \times e^{i\frac{\pi}{{3}}}$
+6.  $e^{-i\frac{\pi}{6}} \times e^{i\frac{\pi}{3}}$
 
-<ClientOnly><Solution>
+<!--<ClientOnly><Solution>
 
 1.  $e^{5i\frac{\pi}{6}}$
 
