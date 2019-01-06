@@ -18,3 +18,6 @@ sidebar: auto
 ---
 
 Les articles mathématiques utilisent un convertisseur LaTeX vers Markdown: [latexconvertmd](https://loving-booth-d9d454.netlify.com/)
+
+
+$\RR$ pour test

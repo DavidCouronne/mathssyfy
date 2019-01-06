@@ -178,6 +178,9 @@ module.exports = function math_plugin(md, options) {
     var katexBlock = function(latex){
         options.displayMode = true;
         options.throwOnError = false;
+        options.macros = {
+            "\\RR": "\\mathbb{R}"
+          };
         try{
             return "<p>" + katex.renderToString(latex, options) + "</p>";
         }
