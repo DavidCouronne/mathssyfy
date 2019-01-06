@@ -509,7 +509,7 @@ $|z_3|=\sqrt{2}$ et $\arg(z_3)=\frac{3\pi}{2}$.
 
 </Solution>
 
-<!--::: Exercice 32 
+::: tip Exercice 32 
 Mettre les résultats des opérations suivantes sous forme exponentielle :
 
 1.  $e^{{\scriptstyle2i} \textstyle \frac{\pi}{6}} \times e^{{\scriptstyle 3i}\frac{\pi}{6}}$
@@ -542,8 +542,8 @@ Mettre les résultats des opérations suivantes sous forme exponentielle :
 
 
 
-## Forme trigonométrique
-::: Exercice 34 
+<!--## Forme trigonométrique
+::: tip Exercice 34 
 Donner la forme trigonométrique des nombres complexes suivants :
 
 1.  $7$
@@ -562,7 +562,7 @@ Donner la forme trigonométrique des nombres complexes suivants :
 
 8.  $\frac{1}{3} - \frac{i}{3}$
 
-::: Exercice 35 
+::: tip Exercice 35 
 
 Donner la forme algébrique des nombres complexes suivants :
 
@@ -582,14 +582,14 @@ Donner la forme algébrique des nombres complexes suivants :
 
 7.  $\cos\left(\frac{7\pi}{6}\right)+i\sin\left(\frac{7\pi}{6}\right)$
 
-::: Exercice 36 [Question ouverte]
+::: tip Exercice 36 [Question ouverte]
 On considère les points suivants dans le plan complexe
 
 ![Image](./figure1.svg)
 
 Déterminer une écriture sous forme  trigonométrique des affixes des points $A$, $B$, $C$ et $D$.
 
-::: Exercice 37 
+::: tip Exercice 37 
 Donner une valeur approchée au centième d'un argument de chacun des nombres complexes suivants :
 
 1.  $4-3i$
@@ -600,7 +600,7 @@ Donner une valeur approchée au centième d'un argument de chacun des nombres co
 
 4.  $-3-i$
 
-::: Exercice 38 
+::: tip Exercice 38 
 On considère le nombre complexe $z= \frac{2}{1-i}$.
 
 1.  Déterminer sa forme trigonométrique de deux façons différentes.
@@ -609,7 +609,7 @@ On considère le nombre complexe $z= \frac{2}{1-i}$.
 
 3.  Généraliser le calcul précédent.
 
-::: Exercice 39 
+::: tip Exercice 39 
 On considère un nombre complexe $z$ tel que
 $$\begin{matrix}
 \begin{cases}
@@ -624,7 +624,7 @@ $$\begin{matrix}
 
 3.  Déterminer, par deux méthodes différentes, l'écriture algébrique de $\frac{1}{\bar{z}}.$
 
-::: Exercice 40 []
+::: tip Exercice 40 []
 
 On considère les nombres complexes
 $$\begin{matrix}
@@ -660,7 +660,7 @@ $\frac{(\sqrt{6}+\sqrt{2})+i(\sqrt{6}-\sqrt{2})}{4}= \cos\left(\frac{\pi}{12}\ri
 </Solution>
 
 ## Forme exponentielle
-::: Exercice 41 
+::: tip Exercice 41 
 Mettre les nombres complexes suivants sous forme exponentielle :
 
 1.  $-2 + 2i$
@@ -679,7 +679,7 @@ Mettre les nombres complexes suivants sous forme exponentielle :
 
 8.  $2 + 2i\sqrt{3}$
 
-::: Exercice 42 
+::: tip Exercice 42 
 Mettre les nombres complexes suivants sous forme exponentielle :
 
 1.  $1 + i$
@@ -698,7 +698,7 @@ Mettre les nombres complexes suivants sous forme exponentielle :
 
 8.  $i\sqrt{2}$
 
-::: Exercice 43 
+::: tip Exercice 43 
 Mettre les nombres complexes suivants sous forme algébrique :
 
 1.  $4e^{i\frac{\pi}{3}}$
@@ -713,7 +713,7 @@ Mettre les nombres complexes suivants sous forme algébrique :
 
 6.  $\frac{1}{2}e^{i\frac{\pi}{3}}$
 
-::: Exercice 44 
+::: tip Exercice 44 
 Effectuer les calculs suivants. Donner le résultat sous forme exponentielle
 
 1.  $5e^{i\frac{\pi}{6}}\times e^{i\frac{\pi}{3}}$
@@ -728,7 +728,7 @@ Effectuer les calculs suivants. Donner le résultat sous forme exponentielle
 
 6.  $\frac{e^{i\pi}}{e^{i\frac{\pi}{6}}}$
 
-::: Exercice 45 
+::: tip Exercice 45 
 Effectuer les calculs suivants. Donner le résultat sous forme exponentielle
 
 1.  $\frac{8e^{i\frac{{4}\pi}{{3}}}\times \frac{1}{2}e^{i\frac{\pi}{{6}}}}{e^{i\frac{\pi}{{3}}}}$
@@ -739,7 +739,7 @@ Effectuer les calculs suivants. Donner le résultat sous forme exponentielle
 
 4.  $\frac{\left(e^{i\frac{\pi}{{6}}}\right)^2}{\left(e^{-i\pi}\right)^2}$
 
-::: Exercice 46 [ ]
+::: tip Exercice 46 [ ]
 
 Effectuer les calculs suivants en utilisant la forme exponentielle.
 
@@ -769,14 +769,14 @@ $\frac{\sqrt{6}-i\sqrt{2}}{1+i}$
 
 </Solution>
 
-::: Exercice 47 
+::: tip Exercice 47 
 On considère le nombre complexe $z=1-i$.
 
 1.  Mettre $z$ sous forme exponentielle.
 
 2.  Démontrer que pour tout entier naturel $n$ multiple de $4$, $z^n$ est un nombre entier pair.
 
-::: Exercice 48 
+::: tip Exercice 48 
 Dans le plan complexe on considère le point $A$ d'affixe $z_{A}=\sqrt{3}-i$. On pose $r=e^{i \frac{\pi}{3}}$.
 
 1.   Déterminer la forme exponentielle de $z_{A}'=z_{A}\times r$.
@@ -787,7 +787,7 @@ Dans le plan complexe on considère le point $A$ d'affixe $z_{A}=\sqrt{3}-i$. On
 
 4.  Donner un procédé de  construction géométrique permettant de construire facilement le point d'affixe $z'$ à partir du point d'affixe $z$.
 
-::: Exercice 49 [Les formules d'Euler]
+::: tip Exercice 49 [Les formules d'Euler]
 Soit $\theta\in\mathbb{R}$
 
 1.  En utilisant la forme trigonométrique, montrer que
@@ -800,7 +800,7 @@ $$\begin{matrix}
 \sin\theta = \frac{e^{i\theta}-e^{-i\theta}}{2i}.
 \end{matrix}$$
 
-::: Exercice 50 
+::: tip Exercice 50 
 En utilisant les formules d'Euler , établir les identités suivantes :
 
 1.  $\cos^2(\theta) = \frac{1+\cos 2\theta}{2}$
@@ -811,7 +811,7 @@ En utilisant les formules d'Euler , établir les identités suivantes :
 
 4.  $\cos^3(\theta) = \frac{3\cos\theta+\cos 3\theta}{4}$
 
-::: Exercice 51 
+::: tip Exercice 51 
 Soient $a$ et $b$ deux nombres réels. On pose $z_a=e^{i a}$ et $z_b=e^{i b}$.
 
 1.  Donner la forme exponentielle du complexe :
@@ -819,7 +819,7 @@ $$Z=z_a \times z_b.$$
 
 2.  Calculer de deux façons la  forme algébrique de $Z$ et en déduire les formules d'addition pour $\cos(a+b)$ et $\sin(a+b).$
 
-::: Exercice 52 
+::: tip Exercice 52 
 Pour tout $\theta \in \R$ on considère le complexe
 $$z_{\theta}=1+e^{i\theta}.$$
 
