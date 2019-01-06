@@ -796,7 +796,7 @@ $$\begin{matrix}
 \sin\theta = \frac{e^{i\theta}-e^{-i\theta}}{2i}.
 \end{matrix}$$
 :::
-<!--::: tip Exercice 50 
+::: tip Exercice 50 
 En utilisant les formules d'Euler , établir les identités suivantes :
 
 1.  $\cos^2(\theta) = \frac{1+\cos 2\theta}{2}$
@@ -806,7 +806,7 @@ En utilisant les formules d'Euler , établir les identités suivantes :
 3.  $\sin^2(\theta)\cos^2(\theta) = \frac{1-\cos 4\theta}{8}$
 
 4.  $\cos^3(\theta) = \frac{3\cos\theta+\cos 3\theta}{4}$
-
+:::
 ::: tip Exercice 51 
 Soient $a$ et $b$ deux nombres réels. On pose $z_a=e^{i a}$ et $z_b=e^{i b}$.
 
@@ -824,4 +824,4 @@ $$z_{\theta}=1+e^{i\theta}.$$
 2.  En déduire le module et l'argument de $z_{\theta}$ en fonction de $\theta$ pour $\theta \in ]-\pi;\pi]$.
 
 3.  Démontrer que tous les points $M_{\theta}$ d'affixe $z_{\theta}$ se trouve sur le cercle de centre $A(1)$ et rayon 1.
- -->
+ <!---->
