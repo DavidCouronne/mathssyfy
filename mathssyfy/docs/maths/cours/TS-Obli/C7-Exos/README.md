@@ -524,7 +524,7 @@ Mettre les résultats des opérations suivantes sous forme exponentielle :
 4.  $\left(e^{{2}i\frac{\pi}{9}}\right)^2$
 
 
-<ClientOnly><Solution>
+<!-- <ClientOnly><Solution>
 
 1.  $e^{5i\frac{\pi}{6}}$
 
@@ -535,7 +535,7 @@ Mettre les résultats des opérations suivantes sous forme exponentielle :
 4.  $e^{4i\frac{\pi}{9}}$
 
 
-</Solution>
+</Solution> -->
 :::
 
 
