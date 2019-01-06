@@ -641,7 +641,7 @@ $$\begin{matrix}
 \sin\frac{\pi}{12}=\frac{\sqrt{6}-\sqrt{2}}{4}.
 \end{matrix}$$
 
-<!--<ClientOnly><Solution>
+<ClientOnly><Solution>
 
 1.  On a $|z|= \frac{|\sqrt{6}-i\sqrt{2}|}{2}=\frac{\sqrt{8}}{2}=\sqrt{2}$. On en déduit que $z=\sqrt{2}\left(\frac{\sqrt{6}}{\sqrt{2}}-i\frac{1}{2}\right)=\sqrt{2}\left(\frac{\sqrt{3}}{2}-\frac{1}{2}i\right).$ Ce qui donne l'écriture trigonométrique de $z$. On en déduit $|z|=\sqrt{2}$ et $\arg(z)=-\frac{\pi}{6}.$
 
@@ -655,7 +655,7 @@ Par les règles sur les modules et les arguments : $\left|\frac{z}{z'}\right|=1$
 $\frac{(\sqrt{6}+\sqrt{2})+i(\sqrt{6}-\sqrt{2})}{4}= \cos\left(\frac{\pi}{12}\right)+i \sin\left(\frac{\pi}{12}\right)$. Cela donne le résulat demandé par égalité des parties réelles et imaginaires.
 
 </Solution>
-
+:::
 ## Forme exponentielle
 ::: tip Exercice 41 
 Mettre les nombres complexes suivants sous forme exponentielle :
@@ -675,8 +675,8 @@ Mettre les nombres complexes suivants sous forme exponentielle :
 7.  $-i$
 
 8.  $2 + 2i\sqrt{3}$
-
-::: tip Exercice 42 
+:::
+<!--::: tip Exercice 42 
 Mettre les nombres complexes suivants sous forme exponentielle :
 
 1.  $1 + i$
