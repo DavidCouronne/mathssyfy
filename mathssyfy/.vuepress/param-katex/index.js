@@ -166,7 +166,7 @@ module.exports = function math_plugin(md, options) {
         options.displayMode = false;
         options.throwOnError = false;
         options.macros = macroskatex;
-        katex = "\\N " + katex;
+        latex = "\\N " + latex;
         
         try{
             return katex.renderToString(latex, options);
