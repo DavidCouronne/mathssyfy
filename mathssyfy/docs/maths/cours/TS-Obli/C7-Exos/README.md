@@ -725,18 +725,18 @@ Effectuer les calculs suivants. Donner le résultat sous forme exponentielle
 
 6.  $\frac{e^{i\pi}}{e^{i\frac{\pi}{6}}}$
 :::
-<!--::: tip Exercice 45 
+::: tip Exercice 45 
 Effectuer les calculs suivants. Donner le résultat sous forme exponentielle
 
-1.  $\frac{8e^{i\frac{{4}\pi}{{3}}}\times \frac{1}{2}e^{i\frac{\pi}{{6}}}}{e^{i\frac{\pi}{{3}}}}$
+1.  $\frac{8e^{i\frac{4\pi}{3}}\times \frac{1}{2}e^{i\frac{\pi}{6}}}{e^{i\frac{\pi}{3}}}$
 
-2.  $\frac{2e^{-i\frac{\pi}{2}}}{2e^{i\pi}\times 3e^{i\frac{\pi}{{2}}}}$
+2.  $\frac{2e^{-i\frac{\pi}{2}}}{2e^{i\pi}\times 3e^{i\frac{\pi}{2}}}$
 
-3.  $e^{i\frac{\pi}{{6}}}+e^{i\frac{\pi}{{3}}}$
+3.  $e^{i\frac{\pi}{6}}+e^{i\frac{\pi}{3}}$
 
-4.  $\frac{\left(e^{i\frac{\pi}{{6}}}\right)^2}{\left(e^{-i\pi}\right)^2}$
+4.  $\frac{\left(e^{i\frac{\pi}{6}}\right)^2}{\left(e^{-i\pi}\right)^2}$
 
-::: tip Exercice 46 [ ]
+<!--::: tip Exercice 46 
 
 Effectuer les calculs suivants en utilisant la forme exponentielle.
 
