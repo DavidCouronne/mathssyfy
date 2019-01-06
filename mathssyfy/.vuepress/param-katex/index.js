@@ -167,7 +167,7 @@ module.exports = function math_plugin(md, options) {
         options.displayMode = false;
         options.throwOnError = false;
         options.macros = macroskatex;
-        latex = newcommand + latex;
+        latex = newcommand.toString + latex;
         
         try{
             return katex.renderToString(latex, options);
