@@ -183,9 +183,8 @@ module.exports = function math_plugin(md, options) {
     var katexBlock = function(latex){
         options.displayMode = true;
         options.throwOnError = false;
-        options.macros = {
-            "\\RR": "hop"
-          };
+        options.macros = macroskatex;
+        latex = newcommand + latex;
         try{
             return "<p>" + katex.renderToString(latex, options) + "</p>";
         }
