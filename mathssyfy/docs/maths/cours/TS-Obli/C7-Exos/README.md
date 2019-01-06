@@ -28,6 +28,7 @@ Dans le plan complexe représenter, dans chacun des cas suivants, les points $M$
 4.  C'est la partie de l'axe des réel avec une partie réelle négative (sauf l'origine).
 
 </Solution>
+:::
 
 ::: tip Exercice 2 [ ]
 
@@ -52,7 +53,7 @@ Déterminer le module et un argument des nombres complexes suivants :
 4.   $|z_4|=2 \frac{\sqrt{2}}{3}$ et $\arg(z_3)=\frac{\pi}{6}$
 
 </Solution>
-
+:::
 ::: tip Exercice 3 
 Dans chacun des cas suivants, déterminer le module et un argument du complexe donné :
 
@@ -63,7 +64,7 @@ Dans chacun des cas suivants, déterminer le module et un argument du complexe d
 3.  $z_3=(3-i)(2i+1)$
 
 4.  $z_4= i\sqrt{3}+1$
-
+:::
 ::: tip Exercice 4 
 Dans chacun des cas suivants, déterminer de deux manières différentes le module et l'argument du nombre complexe proposé
 
@@ -74,7 +75,7 @@ Dans chacun des cas suivants, déterminer de deux manières différentes le modu
 3.  $z_3=i\left(\frac{1+i}{1-i}\right)$
 
 4.  $z_4=\left(\frac{3i}{1+i\sqrt{3}}\right)^2$
-
+:::
 ::: tip Exercice 5 []
 
 Dans le plan complexe, représenter les points $M$ d'affixe $z$ satisfaisant les conditions suivantes :
@@ -98,7 +99,7 @@ Dans le plan complexe, représenter les points $M$ d'affixe $z$ satisfaisant les
 4.  $2\arg(z)=0 \ \iff \ arg(z)= \ k \pi$ avec $k\in\Z$. Les points $M$ sont donc ceux de l'axe de réels sauf l'origine.
 
 </Solution>
-
+:::
 ::: tip Exercice 6 
 Dans chacun des cas suivants, représenter l'ensemble des points $M$ dont l'affixe $z$ satisfait la condition proposée.
 
@@ -109,7 +110,7 @@ Dans chacun des cas suivants, représenter l'ensemble des points $M$ dont l'affi
 3.  $|z-2|=4$
 
 4.  $\arg(z-i)= -\frac{\pi}{4}$
-
+:::
 ::: tip Exercice 7 
 Dans chacun des cas suivants, représenter l'ensemble des points $M$ dont l'affixe $z$ satisfait la condition proposée.
 
