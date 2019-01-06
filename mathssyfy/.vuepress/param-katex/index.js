@@ -10,13 +10,12 @@ for rendering output.
 /*jslint node: true */
 'use strict';
 
+const { newcommand } = require("./newcommand");
+
 var katex = require('katex');
 const macroskatex = {
     "\\RR": "\\mathbb{R}"
 };
-const newcommand = "\\N ";
-
-
 // Test if potential opening or closing delimieter
 // Assumes that there is a "$" at state.src[pos]
 function isValidDelim(state, pos) {
