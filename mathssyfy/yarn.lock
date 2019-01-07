@@ -4440,6 +4440,13 @@ markdown-it-footnote@^3.0.1:
   resolved "https://registry.yarnpkg.com/markdown-it-footnote/-/markdown-it-footnote-3.0.1.tgz#7f3730747cacc86e2fe0bf8a17a710f34791517a"
   integrity sha1-fzcwdHysyG4v4L+KF6cQ80eRUXo=
 
+markdown-it-katex-newcommand@^1.0.3:
+  version "1.0.3"
+  resolved "https://registry.yarnpkg.com/markdown-it-katex-newcommand/-/markdown-it-katex-newcommand-1.0.3.tgz#973155bf9468374a1f947c2dee0034b3bf775b8c"
+  integrity sha512-1kJpAxH6hzzhVy56bEk7O0NSnGOZDWX4eCts7h/0Vagn4SrAT98KF2tSqFLF5jZMHmwF9eFo99SQqZMPZoeA2A==
+  dependencies:
+    katex "^0.10.0"
+
 markdown-it-table-of-contents@^0.4.0:
   version "0.4.3"
   resolved "https://registry.yarnpkg.com/markdown-it-table-of-contents/-/markdown-it-table-of-contents-0.4.3.tgz#6453925a76e49b9b3d9569a0d89f1c2168b46982"
