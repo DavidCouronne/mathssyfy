@@ -1,12 +1,23 @@
 module.exports = {
   head: [
-    ['meta', {name: "google-site-verification", content: "oJi9F2YoTJCMrpn-9Y8pDsfKfgIWeR_r-w2axieKqgQ"}],
-    ['link', {rel: "stylesheet", href: "https://fonts.googleapis.com/css?family=Roboto:100,300,400,500,700,900|Material+Icons"}],
-    ['link', {rel: "stylesheet", href: "https://cdn.jsdelivr.net/npm/vuetify/dist/vuetify.min.css"}],
-    ['link', {rel:"stylesheet",
-     href:"https://cdn.jsdelivr.net/npm/katex@0.10.0/dist/katex.min.css",
-     integrity:"sha384-9eLZqc9ds8eNjO3TmqPeYcDj8n+Qfa4nuSiGYa6DjLNcv9BtN69ZIulL9+8CqC9Y",
-      crossorigin:"anonymous"}],
+    ['meta', {
+      name: "google-site-verification",
+      content: "oJi9F2YoTJCMrpn-9Y8pDsfKfgIWeR_r-w2axieKqgQ"
+    }],
+    ['link', {
+      rel: "stylesheet",
+      href: "https://fonts.googleapis.com/css?family=Roboto:100,300,400,500,700,900|Material+Icons"
+    }],
+    ['link', {
+      rel: "stylesheet",
+      href: "https://cdn.jsdelivr.net/npm/vuetify/dist/vuetify.min.css"
+    }],
+    ['link', {
+      rel: "stylesheet",
+      href: "https://cdn.jsdelivr.net/npm/katex@0.10.0/dist/katex.min.css",
+      integrity: "sha384-9eLZqc9ds8eNjO3TmqPeYcDj8n+Qfa4nuSiGYa6DjLNcv9BtN69ZIulL9+8CqC9Y",
+      crossorigin: "anonymous"
+    }],
   ],
   locales: {
     // The key is the path for the locale to be nested under.
@@ -19,7 +30,7 @@ module.exports = {
   },
   title: 'MathsSyfy',
   description: 'Mathématiques et Informatique',
-ga: 'UA-131298008-1',
+  ga: 'UA-131298008-1',
 
 
   themeConfig: {
@@ -35,20 +46,35 @@ ga: 'UA-131298008-1',
     docsDir: 'mathssyfy',
     editLinks: true,
     editLinkText: 'Edit this page on GitHub',
-    
+
     locales: {
       '/': {
         label: 'Français',
         selectText: 'Languages',
         lastUpdated: 'Last Updated'
-      }},
+      }
+    },
     sidebarDepth: 2,
-    nav: [
-      { text: 'Accueil', link: '/' },
-      { text: 'Ressources Dev', link: '/docs/informatique/HowTo/' },
-      { text: 'Vuepress', link: '/docs/informatique/Vuepress/'},
-      { text: 'Cours Maths', link: '/docs/maths/cours/' },
-      { text: 'Sujets Maths', link: '/docs/maths/sujets/'},    
+    nav: [{
+        text: 'Accueil',
+        link: '/'
+      },
+      {
+        text: 'Ressources Dev',
+        link: '/docs/informatique/HowTo/'
+      },
+      {
+        text: 'Vuepress',
+        link: '/docs/informatique/Vuepress/'
+      },
+      {
+        text: 'Cours Maths',
+        link: '/docs/maths/cours/'
+      },
+      {
+        text: 'Sujets Maths',
+        link: '/docs/maths/sujets/'
+      },
     ],
     sidebar: {
       '/docs/maths/sujets/2018-nvellecaledonie/': [
@@ -64,7 +90,7 @@ ga: 'UA-131298008-1',
         'exercice',
         'katex',
         'deploy',
-        
+
       ],
       '/docs/informatique/HowTo/': [
         ''
@@ -76,20 +102,21 @@ ga: 'UA-131298008-1',
     serviceWorker: {
       updatePopup: true, // Boolean | Object, default to undefined.
       // If set to true, the default text config will be: 
-      updatePopup: { 
-          message: "Nouveau contenu disponible.", 
-          buttonText: "Rafraîchir" 
+      updatePopup: {
+        message: "Nouveau contenu disponible.",
+        buttonText: "Rafraîchir"
       }
     }
   },
-  
+
   markdown: {
     lineNumbers: false,
     config: md => {
       const mymacroskatex = {
         "\\vect": "\\overrightarrow{#1}"
-    };
-    const mkn = require('markdown-it-katex-newcommand');
+      };
+      const mkn = require('markdown-it-katex-newcommand');
+      const mf = require('markdown-it-footnote');
       md.use(mkn, {
         "macros": mymacroskatex
       });
