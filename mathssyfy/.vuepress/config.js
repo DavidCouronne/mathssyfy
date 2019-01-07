@@ -1,3 +1,7 @@
+const { navBar } = require("./navBar");
+
+const { sideBar } = require("./sideBar");
+
 module.exports = {
   head: [
     ['meta', {
@@ -34,14 +38,6 @@ module.exports = {
 
 
   themeConfig: {
-    serviceWorker: {
-      updatePopup: true // Boolean | Object, default to undefined.
-      // If set to true, the default text config will be: 
-      // updatePopup: { 
-      //    message: "New content is available.", 
-      //    buttonText: "Refresh" 
-      // }
-    },
     repo: 'DavidCouronne/mathssyfy',
     docsDir: 'mathssyfy',
     editLinks: true,
@@ -55,58 +51,8 @@ module.exports = {
       }
     },
     sidebarDepth: 2,
-    nav: [{
-        text: 'Accueil',
-        link: '/'
-      },
-      {
-        text: 'Ressources Dev',
-        link: '/docs/informatique/HowTo/'
-      },
-      {
-        text: 'Vuepress',
-        link: '/docs/informatique/Vuepress/'
-      },
-      {
-        text: 'Cours Maths',
-        link: '/docs/maths/cours/'
-      },
-      {
-        text: 'Sujets Maths',
-        link: '/docs/maths/sujets/'
-      },
-    ],
-    sidebar: {
-      '/docs/maths/sujets/2018-nvellecaledonie/': [
-        '',
-        'corrige',
-      ],
-      '/docs/informatique/Vuepress/': [
-        '',
-        'demarrer',
-        'config1',
-        'config2',
-        'sidebar',
-        'exercice',
-        'katex',
-        'deploy',
-
-      ],
-      '/docs/informatique/HowTo/': [
-        ''
-      ],
-      '/docs/': [
-        '',
-      ],
-    },
-    serviceWorker: {
-      updatePopup: true, // Boolean | Object, default to undefined.
-      // If set to true, the default text config will be: 
-      updatePopup: {
-        message: "Nouveau contenu disponible.",
-        buttonText: "Rafraîchir"
-      }
-    }
+    nav: navBar(),
+    sidebar: sideBar(),
   },
 
   markdown: {
@@ -124,3 +70,6 @@ module.exports = {
     }
   }
 }
+
+
+
