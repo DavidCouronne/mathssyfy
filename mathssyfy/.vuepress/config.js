@@ -89,13 +89,8 @@ ga: 'UA-131298008-1',
       const mymacroskatex = {
         "\\vect": "\\overrightarrow{#1}"
     };
-    const mynewcommands = '\\displaystyle '
-    +'\\newcommand{\\vect}[1]{\\overrightarrow{#1}} '
-    +'\\newcommand{\\Oij}{\\left(O;\\vect{i};\\vect{j}\\right)} ';
-      const mf = require('markdown-it-footnote');
-      const mkn = require('markdown-it-katex-newcommand');
       md.use(mkn, {
-        "newcommands": mynewcommands
+        "macros": mymacroskatex
       });
       md.use(mf);
     }
