@@ -89,7 +89,7 @@ ga: 'UA-131298008-1',
       const mymacroskatex = {
         "\\vect": "\\overrightarrow{#1}"
     };
-      const mynewcommands = '\\displaystyle';
+      const mynewcommands = '\\displaystyle ';
       const mf = require('markdown-it-footnote');
       const mkn = require('markdown-it-katex-newcommand');
       md.use(mkn, {
