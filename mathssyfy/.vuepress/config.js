@@ -39,7 +39,7 @@ module.exports = {
 
   themeConfig: {
     algolia: {
-      apiKey: '965ae6f591a4793dfcd6262802af81ec',
+      apiKey: '7db80c98fed75d6d22869ff8ba0a720e',
       indexName: 'mathssyfy'
     },
     repo: 'DavidCouronne/mathssyfy',
