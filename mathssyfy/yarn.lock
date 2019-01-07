@@ -4446,10 +4446,10 @@ markdown-it-footnote@^3.0.1:
   resolved "https://registry.yarnpkg.com/markdown-it-footnote/-/markdown-it-footnote-3.0.1.tgz#7f3730747cacc86e2fe0bf8a17a710f34791517a"
   integrity sha1-fzcwdHysyG4v4L+KF6cQ80eRUXo=
 
-markdown-it-katex-newcommand@^1.0.6:
-  version "1.0.6"
-  resolved "https://registry.yarnpkg.com/markdown-it-katex-newcommand/-/markdown-it-katex-newcommand-1.0.6.tgz#8a4a2b8a245623b920abeac2c4b22b6b320140d2"
-  integrity sha512-4N/ZCgc3pbB9lvut5FWqu/go84272nfdN62DhYeKDmLGoBpu93hG3E0qBr0J8mqtD/EjaLAHDmrGq8KepRUoAA==
+markdown-it-katex-newcommand@^1.0.7:
+  version "1.0.7"
+  resolved "https://registry.yarnpkg.com/markdown-it-katex-newcommand/-/markdown-it-katex-newcommand-1.0.7.tgz#032661f094167b0f13bf45c17735b969777080f7"
+  integrity sha512-64xqJUefss8HqzcPCUZbnLrqnqrIok38jnakEbhnhfra0BancV9aaR4D0gZkY4xljCIZvkD46GzgoCdq+uQl6Q==
   dependencies:
     katex "^0.10.0"
 
