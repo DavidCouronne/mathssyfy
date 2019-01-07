@@ -89,6 +89,7 @@ ga: 'UA-131298008-1',
       const mymacroskatex = {
         "\\vect": "\\overrightarrow{#1}"
     };
+    const mkn = require('markdown-it-katex-newcommand');
       md.use(mkn, {
         "macros": mymacroskatex
       });
