@@ -3,6 +3,10 @@ module.exports = {
     ['meta', {name: "google-site-verification", content: "oJi9F2YoTJCMrpn-9Y8pDsfKfgIWeR_r-w2axieKqgQ"}],
     ['link', {rel: "stylesheet", href: "https://fonts.googleapis.com/css?family=Roboto:100,300,400,500,700,900|Material+Icons"}],
     ['link', {rel: "stylesheet", href: "https://cdn.jsdelivr.net/npm/vuetify/dist/vuetify.min.css"}],
+    ['link', {rel:"stylesheet",
+     href:"https://cdn.jsdelivr.net/npm/katex@0.10.0/dist/katex.min.css",
+     integrity:"sha384-9eLZqc9ds8eNjO3TmqPeYcDj8n+Qfa4nuSiGYa6DjLNcv9BtN69ZIulL9+8CqC9Y",
+      crossorigin:"anonymous"}],
   ],
   locales: {
     // The key is the path for the locale to be nested under.
@@ -82,8 +86,14 @@ ga: 'UA-131298008-1',
   markdown: {
     lineNumbers: false,
     config: md => {
+      const mynewcommands = '\\displaystyle'
+    +'\\newcommand{\\vect}[1]{\\overrightarrow{#1}}'
+    +'\\newcommand{\\Oij}{\\left(O;\\vect{i};\\vect{j}\\right)}';
       var mf = require('markdown-it-footnote');
-      md.use(require('./param-katex'));
+      const mkn = require('markdown-it-katex-newcommand');
+      md.use(mkn, {
+        "newcommands": mynewcommands
+      });
       md.use(mf);
     }
   }
