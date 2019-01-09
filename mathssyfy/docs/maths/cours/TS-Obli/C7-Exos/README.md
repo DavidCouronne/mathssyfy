@@ -52,7 +52,7 @@ Déterminer le module et un argument des nombres complexes suivants :
 
 3.   $|z_3|= \frac{\sqrt{2}}{3}$ et $\arg(z_3)=\frac{3\pi}{4}$
 
-4.   $|z_4|=2}$ et $\arg(z_3)=\frac{\pi}{6}$
+4.   $|z_4|=2$ et $\arg(z_3)=\frac{\pi}{6}$
 
 </Solution>
 :::
