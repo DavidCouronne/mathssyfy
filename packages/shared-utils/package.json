@@ -1,8 +1,11 @@
 {
-  "name": "mathssyfy-shared-utils",
+  "publishConfig": {
+    "access": "public"
+  },
+  "name": "@mathssyfy/shared-utils",
   "version": "0.0.4-alpha.0",
   "description": "> TODO: description",
-  "author": "DavidCouronne <couronne.david@gmail.com>",
+  "author": "David Couronné <couronne.david@gmail.com>",
   "homepage": "https://github.com/DavidCouronne/mathssyfy#readme",
   "license": "MIT",
   "main": "lib/shared-utils.js",
