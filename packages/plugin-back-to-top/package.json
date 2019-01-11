@@ -1,19 +1,11 @@
 {
-  "name": "@mathssyfy/markdown",
+  "name": "@mathssyfy/plugin-back-to-top",
   "version": "0.0.7-alpha.0",
-  "description": "markdown package",
-  "keywords": [
-    "markdown",
-    "markdown-it",
-    "katex"
-  ],
-  "publishConfig": {
-    "access": "public"
-  },
+  "description": "> TODO: description",
   "author": "DavidCouronne <couronne.david@gmail.com>",
   "homepage": "https://github.com/DavidCouronne/mathssyfy#readme",
   "license": "MIT",
-  "main": "lib/markdown.js",
+  "main": "lib/plugin-back-to-top.js",
   "directories": {
     "lib": "lib",
     "test": "__tests__"
@@ -21,6 +13,9 @@
   "files": [
     "lib"
   ],
+  "publishConfig": {
+    "access": "public"
+  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/DavidCouronne/mathssyfy.git"
@@ -31,14 +26,7 @@
   "bugs": {
     "url": "https://github.com/DavidCouronne/mathssyfy/issues"
   },
-  "gitHead": "2ed5e47eba4630247856858487e709c51df4ea4d",
   "dependencies": {
-    "markdown-it": "^8.4.2",
-    "markdown-it-anchor": "^5.0.2",
-    "markdown-it-chain": "^1.3.0",
-    "markdown-it-container": "^2.0.0",
-    "markdown-it-emoji": "^1.4.0",
-    "markdown-it-table-of-contents": "^0.4.3",
-    "prismjs": "^1.15.0"
+    "lodash.debounce": "^4.0.8"
   }
 }
