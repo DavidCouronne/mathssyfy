@@ -66,3 +66,13 @@ node_modules/
 
 # dist directory
 .vuepress/dist/
+
+node_modules/
+
+lerna-debug.log
+
+npm-debug.log
+
+packages/*/lib
+
+.idea
