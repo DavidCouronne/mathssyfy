@@ -1,27 +1,36 @@
 {
   "name": "@mathssyfy/plugin-markdown",
   "version": "0.0.9-alpha.2",
-  "description": "> TODO: description",
+  "description": "A Powerful and Highspeed Markdown Parser for Vue and Nuxt",
   "author": "DavidCouronne <couronne.david@gmail.com>",
   "homepage": "https://github.com/DavidCouronne/mathssyfy#readme",
   "license": "MIT",
-  "main": "lib/plugin-markdown.js",
+  "main": "lib/vue-markdown.common.js",
+
+  "files": [
+
+    "lib/vue-markdown.js",
+
+    "lib/vue-markdown.common.js",
+
+    "src"
+
+  ],
+  "scripts": {
+    "start": "webpack --config webpack.config.js",
+    "build": "webpack --config webpack.common.js",
+    "test": "echo \"Error: run tests from root\" && exit 1"
+  },
   "directories": {
     "lib": "lib",
     "test": "__tests__"
   },
-  "files": [
-    "lib"
-  ],
   "publishConfig": {
     "access": "public"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/DavidCouronne/mathssyfy.git"
-  },
-  "scripts": {
-    "test": "echo \"Error: run tests from root\" && exit 1"
   },
   "bugs": {
     "url": "https://github.com/DavidCouronne/mathssyfy/issues"
@@ -31,6 +40,7 @@
     "clone": "^2.1.2",
     "delegate": "^3.2.0",
     "good-listener": "^1.2.2",
+    "lodash": "^4.17.11",
     "markdown-it": "^8.4.2",
     "markdown-it-abbr": "^1.0.4",
     "markdown-it-container": "^2.0.0",
@@ -50,5 +60,17 @@
     "tiny-emitter": "^2.0.2",
     "unorm": "^1.4.1",
     "uslug": "^1.0.4"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.2.2",
+    "@babel/preset-env": "^7.2.3",
+    "@babel/preset-react": "^7.0.0",
+    "babel-loader": "^8.0.5",
+    "css-loader": "^2.1.0",
+    "json-loader": "^0.5.7",
+    "style-loader": "^0.23.1",
+    "webpack": "^4.28.4",
+    "webpack-cli": "^3.2.1",
+    "webpack-node-externals": "^1.7.2"
   }
 }

@@ -10,10 +10,29 @@
       
       <v-card>
         <p>hello</p>
+<markdown>
+# Un titre
+
+## UN sous titre
+
+blablblablbal
+
+hop
+</markdown>
       </v-card>
     </v-flex>
   </v-layout>
 </template>
+
+<script>
+import Markdown from '@mathssyfy/plugin-markdown'
+export default {
+  omponents: {
+    Markdown
+  },
+}
+</script>
+
 
 
 
