@@ -7,6 +7,9 @@
     "markdown-it",
     "katex"
   ],
+  "publishConfig": {
+    "access": "public"
+  },
   "author": "DavidCouronne <couronne.david@gmail.com>",
   "homepage": "https://github.com/DavidCouronne/mathssyfy#readme",
   "license": "MIT",
@@ -28,5 +31,5 @@
   "bugs": {
     "url": "https://github.com/DavidCouronne/mathssyfy/issues"
   },
-  "gitHead": "34d8da6fa76e76547ccaf37ed7149a7c567c752f"
+  "gitHead": "2ed5e47eba4630247856858487e709c51df4ea4d"
 }
