@@ -5,7 +5,6 @@
   "repository": "https://github.com/DavidCouronne/mathssyfy.git",
   "author": "David Couronné <couronne.david@gmail.com>",
   "license": "MIT",
-  "private": false,
   "scripts": {
 
     "compile": "lerna run compile",
