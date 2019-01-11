@@ -1,5 +1,5 @@
 {
-  "name": "@mathssyfy/markdown",
+  "name": "mathssyfy-markdown",
   "version": "0.0.3",
   "description": "markdown package",
   "keywords": [
@@ -28,5 +28,5 @@
   "bugs": {
     "url": "https://github.com/DavidCouronne/mathssyfy/issues"
   },
-  "gitHead": "c7dfb6ba4de8e13276c5acdf57347efdd26416d5"
+  "gitHead": "34d8da6fa76e76547ccaf37ed7149a7c567c752f"
 }
