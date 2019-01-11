@@ -1,16 +1,11 @@
 {
-  "name": "@mathssyfy/markdown",
+  "name": "shared-utils",
   "version": "0.0.1",
-  "description": "markdown package",
-  "keywords": [
-    "markdown",
-    "markdown-it",
-    "katex"
-  ],
+  "description": "> TODO: description",
   "author": "DavidCouronne <couronne.david@gmail.com>",
   "homepage": "https://github.com/DavidCouronne/mathssyfy#readme",
   "license": "MIT",
-  "main": "lib/markdown.js",
+  "main": "lib/shared-utils.js",
   "directories": {
     "lib": "lib",
     "test": "__tests__"
@@ -27,6 +22,5 @@
   },
   "bugs": {
     "url": "https://github.com/DavidCouronne/mathssyfy/issues"
-  },
-  "gitHead": "c121835649c22a1ad3496d914faa402d14ece0d4"
+  }
 }
