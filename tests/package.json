@@ -11,6 +11,7 @@
     "generate": "nuxt generate"
   },
   "dependencies": {
+    "@mathssyfy/markdown": "^0.0.9-alpha.1",
     "cross-env": "^5.2.0",
     "nuxt": "^2.0.0",
     "vuetify": "^1.2.4"
