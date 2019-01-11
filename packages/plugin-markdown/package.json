@@ -1,0 +1,29 @@
+{
+  "name": "@mathssyfy/plugin-markdown",
+  "version": "0.0.9-alpha.0",
+  "description": "> TODO: description",
+  "author": "DavidCouronne <couronne.david@gmail.com>",
+  "homepage": "https://github.com/DavidCouronne/mathssyfy#readme",
+  "license": "MIT",
+  "main": "lib/plugin-markdown.js",
+  "directories": {
+    "lib": "lib",
+    "test": "__tests__"
+  },
+  "files": [
+    "lib"
+  ],
+  "publishConfig": {
+    "access": "public"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DavidCouronne/mathssyfy.git"
+  },
+  "scripts": {
+    "test": "echo \"Error: run tests from root\" && exit 1"
+  },
+  "bugs": {
+    "url": "https://github.com/DavidCouronne/mathssyfy/issues"
+  }
+}
