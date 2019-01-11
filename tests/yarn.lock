@@ -676,10 +676,10 @@
     markdown-it-table-of-contents "^0.4.3"
     prismjs "^1.15.0"
 
-"@mathssyfy/plugin-markdown@^0.0.9-alpha.3":
-  version "0.0.9-alpha.3"
-  resolved "https://registry.yarnpkg.com/@mathssyfy/plugin-markdown/-/plugin-markdown-0.0.9-alpha.3.tgz#a3299943289287aaa57784aeda00a29c8aaf78b1"
-  integrity sha512-/UF+hd4XsLT8ji66AVY9CfbbOlwj09ke6eNXDjyRi4G1W915c0Q4oupREzEwKvtQdePcESxeZqUqTxW1N5SAow==
+"@mathssyfy/plugin-markdown@^0.0.9":
+  version "0.0.9"
+  resolved "https://registry.yarnpkg.com/@mathssyfy/plugin-markdown/-/plugin-markdown-0.0.9.tgz#6ed8b8cdfd01a6e3868e4eb30890a38393e775ff"
+  integrity sha512-ArTcohOJ/oeUyn+Q7Nah7Tw5Ek8RyCBc16ABiwmV5bUqAU+qyhtRJNIswRFUqsihHkdz1w5mMjgifDrvEvsfKg==
   dependencies:
     clipboard "^2.0.4"
     clone "^2.1.2"

@@ -4352,9 +4352,9 @@ postcss-selector-parser@^5.0.0:
     uniq "^1.0.1"
 
 postcss@^7.0.7:
-  version "7.0.9"
-  resolved "https://registry.yarnpkg.com/postcss/-/postcss-7.0.9.tgz#e35e450ce112810a5435ffe49313a67186a6fe1c"
-  integrity sha512-eXB2Fm8/BtSABq7ia1HyvbkoD9zFqq2BWjHUAyRSgbK8qdyKrA6yMCX06l05Onc8bHemeXLB8hzJ8tM0ABc0Zw==
+  version "7.0.10"
+  resolved "https://registry.yarnpkg.com/postcss/-/postcss-7.0.10.tgz#a1f44cfe3711649190989a283024921e33dbc49f"
+  integrity sha512-wuaQVkYI+mgMud6UwID/XX9w0Zf1Rh/ZHK0rIz0o08q3rUaPrezdl/oJD9aWma4Pw6q7mgRBJQS4xA1yZAHptA==
   dependencies:
     chalk "^2.4.2"
     source-map "^0.6.1"
@@ -5150,9 +5150,9 @@ symbol-observable@^1.1.0:
   integrity sha512-e900nM8RRtGhlV36KGEU9k65K3mPb1WV70OdjfxlG2EAuM1noi/E/BaW/uMhL7bPEssK8QV57vN3esixjUvcXQ==
 
 table@^5.0.2:
-  version "5.1.1"
-  resolved "https://registry.yarnpkg.com/table/-/table-5.1.1.tgz#92030192f1b7b51b6eeab23ed416862e47b70837"
-  integrity sha512-NUjapYb/qd4PeFW03HnAuOJ7OMcBkJlqeClWxeNlQ0lXGSb52oZXGzkO0/I0ARegQ2eUT1g2VDJH0eUxDRcHmw==
+  version "5.2.0"
+  resolved "https://registry.yarnpkg.com/table/-/table-5.2.0.tgz#2e38bd1f16dd3f97085ac80cdc574ad9198af04d"
+  integrity sha512-hAdBBAMCZl4/U3eQhsPN2Z8wRJC98lpRhDW2I86VQbPBqyj4E681VhvUkfb90qUJ4rnRfu8t4/8SGHPsAH1ygg==
   dependencies:
     ajv "^6.6.1"
     lodash "^4.17.11"
