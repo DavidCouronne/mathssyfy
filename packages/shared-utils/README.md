@@ -1,11 +1,3 @@
-# `shared-utils`
+# @vuepress/shard-utils
 
-> TODO: description
-
-## Usage
-
-```
-const sharedUtils = require('shared-utils');
-
-// TODO: DEMONSTRATE API
-```
+> shard-utils for vuepress
