@@ -1,9 +1,9 @@
-import VueMarkdownComponent from './VueMarkdown'
+import PluginMarkdownComponent from '.'
 
 
 
 export function install(Vue) {
 
-  Vue.component('vue-markdown', VueMarkdownComponent)
+  Vue.component('plugin-markdown', PluginMarkdownComponent)
 
 }

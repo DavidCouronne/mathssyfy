@@ -5,10 +5,10 @@
   "author": "DavidCouronne <couronne.david@gmail.com>",
   "homepage": "https://github.com/DavidCouronne/mathssyfy#readme",
   "license": "MIT",
-  "main": "lib/vue-markdown.common.js",
+  "main": "lib/plugin-markdown.common.js",
   "files": [
-    "lib/vue-markdown.js",
-    "lib/vue-markdown.common.js",
+    "lib/plugin-markdown.js",
+    "lib/plugin-markdown.common.js",
     "src"
   ],
   "scripts": {

@@ -21,8 +21,8 @@ module.exports = {
     entry: './src/build.js',
     output: {
         path: path.resolve(__dirname, 'lib'),
-        filename: 'vue-markdown.js',
-        library: 'VueMarkdown',
+        filename: 'plugin-markdown.js',
+        library: 'PluginMarkdown',
         libraryTarget: 'umd'
     },
     module: {

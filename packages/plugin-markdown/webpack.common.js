@@ -18,11 +18,11 @@ module.exports = {
     mode: 'production',
     target: 'node', // in order to ignore built-in modules like path, fs, etc. 
     externals: [nodeExternals()], // in order to ignore all modules in node_modules folder 
-    entry: './src/VueMarkdown.js',
+    entry: './src/index.js',
     output: {
         path: path.resolve(__dirname, 'lib'),
-        filename: 'vue-markdown.common.js',
-        library: 'VueMarkdown',
+        filename: 'plugin-markdown.common.js',
+        library: 'PluginMarkdown',
         libraryTarget: 'umd'
     },
     module: {

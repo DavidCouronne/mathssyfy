@@ -27,7 +27,7 @@ hop
 <script>
 import Markdown from '@mathssyfy/plugin-markdown'
 export default {
-  omponents: {
+  components: {
     Markdown
   },
 }
