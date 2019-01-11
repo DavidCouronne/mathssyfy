@@ -9,4 +9,4 @@ npm-debug.log
 packages/*/lib
 
 .idea
-packages/markdown-it-katex/
+
