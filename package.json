@@ -1,0 +1,12 @@
+{
+  "name": "mathssyfy",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/DavidCouronne/mathssyfy.git",
+  "author": "DavidCouronne <couronne.david@gmail.com>",
+  "license": "MIT",
+  "private": false,
+  "devDependencies": {
+    "lerna": "^3.10.5"
+  }
+}
