@@ -1,12 +1,12 @@
-# @mathssyfy/plugin-markdown
+# @mathssyfy/markdown-it-katex
 Plugin markdown-it for katex rendering with ability to add global \newcommand 
 
 ## Installation
 
 ```bash
-yarn add @mathssyfy/plugin-markdown
+yarn add @mathssyfy/markdown-it-katex
 # or
-npm install @mathssyfy/plugin-markdown --save
+npm install @mathssyfy/markdown-it-katex --save
 ```
 
 Add CSS:
@@ -18,7 +18,7 @@ Add CSS:
 
 ```js
 const md = require('markdown-it')();
-const mkn = require('@mathssyfy/plugin-markdown');
+const mkn = require('@mathssyfy/markdown-it-katex');
 md.use(mkn);
 ```
  ## Add newcommands
@@ -29,7 +29,7 @@ const md = require('markdown-it')();
 const mynewcommands = '\\displaystyle'
     +'\\newcommand{\\vect}[1]{\\overrightarrow{#1}}'
     +'\\newcommand{\\Oij}{\\left(O;\\vect{i};\\vect{j}\\right)}';
-const mkn = require('@mathssyfy/plugin-markdown');
+const mkn = require('@mathssyfy/markdown-it-katex');
 md.use(mkn, {
       "newcommands": mynewcommands
     });
@@ -46,7 +46,7 @@ const mymacroskatex = {
     "\\f": "f(#1)"
 };
 const mynewcommands = '\\newcommand{\\g}[1]{g\\left(#1\\right)}';
-const mkn = require('@mathssyfy/plugin-markdown');
+const mkn = require('@mathssyfy/markdown-it-katex');
 md.use(mkn, {
     "macros": mymacroskatex,
     "newcommands": mynewcommands
