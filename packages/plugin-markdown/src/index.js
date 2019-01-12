@@ -142,7 +142,6 @@ export default {
 
   render(createElement) {
     this.md = new markdownIt()
-    this.md = md
       .use(subscript)
       .use(superscript)
       .use(footnote)
