@@ -19,19 +19,18 @@ blablblablbal
 
 hop
 
-:::tip Attention
-
+:::tip
 hop la
 
 :::
 
-:::attention Warning
+:::attention
 
 arg
 
 :::
 
-:::danger Arrggg
+:::danger
 arg
 :::
 </markdown>

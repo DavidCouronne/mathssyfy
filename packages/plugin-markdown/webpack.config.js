@@ -5,7 +5,7 @@ const MiniCssExtractPlugin = require("mini-css-extract-plugin");
 
     "/**\n" +
 
-    " * vue-markdown v" + version + "\n" +
+    " * @mathssyfy/plugin-markdown" + version + "\n" +
 
     " * https://github.com/DavidCouronne/mathssyfy/issues\n" +
 

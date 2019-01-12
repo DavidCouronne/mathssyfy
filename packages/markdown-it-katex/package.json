@@ -1,0 +1,32 @@
+{
+  "name": "@mathssyfy/plugin-markdown",
+  "version": "1.0.6",
+  "description": "Plugin markown-it for katex rendering with ability to add global \\newcommand",
+  "main": "index.js",
+  "author": "DavidCouronne <couronne.david@gmail.com>",
+  "homepage": "https://github.com/DavidCouronne/mathssyfy#readme",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DavidCouronne/mathssyfy.git"
+  },
+  "bugs": {
+    "url": "https://github.com/DavidCouronne/mathssyfy/issues"
+  },
+  "keywords": [
+    "markdown-it",
+    "katex",
+    "npm",
+    "markdown",
+    "latex"
+  ],
+  "license": "MIT",
+  "dependencies": {
+    "katex": "^0.10.0"
+  }
+}
