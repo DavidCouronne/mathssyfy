@@ -1,6 +1,6 @@
 {
   "name": "@mathssyfy/markdown-it-katex",
-  "version": "0.0.20",
+  "version": "0.0.21",
   "description": "Plugin markown-it for katex rendering with ability to add global \\newcommand",
   "main": "index.js",
   "author": "DavidCouronne <couronne.david@gmail.com>",
