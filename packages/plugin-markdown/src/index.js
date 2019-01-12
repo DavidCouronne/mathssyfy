@@ -1,4 +1,5 @@
-import markdownIt from 'markdown-it'
+// import markdownIt from 'markdown-it'
+import markdownIt from '@mathssyfy/markdown' //test plugin
 import emoji from 'markdown-it-emoji'
 import subscript from 'markdown-it-sub'
 import superscript from 'markdown-it-sup'

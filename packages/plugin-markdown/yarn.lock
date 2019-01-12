@@ -641,12 +641,12 @@
     lodash "^4.17.10"
     to-fast-properties "^2.0.0"
 
-"@mathssyfy/markdown@^0.0.15":
-  version "0.0.15"
-  resolved "https://registry.yarnpkg.com/@mathssyfy/markdown/-/markdown-0.0.15.tgz#63507b990e19117ee318137132c2156c1ecc8065"
-  integrity sha512-oiSV1ocQAbb8q2RpIPUI3usN8lQTaIhhyEYKDscTAuJJVT4Tj/l5AlRF8DyG+7Eup317Ys2O46HyBKAjO7wlMg==
+"@mathssyfy/markdown@^0.0.16":
+  version "0.0.16"
+  resolved "https://registry.yarnpkg.com/@mathssyfy/markdown/-/markdown-0.0.16.tgz#2dd7d035b25e748ecdb1df6201d2c0cccdb5bd04"
+  integrity sha512-VGehSDgex0nx7r9mYQvjbqztLQUZnX6jHLOq4Uh4GhGBPNsvPu8bqwuAYSIa1sBvA1kyOFEIEE7aWOE9kJmw8g==
   dependencies:
-    "@mathssyfy/shared-utils" "^0.0.15"
+    "@mathssyfy/shared-utils" "^0.0.16"
     markdown-it "^8.4.2"
     markdown-it-anchor "^5.0.2"
     markdown-it-chain "^1.3.0"
@@ -655,10 +655,10 @@
     markdown-it-table-of-contents "^0.4.3"
     prismjs "^1.15.0"
 
-"@mathssyfy/shared-utils@^0.0.15":
-  version "0.0.15"
-  resolved "https://registry.yarnpkg.com/@mathssyfy/shared-utils/-/shared-utils-0.0.15.tgz#a4189224ce0502e410d7d392015fc7905bba725a"
-  integrity sha512-HjxHsXQPe+kxZn7ulx7UPJdIC37572RE8JATmdVRPvSBog3tgMbWY6l37N3VqWpapHdOmI2vIOJVI45gbgYsPQ==
+"@mathssyfy/shared-utils@^0.0.16":
+  version "0.0.16"
+  resolved "https://registry.yarnpkg.com/@mathssyfy/shared-utils/-/shared-utils-0.0.16.tgz#1254b5a908e0416e81f7ded8389ec67e4743acab"
+  integrity sha512-I1JCaQ4GLFkh8vTE7QBiYfea/iOg4CWTavkPK049Een1qEr+QhDf48Av4gU2rSsRsU61JiiAM7JP1QASYvYNCA==
   dependencies:
     chalk "^2.3.2"
     diacritics "^1.3.0"
