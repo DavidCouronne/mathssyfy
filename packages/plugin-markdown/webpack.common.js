@@ -1,6 +1,7 @@
 const path = require('path');
 const version = require("./package.json").version;
 const nodeExternals = require('webpack-node-externals');
+const MiniCssExtractPlugin = require("mini-css-extract-plugin");
 
     "/**\n" +
 
@@ -25,10 +26,28 @@ module.exports = {
         library: 'PluginMarkdown',
         libraryTarget: 'umd'
     },
+    optimization: {
+        splitChunks: {
+          cacheGroups: {
+            styles: {
+              name: 'styles',
+              test: /\.css$/,
+              chunks: 'all',
+              enforce: true
+            }
+          }
+        }
+      },
+      plugins: [
+        new MiniCssExtractPlugin({
+          filename: "theme.css",
+        })
+      ],
     module: {
-        rules: [{
+        rules: [
+            {
                 test: /\.vue$/,
-                use: ['vue-loader']
+                use: ['vue-loader'] 
             },
             {
                 test: /\.css$/,
@@ -37,21 +56,21 @@ module.exports = {
                     'css-loader'
                 ]
             },
-            /* {
-                test: /\.js$/,
-
-                use: ['babel-loader'],
-
-                exclude: /node_modules/
-            }, */
             {
-
                 test: /\.json$/,
 
                 use: ['json-loader']
-
+            },
+            {
+                test: /\.scss$/,
+                use: [
+                    MiniCssExtractPlugin.loader,
+                    "css-loader",
+                "sass-loader"
+                    
+                    
+                ]
             }
-
         ]
     }
 };

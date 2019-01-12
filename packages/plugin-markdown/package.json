@@ -9,8 +9,9 @@
   "files": [
     "lib/plugin-markdown.js",
     "lib/plugin-markdown.common.js",
-    "lib/main.css",
-    "src"
+    "lib/theme.css",
+    "src",
+    "lib"
   ],
   "scripts": {
     "start": "webpack --config webpack.config.js",
