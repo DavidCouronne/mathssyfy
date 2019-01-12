@@ -1,5 +1,4 @@
-// import markdownIt from 'markdown-it'
-const md =  require('@mathssyfy/markdown') //test plugin
+import markdownIt from 'markdown-it'
 import emoji from 'markdown-it-emoji'
 import subscript from 'markdown-it-sub'
 import superscript from 'markdown-it-sup'
@@ -16,7 +15,7 @@ import prism from 'markdown-it-prism'
 import './scss/theme.scss'
 
 export default {
-  // md: new markdownIt(),
+  md: new markdownIt(),
 
   template: '<div><slot></slot></div>',
 
@@ -142,7 +141,7 @@ export default {
   },
 
   render(createElement) {
-    // this.md = new markdownIt()
+    this.md = new markdownIt()
     this.md = md
       .use(subscript)
       .use(superscript)

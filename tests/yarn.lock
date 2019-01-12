@@ -682,12 +682,12 @@
   resolved "https://registry.yarnpkg.com/@csstools/convert-colors/-/convert-colors-1.4.0.tgz#ad495dc41b12e75d588c6db8b9834f08fa131eb7"
   integrity sha512-5a6wqoJV/xEdbRNKVo6I4hO3VjyDq//8q2f9I6PBAvMesJHFauXDorcNCsr9RzvsZnaWi5NYCcfyqP1QeFHFbw==
 
-"@mathssyfy/markdown@^0.0.17":
-  version "0.0.17"
-  resolved "https://registry.yarnpkg.com/@mathssyfy/markdown/-/markdown-0.0.17.tgz#1733d653e3307c5e9eebf9c2c9455099a06b97bd"
-  integrity sha512-EBQXX81E9U4qL9iACkv94MbOn9JhsJ1evt2Vo6NkvpIBM7iz3A4xxtVN+a09lJ2VnYtCSSktcFuN20oaTyBkMQ==
+"@mathssyfy/markdown@^0.0.18":
+  version "0.0.18"
+  resolved "https://registry.yarnpkg.com/@mathssyfy/markdown/-/markdown-0.0.18.tgz#8a59d65343293eba632c1637424e9c94a8632fde"
+  integrity sha512-uFoA+qKOZlhYEl0IxD8TBVT/6p0+UJusUlXm156bwcI2OGla+h2h624f0MZ9jhE/tt2GcJJlMUhEeHQcrsT8gw==
   dependencies:
-    "@mathssyfy/shared-utils" "^0.0.17"
+    "@mathssyfy/shared-utils" "^0.0.18"
     markdown-it "^8.4.2"
     markdown-it-anchor "^5.0.2"
     markdown-it-chain "^1.3.0"
@@ -696,12 +696,12 @@
     markdown-it-table-of-contents "^0.4.3"
     prismjs "^1.15.0"
 
-"@mathssyfy/plugin-markdown@^0.0.17":
-  version "0.0.17"
-  resolved "https://registry.yarnpkg.com/@mathssyfy/plugin-markdown/-/plugin-markdown-0.0.17.tgz#ffd52306263780a06e930fe63c0c44775960f70b"
-  integrity sha512-9KifWr65vOYxX3XpP8iR5ZvUPh5DYm5Ch8FYeuSeFeaAW1SPmI2tLt4WqIkljLEBxqBW6gi6iQPxMBtYuPnNDQ==
+"@mathssyfy/plugin-markdown@^0.0.18":
+  version "0.0.18"
+  resolved "https://registry.yarnpkg.com/@mathssyfy/plugin-markdown/-/plugin-markdown-0.0.18.tgz#eba683b3f627466060ef15dab39012994c274514"
+  integrity sha512-zNodQ1zuN7AqeeWIRN9ryjOXTumbSkw4RDFOHIGn6fjqxDBpQ6SWes5QLdYvCM1XBa6RkjsMqGrM2l7XXrBZBg==
   dependencies:
-    "@mathssyfy/markdown" "^0.0.17"
+    "@mathssyfy/markdown" "^0.0.18"
     clipboard "^2.0.4"
     clone "^2.1.2"
     delegate "^3.2.0"
@@ -727,10 +727,10 @@
     unorm "^1.4.1"
     uslug "^1.0.4"
 
-"@mathssyfy/shared-utils@^0.0.17":
-  version "0.0.17"
-  resolved "https://registry.yarnpkg.com/@mathssyfy/shared-utils/-/shared-utils-0.0.17.tgz#2bd7f90091423cad5cba0ca0edfb5a14fb9eed71"
-  integrity sha512-ozMOXURhWInrv6CO3gz1j02/+66fxy5gJw8tih8jUJ/AnOMC42SgFWQy6NLAz9///oC6Tz9hAiRD+3ggRn6uwg==
+"@mathssyfy/shared-utils@^0.0.18":
+  version "0.0.18"
+  resolved "https://registry.yarnpkg.com/@mathssyfy/shared-utils/-/shared-utils-0.0.18.tgz#66fc794eea3495046e1ab0ad34bcd4937dd34960"
+  integrity sha512-NkeQ54/STgfmp7oVfEyh/ahydpEhM70ONnQG9QG2vIq79WP00DOh26G2p6M33qFdRG15YntIPHGO59RJzQaGyg==
   dependencies:
     chalk "^2.3.2"
     diacritics "^1.3.0"
