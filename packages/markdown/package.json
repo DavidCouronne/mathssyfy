@@ -1,6 +1,6 @@
 {
   "name": "@mathssyfy/markdown",
-  "version": "0.0.13",
+  "version": "0.0.14",
   "description": "markdown package",
   "keywords": [
     "markdown",
@@ -33,7 +33,7 @@
   },
   "gitHead": "2ed5e47eba4630247856858487e709c51df4ea4d",
   "dependencies": {
-    "@mathssyfy/shared-utils": "^0.0.13",
+    "@mathssyfy/shared-utils": "^0.0.14",
     "markdown-it": "^8.4.2",
     "markdown-it-anchor": "^5.0.2",
     "markdown-it-chain": "^1.3.0",
