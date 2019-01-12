@@ -152,9 +152,9 @@ export default {
       .use(prism)
       .use(katex, { "throwOnError": false, "errorColor": " #cc0000" })
       .use(tasklists, { enabled: this.taskLists })
-      .use(...createContainer('tip', 'TIP'))
-    .use(...createContainer('warning', 'WARNING'))
-    .use(...createContainer('danger', 'WARNING'))
+      .use(...createContainer('tip', 'ASTUCE'))
+    .use(...createContainer('attention', 'ATTENTION'))
+    .use(...createContainer('danger', 'DANGER'))
 
     if (this.emoji) {
       this.md.use(emoji)

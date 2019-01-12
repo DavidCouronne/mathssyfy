@@ -25,10 +25,14 @@ hop la
 
 :::
 
-:::warning
+:::attention Warning
 
 arg
 
+:::
+
+:::danger Arrggg
+arg
 :::
 </markdown>
       </v-card>

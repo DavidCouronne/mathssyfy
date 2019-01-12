@@ -2,7 +2,7 @@
   font-weight: 600;
   margin-bottom: -0.4rem; }
 
-.custom-block.tip, .custom-block.warning, .custom-block.danger {
+.custom-block.tip, .custom-block.attention, .custom-block.danger {
   padding: .1rem 1.5rem;
   border-left-width: .5rem;
   border-left-style: solid;
@@ -12,11 +12,11 @@
   background-color: #f3f5f7;
   border-color: #42b983; }
 
-.custom-block.warning {
+.custom-block.attention {
   background-color: rgba(255, 229, 100, 0.3);
   border-color: #b19300;
   color: black; }
-  .custom-block.warning .custom-block-title {
+  .custom-block.attention.custom-block-title {
     color: #645300; }
 
 .custom-block a {
