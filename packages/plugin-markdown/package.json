@@ -9,6 +9,7 @@
   "files": [
     "lib/plugin-markdown.js",
     "lib/plugin-markdown.common.js",
+    "lib/main.css",
     "src"
   ],
   "scripts": {

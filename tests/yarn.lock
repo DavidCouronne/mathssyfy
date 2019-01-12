@@ -682,12 +682,12 @@
   resolved "https://registry.yarnpkg.com/@csstools/convert-colors/-/convert-colors-1.4.0.tgz#ad495dc41b12e75d588c6db8b9834f08fa131eb7"
   integrity sha512-5a6wqoJV/xEdbRNKVo6I4hO3VjyDq//8q2f9I6PBAvMesJHFauXDorcNCsr9RzvsZnaWi5NYCcfyqP1QeFHFbw==
 
-"@mathssyfy/markdown@^0.0.10":
-  version "0.0.10"
-  resolved "https://registry.yarnpkg.com/@mathssyfy/markdown/-/markdown-0.0.10.tgz#0b544fa3f697d4b9b47f2134b45178832d66708f"
-  integrity sha512-gNGKXU+/cJqWm6ELXN87ydwz9wlsikYdkHGjKXSa+xGXgTCagFKGNDyawNmPFr16baOoLOhEOsmYrpNQqwhNJQ==
+"@mathssyfy/markdown@^0.0.11":
+  version "0.0.11"
+  resolved "https://registry.yarnpkg.com/@mathssyfy/markdown/-/markdown-0.0.11.tgz#58ac8c1ee1e0fbe6056500410cd5d9d79c10dcd9"
+  integrity sha512-62M14iMQOkU6VbNXPezRtA3CL3mB18dxAFrSe8bqekStLIzQNzF/rqcmV5e2fAsIROEVtZZZCOWUrDMk2u46bA==
   dependencies:
-    "@mathssyfy/shared-utils" "^0.0.10"
+    "@mathssyfy/shared-utils" "^0.0.11"
     markdown-it "^8.4.2"
     markdown-it-anchor "^5.0.2"
     markdown-it-chain "^1.3.0"
@@ -696,10 +696,10 @@
     markdown-it-table-of-contents "^0.4.3"
     prismjs "^1.15.0"
 
-"@mathssyfy/plugin-markdown@^0.0.10":
-  version "0.0.10"
-  resolved "https://registry.yarnpkg.com/@mathssyfy/plugin-markdown/-/plugin-markdown-0.0.10.tgz#991a1d32449b133f5086e8b8286e780be51f6627"
-  integrity sha512-JJV7jsNKboge1atzZwlpvtFBB2kC83HY1WEEWiOyey49KrQaoNwLHdG494IyYp67BaBEKfgR8Xx0KJ7G8a3rPQ==
+"@mathssyfy/plugin-markdown@^0.0.11":
+  version "0.0.11"
+  resolved "https://registry.yarnpkg.com/@mathssyfy/plugin-markdown/-/plugin-markdown-0.0.11.tgz#34429b51838a7765b58686817a8cce48bad455dd"
+  integrity sha512-oXjUjHdmhyFXuULnCX4bdhxTPbuIFFZr8v37qWhO5Mg7FewLqUAk3bbsXRX6Gj1qW22zx4TTKQWxSLleCFhlfA==
   dependencies:
     clipboard "^2.0.4"
     clone "^2.1.2"
@@ -726,10 +726,10 @@
     unorm "^1.4.1"
     uslug "^1.0.4"
 
-"@mathssyfy/shared-utils@^0.0.10":
-  version "0.0.10"
-  resolved "https://registry.yarnpkg.com/@mathssyfy/shared-utils/-/shared-utils-0.0.10.tgz#03937e0cf2f9f9811ae3732938756d2599c5fa37"
-  integrity sha512-PQeSGBBS9g/NSh+m0nk7RMZNqkQBhJirYjnzTsAMyNOBMnc9y7ZqMW+MzGoJRt9z12hxMfHShY8GhE/tallGww==
+"@mathssyfy/shared-utils@^0.0.11":
+  version "0.0.11"
+  resolved "https://registry.yarnpkg.com/@mathssyfy/shared-utils/-/shared-utils-0.0.11.tgz#b1c611f13ddd5f4bc25221480851cee30a742e05"
+  integrity sha512-Dfl0RrEXywTuRxZSPabD44K48PsjCspzRPqbY7uWDW7B941Vpou5mub/KwGYqJpnilmBJfW8UoLwgO8PutSOyA==
   dependencies:
     chalk "^2.3.2"
     diacritics "^1.3.0"
@@ -3536,9 +3536,9 @@ ejs@^2.6.1:
   integrity sha512-0xy4A/twfrRCnkhfk8ErDi5DqdAsAqeGxht4xkCUrsvhhbQNs7E+4jV0CN7+NKIY0aHE72+XvqtBIXzD31ZbXQ==
 
 electron-to-chromium@^1.3.100:
-  version "1.3.101"
-  resolved "https://registry.yarnpkg.com/electron-to-chromium/-/electron-to-chromium-1.3.101.tgz#6dfdba9fd71db9adef904c1bb36e0b31c39f899d"
-  integrity sha512-WiqTxlFFzJP1CbG3XFWfEhs2390qKvx92PQGGqAhin2pIR1mqZjR5zv+aQmloU/kutDN9UMq3yx8uCAIRS0Eow==
+  version "1.3.102"
+  resolved "https://registry.yarnpkg.com/electron-to-chromium/-/electron-to-chromium-1.3.102.tgz#3ac43a037c8a63bca3dfa189eb3d90f097196787"
+  integrity sha512-2nzZuXw/KBPnI3QX3UOCSRvJiVy7o9+VHRDQ3D/EHCvVc89X6aj/GlNmEgiR2GBIhmSWXIi4W1M5okA5ScSlNg==
 
 elliptic@^6.0.0:
   version "6.4.1"

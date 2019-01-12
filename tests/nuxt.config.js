@@ -29,7 +29,8 @@ module.exports = {
   */
   
   css: [
-    '@assets/style/app.styl'
+    '@assets/style/app.styl',
+    '~@mathssyfy/plugin-markdown/lib/main.css'
   ],
   /*
   ** Plugins to load before mounting the App
