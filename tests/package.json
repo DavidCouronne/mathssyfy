@@ -11,8 +11,8 @@
     "generate": "nuxt generate"
   },
   "dependencies": {
-    "@mathssyfy/markdown": "^0.0.20",
-    "@mathssyfy/plugin-markdown": "^0.0.20",
+    "@mathssyfy/markdown": "^0.0.21",
+    "@mathssyfy/plugin-markdown": "^0.0.21",
     "@nuxtjs/apollo": "^4.0.0-rc2.3",
     "@nuxtjs/markdownit": "^1.2.3",
     "@nuxtjs/vuetify": "^0.5.0",
