@@ -12,6 +12,7 @@ import katex from 'markdown-it-katex-newcommand'
 import tasklists from 'markdown-it-task-lists'
 import container from 'markdown-it-container'
 import prism from 'markdown-it-prism'
+import './scss/theme.scss'
 
 export default {
   md: new markdownIt(),

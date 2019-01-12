@@ -29,10 +29,7 @@ module.exports = {
   */
   
   css: [
-    "@assets/prism/prism-tomorrow.css",
-    
-    '@assets/styles/theme.styl',
-    '~/assets/style/app.styl'
+    '@assets/style/app.styl'
   ],
   /*
   ** Plugins to load before mounting the App
@@ -45,6 +42,7 @@ module.exports = {
   ** Nuxt.js modules
   */
   modules: [
+    '@nuxtjs/vuetify',
   ],
 
   /*
