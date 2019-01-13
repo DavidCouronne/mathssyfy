@@ -77,5 +77,5 @@ export default {
 </script>
 
 <style lang="stylus">
-@import './styles/dropdownlink.styl'
+@import './styles/dropdown-link.styl'
 </style>
