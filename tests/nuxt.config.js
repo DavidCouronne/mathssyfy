@@ -30,7 +30,7 @@ module.exports = {
   
   css: [
     '@assets/style/app.styl',
-    '@mathssyfy/plugin-markdown/lib/theme.css',
+    '@mathssyfy/theme/lib/theme.css',
     // '@assets/scss/theme.scss'
   ],
   /*

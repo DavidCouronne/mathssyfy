@@ -739,6 +739,11 @@
     hash-sum "^1.0.2"
     upath "^1.1.0"
 
+"@mathssyfy/theme@^0.0.22":
+  version "0.0.22"
+  resolved "https://registry.yarnpkg.com/@mathssyfy/theme/-/theme-0.0.22.tgz#f3909b53b2c9ef97414e35e9cd148189d2105f10"
+  integrity sha512-42hXcDUFIyFsGQZXtxy7E0To2FZ9gAbrzhyRm0ari0ascNivl/Wj4E/hqbfxEyznlo3F8gZyYmif/TzSthRfzA==
+
 "@mrmlnc/readdir-enhanced@^2.2.1":
   version "2.2.1"
   resolved "https://registry.yarnpkg.com/@mrmlnc/readdir-enhanced/-/readdir-enhanced-2.2.1.tgz#524af240d1a360527b730475ecfa1344aa540dde"
