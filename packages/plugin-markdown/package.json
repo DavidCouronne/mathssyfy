@@ -33,6 +33,7 @@
     "url": "https://github.com/DavidCouronne/mathssyfy/issues"
   },
   "dependencies": {
+    "@mathssyfy/markdown-it-prewrapper": "^0.0.24",
     "clipboard": "^2.0.4",
     "clone": "^2.1.2",
     "delegate": "^3.2.0",
@@ -40,6 +41,7 @@
     "lodash": "^4.17.11",
     "markdown-it": "^8.4.2",
     "markdown-it-abbr": "^1.0.4",
+    "markdown-it-anchor": "^5.0.2",
     "markdown-it-container": "^2.0.0",
     "markdown-it-deflist": "^2.0.3",
     "markdown-it-emoji": "^1.4.0",
@@ -50,6 +52,7 @@
     "markdown-it-prism": "^2.0.1",
     "markdown-it-sub": "^1.0.0",
     "markdown-it-sup": "^1.0.0",
+    "markdown-it-table-of-contents": "^0.4.3",
     "markdown-it-task-lists": "^2.1.1",
     "markdown-it-toc-and-anchor": "^4.2.0",
     "prismjs": "^1.15.0",
@@ -65,6 +68,7 @@
     "babel-loader": "^8.0.5",
     "css-loader": "^2.1.0",
     "json-loader": "^0.5.7",
+    "markdown-it-chain": "^1.3.0",
     "mini-css-extract-plugin": "^0.5.0",
     "node-sass": "^4.11.0",
     "sass-loader": "^7.1.0",

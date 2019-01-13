@@ -12,7 +12,18 @@ import katex from 'markdown-it-katex-newcommand'
 import tasklists from 'markdown-it-task-lists'
 import container from 'markdown-it-container'
 import prism from 'markdown-it-prism'
+import preWrapper from '@mathssyfy/markdown-it-prewrapper'
+import anchorPlugin from 'markdown-it-anchor'
+import tocPlugin from 'markdown-it-table-of-contents'
+
+//tests
+import lineNumbers from './lineNumbers' //Probleme avec babel
+import hightlightLines from './hightlightLines'//Meme problème
+
+///
+
 import './scss/theme.scss'
+
 
 export default {
   md: new markdownIt(),
@@ -33,6 +44,10 @@ export default {
     source: {
       type: String,
       default: ``,
+    },
+    lineNumbers: {
+      type: Boolean,
+      default: false,
     },
     show: {
       type: Boolean,
@@ -84,7 +99,7 @@ export default {
     },
     toc: {
       type: Boolean,
-      default: false,
+      default: true,
     },
     tocId: {
       type: String,
@@ -150,14 +165,31 @@ export default {
       .use(insert)
       .use(mark)
       .use(prism)
+      .use(hightlightLines)
+      .use(preWrapper)
+      
+      
+      .use(anchorPlugin, [Object.assign({
+        permalink: true,
+        permalinkBefore: true,
+        permalinkSymbol: '#'
+      })])
+      .use(tocPlugin,[Object.assign({
+        includeLevel: [1, 2, 3],
+      }, toc)])
       .use(katex, { "throwOnError": false, "errorColor": " #cc0000" })
       .use(tasklists, { enabled: this.taskLists })
-      .use(...createContainer('tip', 'ASTUCE'))
+      .use(...createContainer('tip', 'TIP'))
     .use(...createContainer('attention', 'ATTENTION'))
     .use(...createContainer('danger', 'DANGER'))
+    .use(...createContainer('warning', 'WARNING'))
+    .use(...createContainer('astuce', 'ASTUCE'))
 
     if (this.emoji) {
       this.md.use(emoji)
+    }
+    if (this.lineNumbers) {
+      this.md.use(lineNumbers)
     }
 
     this.md.set({
