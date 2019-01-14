@@ -1,6 +1,6 @@
 {
   "name": "@mathssyfy/shared-utils",
-  "version": "0.0.25",
+  "version": "0.1.0",
   "description": "shared-utils",
   "main": "lib/index.js",
   "types": "types/index.d.ts",
