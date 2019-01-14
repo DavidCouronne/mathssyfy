@@ -47,7 +47,7 @@ export default {
     },
     lineNumbers: {
       type: Boolean,
-      default: false,
+      default: true,
     },
     show: {
       type: Boolean,
