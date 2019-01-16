@@ -23,6 +23,7 @@ import hightlightLines from './hightlightLines'//Meme problème
 ///
 
 import './scss/theme.scss'
+import { propsMakrdown } from './propsMakrdown';
 
 
 export default {
@@ -36,118 +37,7 @@ export default {
     }
   },
 
-  props: {
-    watches: {
-      type: Array,
-      default: () => ['source', 'show', 'toc'],
-    },
-    source: {
-      type: String,
-      default: ``,
-    },
-    lineNumbers: {
-      type: Boolean,
-      default: true,
-    },
-    show: {
-      type: Boolean,
-      default: true,
-    },
-    highlight: {
-      type: Boolean,
-      default: true
-    },
-    html: {
-      type: Boolean,
-      default: true,
-    },
-    xhtmlOut: {
-      type: Boolean,
-      default: true,
-    },
-    breaks: {
-      type: Boolean,
-      default: true,
-    },
-    linkify: {
-      type: Boolean,
-      default: true,
-    },
-    emoji: {
-      type: Boolean,
-      default: true,
-    },
-    typographer: {
-      type: Boolean,
-      default: true,
-    },
-    langPrefix: {
-      type: String,
-      default: 'language-',
-    },
-    quotes: {
-      type: String,
-      default: '“”‘’',
-    },
-    tableClass: {
-      type: String,
-      default: 'table',
-    },
-    taskLists: {
-      type: Boolean,
-      default: true
-    },
-    toc: {
-      type: Boolean,
-      default: true,
-    },
-    tocId: {
-      type: String,
-    },
-    tocClass: {
-      type: String,
-      default: 'table-of-contents',
-    },
-    tocFirstLevel: {
-      type: Number,
-      default: 2,
-    },
-    tocLastLevel: {
-      type: Number,
-    },
-    tocAnchorLink: {
-      type: Boolean,
-      default: true,
-    },
-    tocAnchorClass: {
-      type: String,
-      default: 'toc-anchor',
-    },
-    tocAnchorLinkSymbol: {
-      type: String,
-      default: '#',
-    },
-    tocAnchorLinkSpace: {
-      type: Boolean,
-      default: true,
-    },
-    tocAnchorLinkClass: {
-      type: String,
-      default: 'toc-anchor-link',
-    },
-    anchorAttributes: {
-      type: Object,
-      default: () => ({})
-    },
-    prerender: {
-      type: Function,
-      default: (sourceData) => { return sourceData }
-    },
-    postrender: {
-      type: Function,
-      default: (htmlData) => { return htmlData }
-    }
-  },
+  props: propsMakrdown,
 
   computed: {
     tocLastLevelComputed() {
@@ -157,41 +47,6 @@ export default {
 
   render(createElement) {
     this.md = new markdownIt()
-      .use(subscript)
-      .use(superscript)
-      .use(footnote)
-      .use(deflist)
-      .use(abbreviation)
-      .use(insert)
-      .use(mark)
-      .use(prism)
-      .use(hightlightLines)
-      .use(preWrapper)
-      
-      
-      .use(anchorPlugin, [Object.assign({
-        permalink: true,
-        permalinkBefore: true,
-        permalinkSymbol: '#'
-      })])
-      .use(tocPlugin,[Object.assign({
-        includeLevel: [1, 2, 3],
-      }, toc)])
-      .use(katex, { "throwOnError": false, "errorColor": " #cc0000" })
-      .use(tasklists, { enabled: this.taskLists })
-      .use(...createContainer('tip', 'TIP'))
-    .use(...createContainer('attention', 'ATTENTION'))
-    .use(...createContainer('danger', 'DANGER'))
-    .use(...createContainer('warning', 'WARNING'))
-    .use(...createContainer('astuce', 'ASTUCE'))
-
-    if (this.emoji) {
-      this.md.use(emoji)
-    }
-    if (this.lineNumbers) {
-      this.md.use(lineNumbers)
-    }
-
     this.md.set({
       html: this.html,
       xhtmlOut: this.xhtmlOut,
@@ -201,45 +56,9 @@ export default {
       langPrefix: this.langPrefix,
       quotes: this.quotes,
     })
-    this.md.renderer.rules.table_open = () => `<table class="${this.tableClass}">\n`
-    let defaultLinkRenderer = this.md.renderer.rules.link_open ||
-      function (tokens, idx, options, env, self) {
-        return self.renderToken(tokens, idx, options)
-      }
-    this.md.renderer.rules.link_open = (tokens, idx, options, env, self) => {
-      Object.keys(this.anchorAttributes).map((attribute) => {
-        let aIndex = tokens[idx].attrIndex(attribute)
-        let value = this.anchorAttributes[attribute]
-        if (aIndex < 0) {
-          tokens[idx].attrPush([attribute, value]) // add new attribute
-        } else {
-          tokens[idx].attrs[aIndex][1] = value
-        }
-      })
-      return defaultLinkRenderer(tokens, idx, options, env, self)
-    }
+    mdAnchor();
 
-    if (this.toc) {
-      this.md.use(toc, {
-        tocClassName: this.tocClass,
-        tocFirstLevel: this.tocFirstLevel,
-        tocLastLevel: this.tocLastLevelComputed,
-        anchorLink: this.tocAnchorLink,
-        anchorLinkSymbol: this.tocAnchorLinkSymbol,
-        anchorLinkSpace: this.tocAnchorLinkSpace,
-        anchorClassName: this.tocAnchorClass,
-        anchorLinkSymbolClassName: this.tocAnchorLinkClass,
-        tocCallback: (tocMarkdown, tocArray, tocHtml) => {
-          if (tocHtml) {
-            if (this.tocId && document.getElementById(this.tocId)) {
-              document.getElementById(this.tocId).innerHTML = tocHtml
-            }
-
-            this.$emit('toc-rendered', tocHtml)
-          }
-        },
-      })
-    }
+    ifToc();
 
     let outHtml = this.show ?
       this.md.render(
@@ -276,6 +95,50 @@ export default {
       })
     })
   },
+}
+
+function mdAnchor() {
+  this.md.renderer.rules.table_open = () => `<table class="${this.tableClass}">\n`;
+  let defaultLinkRenderer = this.md.renderer.rules.link_open ||
+    function (tokens, idx, options, env, self) {
+      return self.renderToken(tokens, idx, options);
+    };
+  this.md.renderer.rules.link_open = (tokens, idx, options, env, self) => {
+    Object.keys(this.anchorAttributes).map((attribute) => {
+      let aIndex = tokens[idx].attrIndex(attribute);
+      let value = this.anchorAttributes[attribute];
+      if (aIndex < 0) {
+        tokens[idx].attrPush([attribute, value]); // add new attribute
+      }
+      else {
+        tokens[idx].attrs[aIndex][1] = value;
+      }
+    });
+    return defaultLinkRenderer(tokens, idx, options, env, self);
+  };
+}
+
+function ifToc() {
+  if (this.toc) {
+    this.md.use(toc, {
+      tocClassName: this.tocClass,
+      tocFirstLevel: this.tocFirstLevel,
+      tocLastLevel: this.tocLastLevelComputed,
+      anchorLink: this.tocAnchorLink,
+      anchorLinkSymbol: this.tocAnchorLinkSymbol,
+      anchorLinkSpace: this.tocAnchorLinkSpace,
+      anchorClassName: this.tocAnchorClass,
+      anchorLinkSymbolClassName: this.tocAnchorLinkClass,
+      tocCallback: (tocMarkdown, tocArray, tocHtml) => {
+        if (tocHtml) {
+          if (this.tocId && document.getElementById(this.tocId)) {
+            document.getElementById(this.tocId).innerHTML = tocHtml;
+          }
+          this.$emit('toc-rendered', tocHtml);
+        }
+      },
+    });
+  }
 }
 
 // makdown-it-container
