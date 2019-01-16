@@ -1,11 +1,11 @@
 {
-  "name": "@mathssyfy/markdown-it-linenumbers",
+  "name": "@mathssyfy/markdown-it-highlightlines",
   "version": "0.1.2",
   "description": "> TODO: description",
   "author": "DavidCouronne <couronne.david@gmail.com>",
   "homepage": "https://github.com/DavidCouronne/mathssyfy#readme",
   "license": "MIT",
-  "main": "lib/markdown-it-linenumbers.js",
+  "main": "lib/markdown-it-highlightlines.js",
   "directories": {
     "lib": "lib",
     "test": "__tests__"
