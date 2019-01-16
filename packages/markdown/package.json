@@ -33,6 +33,7 @@
   },
   "gitHead": "2ed5e47eba4630247856858487e709c51df4ea4d",
   "dependencies": {
+    "@mathssyfy/markdown-it-loader": "^1.1.2",
     "@mathssyfy/shared-utils": "^1.0.0",
     "markdown-it": "^8.4.2",
     "markdown-it-anchor": "^5.0.2",
@@ -41,5 +42,8 @@
     "markdown-it-emoji": "^1.4.0",
     "markdown-it-table-of-contents": "^0.4.3",
     "prismjs": "^1.15.0"
+  },
+  "devDependencies": {
+    "raw-loader": "^1.0.0"
   }
 }
