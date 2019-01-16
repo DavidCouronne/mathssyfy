@@ -1,3 +1,4 @@
+var hljs = require('./highlight')
 var loaderUtils = require('loader-utils')
 var markdown = require('markdown-it')
 
@@ -6,17 +7,24 @@ var markdown = require('markdown-it')
  * @param  {string} str
  * @return {string}
  */
-/* 
 var replaceDelimiters = function (str) {
   return str.replace(/({{|}})/g, '<span>$1</span>')
 }
- */
 
-var replaceDelimiters = function (str) {
-    return str.replace(/({{|}})/g, '$1')
+/**
+ * renderHighlight
+ * @param  {string} str
+ * @param  {string} lang
+ */
+var renderHighlight = function (str, lang) {
+  if (!(lang && hljs.getLanguage(lang))) {
+    return ''
   }
 
-
+  try {
+    return replaceDelimiters(hljs.highlight(lang, str, true).value)
+  } catch (err) {}
+}
 
 /**
  * html => vue file template
@@ -52,6 +60,7 @@ module.exports = function (source) {
     opts = Object.assign({
       preset: 'default',
       html: true,
+      highlight: renderHighlight
     }, opts)
 
     var plugins = opts.use

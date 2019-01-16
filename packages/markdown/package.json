@@ -31,7 +31,7 @@
   "bugs": {
     "url": "https://github.com/DavidCouronne/mathssyfy/issues"
   },
-  "gitHead": "2ed5e47eba4630247856858487e709c51df4ea4d",
+  "gitHead": "26c6d795341dcf05f750ed55eced4f7714bea404",
   "dependencies": {
     "@mathssyfy/markdown-it-loader": "^1.1.2",
     "@mathssyfy/shared-utils": "^1.0.0",

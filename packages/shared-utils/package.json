@@ -29,5 +29,6 @@
     "upath": "^1.1.0"
   },
   "author": "David Couronné",
-  "license": "MIT"
+  "license": "MIT",
+  "gitHead": "01bb76afd1750baa9dda77d9959ea6001b012c6a"
 }

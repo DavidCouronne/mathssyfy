@@ -33,5 +33,6 @@
   "devDependencies": {
     "loader-utils": "^1.2.3",
     "markdown-it": "^8.4.2"
-  }
+  },
+  "gitHead": "4880fabff37c9681cc4b18853230b7f48388082b"
 }
