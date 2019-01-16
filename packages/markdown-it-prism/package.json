@@ -1,6 +1,6 @@
 {
   "name": "@mathssyfy/markdown-it-prism",
-  "version": "1.1.0",
+  "version": "1.2.1",
   "description": "> TODO: description",
   "author": "DavidCouronne <couronne.david@gmail.com>",
   "homepage": "https://github.com/DavidCouronne/mathssyfy#readme",
@@ -28,7 +28,7 @@
   },
   "gitHead": "0ad454de7ab58e4e7d90895b2961bebf55fbbcb7",
   "dependencies": {
-    "@mathssyfy/markdown-it-prewrapper": "^1.0.0",
+    "@mathssyfy/markdown-it-prewrapper": "^1.2.1",
     "prism": "^4.1.2"
   }
 }
