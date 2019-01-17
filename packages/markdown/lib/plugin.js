@@ -4,7 +4,7 @@ const parser = require('@mathssyfy/markdown/lib/parser.js')
 export default ({ app }, inject) => {
 <%
 const plugins = options.use || []
-delete options.use
+
 options = serialize(options)
 options = options === '{}' ? undefined : options
 %>
