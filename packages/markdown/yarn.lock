@@ -2,15 +2,15 @@
 # yarn lockfile v1
 
 
-"@mathssyfy/markdown-it-loader@^1.1.2":
-  version "1.1.2"
-  resolved "https://registry.yarnpkg.com/@mathssyfy/markdown-it-loader/-/markdown-it-loader-1.1.2.tgz#b652f237e5d35f9c17b708f962cd4d7ac9e6cca9"
-  integrity sha512-YTszQOEjYyMhqoqJAv+j5QGjCFVP6nQiFelpatdBTxmyqxX/y5beI8R3xC4+pzcK57fLFOR2SwThvTpGtQNulw==
+"@mathssyfy/markdown-it-loader@^1.2.2":
+  version "1.2.2"
+  resolved "https://registry.yarnpkg.com/@mathssyfy/markdown-it-loader/-/markdown-it-loader-1.2.2.tgz#38274eeef34a1aae03b0621908d7ec09dc72ae65"
+  integrity sha512-zcjFKDhsxat1AUmRQShdsiQbexXtSivyDX4EjUo+h+aHyQ8DZn0A4HuVCIyqVz4yX4uaTga/d4imCUuTDfrfWQ==
 
-"@mathssyfy/shared-utils@^1.0.0":
-  version "1.0.0"
-  resolved "https://registry.yarnpkg.com/@mathssyfy/shared-utils/-/shared-utils-1.0.0.tgz#4bede8f46b705f555a6845d2f21120a0bb51a76c"
-  integrity sha512-L+Yw+l1FQtBZTvmulvHbHIAQBvUOXh1rDtA+PEt/TTrjOyxGXfiyP08EiiGzZyn+JKrTsgBfI6cjPKXU3M0t3g==
+"@mathssyfy/shared-utils@^1.2.1":
+  version "1.2.1"
+  resolved "https://registry.yarnpkg.com/@mathssyfy/shared-utils/-/shared-utils-1.2.1.tgz#d9098f24d491126ab62386c2fef217926a5d578b"
+  integrity sha512-Q0ZGUlmqNMVeEs/a+/AWG5JitjjJujPmzXQ41sYwUCWTdW3KTRXfp2lfoKxojgFDtMt2BOr5dN4FKQiLW5B7iw==
   dependencies:
     chalk "^2.3.2"
     diacritics "^1.3.0"
@@ -200,15 +200,6 @@ class-utils@^0.3.5:
     isobject "^3.0.0"
     static-extend "^0.1.1"
 
-clipboard@^2.0.0:
-  version "2.0.4"
-  resolved "https://registry.yarnpkg.com/clipboard/-/clipboard-2.0.4.tgz#836dafd66cf0fea5d71ce5d5b0bf6e958009112d"
-  integrity sha512-Vw26VSLRpJfBofiVaFb/I8PVfdI1OxKcYShe6fm0sP/DtmiWQNCjhM/okTvdCo0G+lMMm1rMYbk4IK4x1X+kgQ==
-  dependencies:
-    good-listener "^1.2.2"
-    select "^1.1.2"
-    tiny-emitter "^2.0.0"
-
 collection-visit@^1.0.0:
   version "1.0.0"
   resolved "https://registry.yarnpkg.com/collection-visit/-/collection-visit-1.0.0.tgz#4bc0373c164bc3291b4d368c829cf1a80a59dca0"
@@ -282,11 +273,6 @@ define-property@^2.0.2:
   dependencies:
     is-descriptor "^1.0.2"
     isobject "^3.0.1"
-
-delegate@^3.1.2:
-  version "3.2.0"
-  resolved "https://registry.yarnpkg.com/delegate/-/delegate-3.2.0.tgz#b66b71c3158522e8ab5744f720d8ca0c2af59166"
-  integrity sha512-IofjkYBZaZivn0V8nnsMJGBr4jVLxHDheKSW88PyxS5QC4Vo9ZbZVvhzlSxY87fVq3STR6r+4cGepyHkcWOQSw==
 
 diacritics@^1.3.0:
   version "1.3.0"
@@ -463,13 +449,6 @@ globby@^8.0.1:
     ignore "^3.3.5"
     pify "^3.0.0"
     slash "^1.0.0"
-
-good-listener@^1.2.2:
-  version "1.2.2"
-  resolved "https://registry.yarnpkg.com/good-listener/-/good-listener-1.2.2.tgz#d53b30cdf9313dffb7dc9a0d477096aa6d145c50"
-  integrity sha1-1TswzfkxPf+33JoNR3CWqm0UXFA=
-  dependencies:
-    delegate "^3.1.2"
 
 graceful-fs@^4.1.2, graceful-fs@^4.1.6:
   version "4.1.15"
@@ -900,13 +879,6 @@ posix-character-classes@^0.1.0:
   resolved "https://registry.yarnpkg.com/posix-character-classes/-/posix-character-classes-0.1.1.tgz#01eac0fe3b5af71a2a6c02feabb8c1fef7e00eab"
   integrity sha1-AerA/jta9xoqbAL+q7jB/vfgDqs=
 
-prismjs@^1.15.0:
-  version "1.15.0"
-  resolved "https://registry.yarnpkg.com/prismjs/-/prismjs-1.15.0.tgz#8801d332e472091ba8def94976c8877ad60398d9"
-  integrity sha512-Lf2JrFYx8FanHrjoV5oL8YHCclLQgbJcVZR+gikGGMqz6ub5QVWDTM6YIwm3BuPxM/LOV+rKns3LssXNLIf+DA==
-  optionalDependencies:
-    clipboard "^2.0.0"
-
 punycode@^2.1.0:
   version "2.1.1"
   resolved "https://registry.yarnpkg.com/punycode/-/punycode-2.1.1.tgz#b58b010ac40c22c5657616c8d2c2c02c7bf479ec"
@@ -963,11 +935,6 @@ schema-utils@^1.0.0:
     ajv "^6.1.0"
     ajv-errors "^1.0.0"
     ajv-keywords "^3.1.0"
-
-select@^1.1.2:
-  version "1.1.2"
-  resolved "https://registry.yarnpkg.com/select/-/select-1.1.2.tgz#0e7350acdec80b1108528786ec1d4418d11b396d"
-  integrity sha1-DnNQrN7ICxEIUoeG7B1EGNEbOW0=
 
 set-value@^0.4.3:
   version "0.4.3"
@@ -1071,11 +1038,6 @@ supports-color@^5.3.0:
   integrity sha512-QjVjwdXIt408MIiAqCX4oUKsgU2EqAGzs2Ppkm4aQYbjm+ZEWEcW4SfFNTr4uMNZma0ey4f5lgLrkB0aX0QMow==
   dependencies:
     has-flag "^3.0.0"
-
-tiny-emitter@^2.0.0:
-  version "2.0.2"
-  resolved "https://registry.yarnpkg.com/tiny-emitter/-/tiny-emitter-2.0.2.tgz#82d27468aca5ade8e5fd1e6d22b57dd43ebdfb7c"
-  integrity sha512-2NM0auVBGft5tee/OxP4PI3d8WItkDM+fPnaRAVo6xTDI2knbz9eC5ArWGqtGlYqiH3RU5yMpdyTTO7MguC4ow==
 
 to-object-path@^0.3.0:
   version "0.3.0"

@@ -1,4 +1,5 @@
-import MarkdownIt from 'markdown-it'
+// import MarkdownIt from 'markdown-it'
+import MarkdownIt from './parser.js'
 
 export default ({ app }, inject) => {
 <%
