@@ -1,6 +1,7 @@
-var hljs = require('./highlight')
+var hljs = require('@mathssyfy/markdown-it-loader/lib/highlight')
 var loaderUtils = require('loader-utils')
 var markdown = require('markdown-it')
+var component = require ('@mathssyfy/markdown/lib/component.js')
 
 /**
  * `{{ }}` => `<span>{{</span> <span>}}</span>`
@@ -17,12 +18,10 @@ var replaceDelimiters = function (str) {
  * @param  {string} lang
  */
 var renderHighlight = function (str, lang) {
-  if (!(lang && hljs.getLanguage(lang))) {
-    return ''
-  }
+  
 
   try {
-    return replaceDelimiters(hljs.highlight(lang, str, true).value)
+    return hljs( str, lang)
   } catch (err) {}
 }
 
@@ -70,6 +69,7 @@ module.exports = function (source) {
     delete opts.preprocess
 
     parser = markdown(opts.preset, opts)
+    parser.use(component)
     if (plugins) {
       plugins.forEach(function (plugin) {
         if (Array.isArray(plugin)) {
