@@ -1,5 +1,5 @@
-// import MarkdownIt from 'markdown-it'
-import MarkdownIt from './parser.js'
+import MarkdownIt from 'markdown-it'
+const parser = require('@mathssyfy/markdown/lib/parser.js')
 
 export default ({ app }, inject) => {
 <%
@@ -8,7 +8,8 @@ delete options.use
 options = serialize(options)
 options = options === '{}' ? undefined : options
 %>
-  const md = new MarkdownIt(<%= options %>)
+  const md = new MarkdownIt()
+  md.use(parser)
 <%
   for (config of plugins) {
     const hasOpts = Array.isArray(config);

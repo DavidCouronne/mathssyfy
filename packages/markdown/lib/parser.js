@@ -12,8 +12,7 @@ module.exports = (markdown = {}) => {
         afterInstantiate
       } = markdown
     
-      // allow user config slugify
-      const slugify = markdown.slugify || _slugify
+      
 
     const config = new Config()
 
@@ -27,10 +26,9 @@ module.exports = (markdown = {}) => {
       .use(componentPlugin)
       .end()
 
-      const md = config.toMd(require('markdown-it'), markdown)
+      const md = config.toMd()
 
-      // expose slugify
-  md.slugify = slugify
+      
 
   return md
 
