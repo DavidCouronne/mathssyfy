@@ -6,7 +6,7 @@ module.exports = function nuxtMarkdownit (options) {
   const _options = Object.assign({}, options, this.options.markdownit)
 
   const markDownItLoader = {
-    loader: '@mathssyfy/markdown-it-loader',
+    loader: '@nuxtjs/markdownit-loader',
     options: _options
   }
 
@@ -54,15 +54,15 @@ module.exports = function nuxtMarkdownit (options) {
     }
   })
 
-  
+  if (_options.injected === true) {
     delete _options.injected
     // Register plugin
     this.addPlugin({
-      src: path.resolve(__dirname, 'lib/plugin.js'),
+      src: path.resolve(__dirname, 'plugin.js'),
       fileName: 'markdown-it.js',
       options: _options
     })
-  
+  }
 }
 
 module.exports.meta = require('./package.json')
