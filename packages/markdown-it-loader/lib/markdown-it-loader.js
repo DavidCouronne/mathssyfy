@@ -1,50 +1,15 @@
-var hljs = require('@mathssyfy/markdown-it-loader/lib/highlight')
+const { resolvePlugin } = require("./resolvePlugin");
+
+const { renderVueTemplate } = require("./renderVueTemplate");
+
+const { replaceDelimiters } = require("./replaceDelimiters");
+
+const { renderHighlight } = require("./renderHighlight");
+
+
 var loaderUtils = require('loader-utils')
 var markdown = require('markdown-it')
 var component = require ('@mathssyfy/markdown/lib/component.js')
-
-/**
- * `{{ }}` => `<span>{{</span> <span>}}</span>`
- * @param  {string} str
- * @return {string}
- */
-var replaceDelimiters = function (str) {
-  return str.replace(/({{|}})/g, '<span>$1</span>')
-}
-
-/**
- * renderHighlight
- * @param  {string} str
- * @param  {string} lang
- */
-var renderHighlight = function (str, lang) {
-  
-
-  try {
-    return hljs( str, lang)
-  } catch (err) {}
-}
-
-/**
- * html => vue file template
- * @param  {[type]} html [description]
- * @return {[type]}      [description]
- */
-var renderVueTemplate = function (html) {
-  return '<section>' + html + '</section>\n'
-}
-
-/**
- * Resolves plguins passed as string
- * @param {String|Object} plugin
- * @return {Object}
- */
-var resolvePlugin = function (plugin) {
-  if (typeof plugin === 'string') {
-    return require(plugin)
-  }
-  return plugin
-}
 
 module.exports = function (source) {
   this.cacheable()
