@@ -1,6 +1,7 @@
 import MarkdownIt from 'markdown-it'
 const parser = require('@mathssyfy/markdown/lib/parser.js')
 
+
 export default ({ app }, inject) => {
 <%
 const plugins = options.use || []
