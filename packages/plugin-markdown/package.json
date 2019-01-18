@@ -1,6 +1,6 @@
 {
   "name": "@mathssyfy/plugin-markdown",
-  "version": "1.2.18",
+  "version": "1.2.19",
   "description": "A Powerful and Highspeed Markdown Parser for Vue and Nuxt",
   "author": "DavidCouronne <couronne.david@gmail.com>",
   "homepage": "https://github.com/DavidCouronne/mathssyfy#readme",
