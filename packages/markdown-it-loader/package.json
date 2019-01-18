@@ -30,12 +30,11 @@
   "bugs": {
     "url": "https://github.com/DavidCouronne/mathssyfy/issues"
   },
-  "devDependencies": {
-    "loader-utils": "^1.2.3",
-    "markdown-it": "^8.4.2"
-  },
+  
   "gitHead": "96f651a0352a59e11e0b015dd7f5b024cc904614",
   "dependencies": {
-    "prismjs": "^1.15.0"
+    "prismjs": "^1.15.0",
+    "loader-utils": "^1.2.3",
+    "markdown-it": "^8.4.2"
   }
 }

@@ -59,4 +59,5 @@ module.exports = function (source) {
   var content = parser.render(source)
 
   return renderVueTemplate(content)
+  
 }
