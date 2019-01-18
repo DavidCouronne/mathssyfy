@@ -1,6 +1,7 @@
 // Modified from https://github.com/egoist/markdown-it-highlight-lines
 
 const RE = /{([\d,-]+)}/
+
 const wrapperRE = /^<pre .*?><code>/
 
 module.exports = md => {

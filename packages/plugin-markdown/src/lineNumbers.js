@@ -1,6 +1,7 @@
 // markdown-it plugin for generating line numbers.
 // It depends on preWrapper plugin.
 
+
 module.exports = md => {
     const fence = md.renderer.rules.fence
     md.renderer.rules.fence = (...args) => {

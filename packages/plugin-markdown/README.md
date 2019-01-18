@@ -23,6 +23,7 @@ Pour Nuxt:
   ],
     ```
 + Dans une vue:
+  
  ```
 <script>
 import Markdown from '@mathssyfy/plugin-markdown'
