@@ -1,0 +1,39 @@
+{
+  "name": "@mathssyfy/markdown-it-theme",
+  "version": "1.2.12",
+  "description": "> TODO: description",
+  "author": "DavidCouronne <couronne.david@gmail.com>",
+  "homepage": "https://github.com/DavidCouronne/mathssyfy#readme",
+  "license": "MIT",
+  "main": "lib/markdown-it-theme.js",
+  "directories": {
+    "lib": "lib",
+    "test": "__tests__"
+  },
+  "files": [
+    "lib"
+  ],
+  "publishConfig": {
+    "access": "public"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DavidCouronne/mathssyfy.git"
+  },
+  "scripts": {
+    "test": "echo \"Error: run tests from root\" && exit 1"
+  },
+  "bugs": {
+    "url": "https://github.com/DavidCouronne/mathssyfy/issues"
+  },
+  "dependencies": {
+    "@mathssyfy/markdown-it-highlightlines": "^1.2.12",
+    "@mathssyfy/markdown-it-linenumbers": "^1.2.12",
+    "@mathssyfy/markdown-it-prewrapper": "^1.2.12",
+    "markdown-it": "^8.4.2",
+    "markdown-it-anchor": "^5.0.2",
+    "markdown-it-chain": "^1.3.0",
+    "markdown-it-emoji": "^1.4.0",
+    "markdown-it-table-of-contents": "^0.4.3"
+  }
+}
