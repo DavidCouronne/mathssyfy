@@ -1,7 +1,8 @@
 import markdownIt from 'markdown-it'
-import {
-  renderHighlight
-} from "@mathssyfy/markdown-it-loader/lib/renderHighlight.js"
+import highlightLinesPlugin from'@mathssyfy/markdown-it-highlightlines'
+import preWrapperPlugin from '@mathssyfy/markdown-it-prewrapper'
+import lineNumbersPlugin from '@mathssyfy/markdown-it-linenumbers'
+import componentPlugin from'@mathssyfy/markdown-it-component'
 import emoji from 'markdown-it-emoji'
 
 import subscript from 'markdown-it-sub'
@@ -24,13 +25,19 @@ import katex from 'markdown-it-katex'
 
 import tasklists from 'markdown-it-task-lists'
 
+import emojiPlugin  from 'markdown-it-emoji'
+import anchorPlugin from 'markdown-it-anchor'
+import tocPlugin from 'markdown-it-table-of-contents'
+
 
 
 export default {
 
   md: new markdownIt({preset: 'default',
   html: true,
-  highlight: renderHighlight}),
+  highlight: function (str, lang) {
+    return `<pre v-pre class="language-${lang}"><code>${str}</code></pre>`;
+  }}),
 
 
 
@@ -288,8 +295,27 @@ export default {
 
     this.md = new markdownIt({preset: 'default',
     html: true,
-    // highlight: renderHighlight
-  })
+    highlight: function (str, lang) {
+      return `<pre v-pre class="language-${lang}"><code>${str}</code></pre>`;
+    }})
+
+    .use(componentPlugin)
+    .use(highlightLinesPlugin)
+    .use(preWrapperPlugin)
+    .use(emojiPlugin)
+    .use(anchorPlugin, [Object.assign({
+      // slugify,
+      permalink: true,
+      permalinkBefore: true,
+      permalinkSymbol: '#'
+  }, anchor)])
+  .use(tocPlugin, [Object.assign({
+    //slugify,
+    includeLevel: [2, 3],
+    //format: parseHeaders
+}, toc)])
+
+    .use(lineNumbersPlugin)
 
       .use(subscript)
 

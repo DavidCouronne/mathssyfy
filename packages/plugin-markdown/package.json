@@ -30,6 +30,8 @@
     "url": "https://github.com/DavidCouronne/mathssyfy/issues"
   },
   "dependencies": {
+    "@mathssyfy/markdown-it-component": "^1.2.14",
+    "@mathssyfy/markdown-it-highlightlines": "^1.2.12",
     "@mathssyfy/markdown-it-loader": "^1.3.0",
     "@mathssyfy/markdown-it-prewrapper": "^1.2.12",
     "@mathssyfy/markdown-it-theme": "^1.2.16",
