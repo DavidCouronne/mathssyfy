@@ -1,6 +1,6 @@
 {
   "name": "@mathssyfy/markdown-it-loader",
-  "version": "1.2.18",
+  "version": "1.3.0",
   "description": "markdown-it-loader without hightlights",
   "keywords": [
     "markown",
@@ -30,11 +30,10 @@
   "bugs": {
     "url": "https://github.com/DavidCouronne/mathssyfy/issues"
   },
-  
   "gitHead": "96f651a0352a59e11e0b015dd7f5b024cc904614",
   "dependencies": {
-    "prismjs": "^1.15.0",
     "loader-utils": "^1.2.3",
-    "markdown-it": "^8.4.2"
+    "markdown-it": "^8.4.2",
+    "prismjs": "^1.15.0"
   }
 }
