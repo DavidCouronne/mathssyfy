@@ -5,7 +5,7 @@
   "author": "DavidCouronne <couronne.david@gmail.com>",
   "homepage": "https://github.com/DavidCouronne/mathssyfy#readme",
   "license": "MIT",
-  "main": "src/index.js",
+  "main": "lib/plugin-markdown.common.js",
   "files": [
     "src",
     "lib"
