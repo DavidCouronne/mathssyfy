@@ -1,4 +1,5 @@
 import markdownIt from 'markdown-it'
+import markdownprism from 'markdown-it-prism'
 import highlightLinesPlugin from'@mathssyfy/markdown-it-highlightlines'
 import preWrapperPlugin from '@mathssyfy/markdown-it-prewrapper'
 import lineNumbersPlugin from '@mathssyfy/markdown-it-linenumbers'
@@ -316,7 +317,7 @@ export default {
     highlight: function (str, lang) {
       return `<pre v-pre class="language-${lang}"><code>${str}</code></pre>`;
     }})
-
+.use( markdownprism)
     .use(componentPlugin)
     .use(highlightLinesPlugin)
     .use(preWrapperPlugin)
