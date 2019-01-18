@@ -1,6 +1,6 @@
 {
   "name": "@mathssyfy/markdown-it-highlightlines",
-  "version": "1.2.1",
+  "version": "1.2.12",
   "description": "> TODO: description",
   "author": "DavidCouronne <couronne.david@gmail.com>",
   "homepage": "https://github.com/DavidCouronne/mathssyfy#readme",
@@ -28,6 +28,6 @@
   },
   "gitHead": "ce4cc25d5720b9c48bc0214da635204023ac9d05",
   "dependencies": {
-    "@mathssyfy/markdown-it-prewrapper": "^1.2.1"
+    "@mathssyfy/markdown-it-prewrapper": "^1.2.12"
   }
 }

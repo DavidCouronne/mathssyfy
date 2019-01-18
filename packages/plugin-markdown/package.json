@@ -1,6 +1,6 @@
 {
   "name": "@mathssyfy/plugin-markdown",
-  "version": "1.2.1",
+  "version": "1.2.12",
   "description": "A Powerful and Highspeed Markdown Parser for Vue and Nuxt",
   "author": "DavidCouronne <couronne.david@gmail.com>",
   "homepage": "https://github.com/DavidCouronne/mathssyfy#readme",
@@ -33,7 +33,7 @@
     "url": "https://github.com/DavidCouronne/mathssyfy/issues"
   },
   "dependencies": {
-    "@mathssyfy/markdown-it-prewrapper": "^1.2.1",
+    "@mathssyfy/markdown-it-prewrapper": "^1.2.12",
     "clipboard": "^2.0.4",
     "clone": "^2.1.2",
     "delegate": "^3.2.0",
