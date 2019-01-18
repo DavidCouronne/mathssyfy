@@ -662,15 +662,20 @@
   dependencies:
     "@mathssyfy/markdown-it-prewrapper" "^1.2.12"
 
+"@mathssyfy/markdown-it-loader@^1.2.12":
+  version "1.2.12"
+  resolved "https://registry.yarnpkg.com/@mathssyfy/markdown-it-loader/-/markdown-it-loader-1.2.12.tgz#0b495449b89f960c267f4c4d1d3abbc2e7dd5dda"
+  integrity sha512-gTy2rg4HzqMM5PywVWfGXxzhYObQ/QZ+NlXH+RBkAtKIkqQrEZ0palGo4o4OxgCrdOkXcPnRxwihAnTJgDRDMA==
+
 "@mathssyfy/markdown-it-prewrapper@^1.2.12":
   version "1.2.12"
   resolved "https://registry.yarnpkg.com/@mathssyfy/markdown-it-prewrapper/-/markdown-it-prewrapper-1.2.12.tgz#18b60563f8638ae87bb31d6e8a3567b05510e3ca"
   integrity sha512-KoXDSXKE6j2x89tg+jcgk8wAiy40ELvOe421ogwEtUKch5jDxvFU9u+vrspWNFfLJLBv1yS73o0AxnMBl4Ikwg==
 
-"@mathssyfy/markdown-it-theme@^1.2.15":
-  version "1.2.15"
-  resolved "https://registry.yarnpkg.com/@mathssyfy/markdown-it-theme/-/markdown-it-theme-1.2.15.tgz#d1ab52e60b8e9a7beddb858de3ef58de0263e2df"
-  integrity sha512-uHtQUpMbbcngtOKort/zQN2svcMUNF8Xh+OIHNoqIV/gDwk1fVSaYSH/aUl7etbG5bE4BfO8O7N7CIOrXtK1Dw==
+"@mathssyfy/markdown-it-theme@^1.2.16":
+  version "1.2.16"
+  resolved "https://registry.yarnpkg.com/@mathssyfy/markdown-it-theme/-/markdown-it-theme-1.2.16.tgz#593eab94142959377693e3d708fea9e5471b36c1"
+  integrity sha512-SToHV/aPj5ybRUSujOnZWOH7He7q8qGNwCijfcCWNbIkGZRzwn0mC2t8ARNhkXAw/75xypf6//499DBWYxGKsQ==
   dependencies:
     "@mathssyfy/markdown-it-component" "^1.2.14"
     "@mathssyfy/markdown-it-highlightlines" "^1.2.12"

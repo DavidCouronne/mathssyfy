@@ -1,5 +1,7 @@
 import markdownIt from 'markdown-it'
-
+import {
+  renderHighlight
+} from "@mathssyfy/markdown-it-loader/lib/renderHighlight.js"
 import emoji from 'markdown-it-emoji'
 
 import subscript from 'markdown-it-sub'
@@ -248,7 +250,9 @@ export default {
 
       type: Function,
 
-      default: (sourceData) => { return sourceData }
+      default: (sourceData) => {
+        return sourceData
+      }
 
     },
 
@@ -256,7 +260,9 @@ export default {
 
       type: Function,
 
-      default: (htmlData) => { return htmlData }
+      default: (htmlData) => {
+        return htmlData
+      }
 
     }
 
@@ -294,9 +300,14 @@ export default {
 
       .use(mark)
 
-      .use(katex, { "throwOnError": false, "errorColor": " #cc0000" })
+      .use(katex, {
+        "throwOnError": false,
+        "errorColor": " #cc0000"
+      })
 
-      .use(tasklists, { enabled: this.taskLists })
+      .use(tasklists, {
+        enabled: this.taskLists
+      })
 
 
 
@@ -309,20 +320,10 @@ export default {
 
 
     this.md.set({
+      preset: 'default',
+      html: true,
+      highlight: renderHighlight
 
-      html: this.html,
-
-      xhtmlOut: this.xhtmlOut,
-
-      breaks: this.breaks,
-
-      linkify: this.linkify,
-
-      typographer: this.typographer,
-
-      langPrefix: this.langPrefix,
-
-      quotes: this.quotes,
 
     })
 
