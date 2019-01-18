@@ -4,7 +4,7 @@ import preWrapperPlugin from '@mathssyfy/markdown-it-prewrapper'
 import lineNumbersPlugin from '@mathssyfy/markdown-it-linenumbers'
 import componentPlugin from'@mathssyfy/markdown-it-component'
 import emoji from 'markdown-it-emoji'
-
+import  prism  from 'prismjs'
 import subscript from 'markdown-it-sub'
 
 import superscript from 'markdown-it-sup'
@@ -36,6 +36,24 @@ export default {
   md: new markdownIt({preset: 'default',
   html: true,
   highlight: function (str, lang) {
+    lang = lang.toLowerCase()
+  const rawLang = lang
+  if (lang === 'vue' || lang === 'html') {
+    lang = 'markup'
+  }
+  if (lang === 'md') {
+    lang = 'markdown'
+  }
+  if (lang === 'ts') {
+    lang = 'typescript'
+  }
+  if (lang === 'py') {
+    lang = 'python'
+  }
+  if (prism.languages[lang]) {
+    const code = prism.highlight(str, prism.languages[lang], lang)
+    return `<pre v-pre class="language-${rawLang}"><code>${code}</code></pre>`
+  }
     return `<pre v-pre class="language-${lang}"><code>${str}</code></pre>`;
   }}),
 
