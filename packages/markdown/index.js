@@ -6,7 +6,7 @@ module.exports = function nuxtMarkdownit (options) {
   const _options = Object.assign({}, options, this.options.markdownit)
 
   const markDownItLoader = {
-    loader: '@nuxtjs/markdownit-loader',
+    loader: '@mathssyfy/markdown-it-loader',
     options: _options
   }
 
