@@ -5,7 +5,6 @@ import preWrapperPlugin from '@mathssyfy/markdown-it-prewrapper'
 import lineNumbersPlugin from '@mathssyfy/markdown-it-linenumbers'
 import componentPlugin from'@mathssyfy/markdown-it-component'
 import emoji from 'markdown-it-emoji'
-import  prism  from 'prismjs'
 import subscript from 'markdown-it-sub'
 
 import superscript from 'markdown-it-sup'
