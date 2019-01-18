@@ -4,6 +4,8 @@
   <a href="https://www.npmjs.com/package/vuepress"><img src="https://img.shields.io/npm/l/vuepress.svg" alt="License"></a>
 </p>
 
+[![codecov](https://codecov.io/gh/DavidCouronne/mathssyfy/branch/master/graph/badge.svg)](https://codecov.io/gh/DavidCouronne/mathssyfy)
+
 # mathssyfy
 
 > Vuepress project

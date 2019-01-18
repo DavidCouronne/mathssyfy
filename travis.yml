@@ -1,7 +1,23 @@
-language:
-  node_js
+language: node_js
+
+sudo: false
+
+node_js:
+
+  - 10
+
+  - 9
+
+  - 8
+
+  - 7
+
+  - 6
+
 install:
-  - npm install -g codecov
+
+  - cd istanbul-mocha && npm install && cd ..
+
 script:
-  - istanbul cover ./node_modules/mocha/bin/_mocha --reporter lcovonly -- -R spec
-  - codecov
+
+  - cd istanbul-mocha && npm test
