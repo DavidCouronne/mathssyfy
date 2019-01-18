@@ -28,7 +28,9 @@ import tasklists from 'markdown-it-task-lists'
 
 export default {
 
-  md: new markdownIt(),
+  md: new markdownIt({preset: 'default',
+  html: true,
+  highlight: renderHighlight}),
 
 
 
@@ -284,7 +286,10 @@ export default {
 
   render(createElement) {
 
-    this.md = new markdownIt()
+    this.md = new markdownIt({preset: 'default',
+    html: true,
+    // highlight: renderHighlight
+  })
 
       .use(subscript)
 
@@ -319,13 +324,7 @@ export default {
 
 
 
-    this.md.set({
-      preset: 'default',
-      html: true,
-      highlight: renderHighlight
-
-
-    })
+    
 
     this.md.renderer.rules.table_open = () => `<table class="${this.tableClass}">\n`
 
