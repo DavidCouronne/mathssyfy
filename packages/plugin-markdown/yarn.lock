@@ -641,11 +641,6 @@
     lodash "^4.17.10"
     to-fast-properties "^2.0.0"
 
-"@mathssyfy/markdown-it-prewrapper@^0.0.24":
-  version "0.0.24"
-  resolved "https://registry.yarnpkg.com/@mathssyfy/markdown-it-prewrapper/-/markdown-it-prewrapper-0.0.24.tgz#ec1acdc18d0dec26a91b3d40c8af3b6bb39430a8"
-  integrity sha512-y2bmTuSGBj83mxjb8IUDZUafRo2jBYCitDG+UAIr3vAthRQNffsTWCdxtMhwiq5bnwNhwIk5LB6ViSPU5eQHxw==
-
 "@webassemblyjs/ast@1.7.11":
   version "1.7.11"
   resolved "https://registry.yarnpkg.com/@webassemblyjs/ast/-/ast-1.7.11.tgz#b988582cafbb2b095e8b556526f30c90d057cace"

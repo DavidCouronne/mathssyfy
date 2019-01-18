@@ -2,11 +2,6 @@
 # yarn lockfile v1
 
 
-"@mathssyfy/markdown-it-prewrapper@^1.0.0":
-  version "1.0.0"
-  resolved "https://registry.yarnpkg.com/@mathssyfy/markdown-it-prewrapper/-/markdown-it-prewrapper-1.0.0.tgz#4744786ef8eb5560509df4b678c7bd0e072989be"
-  integrity sha512-VWth0+oGzf5Mu66ZhdxUFhPe4zSLWAyn5XPumuT11H4LT/L9pdREx69xq0nKvxvEdiZHWKAdtOayqDMZp3OVrg==
-
 asap@~2.0.3:
   version "2.0.6"
   resolved "https://registry.yarnpkg.com/asap/-/asap-2.0.6.tgz#e50347611d7e690943208bbdafebcbc2fb866d46"
