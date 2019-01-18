@@ -662,10 +662,10 @@
   dependencies:
     "@mathssyfy/markdown-it-prewrapper" "^1.2.12"
 
-"@mathssyfy/markdown-it-loader@^1.3.0":
-  version "1.3.0"
-  resolved "https://registry.yarnpkg.com/@mathssyfy/markdown-it-loader/-/markdown-it-loader-1.3.0.tgz#7bda4ea9293df188f6160d74fedb62908a32d8cc"
-  integrity sha512-3hbGKNv6j7RtHGTFa/jY8JoZfxzZslGuyq7o9lZlh4GHIzKufcJ8+bYlFRnxWnSN+Mjob0YV9Gu2HZtb1g25TQ==
+"@mathssyfy/markdown-it-loader@^1.3.1":
+  version "1.3.1"
+  resolved "https://registry.yarnpkg.com/@mathssyfy/markdown-it-loader/-/markdown-it-loader-1.3.1.tgz#76667b819cd30513666dd2e8d7c5928cbb441681"
+  integrity sha512-EqYfqTYryH7yHxYV4a23Kv3kKr4Na1VIQVFtXjfDZVgqDVxXPwBnBrQ9WvBBsOdCqg/BSc/zs5wPpCKJ4LNRKg==
   dependencies:
     loader-utils "^1.2.3"
     markdown-it "^8.4.2"
