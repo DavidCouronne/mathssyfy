@@ -10,7 +10,7 @@ const Config = require('markdown-it-chain')
 const highlightLinesPlugin = require('@mathssyfy/markdown-it-highlightlines')
 const preWrapperPlugin = require('@mathssyfy/markdown-it-prewrapper')
 const lineNumbersPlugin = require('@mathssyfy/markdown-it-linenumbers')
-const componentPlugin = require(' @mathssyfy/markdown-it-component')
+const componentPlugin = require('@mathssyfy/markdown-it-component')
 //const hoistScriptStylePlugin = require('./lib/hoist')
 //const convertRouterLinkPlugin = require('./lib/link')
 //const containersPlugin = require('./lib/containers')
@@ -36,14 +36,14 @@ module.exports = (markdown = {}) => {
     } = markdown
 
     // allow user config slugify
-    const slugify = markdown.slugify || _slugify
+    // const slugify = markdown.slugify || _slugify
 
     // using chainedAPI
     const config = new Config()
 
     config
 
-        .plugin(PLUGINS.COMPONENT)
+        .plugin('component')
         .use(componentPlugin)
         .end()
 
@@ -93,9 +93,9 @@ module.exports = (markdown = {}) => {
 
         .plugin('toc')
         .use(tocPlugin, [Object.assign({
-            slugify,
+            //slugify,
             includeLevel: [2, 3],
-            format: parseHeaders
+            //format: parseHeaders
         }, toc)])
         .end()
         .plugin('line-numbers')
