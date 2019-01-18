@@ -10,7 +10,7 @@ const Config = require('markdown-it-chain')
 const highlightLinesPlugin = require('@mathssyfy/markdown-it-highlightlines')
 const preWrapperPlugin = require('@mathssyfy/markdown-it-prewrapper')
 const lineNumbersPlugin = require('@mathssyfy/markdown-it-linenumbers')
-//const componentPlugin = require('./lib/component')
+const componentPlugin = require(' @mathssyfy/markdown-it-component')
 //const hoistScriptStylePlugin = require('./lib/hoist')
 //const convertRouterLinkPlugin = require('./lib/link')
 //const containersPlugin = require('./lib/containers')
@@ -26,100 +26,100 @@ const tocPlugin = require('markdown-it-table-of-contents')
  */
 
 module.exports = (markdown = {}) => {
-  const {
-    externalLinks,
-    anchor,
-    toc,
-    lineNumbers,
-    beforeInstantiate,
-    afterInstantiate
-  } = markdown
+    const {
+        externalLinks,
+        anchor,
+        toc,
+        lineNumbers,
+        beforeInstantiate,
+        afterInstantiate
+    } = markdown
 
-  // allow user config slugify
-  const slugify = markdown.slugify || _slugify
+    // allow user config slugify
+    const slugify = markdown.slugify || _slugify
 
-  // using chainedAPI
-  const config = new Config()
+    // using chainedAPI
+    const config = new Config()
 
-  config
+    config
 
-    /* .plugin(PLUGINS.COMPONENT)
-      .use(componentPlugin)
-      .end() */
+        .plugin(PLUGINS.COMPONENT)
+        .use(componentPlugin)
+        .end()
 
-    .plugin('highlight-lines')
-      .use(highlightLinesPlugin)
-      .end()
+        .plugin('highlight-lines')
+        .use(highlightLinesPlugin)
+        .end()
 
-    .plugin('pre-wrapper')
-      .use(preWrapperPlugin)
-      .end()
+        .plugin('pre-wrapper')
+        .use(preWrapperPlugin)
+        .end()
 
-    /* .plugin(PLUGINS.SNIPPET)
-      .use(snippetPlugin)
-      .end() */
+        /* .plugin(PLUGINS.SNIPPET)
+          .use(snippetPlugin)
+          .end() */
 
-    /* .plugin(PLUGINS.CONVERT_ROUTER_LINK)
-      .use(convertRouterLinkPlugin, [Object.assign({
-        target: '_blank',
-        rel: 'noopener noreferrer'
-      }, externalLinks)])
-      .end() */
+        /* .plugin(PLUGINS.CONVERT_ROUTER_LINK)
+          .use(convertRouterLinkPlugin, [Object.assign({
+            target: '_blank',
+            rel: 'noopener noreferrer'
+          }, externalLinks)])
+          .end() */
 
-    /* .plugin(PLUGINS.HOIST_SCRIPT_STYLE)
-      .use(hoistScriptStylePlugin)
-      .end() */
+        /* .plugin(PLUGINS.HOIST_SCRIPT_STYLE)
+          .use(hoistScriptStylePlugin)
+          .end() */
 
-    // .plugin(PLUGINS.CONTAINERS)
-    //   .use(containersPlugin)
-    //   .end()
+        // .plugin(PLUGINS.CONTAINERS)
+        //   .use(containersPlugin)
+        //   .end()
 
-    /* .plugin(PLUGINS.MARKDOWN_SLOTS_CONTAINERS)
-      .use(markdownSlotsContainersPlugin)
-      .end() */
+        /* .plugin(PLUGINS.MARKDOWN_SLOTS_CONTAINERS)
+          .use(markdownSlotsContainersPlugin)
+          .end() */
 
-    .plugin('emoji')
-      .use(emojiPlugin)
-      .end()
+        .plugin('emoji')
+        .use(emojiPlugin)
+        .end()
 
-    .plugin('anchor')
-      .use(anchorPlugin, [Object.assign({
-        // slugify,
-        permalink: true,
-        permalinkBefore: true,
-        permalinkSymbol: '#'
-      }, anchor)])
-      .end()
+        .plugin('anchor')
+        .use(anchorPlugin, [Object.assign({
+            // slugify,
+            permalink: true,
+            permalinkBefore: true,
+            permalinkSymbol: '#'
+        }, anchor)])
+        .end()
 
-    .plugin('toc')
-      .use(tocPlugin, [Object.assign({
-        slugify,
-        includeLevel: [2, 3],
-        format: parseHeaders
-      }, toc)])
-      .end()
-      .plugin('line-numbers')
-    .use(lineNumbersPlugin)
-    .end()
+        .plugin('toc')
+        .use(tocPlugin, [Object.assign({
+            slugify,
+            includeLevel: [2, 3],
+            format: parseHeaders
+        }, toc)])
+        .end()
+        .plugin('line-numbers')
+        .use(lineNumbersPlugin)
+        .end()
 
-//   if (lineNumbers) {
-//     config
-//       .plugin(PLUGINS.LINE_NUMBERS)
-//         .use(lineNumbersPlugin)
-//   }
+    //   if (lineNumbers) {
+    //     config
+    //       .plugin(PLUGINS.LINE_NUMBERS)
+    //         .use(lineNumbersPlugin)
+    //   }
 
-//   beforeInstantiate && beforeInstantiate(config)
+    //   beforeInstantiate && beforeInstantiate(config)
 
-  const md = config.toMd(require('markdown-it'))
+    const md = config.toMd(require('markdown-it'))
 
-  /* afterInstantiate && afterInstantiate(md)
+    /* afterInstantiate && afterInstantiate(md)
 
-  module.exports.dataReturnable(md) */
+    module.exports.dataReturnable(md) */
 
-  // expose slugify
-//   md.slugify = slugify
+    // expose slugify
+    //   md.slugify = slugify
 
-  return md
+    return md
 }
 /* 
 module.exports.dataReturnable = function dataReturnable (md) {

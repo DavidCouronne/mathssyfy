@@ -2,6 +2,13 @@
 # yarn lockfile v1
 
 
+"@mathssyfy/markdown-it-component@^1.2.14":
+  version "1.2.14"
+  resolved "https://registry.yarnpkg.com/@mathssyfy/markdown-it-component/-/markdown-it-component-1.2.14.tgz#338a5849ca9f5bff12bb17730d7ae7374ac99129"
+  integrity sha512-tBelfPHC2v7jH4SnDEA5OduGwLkOmgKa/Aq0zalUhCOcP/lib3+lVo2hm20fnXy8f2G+FHju7OxJh5oGkZ1Kkg==
+  dependencies:
+    markdown-it "^8.4.2"
+
 "@mathssyfy/markdown-it-highlightlines@^1.2.12":
   version "1.2.12"
   resolved "https://registry.yarnpkg.com/@mathssyfy/markdown-it-highlightlines/-/markdown-it-highlightlines-1.2.12.tgz#83508591a4306d7e80f8ecce8af1480bbf782b03"
