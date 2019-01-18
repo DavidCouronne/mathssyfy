@@ -308,12 +308,12 @@ export default {
       permalink: true,
       permalinkBefore: true,
       permalinkSymbol: '#'
-  }, anchor)])
+  })])
   .use(tocPlugin, [Object.assign({
     //slugify,
     includeLevel: [2, 3],
     //format: parseHeaders
-}, toc)])
+})])
 
     .use(lineNumbersPlugin)
 
