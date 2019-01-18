@@ -662,10 +662,12 @@
   dependencies:
     "@mathssyfy/markdown-it-prewrapper" "^1.2.12"
 
-"@mathssyfy/markdown-it-loader@^1.2.12":
-  version "1.2.12"
-  resolved "https://registry.yarnpkg.com/@mathssyfy/markdown-it-loader/-/markdown-it-loader-1.2.12.tgz#0b495449b89f960c267f4c4d1d3abbc2e7dd5dda"
-  integrity sha512-gTy2rg4HzqMM5PywVWfGXxzhYObQ/QZ+NlXH+RBkAtKIkqQrEZ0palGo4o4OxgCrdOkXcPnRxwihAnTJgDRDMA==
+"@mathssyfy/markdown-it-loader@^1.2.18":
+  version "1.2.18"
+  resolved "https://registry.yarnpkg.com/@mathssyfy/markdown-it-loader/-/markdown-it-loader-1.2.18.tgz#6438cc2f43084020d1712977c116e8e1b0485f3b"
+  integrity sha512-KiASCjORsTPZDKYajDfdEu248yOcOYz9Vr0FWEsuu9datGg01JwAWogu9pGqxq3/EWft9ctIf6vkeX0a98ODfw==
+  dependencies:
+    prismjs "^1.15.0"
 
 "@mathssyfy/markdown-it-prewrapper@^1.2.12":
   version "1.2.12"
