@@ -34,6 +34,7 @@
   },
   "dependencies": {
     "@mathssyfy/markdown-it-prewrapper": "^1.2.12",
+    "@mathssyfy/markdown-it-theme": "^1.2.15",
     "clipboard": "^2.0.4",
     "clone": "^2.1.2",
     "delegate": "^3.2.0",
@@ -47,6 +48,7 @@
     "markdown-it-emoji": "^1.4.0",
     "markdown-it-footnote": "^3.0.1",
     "markdown-it-ins": "^2.0.0",
+    "markdown-it-katex": "^2.0.3",
     "markdown-it-katex-newcommand": "^1.0.7",
     "markdown-it-mark": "^2.0.0",
     "markdown-it-prism": "^2.0.1",
