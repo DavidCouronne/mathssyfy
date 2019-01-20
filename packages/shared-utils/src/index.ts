@@ -1,36 +1,35 @@
 import * as codegen from './codegen'
-import compose from './compose'
+import * as compose from './compose'
 import * as datatypes from './datatypes'
-import deeplyParseHeaders from './deeplyParseHeaders'
-import ensureEndingSlash from './ensureEndingSlash'
-import ensureLeadingSlash from './ensureLeadingSlash'
-import env from './env'
-import extractHeaders from './extractHeaders'
+import * as deeplyParseHeaders from './deeplyParseHeaders'
+import * as ensureEndingSlash from './ensureEndingSlash'
+import * as ensureLeadingSlash from './ensureLeadingSlash'
+import * as env from './env'
+import * as extractHeaders from './extractHeaders'
 import * as fallback from './fallback'
-import fileToPath from './fileToPath'
-import getPermalink from './getPermalink'
-import inferTitle from './inferTitle'
+import * as fileToPath from './fileToPath'
+import * as getPermalink from './getPermalink'
+import * as inferTitle from './inferTitle'
 import * as isIndexFile from './isIndexFile'
-import logger from './logger'
+import * as logger from './logger'
 import * as moduleLoader from './moduleLoader'
 import * as moduleResolver from './moduleResolver'
 import * as parseEmojis from './parseEmojis'
-import parseFrontmatter from './parseFrontmatter'
-import parseHeaders from './parseHeaders'
+import * as parseFrontmatter from './parseFrontmatter'
+import * as parseHeaders from './parseHeaders'
 import * as parseVueFrontmatter from './parseVueFrontmatter'
-import performance from './performance'
-import slugify from './slugify'
-import sort from './sort'
-import toAbsolutePath from './toAbsolutePath'
-import tryChain from './tryChain'
-import unescapeHtml from './unescapeHtml'
-
-import chalk from 'chalk'
-import fs from 'fs-extra'
-import path from 'path'
-import globby from 'globby'
-import hash from 'hash-sum'
-import escapeHtml from 'escape-html'
+import * as performance from './performance'
+import * as removeNonCodeWrappedHTML from './removeNonCodeWrappedHTML'
+import * as slugify from './slugify'
+import * as sort from './sort'
+import * as toAbsolutePath from './toAbsolutePath'
+import * as tryChain from './tryChain'
+import * as unescapeHtml from './unescapeHtml'
+import * as chalk from 'chalk'
+import * as fs from 'fs'
+import * as path from 'path'
+import * as globby from 'globby'
+import * as hash from 'hash-sum'
 
 export {
   codegen,
@@ -54,6 +53,7 @@ export {
   parseHeaders,
   parseVueFrontmatter,
   performance,
+  removeNonCodeWrappedHTML,
   slugify,
   sort,
   toAbsolutePath,
@@ -64,5 +64,4 @@ export {
   path,
   globby,
   hash,
-  escapeHtml,
 }
