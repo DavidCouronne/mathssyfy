@@ -2,32 +2,6 @@
 # yarn lockfile v1
 
 
-"@mathssyfy/markdown-it-component@^1.2.14":
-  version "1.2.14"
-  resolved "https://registry.yarnpkg.com/@mathssyfy/markdown-it-component/-/markdown-it-component-1.2.14.tgz#338a5849ca9f5bff12bb17730d7ae7374ac99129"
-  integrity sha512-tBelfPHC2v7jH4SnDEA5OduGwLkOmgKa/Aq0zalUhCOcP/lib3+lVo2hm20fnXy8f2G+FHju7OxJh5oGkZ1Kkg==
-  dependencies:
-    markdown-it "^8.4.2"
-
-"@mathssyfy/markdown-it-highlightlines@^1.2.12":
-  version "1.2.12"
-  resolved "https://registry.yarnpkg.com/@mathssyfy/markdown-it-highlightlines/-/markdown-it-highlightlines-1.2.12.tgz#83508591a4306d7e80f8ecce8af1480bbf782b03"
-  integrity sha512-mmLjrGElb9HZZxzezeNcWkOzp7ZT5uwKIX2yY5aUvyIOpkgLxzREsrSmP/z6/NtyB2uXh4YF/Sqr0f5Yq0shXQ==
-  dependencies:
-    "@mathssyfy/markdown-it-prewrapper" "^1.2.12"
-
-"@mathssyfy/markdown-it-linenumbers@^1.2.12":
-  version "1.2.12"
-  resolved "https://registry.yarnpkg.com/@mathssyfy/markdown-it-linenumbers/-/markdown-it-linenumbers-1.2.12.tgz#cfe16216d065c7d86783665a3544857ef6413025"
-  integrity sha512-8TduXoNyhKgL6KCjkSXdYKAO+qQRrkxp03iuWayWT9P0pD65vUijAOjECnhEseh4ICB337sMgIo2sZa1imKSnw==
-  dependencies:
-    "@mathssyfy/markdown-it-prewrapper" "^1.2.12"
-
-"@mathssyfy/markdown-it-prewrapper@^1.2.12":
-  version "1.2.12"
-  resolved "https://registry.yarnpkg.com/@mathssyfy/markdown-it-prewrapper/-/markdown-it-prewrapper-1.2.12.tgz#18b60563f8638ae87bb31d6e8a3567b05510e3ca"
-  integrity sha512-KoXDSXKE6j2x89tg+jcgk8wAiy40ELvOe421ogwEtUKch5jDxvFU9u+vrspWNFfLJLBv1yS73o0AxnMBl4Ikwg==
-
 argparse@^1.0.7:
   version "1.0.10"
   resolved "https://registry.yarnpkg.com/argparse/-/argparse-1.0.10.tgz#bcd6791ea5ae09725e17e5ad988134cd40b3d911"
