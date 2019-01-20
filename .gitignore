@@ -1,6 +1,4 @@
-/mathssyfy/.vuepress/dist/
 
-node_modules/
 
 lerna-debug.log
 
@@ -10,3 +8,10 @@ npm-debug.log
 
 .idea
 
+.DS_Store
+node_modules
+*.log
+.temp
+TODOs.md
+packages/shared-utils/lib/
+types
