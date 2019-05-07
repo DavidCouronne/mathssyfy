@@ -8,7 +8,9 @@
     "dev": "nuxt",
     "build": "nuxt build",
     "start": "nuxt start",
-    "generate": "nuxt generate"
+    "generate": "nuxt generate",
+    "snyk-protect": "snyk protect",
+    "prepublish": "npm run snyk-protect"
   },
   "dependencies": {
     "@mathssyfy/markdown": "^0.0.21",
@@ -62,7 +64,8 @@
     "vue-prism-component": "^1.1.1",
     "vue-template-compiler": "^2.5.21",
     "vuetify": "^1.4.1",
-    "vuetify-loader": "^1.1.1"
+    "vuetify-loader": "^1.1.1",
+    "snyk": "^1.161.1"
   },
   "devDependencies": {
     "coffee-loader": "^0.9.0",
@@ -73,5 +76,6 @@
     "push-dir": "^0.4.1",
     "sass-loader": "^7.1.0",
     "webpack": "^4.28.1"
-  }
+  },
+  "snyk": true
 }
