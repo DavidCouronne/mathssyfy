@@ -13,7 +13,9 @@
   "scripts": {
     "start": "webpack --config webpack.config.js",
     "build": "webpack --config webpack.common.js",
-    "test": "echo \"Error: run tests from root\" && exit 1"
+    "test": "echo \"Error: run tests from root\" && exit 1",
+    "snyk-protect": "snyk protect",
+    "prepublish": "npm run snyk-protect"
   },
   "directories": {
     "lib": "lib",
@@ -64,7 +66,8 @@
     "stylus-loader": "^3.0.2",
     "tiny-emitter": "^2.0.2",
     "unorm": "^1.4.1",
-    "uslug": "^1.0.4"
+    "uslug": "^1.0.4",
+    "snyk": "^1.189.0"
   },
   "devDependencies": {
     "@babel/core": "^7.2.2",
@@ -82,5 +85,6 @@
     "webpack-cli": "^3.2.1",
     "webpack-node-externals": "^1.7.2"
   },
-  "gitHead": "ce4cc25d5720b9c48bc0214da635204023ac9d05"
+  "gitHead": "ce4cc25d5720b9c48bc0214da635204023ac9d05",
+  "snyk": true
 }
