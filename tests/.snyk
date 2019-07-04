@@ -1,8 +1,55 @@
 # Snyk (https://snyk.io) policy file, patches or ignores known vulnerabilities.
-version: v1.13.3
+version: v1.13.5
 ignore: {}
 # patches apply the minimum changes required to fix a vulnerability
 patch:
   SNYK-JS-AXIOS-174505:
     - axios:
         patched: '2019-05-07T07:08:20.685Z'
+  SNYK-JS-LODASH-450202:
+    - nuxt > @nuxt/webpack > @babel/core > @babel/generator > lodash:
+        patched: '2019-07-04T07:08:22.591Z'
+    - lodash:
+        patched: '2019-07-04T07:08:22.591Z'
+    - '@mathssyfy/plugin-markdown > lodash':
+        patched: '2019-07-04T07:08:22.591Z'
+    - contentful > contentful-resolve-response > lodash:
+        patched: '2019-07-04T07:08:22.591Z'
+    - contentful > contentful-sdk-core > lodash:
+        patched: '2019-07-04T07:08:22.591Z'
+    - nuxt > @nuxt/builder > lodash:
+        patched: '2019-07-04T07:08:22.591Z'
+    - nuxt > @nuxt/webpack > html-webpack-plugin > lodash:
+        patched: '2019-07-04T07:08:22.591Z'
+    - nuxt > @nuxt/webpack > css-loader > lodash:
+        patched: '2019-07-04T07:08:22.591Z'
+    - '@vue/cli-shared-utils > request-promise-native > request-promise-core > lodash':
+        patched: '2019-07-04T07:08:22.591Z'
+    - nuxt > @nuxt/webpack > @babel/core > lodash:
+        patched: '2019-07-04T07:08:22.591Z'
+    - nuxt > @nuxt/webpack > webpack-bundle-analyzer > lodash:
+        patched: '2019-07-04T07:08:22.591Z'
+    - contentful > lodash:
+        patched: '2019-07-04T07:08:22.591Z'
+    - '@nuxtjs/apollo > vue-cli-plugin-apollo > apollo-server-express > apollo-server-core > lodash':
+        patched: '2019-07-04T07:08:22.591Z'
+    - nuxt > @nuxt/webpack > optimize-css-assets-webpack-plugin > last-call-webpack-plugin > lodash:
+        patched: '2019-07-04T07:08:22.591Z'
+    - nuxt > @nuxt/webpack > thread-loader > async > lodash:
+        patched: '2019-07-04T07:08:22.591Z'
+    - nuxt > @nuxt/webpack > @babel/core > @babel/helpers > @babel/traverse > lodash:
+        patched: '2019-07-04T07:08:22.591Z'
+    - '@nuxtjs/apollo > vue-cli-plugin-apollo > apollo-server-express > apollo-server-core > apollo-engine-reporting > lodash':
+        patched: '2019-07-04T07:08:22.591Z'
+    - nuxt > @nuxt/webpack > @nuxt/babel-preset-app > @babel/core > @babel/template > @babel/types > lodash:
+        patched: '2019-07-04T07:08:22.591Z'
+    - nuxt > @nuxt/webpack > @nuxt/babel-preset-app > @babel/preset-env > @babel/plugin-transform-async-to-generator > @babel/helper-module-imports > @babel/types > lodash:
+        patched: '2019-07-04T07:08:22.591Z'
+    - nuxt > @nuxt/webpack > @nuxt/babel-preset-app > @babel/preset-env > @babel/plugin-transform-classes > @babel/helper-function-name > @babel/template > @babel/types > lodash:
+        patched: '2019-07-04T07:08:22.591Z'
+    - nuxt > @nuxt/webpack > @nuxt/babel-preset-app > @babel/preset-env > @babel/plugin-transform-exponentiation-operator > @babel/helper-builder-binary-assignment-operator-visitor > @babel/helper-explode-assignable-expression > @babel/traverse > @babel/generator > lodash:
+        patched: '2019-07-04T07:08:22.591Z'
+    - nuxt > @nuxt/webpack > @nuxt/babel-preset-app > @babel/preset-env > @babel/plugin-transform-async-to-generator > @babel/helper-remap-async-to-generator > @babel/helper-wrap-function > @babel/traverse > @babel/generator > @babel/types > lodash:
+        patched: '2019-07-04T07:08:22.591Z'
+    - nuxt > @nuxt/webpack > @nuxt/babel-preset-app > @babel/preset-env > @babel/plugin-proposal-async-generator-functions > @babel/helper-remap-async-to-generator > @babel/helper-wrap-function > @babel/traverse > @babel/helper-function-name > @babel/template > @babel/types > lodash:
+        patched: '2019-07-04T07:08:22.591Z'
