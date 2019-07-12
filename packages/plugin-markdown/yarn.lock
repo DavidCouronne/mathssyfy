@@ -641,6 +641,56 @@
     lodash "^4.17.10"
     to-fast-properties "^2.0.0"
 
+"@mathssyfy/markdown-it-component@^1.2.14":
+  version "1.2.14"
+  resolved "https://registry.yarnpkg.com/@mathssyfy/markdown-it-component/-/markdown-it-component-1.2.14.tgz#338a5849ca9f5bff12bb17730d7ae7374ac99129"
+  integrity sha512-tBelfPHC2v7jH4SnDEA5OduGwLkOmgKa/Aq0zalUhCOcP/lib3+lVo2hm20fnXy8f2G+FHju7OxJh5oGkZ1Kkg==
+  dependencies:
+    markdown-it "^8.4.2"
+
+"@mathssyfy/markdown-it-highlightlines@^1.3.9":
+  version "1.3.9"
+  resolved "https://registry.yarnpkg.com/@mathssyfy/markdown-it-highlightlines/-/markdown-it-highlightlines-1.3.9.tgz#84a89ed2e2eb82da37722d098cc8e0fc5db3da3a"
+  integrity sha512-T1B0LixeRVwIS8A5DW15QZrj2uUmJ6azth6nAkgx95f14cRSgIiCEoG8C+SsCE3XrGItT8c1G40nN63kSJvWSg==
+  dependencies:
+    "@mathssyfy/markdown-it-prewrapper" "^1.3.9"
+
+"@mathssyfy/markdown-it-linenumbers@^1.3.10":
+  version "1.3.10"
+  resolved "https://registry.yarnpkg.com/@mathssyfy/markdown-it-linenumbers/-/markdown-it-linenumbers-1.3.10.tgz#0049e1465fded6f2b50c7c40a6a14f2ead66951d"
+  integrity sha512-gsyqRboYHVAJjNFvoQN7G6WcEERNe8l2lfH3udeyeb7UOBIv8DE2tN6QBTmXyNUvDcFqyLm1LTsHo2ONBTdQ6w==
+  dependencies:
+    "@mathssyfy/markdown-it-prewrapper" "^1.3.9"
+
+"@mathssyfy/markdown-it-loader@^1.3.1":
+  version "1.3.1"
+  resolved "https://registry.yarnpkg.com/@mathssyfy/markdown-it-loader/-/markdown-it-loader-1.3.1.tgz#76667b819cd30513666dd2e8d7c5928cbb441681"
+  integrity sha512-EqYfqTYryH7yHxYV4a23Kv3kKr4Na1VIQVFtXjfDZVgqDVxXPwBnBrQ9WvBBsOdCqg/BSc/zs5wPpCKJ4LNRKg==
+  dependencies:
+    loader-utils "^1.2.3"
+    markdown-it "^8.4.2"
+    prismjs "^1.15.0"
+
+"@mathssyfy/markdown-it-prewrapper@^1.3.9":
+  version "1.3.9"
+  resolved "https://registry.yarnpkg.com/@mathssyfy/markdown-it-prewrapper/-/markdown-it-prewrapper-1.3.9.tgz#0559937cf26b19f766af14be96b5baa9f6cf7f18"
+  integrity sha512-SlVm3AQFabCpEGyrySfm9wQf0SeqEAXB//BBLsuEurwUIfNMX6JQOoeBHyLDYFuEr6U+6s7nYbGzaA4Zr3kvDA==
+
+"@mathssyfy/markdown-it-theme@^1.3.13":
+  version "1.3.13"
+  resolved "https://registry.yarnpkg.com/@mathssyfy/markdown-it-theme/-/markdown-it-theme-1.3.13.tgz#c2a526f0b36c2a41fab62fbebc07991ce09f9bc0"
+  integrity sha512-WugCv9w44rrgy34IEJlE2yJX8/pEiDpX1USyfKoCgURYS0tw14uFqWwttdVufqyqgIDZf2aExUPLx32BwPpKnA==
+  dependencies:
+    "@mathssyfy/markdown-it-component" "^1.2.14"
+    "@mathssyfy/markdown-it-highlightlines" "^1.3.9"
+    "@mathssyfy/markdown-it-linenumbers" "^1.3.10"
+    "@mathssyfy/markdown-it-prewrapper" "^1.3.9"
+    markdown-it "^8.4.2"
+    markdown-it-anchor "^5.0.2"
+    markdown-it-chain "^1.3.0"
+    markdown-it-emoji "^1.4.0"
+    markdown-it-table-of-contents "^0.4.3"
+
 "@webassemblyjs/ast@1.7.11":
   version "1.7.11"
   resolved "https://registry.yarnpkg.com/@webassemblyjs/ast/-/ast-1.7.11.tgz#b988582cafbb2b095e8b556526f30c90d057cace"
@@ -2813,7 +2863,7 @@ loader-runner@^2.3.0:
   resolved "https://registry.yarnpkg.com/loader-runner/-/loader-runner-2.4.0.tgz#ed47066bfe534d7e84c4c7b9998c2a75607d9357"
   integrity sha512-Jsmr89RcXGIwivFY21FcRrisYZfvLMTWx5kOLc+JTxtpBOG6xML0vzbc6SEQG2FO9/4Fc3wW4LVcB5DmGflaRw==
 
-loader-utils@^1.0.1, loader-utils@^1.0.2, loader-utils@^1.1.0, loader-utils@^1.2.1:
+loader-utils@^1.0.1, loader-utils@^1.0.2, loader-utils@^1.1.0, loader-utils@^1.2.1, loader-utils@^1.2.3:
   version "1.2.3"
   resolved "https://registry.yarnpkg.com/loader-utils/-/loader-utils-1.2.3.tgz#1ff5dc6911c9f0a062531a4c04b609406108c2c7"
   integrity sha512-fkpz8ejdnEMG3s37wGL07iSBDg99O9D5yflE9RGNH3hRdx9SOwYfnGYdZOUIZitN8E+E2vkq3MUMYMvPYl5ZZA==
@@ -2846,9 +2896,9 @@ lodash.debounce@^4.0.8:
   integrity sha1-gteb/zCmfEAF/9XiUVMArZyk168=
 
 lodash.mergewith@^4.6.0:
-  version "4.6.1"
-  resolved "https://registry.yarnpkg.com/lodash.mergewith/-/lodash.mergewith-4.6.1.tgz#639057e726c3afbdb3e7d42741caa8d6e4335927"
-  integrity sha512-eWw5r+PYICtEBgrBE5hhlT6aAa75f411bgDz/ZL2KZqYV03USvucsxcHUIlGTDTECs1eunpI7HOV7U+WLDvNdQ==
+  version "4.6.2"
+  resolved "https://registry.yarnpkg.com/lodash.mergewith/-/lodash.mergewith-4.6.2.tgz#617121f89ac55f59047c7aec1ccd6654c6590f55"
+  integrity sha512-GK3g5RPZWTRSeLSpgP8Xhra+pnjBC56q9FZYe1d5RN3TJ35dbkGy3YqBSMbyCrlbi+CM9Z3Jk5yTL7RCsqboyQ==
 
 lodash.tail@^4.1.1:
   version "4.1.1"
