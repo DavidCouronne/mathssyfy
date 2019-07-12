@@ -65,7 +65,7 @@
     "vue-template-compiler": "^2.5.21",
     "vuetify": "^1.4.1",
     "vuetify-loader": "^1.1.1",
-    "snyk": "^1.161.1"
+    "snyk": "^1.193.1"
   },
   "devDependencies": {
     "coffee-loader": "^0.9.0",
