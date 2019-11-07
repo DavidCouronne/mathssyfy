@@ -1,8 +1,65 @@
 # Snyk (https://snyk.io) policy file, patches or ignores known vulnerabilities.
-version: v1.13.3
+version: v1.13.5
 ignore: {}
 # patches apply the minimum changes required to fix a vulnerability
 patch:
   SNYK-JS-AXIOS-174505:
     - axios:
         patched: '2019-05-07T07:08:20.685Z'
+  SNYK-JS-LODASH-450202:
+    - nuxt > @nuxt/webpack > webpack-bundle-analyzer > lodash:
+        patched: '2019-11-07T07:51:45.969Z'
+    - '@mathssyfy/plugin-markdown > lodash':
+        patched: '2019-11-07T07:51:45.969Z'
+    - snyk > snyk-config > lodash:
+        patched: '2019-11-07T07:51:45.969Z'
+    - snyk > snyk-nuget-plugin > lodash:
+        patched: '2019-11-07T07:51:45.969Z'
+    - contentful > contentful-resolve-response > lodash:
+        patched: '2019-11-07T07:51:45.969Z'
+    - contentful > contentful-sdk-core > lodash:
+        patched: '2019-11-07T07:51:45.969Z'
+    - snyk > snyk-nodejs-lockfile-parser > lodash:
+        patched: '2019-11-07T07:51:45.969Z'
+    - nuxt > @nuxt/builder > lodash:
+        patched: '2019-11-07T07:51:45.969Z'
+    - nuxt > @nuxt/webpack > @babel/core > lodash:
+        patched: '2019-11-07T07:51:45.969Z'
+    - '@vue/cli-shared-utils > request-promise-native > request-promise-core > lodash':
+        patched: '2019-11-07T07:51:45.969Z'
+    - nuxt > @nuxt/webpack > css-loader > lodash:
+        patched: '2019-11-07T07:51:45.969Z'
+    - snyk > snyk-nodejs-lockfile-parser > graphlib > lodash:
+        patched: '2019-11-07T07:51:45.969Z'
+    - snyk > snyk-go-plugin > graphlib > lodash:
+        patched: '2019-11-07T07:51:45.969Z'
+    - snyk > @snyk/dep-graph > graphlib > lodash:
+        patched: '2019-11-07T07:51:45.969Z'
+    - contentful > lodash:
+        patched: '2019-11-07T07:51:45.969Z'
+    - nuxt > @nuxt/webpack > html-webpack-plugin > lodash:
+        patched: '2019-11-07T07:51:45.969Z'
+    - nuxt > @nuxt/webpack > optimize-css-assets-webpack-plugin > last-call-webpack-plugin > lodash:
+        patched: '2019-11-07T07:51:45.969Z'
+    - nuxt > @nuxt/webpack > @babel/core > @babel/traverse > lodash:
+        patched: '2019-11-07T07:51:45.969Z'
+    - '@nuxtjs/apollo > vue-cli-plugin-apollo > apollo-server-express > apollo-server-core > lodash':
+        patched: '2019-11-07T07:51:45.969Z'
+    - nuxt > @nuxt/webpack > thread-loader > async > lodash:
+        patched: '2019-11-07T07:51:45.969Z'
+    - nuxt > @nuxt/webpack > @babel/core > @babel/helpers > @babel/traverse > lodash:
+        patched: '2019-11-07T07:51:45.969Z'
+    - '@nuxtjs/apollo > vue-cli-plugin-apollo > apollo-server-express > apollo-server-core > apollo-engine-reporting > lodash':
+        patched: '2019-11-07T07:51:45.969Z'
+    - nuxt > @nuxt/webpack > @nuxt/babel-preset-app > @babel/preset-env > @babel/plugin-transform-modules-umd > @babel/helper-module-transforms > lodash:
+        patched: '2019-11-07T07:51:45.969Z'
+    - nuxt > @nuxt/webpack > @nuxt/babel-preset-app > @babel/preset-env > @babel/plugin-transform-classes > @babel/helper-function-name > @babel/types > lodash:
+        patched: '2019-11-07T07:51:45.969Z'
+    - nuxt > @nuxt/webpack > @nuxt/babel-preset-app > @babel/preset-env > @babel/plugin-transform-async-to-generator > @babel/helper-remap-async-to-generator > @babel/helper-annotate-as-pure > @babel/types > lodash:
+        patched: '2019-11-07T07:51:45.969Z'
+    - nuxt > @nuxt/webpack > @nuxt/babel-preset-app > @babel/preset-env > @babel/plugin-proposal-async-generator-functions > @babel/helper-remap-async-to-generator > @babel/traverse > @babel/generator > @babel/types > lodash:
+        patched: '2019-11-07T07:51:45.969Z'
+    - nuxt > @nuxt/webpack > @nuxt/babel-preset-app > @babel/preset-env > @babel/plugin-transform-async-to-generator > @babel/helper-remap-async-to-generator > @babel/helper-wrap-function > @babel/traverse > @babel/generator > @babel/types > lodash:
+        patched: '2019-11-07T07:51:45.969Z'
+    - nuxt > @nuxt/webpack > @nuxt/babel-preset-app > @babel/preset-env > @babel/plugin-transform-async-to-generator > @babel/helper-remap-async-to-generator > @babel/helper-wrap-function > @babel/traverse > @babel/helper-function-name > @babel/helper-get-function-arity > @babel/types > lodash:
+        patched: '2019-11-07T07:51:45.969Z'
