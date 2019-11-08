@@ -1,5 +1,5 @@
 import MarkdownIt from 'markdown-it'
-import emoji from 'markdown-it-emoji'
+// import  from 'markdown-it-emoji'
 import subscript from 'markdown-it-sub'
 import superscript from 'markdown-it-sup'
 import footnote from 'markdown-it-footnote'
@@ -55,10 +55,10 @@ export default {
       type: Boolean,
       default: true
     },
-    emoji: {
+    /* emoji: {
       type: Boolean,
       default: true
-    },
+    }, */
     typographer: {
       type: Boolean,
       default: true
@@ -149,9 +149,9 @@ export default {
       .use(katex, { 'throwOnError': false, 'errorColor': ' #cc0000' })
       .use(tasklists, { enabled: this.taskLists })
 
-    if (this.emoji) {
+    /* if (this.emoji) {
       this.md.use(emoji)
-    }
+    } */
 
     this.md.set({
       html: this.html,

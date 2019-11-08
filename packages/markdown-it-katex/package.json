@@ -27,6 +27,6 @@
   ],
   "license": "MIT",
   "dependencies": {
-    "katex": "^0.10.0"
+    "katex": "^0.11.1"
   }
 }
