@@ -1,7 +1,7 @@
-'use strict';
+'use strict'
 
-const markdownItComponent = require('..');
+const markdownItComponent = require('..')
 
 describe('@mathssyfy/markdown-it-component', () => {
-    it('needs tests');
-});
+  it('needs tests')
+})

@@ -1,7 +1,7 @@
-'use strict';
+'use strict'
 
-const markdownItKatex = require('..');
+const markdownItKatex = require('..')
 
 describe('@mathssyfy/markdown-it-katex', () => {
-    it('needs tests');
-});
+  it('needs tests')
+})

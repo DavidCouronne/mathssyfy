@@ -1,7 +1,7 @@
-'use strict';
+'use strict'
 
-const pluginBackToTop = require('..');
+const pluginBackToTop = require('..')
 
 describe('@mathssyfy/plugin-back-to-top', () => {
-    it('needs tests');
-});
+  it('needs tests')
+})

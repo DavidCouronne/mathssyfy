@@ -6,16 +6,15 @@
 //   2. <!--afterbegin-->
 //   3. <!--beforeend-->
 //   4. <!--afterend-->
-const CODE = /(<code class="[^>]*>)/g;
+const CODE = /(<code class="[^>]*>)/g
 module.exports = md => {
-    const fence = md.renderer.rules.fence
-    md.renderer.rules.fence = (...args) => {
-      const [tokens, idx] = args
-      const token = tokens[idx]
-      const rawCode = fence(...args)
-      const modifCode = rawCode.replace(CODE,'<code>')
-      return `<!--beforebegin--><div class="language-${token.info.trim()} extra-class">` +
+  const fence = md.renderer.rules.fence
+  md.renderer.rules.fence = (...args) => {
+    const [tokens, idx] = args
+    const token = tokens[idx]
+    const rawCode = fence(...args)
+    const modifCode = rawCode.replace(CODE, '<code>')
+    return `<!--beforebegin--><div class="language-${token.info.trim()} extra-class">` +
       `<!--afterbegin-->${modifCode}<!--beforeend--></div><!--afterend-->`
-    }
   }
-  
+}

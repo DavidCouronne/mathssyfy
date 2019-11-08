@@ -1,7 +1,7 @@
-'use strict';
+'use strict'
 
-const pluginMarkdown = require('..');
+const pluginMarkdown = require('..')
 
 describe('@mathssyfy/plugin-markdown', () => {
-    it('needs tests');
-});
+  it('needs tests')
+})

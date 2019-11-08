@@ -1,7 +1,7 @@
-'use strict';
+'use strict'
 
-const markdownItTheme = require('..');
+const markdownItTheme = require('..')
 
 describe('@mathssyfy/markdown-it-theme', () => {
-    it('needs tests');
-});
+  it('needs tests')
+})

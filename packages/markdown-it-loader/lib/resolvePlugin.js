@@ -5,8 +5,8 @@
  */
 var resolvePlugin = function (plugin) {
   if (typeof plugin === 'string') {
-    return require(plugin);
+    return require(plugin)
   }
-  return plugin;
-};
-exports.resolvePlugin = resolvePlugin;
+  return plugin
+}
+exports.resolvePlugin = resolvePlugin

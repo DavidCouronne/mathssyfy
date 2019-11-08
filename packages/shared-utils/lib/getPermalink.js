@@ -1,25 +1,25 @@
-"use strict";
+'use strict'
 var __importDefault = (this && this.__importDefault) || function (mod) {
-    return (mod && mod.__esModule) ? mod : { "default": mod };
-};
-const ensureEndingSlash_1 = __importDefault(require("./ensureEndingSlash"));
-const ensureLeadingSlash_1 = __importDefault(require("./ensureLeadingSlash"));
-module.exports = function getPermalink({ pattern, slug, date, regularPath, localePath = '/' }) {
-    if (!pattern) {
-        return;
-    }
-    slug = encodeURI(slug);
-    const d = new Date(date);
-    const year = d.getFullYear();
-    const iMonth = d.getMonth() + 1;
-    const iDay = d.getDate();
-    const minutes = d.getMinutes();
-    const seconds = d.getSeconds();
-    const month = iMonth < 10 ? `0${iMonth}` : iMonth;
-    const day = iDay < 10 ? `0${iDay}` : iDay;
-    // Remove leading slash
-    pattern = pattern.replace(/^\//, '');
-    const link = localePath +
+  return (mod && mod.__esModule) ? mod : { 'default': mod }
+}
+const ensureEndingSlash_1 = __importDefault(require('./ensureEndingSlash'))
+const ensureLeadingSlash_1 = __importDefault(require('./ensureLeadingSlash'))
+module.exports = function getPermalink ({ pattern, slug, date, regularPath, localePath = '/' }) {
+  if (!pattern) {
+    return
+  }
+  slug = encodeURI(slug)
+  const d = new Date(date)
+  const year = d.getFullYear()
+  const iMonth = d.getMonth() + 1
+  const iDay = d.getDate()
+  const minutes = d.getMinutes()
+  const seconds = d.getSeconds()
+  const month = iMonth < 10 ? `0${iMonth}` : iMonth
+  const day = iDay < 10 ? `0${iDay}` : iDay
+  // Remove leading slash
+  pattern = pattern.replace(/^\//, '')
+  const link = localePath +
         pattern
             .replace(/:year/, String(year))
             .replace(/:month/, String(month))
@@ -29,6 +29,6 @@ module.exports = function getPermalink({ pattern, slug, date, regularPath, local
             .replace(/:minutes/, String(minutes))
             .replace(/:seconds/, String(seconds))
             .replace(/:slug/, slug)
-            .replace(/:regular/, regularPath);
-    return ensureLeadingSlash_1.default(ensureEndingSlash_1.default(link));
-};
+            .replace(/:regular/, regularPath)
+  return ensureLeadingSlash_1.default(ensureEndingSlash_1.default(link))
+}

@@ -1,4 +1,4 @@
-"use strict";
-module.exports = function ensureLeadingSlash(path) {
-    return path.replace(/^\/?/, '/');
-};
+'use strict'
+module.exports = function ensureLeadingSlash (path) {
+  return path.replace(/^\/?/, '/')
+}

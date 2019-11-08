@@ -1,7 +1,6 @@
 const prism = require('prismjs')
 const loadLanguages = require('prismjs/components/index')
 
-
 // required to make embedded highlighting work...
 loadLanguages(['markup', 'css', 'javascript'])
 

@@ -1,4 +1,4 @@
-var hljs = require('@mathssyfy/markdown-it-loader/lib/highlight');
+var hljs = require('@mathssyfy/markdown-it-loader/lib/highlight')
 /**
  * renderHighlight
  * @param  {string} str
@@ -6,8 +6,7 @@ var hljs = require('@mathssyfy/markdown-it-loader/lib/highlight');
  */
 var renderHighlight = function (str, lang) {
   try {
-    return hljs(str, lang);
-  }
-  catch (err) { }
-};
-exports.renderHighlight = renderHighlight;
+    return hljs(str, lang)
+  } catch (err) { }
+}
+exports.renderHighlight = renderHighlight

@@ -1,15 +1,14 @@
-const { resolvePlugin } = require("./resolvePlugin");
+const { resolvePlugin } = require('./resolvePlugin')
 
-const { renderVueTemplate } = require("./renderVueTemplate");
+const { renderVueTemplate } = require('./renderVueTemplate')
 
-const { replaceDelimiters } = require("./replaceDelimiters");
+const { replaceDelimiters } = require('./replaceDelimiters')
 
-const { renderHighlight } = require("./renderHighlight");
-
+const { renderHighlight } = require('./renderHighlight')
 
 var loaderUtils = require('loader-utils')
 var markdown = require('markdown-it')
-var component = require ('@mathssyfy/markdown/lib/component.js')
+var component = require('@mathssyfy/markdown/lib/component.js')
 
 module.exports = function (source) {
   this.cacheable()
@@ -47,9 +46,9 @@ module.exports = function (source) {
     }
   }
 
-  var codeInlineRender = parser.renderer.rules.code_inline;
+  var codeInlineRender = parser.renderer.rules.code_inline
   parser.renderer.rules.code_inline = function () {
-    return replaceDelimiters(codeInlineRender.apply(this, arguments));
+    return replaceDelimiters(codeInlineRender.apply(this, arguments))
   }
 
   if (preprocess) {
@@ -59,5 +58,4 @@ module.exports = function (source) {
   var content = parser.render(source)
 
   return renderVueTemplate(content)
-
 }

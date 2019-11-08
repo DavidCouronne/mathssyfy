@@ -6,42 +6,42 @@
 
 const Config = require('markdown-it-chain')
 
-//const { PLUGINS, REQUIRED_PLUGINS } = require('./lib/constant')
+// const { PLUGINS, REQUIRED_PLUGINS } = require('./lib/constant')
 const highlightLinesPlugin = require('@mathssyfy/markdown-it-highlightlines')
 const preWrapperPlugin = require('@mathssyfy/markdown-it-prewrapper')
 const lineNumbersPlugin = require('@mathssyfy/markdown-it-linenumbers')
 const componentPlugin = require('@mathssyfy/markdown-it-component')
-//const hoistScriptStylePlugin = require('./lib/hoist')
-//const convertRouterLinkPlugin = require('./lib/link')
-//const containersPlugin = require('./lib/containers')
-//const markdownSlotsContainersPlugin = require('./lib/markdownSlotsContainers')
-//const snippetPlugin = require('./lib/snippet')
+// const hoistScriptStylePlugin = require('./lib/hoist')
+// const convertRouterLinkPlugin = require('./lib/link')
+// const containersPlugin = require('./lib/containers')
+// const markdownSlotsContainersPlugin = require('./lib/markdownSlotsContainers')
+// const snippetPlugin = require('./lib/snippet')
 const emojiPlugin = require('markdown-it-emoji')
 const anchorPlugin = require('markdown-it-anchor')
 const tocPlugin = require('markdown-it-table-of-contents')
-//const { parseHeaders, slugify: _slugify, logger, chalk } = require('@vuepress/shared-utils')
+// const { parseHeaders, slugify: _slugify, logger, chalk } = require('@vuepress/shared-utils')
 
 /**
  * Create markdown by config.
  */
 
 module.exports = (markdown = {}) => {
-    const {
-        externalLinks,
-        anchor,
-        toc,
-        lineNumbers,
-        beforeInstantiate,
-        afterInstantiate
-    } = markdown
+  const {
+    externalLinks,
+    anchor,
+    toc,
+    lineNumbers,
+    beforeInstantiate,
+    afterInstantiate
+  } = markdown
 
-    // allow user config slugify
-    // const slugify = markdown.slugify || _slugify
+  // allow user config slugify
+  // const slugify = markdown.slugify || _slugify
 
-    // using chainedAPI
-    const config = new Config()
+  // using chainedAPI
+  const config = new Config()
 
-    config
+  config
 
         .plugin('component')
         .use(componentPlugin)
@@ -55,26 +55,26 @@ module.exports = (markdown = {}) => {
         .use(preWrapperPlugin)
         .end()
 
-        /* .plugin(PLUGINS.SNIPPET)
+  /* .plugin(PLUGINS.SNIPPET)
           .use(snippetPlugin)
           .end() */
 
-        /* .plugin(PLUGINS.CONVERT_ROUTER_LINK)
+  /* .plugin(PLUGINS.CONVERT_ROUTER_LINK)
           .use(convertRouterLinkPlugin, [Object.assign({
             target: '_blank',
             rel: 'noopener noreferrer'
           }, externalLinks)])
           .end() */
 
-        /* .plugin(PLUGINS.HOIST_SCRIPT_STYLE)
+  /* .plugin(PLUGINS.HOIST_SCRIPT_STYLE)
           .use(hoistScriptStylePlugin)
           .end() */
 
-        // .plugin(PLUGINS.CONTAINERS)
-        //   .use(containersPlugin)
-        //   .end()
+  // .plugin(PLUGINS.CONTAINERS)
+  //   .use(containersPlugin)
+  //   .end()
 
-        /* .plugin(PLUGINS.MARKDOWN_SLOTS_CONTAINERS)
+  /* .plugin(PLUGINS.MARKDOWN_SLOTS_CONTAINERS)
           .use(markdownSlotsContainersPlugin)
           .end() */
 
@@ -84,44 +84,44 @@ module.exports = (markdown = {}) => {
 
         .plugin('anchor')
         .use(anchorPlugin, [Object.assign({
-            // slugify,
-            permalink: true,
-            permalinkBefore: true,
-            permalinkSymbol: '#'
+          // slugify,
+          permalink: true,
+          permalinkBefore: true,
+          permalinkSymbol: '#'
         }, anchor)])
         .end()
 
         .plugin('toc')
         .use(tocPlugin, [Object.assign({
-            //slugify,
-            includeLevel: [2, 3],
-            //format: parseHeaders
+          // slugify,
+          includeLevel: [2, 3]
+          // format: parseHeaders
         }, toc)])
         .end()
         .plugin('line-numbers')
         .use(lineNumbersPlugin)
         .end()
 
-    //   if (lineNumbers) {
-    //     config
-    //       .plugin(PLUGINS.LINE_NUMBERS)
-    //         .use(lineNumbersPlugin)
-    //   }
+  //   if (lineNumbers) {
+  //     config
+  //       .plugin(PLUGINS.LINE_NUMBERS)
+  //         .use(lineNumbersPlugin)
+  //   }
 
-    //   beforeInstantiate && beforeInstantiate(config)
+  //   beforeInstantiate && beforeInstantiate(config)
 
-    const md = config.toMd(require('markdown-it'))
+  const md = config.toMd(require('markdown-it'))
 
-    /* afterInstantiate && afterInstantiate(md)
+  /* afterInstantiate && afterInstantiate(md)
 
     module.exports.dataReturnable(md) */
 
-    // expose slugify
-    //   md.slugify = slugify
+  // expose slugify
+  //   md.slugify = slugify
 
-    return md
+  return md
 }
-/* 
+/*
 module.exports.dataReturnable = function dataReturnable (md) {
   // override render to allow custom plugins return data
   const render = md.render

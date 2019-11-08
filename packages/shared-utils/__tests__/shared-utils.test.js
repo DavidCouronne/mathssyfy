@@ -1,7 +1,7 @@
-'use strict';
+'use strict'
 
-const sharedUtils = require('..');
+const sharedUtils = require('..')
 
 describe('shared-utils', () => {
-    it('needs tests');
-});
+  it('needs tests')
+})

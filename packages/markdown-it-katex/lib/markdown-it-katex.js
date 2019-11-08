@@ -1,7 +1,7 @@
-'use strict';
+'use strict'
 
-module.exports = markdownItKatex;
+module.exports = markdownItKatex
 
-function markdownItKatex() {
-    // TODO
+function markdownItKatex () {
+  // TODO
 }

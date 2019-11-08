@@ -1,7 +1,7 @@
-'use strict';
+'use strict'
 
-const markdownItLoader = require('..');
+const markdownItLoader = require('..')
 
 describe('@mathssyfy/markdown-it-loader', () => {
-    it('needs tests');
-});
+  it('needs tests')
+})

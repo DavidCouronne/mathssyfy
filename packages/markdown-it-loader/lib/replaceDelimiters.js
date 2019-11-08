@@ -4,6 +4,6 @@
  * @return {string}
  */
 var replaceDelimiters = function (str) {
-  return str.replace(/({{|}})/g, '<span>$1</span>');
-};
-exports.replaceDelimiters = replaceDelimiters;
+  return str.replace(/({{|}})/g, '<span>$1</span>')
+}
+exports.replaceDelimiters = replaceDelimiters

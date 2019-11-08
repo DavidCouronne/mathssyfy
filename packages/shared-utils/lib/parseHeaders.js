@@ -1,10 +1,10 @@
-"use strict";
+'use strict'
 var __importDefault = (this && this.__importDefault) || function (mod) {
-    return (mod && mod.__esModule) ? mod : { "default": mod };
-};
-const compose_1 = __importDefault(require("./compose"));
-const unescapeHtml_1 = __importDefault(require("./unescapeHtml"));
-const parseEmojis_1 = __importDefault(require("./parseEmojis"));
+  return (mod && mod.__esModule) ? mod : { 'default': mod }
+}
+const compose_1 = __importDefault(require('./compose'))
+const unescapeHtml_1 = __importDefault(require('./unescapeHtml'))
+const parseEmojis_1 = __importDefault(require('./parseEmojis'))
 // Since VuePress needs to extract the header from the markdown source
 // file and display it in the sidebar or title (#238), this file simply
 // removes some unnecessary elements to make header displays well at
@@ -19,8 +19,8 @@ const parseEmojis_1 = __importDefault(require("./parseEmojis"));
 const removeMarkdownTokens = (str) => String(str)
     .replace(/\[(.*)\]\(.*\)/, '$1') // []()
     .replace(/(`|\*{1,3}|_)(.*?[^\\])\1/g, '$2') // `{t}` | *{t}* | **{t}** | ***{t}*** | _{t}_
-    .replace(/(\\)(\*|_|`|\!)/g, '$2'); // remove escape char '\'
-const trim = (str) => str.trim();
+    .replace(/(\\)(\*|_|`|\!)/g, '$2') // remove escape char '\'
+const trim = (str) => str.trim()
 // Unescape html, parse emojis and remove some md tokens.
-const parseHeaders = compose_1.default(unescapeHtml_1.default, parseEmojis_1.default, removeMarkdownTokens, trim);
-module.exports = parseHeaders;
+const parseHeaders = compose_1.default(unescapeHtml_1.default, parseEmojis_1.default, removeMarkdownTokens, trim)
+module.exports = parseHeaders

@@ -1,4 +1,4 @@
-import markdownIt from 'markdown-it'
+import MarkdownIt from 'markdown-it'
 import emoji from 'markdown-it-emoji'
 import subscript from 'markdown-it-sub'
 import superscript from 'markdown-it-sup'
@@ -12,28 +12,28 @@ import katex from 'markdown-it-katex'
 import tasklists from 'markdown-it-task-lists'
 
 export default {
-  md: new markdownIt(),
+  md: new MarkdownIt(),
 
   template: '<div><slot></slot></div>',
 
-  data() {
+  data () {
     return {
-      sourceData: this.source,
+      sourceData: this.source
     }
   },
 
   props: {
     watches: {
       type: Array,
-      default: () => ['source', 'show', 'toc'],
+      default: () => ['source', 'show', 'toc']
     },
     source: {
       type: String,
-      default: ``,
+      default: ``
     },
     show: {
       type: Boolean,
-      default: true,
+      default: true
     },
     highlight: {
       type: Boolean,
@@ -41,39 +41,39 @@ export default {
     },
     html: {
       type: Boolean,
-      default: true,
+      default: true
     },
     xhtmlOut: {
       type: Boolean,
-      default: true,
+      default: true
     },
     breaks: {
       type: Boolean,
-      default: true,
+      default: true
     },
     linkify: {
       type: Boolean,
-      default: true,
+      default: true
     },
     emoji: {
       type: Boolean,
-      default: true,
+      default: true
     },
     typographer: {
       type: Boolean,
-      default: true,
+      default: true
     },
     langPrefix: {
       type: String,
-      default: 'language-',
+      default: 'language-'
     },
     quotes: {
       type: String,
-      default: '“”‘’',
+      default: '“”‘’'
     },
     tableClass: {
       type: String,
-      default: 'table',
+      default: 'table'
     },
     taskLists: {
       type: Boolean,
@@ -81,41 +81,41 @@ export default {
     },
     toc: {
       type: Boolean,
-      default: false,
+      default: false
     },
     tocId: {
-      type: String,
+      type: String
     },
     tocClass: {
       type: String,
-      default: 'table-of-contents',
+      default: 'table-of-contents'
     },
     tocFirstLevel: {
       type: Number,
-      default: 2,
+      default: 2
     },
     tocLastLevel: {
-      type: Number,
+      type: Number
     },
     tocAnchorLink: {
       type: Boolean,
-      default: true,
+      default: true
     },
     tocAnchorClass: {
       type: String,
-      default: 'toc-anchor',
+      default: 'toc-anchor'
     },
     tocAnchorLinkSymbol: {
       type: String,
-      default: '#',
+      default: '#'
     },
     tocAnchorLinkSpace: {
       type: Boolean,
-      default: true,
+      default: true
     },
     tocAnchorLinkClass: {
       type: String,
-      default: 'toc-anchor-link',
+      default: 'toc-anchor-link'
     },
     anchorAttributes: {
       type: Object,
@@ -132,13 +132,13 @@ export default {
   },
 
   computed: {
-    tocLastLevelComputed() {
+    tocLastLevelComputed () {
       return this.tocLastLevel > this.tocFirstLevel ? this.tocLastLevel : this.tocFirstLevel + 1
     }
   },
 
-  render(createElement) {
-    this.md = new markdownIt()
+  render (createElement) {
+    this.md = new MarkdownIt()
       .use(subscript)
       .use(superscript)
       .use(footnote)
@@ -146,7 +146,7 @@ export default {
       .use(abbreviation)
       .use(insert)
       .use(mark)
-      .use(katex, { "throwOnError": false, "errorColor": " #cc0000" })
+      .use(katex, { 'throwOnError': false, 'errorColor': ' #cc0000' })
       .use(tasklists, { enabled: this.taskLists })
 
     if (this.emoji) {
@@ -160,17 +160,17 @@ export default {
       linkify: this.linkify,
       typographer: this.typographer,
       langPrefix: this.langPrefix,
-      quotes: this.quotes,
+      quotes: this.quotes
     })
     this.md.renderer.rules.table_open = () => `<table class="${this.tableClass}">\n`
-    let defaultLinkRenderer = this.md.renderer.rules.link_open ||
+    const defaultLinkRenderer = this.md.renderer.rules.link_open ||
       function (tokens, idx, options, env, self) {
         return self.renderToken(tokens, idx, options)
       }
     this.md.renderer.rules.link_open = (tokens, idx, options, env, self) => {
       Object.keys(this.anchorAttributes).map((attribute) => {
-        let aIndex = tokens[idx].attrIndex(attribute)
-        let value = this.anchorAttributes[attribute]
+        const aIndex = tokens[idx].attrIndex(attribute)
+        const value = this.anchorAttributes[attribute]
         if (aIndex < 0) {
           tokens[idx].attrPush([attribute, value]) // add new attribute
         } else {
@@ -198,30 +198,30 @@ export default {
 
             this.$emit('toc-rendered', tocHtml)
           }
-        },
+        }
       })
     }
 
-    let outHtml = this.show ?
-      this.md.render(
+    let outHtml = this.show
+      ? this.md.render(
         this.prerender(this.sourceData)
       ) : ''
-    outHtml = this.postrender(outHtml);
+    outHtml = this.postrender(outHtml)
 
     this.$emit('rendered', outHtml)
     return createElement(
       'div', {
         domProps: {
-          innerHTML: outHtml,
-        },
-      },
+          innerHTML: outHtml
+        }
+      }
     )
   },
 
-  beforeMount() {
+  beforeMount () {
     if (this.$slots.default) {
       this.sourceData = ''
-      for (let slot of this.$slots.default) {
+      for (const slot of this.$slots.default) {
         this.sourceData += slot.text
       }
     }
@@ -236,5 +236,5 @@ export default {
         this.$forceUpdate()
       })
     })
-  },
+  }
 }

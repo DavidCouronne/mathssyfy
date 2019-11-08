@@ -1,7 +1,7 @@
-'use strict';
+'use strict'
 
-const theme = require('..');
+const theme = require('..')
 
 describe('@mathssyfy/theme', () => {
-    it('needs tests');
-});
+  it('needs tests')
+})

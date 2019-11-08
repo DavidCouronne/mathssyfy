@@ -1,19 +1,19 @@
 export const propsMakrdown = {
   watches: {
     type: Array,
-    default: () => ['source', 'show', 'toc'],
+    default: () => ['source', 'show', 'toc']
   },
   source: {
     type: String,
-    default: ``,
+    default: ``
   },
   lineNumbers: {
     type: Boolean,
-    default: true,
+    default: true
   },
   show: {
     type: Boolean,
-    default: true,
+    default: true
   },
   highlight: {
     type: Boolean,
@@ -21,39 +21,39 @@ export const propsMakrdown = {
   },
   html: {
     type: Boolean,
-    default: true,
+    default: true
   },
   xhtmlOut: {
     type: Boolean,
-    default: true,
+    default: true
   },
   breaks: {
     type: Boolean,
-    default: true,
+    default: true
   },
   linkify: {
     type: Boolean,
-    default: true,
+    default: true
   },
   emoji: {
     type: Boolean,
-    default: true,
+    default: true
   },
   typographer: {
     type: Boolean,
-    default: true,
+    default: true
   },
   langPrefix: {
     type: String,
-    default: 'language-',
+    default: 'language-'
   },
   quotes: {
     type: String,
-    default: '“”‘’',
+    default: '“”‘’'
   },
   tableClass: {
     type: String,
-    default: 'table',
+    default: 'table'
   },
   taskLists: {
     type: Boolean,
@@ -61,41 +61,41 @@ export const propsMakrdown = {
   },
   toc: {
     type: Boolean,
-    default: true,
+    default: true
   },
   tocId: {
-    type: String,
+    type: String
   },
   tocClass: {
     type: String,
-    default: 'table-of-contents',
+    default: 'table-of-contents'
   },
   tocFirstLevel: {
     type: Number,
-    default: 2,
+    default: 2
   },
   tocLastLevel: {
-    type: Number,
+    type: Number
   },
   tocAnchorLink: {
     type: Boolean,
-    default: true,
+    default: true
   },
   tocAnchorClass: {
     type: String,
-    default: 'toc-anchor',
+    default: 'toc-anchor'
   },
   tocAnchorLinkSymbol: {
     type: String,
-    default: '#',
+    default: '#'
   },
   tocAnchorLinkSpace: {
     type: Boolean,
-    default: true,
+    default: true
   },
   tocAnchorLinkClass: {
     type: String,
-    default: 'toc-anchor-link',
+    default: 'toc-anchor-link'
   },
   anchorAttributes: {
     type: Object,
@@ -103,10 +103,10 @@ export const propsMakrdown = {
   },
   prerender: {
     type: Function,
-    default: (sourceData) => { return sourceData; }
+    default: (sourceData) => { return sourceData }
   },
   postrender: {
     type: Function,
-    default: (htmlData) => { return htmlData; }
+    default: (htmlData) => { return htmlData }
   }
-};
+}

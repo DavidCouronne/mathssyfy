@@ -1,78 +1,75 @@
-const path = require('path');
-const version = require("./package.json").version;
-const nodeExternals = require('webpack-node-externals');
-const MiniCssExtractPlugin = require("mini-css-extract-plugin");
+const path = require('path')
+const version = require('./package.json').version
+const nodeExternals = require('webpack-node-externals')
+const MiniCssExtractPlugin = require('mini-css-extract-plugin')
 
-    "/**\n" +
+'/**\n' +
 
-    " * @mathssyfy/plugin-markdown" + version + "\n" +
+    ' * @mathssyfy/plugin-markdown' + version + '\n' +
 
-    " * https://github.com/DavidCouronne/mathssyfy/issues\n" +
+    ' * https://github.com/DavidCouronne/mathssyfy/issues\n' +
 
-    " * MIT License\n" +
+    ' * MIT License\n' +
 
-    " */\n";
-
-
+    ' */\n'
 
 module.exports = {
-    mode: 'production',
-    target: 'node', // in order to ignore built-in modules like path, fs, etc. 
-    externals: [nodeExternals()], // in order to ignore all modules in node_modules folder 
-    entry: './src/build.js',
-    output: {
-        path: path.resolve(__dirname, 'lib'),
-        filename: 'plugin-markdown.js',
-        library: 'PluginMarkdown',
-        libraryTarget: 'umd'
-    },
-    optimization: {
-        splitChunks: {
-          cacheGroups: {
-            styles: {
-              name: 'styles',
-              test: /\.css$/,
-              chunks: 'all',
-              enforce: true
-            }
-          }
+  mode: 'production',
+  target: 'node', // in order to ignore built-in modules like path, fs, etc.
+  externals: [nodeExternals()], // in order to ignore all modules in node_modules folder
+  entry: './src/build.js',
+  output: {
+    path: path.resolve(__dirname, 'lib'),
+    filename: 'plugin-markdown.js',
+    library: 'PluginMarkdown',
+    libraryTarget: 'umd'
+  },
+  optimization: {
+    splitChunks: {
+      cacheGroups: {
+        styles: {
+          name: 'styles',
+          test: /\.css$/,
+          chunks: 'all',
+          enforce: true
         }
-      },
-      plugins: [
-        new MiniCssExtractPlugin({
-          filename: "theme.css",
-        })
-      ],
-    module: {
-        rules: [
-            {
-                test: /\.vue$/,
-                use: ['vue-loader'] 
-            },
-            {
-                test: /\.css$/,
-                use: [
-                    MiniCssExtractPlugin.loader,
-                    'style-loader',
-                    'css-loader'
-                ]
-            },
-            {
-                test: /\.json$/,
-
-                use: ['json-loader']
-            },
-            {
-                test: /\.scss$/,
-                use: [
-                    MiniCssExtractPlugin.loader,
-                    "css-loader",
-                "sass-loader"
-                    
-                    
-                ]
-            }
-        ]
+      }
     }
-    
-};       
+  },
+  plugins: [
+    new MiniCssExtractPlugin({
+      filename: 'theme.css'
+    })
+  ],
+  module: {
+    rules: [
+      {
+        test: /\.vue$/,
+        use: ['vue-loader']
+      },
+      {
+        test: /\.css$/,
+        use: [
+          MiniCssExtractPlugin.loader,
+          'style-loader',
+          'css-loader'
+        ]
+      },
+      {
+        test: /\.json$/,
+
+        use: ['json-loader']
+      },
+      {
+        test: /\.scss$/,
+        use: [
+          MiniCssExtractPlugin.loader,
+          'css-loader',
+          'sass-loader'
+
+        ]
+      }
+    ]
+  }
+
+}

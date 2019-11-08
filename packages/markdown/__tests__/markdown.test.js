@@ -1,7 +1,7 @@
-'use strict';
+'use strict'
 
-const markdown = require('..');
+const markdown = require('..')
 
 describe('markdown', () => {
-    it('needs tests');
-});
+  it('needs tests')
+})

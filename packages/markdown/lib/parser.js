@@ -3,20 +3,18 @@ const highlight = require('@mathssyfy/markdown-it-loader/lib/highlight')
 const componentPlugin = require('@mathssyfy/markdown/lib/component.js')
 
 module.exports = (markdown = {}) => {
-    const {
-        externalLinks,
-        anchor,
-        toc,
-        lineNumbers,
-        beforeInstantiate,
-        afterInstantiate
-      } = markdown
-    
-      
+  const {
+    externalLinks,
+    anchor,
+    toc,
+    lineNumbers,
+    beforeInstantiate,
+    afterInstantiate
+  } = markdown
 
-    const config = new Config()
+  const config = new Config()
 
-    config
+  config
     .options
       .html(true)
       .highlight(highlight)
@@ -26,10 +24,7 @@ module.exports = (markdown = {}) => {
       .use(componentPlugin)
       .end()
 
-      const md = config.toMd()
-
-      
+  const md = config.toMd()
 
   return md
-
 }
