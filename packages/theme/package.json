@@ -7,7 +7,9 @@
   "license": "MIT",
   "scripts": {
     "build": "webpack --config webpack.config.js",
-    "test": "echo \"Error: run tests from root\" && exit 1"
+    "test": "echo \"Error: run tests from root\" && exit 1",
+    "snyk-protect": "snyk protect",
+    "prepare": "yarn run snyk-protect"
   },
   "main": "lib/theme.js",
   "directories": {
@@ -37,5 +39,9 @@
     "webpack": "^4.28.4",
     "webpack-cli": "^3.2.1",
     "webpack-node-externals": "^1.7.2"
+  },
+  "snyk": true,
+  "dependencies": {
+    "snyk": "^1.316.1"
   }
 }
