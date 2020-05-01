@@ -1,5 +1,5 @@
 # Snyk (https://snyk.io) policy file, patches or ignores known vulnerabilities.
-version: v1.13.5
+version: v1.14.1
 ignore: {}
 # patches apply the minimum changes required to fix a vulnerability
 patch:
@@ -63,3 +63,104 @@ patch:
         patched: '2019-11-07T07:51:45.969Z'
     - nuxt > @nuxt/webpack > @nuxt/babel-preset-app > @babel/preset-env > @babel/plugin-transform-async-to-generator > @babel/helper-remap-async-to-generator > @babel/helper-wrap-function > @babel/traverse > @babel/helper-function-name > @babel/helper-get-function-arity > @babel/types > lodash:
         patched: '2019-11-07T07:51:45.969Z'
+  SNYK-JS-LODASH-567746:
+    - lodash:
+        patched: '2020-05-01T07:10:32.895Z'
+    - '@mathssyfy/plugin-markdown > lodash':
+        patched: '2020-05-01T07:10:32.895Z'
+    - contentful > lodash:
+        patched: '2020-05-01T07:10:32.895Z'
+    - node-sass > lodash:
+        patched: '2020-05-01T07:10:32.895Z'
+    - contentful > contentful-resolve-response > lodash:
+        patched: '2020-05-01T07:10:32.895Z'
+    - contentful > contentful-sdk-core > lodash:
+        patched: '2020-05-01T07:10:32.895Z'
+    - node-sass > sass-graph > lodash:
+        patched: '2020-05-01T07:10:32.895Z'
+    - nuxt > @nuxt/builder > lodash:
+        patched: '2020-05-01T07:10:32.895Z'
+    - node-sass > gaze > globule > lodash:
+        patched: '2020-05-01T07:10:32.895Z'
+    - '@vue/cli-shared-utils > request-promise-native > request-promise-core > lodash':
+        patched: '2020-05-01T07:10:32.895Z'
+    - nuxt > @nuxt/webpack > @babel/core > lodash:
+        patched: '2020-05-01T07:10:32.895Z'
+    - nuxt > @nuxt/webpack > hard-source-webpack-plugin > lodash:
+        patched: '2020-05-01T07:10:32.895Z'
+    - nuxt > @nuxt/webpack > html-webpack-plugin > lodash:
+        patched: '2020-05-01T07:10:32.895Z'
+    - nuxt > @nuxt/webpack > webpack-bundle-analyzer > lodash:
+        patched: '2020-05-01T07:10:32.895Z'
+    - '@nuxtjs/apollo > vue-cli-plugin-apollo > apollo > @oclif/plugin-not-found > lodash':
+        patched: '2020-05-01T07:10:32.895Z'
+    - '@nuxtjs/apollo > vue-cli-plugin-apollo > apollo > cli-ux > lodash':
+        patched: '2020-05-01T07:10:32.895Z'
+    - nuxt > @nuxt/builder > @nuxt/webpack > @babel/core > lodash:
+        patched: '2020-05-01T07:10:32.895Z'
+    - '@nuxtjs/apollo > vue-cli-plugin-apollo > apollo > table > lodash':
+        patched: '2020-05-01T07:10:32.895Z'
+    - nuxt > @nuxt/builder > @nuxt/webpack > hard-source-webpack-plugin > lodash:
+        patched: '2020-05-01T07:10:32.895Z'
+    - nuxt > @nuxt/builder > @nuxt/webpack > html-webpack-plugin > lodash:
+        patched: '2020-05-01T07:10:32.895Z'
+    - nuxt > @nuxt/webpack > optimize-css-assets-webpack-plugin > last-call-webpack-plugin > lodash:
+        patched: '2020-05-01T07:10:32.895Z'
+    - nuxt > @nuxt/builder > @nuxt/webpack > webpack-bundle-analyzer > lodash:
+        patched: '2020-05-01T07:10:32.895Z'
+    - pug > pug-code-gen > constantinople > babel-types > lodash:
+        patched: '2020-05-01T07:10:32.895Z'
+    - pug > pug-filters > constantinople > babel-types > lodash:
+        patched: '2020-05-01T07:10:32.895Z'
+    - '@nuxtjs/apollo > vue-cli-plugin-apollo > apollo > @oclif/plugin-plugins > cli-ux > lodash':
+        patched: '2020-05-01T07:10:32.895Z'
+    - nuxt > @nuxt/webpack > @nuxt/babel-preset-app > @babel/preset-env > @babel/plugin-transform-block-scoping > lodash:
+        patched: '2020-05-01T07:10:32.895Z'
+    - '@nuxtjs/apollo > vue-cli-plugin-apollo > apollo > apollo-codegen-core > @babel/types > lodash':
+        patched: '2020-05-01T07:10:32.895Z'
+    - '@nuxtjs/apollo > vue-cli-plugin-apollo > apollo > apollo-codegen-flow > @babel/types > lodash':
+        patched: '2020-05-01T07:10:32.895Z'
+    - '@nuxtjs/apollo > vue-cli-plugin-apollo > apollo > apollo-codegen-typescript > @babel/types > lodash':
+        patched: '2020-05-01T07:10:32.895Z'
+    - '@nuxtjs/apollo > vue-cli-plugin-apollo > apollo > gaze > globule > lodash':
+        patched: '2020-05-01T07:10:32.895Z'
+    - nuxt > @nuxt/builder > @nuxt/webpack > optimize-css-assets-webpack-plugin > last-call-webpack-plugin > lodash:
+        patched: '2020-05-01T07:10:32.895Z'
+    - pug > pug-code-gen > pug-attrs > constantinople > babel-types > lodash:
+        patched: '2020-05-01T07:10:32.895Z'
+    - '@nuxtjs/apollo > vue-cli-plugin-apollo > apollo > apollo-codegen-core > @babel/generator > @babel/types > lodash':
+        patched: '2020-05-01T07:10:32.895Z'
+    - '@nuxtjs/apollo > vue-cli-plugin-apollo > apollo > apollo-codegen-flow > @babel/generator > @babel/types > lodash':
+        patched: '2020-05-01T07:10:32.895Z'
+    - '@nuxtjs/apollo > vue-cli-plugin-apollo > apollo > apollo-codegen-typescript > @babel/generator > @babel/types > lodash':
+        patched: '2020-05-01T07:10:32.895Z'
+    - nuxt > @nuxt/webpack > @nuxt/babel-preset-app > @babel/preset-env > @babel/plugin-transform-classes > @babel/helper-define-map > lodash:
+        patched: '2020-05-01T07:10:32.895Z'
+    - '@nuxtjs/apollo > vue-cli-plugin-apollo > apollo > apollo-codegen-flow > apollo-codegen-core > @babel/types > lodash':
+        patched: '2020-05-01T07:10:32.895Z'
+    - '@nuxtjs/apollo > vue-cli-plugin-apollo > apollo > apollo-codegen-scala > apollo-codegen-core > @babel/types > lodash':
+        patched: '2020-05-01T07:10:32.895Z'
+    - '@nuxtjs/apollo > vue-cli-plugin-apollo > apollo > apollo-codegen-swift > apollo-codegen-core > @babel/types > lodash':
+        patched: '2020-05-01T07:10:32.895Z'
+    - '@nuxtjs/apollo > vue-cli-plugin-apollo > apollo > apollo-codegen-typescript > apollo-codegen-core > @babel/types > lodash':
+        patched: '2020-05-01T07:10:32.895Z'
+    - '@nuxtjs/apollo > vue-cli-plugin-apollo > apollo > apollo-codegen-flow > apollo-codegen-core > @babel/generator > @babel/types > lodash':
+        patched: '2020-05-01T07:10:32.895Z'
+    - '@nuxtjs/apollo > vue-cli-plugin-apollo > apollo > apollo-codegen-scala > apollo-codegen-core > @babel/generator > @babel/types > lodash':
+        patched: '2020-05-01T07:10:32.895Z'
+    - '@nuxtjs/apollo > vue-cli-plugin-apollo > apollo > apollo-codegen-swift > apollo-codegen-core > @babel/generator > @babel/types > lodash':
+        patched: '2020-05-01T07:10:32.895Z'
+    - '@nuxtjs/apollo > vue-cli-plugin-apollo > apollo > apollo-codegen-typescript > apollo-codegen-core > @babel/generator > @babel/types > lodash':
+        patched: '2020-05-01T07:10:32.895Z'
+    - nuxt > @nuxt/builder > @nuxt/webpack > @nuxt/babel-preset-app > @babel/preset-env > @babel/plugin-transform-classes > @babel/helper-define-map > lodash:
+        patched: '2020-05-01T07:10:32.895Z'
+    - nuxt > @nuxt/builder > @nuxt/webpack > @nuxt/babel-preset-app > @babel/preset-env > @babel/plugin-transform-unicode-regex > @babel/helper-create-regexp-features-plugin > @babel/helper-regex > lodash:
+        patched: '2020-05-01T07:10:32.895Z'
+    - nuxt > @nuxt/builder > @nuxt/webpack > @nuxt/babel-preset-app > @babel/preset-env > @babel/preset-modules > @babel/plugin-transform-dotall-regex > @babel/helper-create-regexp-features-plugin > @babel/helper-regex > lodash:
+        patched: '2020-05-01T07:10:32.895Z'
+    - nuxt > @nuxt/builder > @nuxt/webpack > @nuxt/babel-preset-app > @babel/preset-env > @babel/plugin-transform-exponentiation-operator > @babel/helper-builder-binary-assignment-operator-visitor > @babel/helper-explode-assignable-expression > @babel/traverse > @babel/generator > lodash:
+        patched: '2020-05-01T07:10:32.895Z'
+    - nuxt > @nuxt/builder > @nuxt/webpack > @nuxt/babel-preset-app > @babel/preset-env > @babel/plugin-transform-exponentiation-operator > @babel/helper-builder-binary-assignment-operator-visitor > @babel/helper-explode-assignable-expression > @babel/traverse > @babel/helper-split-export-declaration > @babel/types > lodash:
+        patched: '2020-05-01T07:10:32.895Z'
+    - nuxt > @nuxt/builder > @nuxt/webpack > @nuxt/babel-preset-app > @babel/preset-env > @babel/plugin-transform-exponentiation-operator > @babel/helper-builder-binary-assignment-operator-visitor > @babel/helper-explode-assignable-expression > @babel/traverse > @babel/helper-function-name > @babel/template > @babel/types > lodash:
+        patched: '2020-05-01T07:10:32.895Z'
