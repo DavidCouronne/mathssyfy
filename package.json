@@ -48,7 +48,7 @@
     "mocha": "^6.2.2",
     "prism": "^4.1.2",
     "react": "^16.7.0",
-    "semantic-release": "^15.13.3",
+    "semantic-release": "^17.0.7",
     "socks": "^2.2.2",
     "typescript": "^3.2.4",
     "yorkie": "^2.0.0"
