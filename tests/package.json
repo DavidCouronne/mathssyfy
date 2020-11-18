@@ -75,7 +75,7 @@
     "pug-plain-loader": "^1.0.0",
     "push-dir": "^0.4.1",
     "sass-loader": "^7.1.0",
-    "webpack": "^4.28.1"
+    "webpack": "^5.1.1"
   },
   "snyk": true
 }
