@@ -78,8 +78,8 @@
     "node-sass": "^4.11.0",
     "sass-loader": "^8.0.0",
     "style-loader": "^1.0.0",
-    "webpack": "^4.28.4",
-    "webpack-cli": "^3.2.1",
+    "webpack": "^5.1.1",
+    "webpack-cli": "^4.0.0",
     "webpack-node-externals": "^1.7.2"
   },
   "gitHead": "ce4cc25d5720b9c48bc0214da635204023ac9d05"
