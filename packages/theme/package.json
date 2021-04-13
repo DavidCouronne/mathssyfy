@@ -28,7 +28,7 @@
     "url": "https://github.com/DavidCouronne/mathssyfy/issues"
   },
   "devDependencies": {
-    "css-loader": "^3.2.0",
+    "css-loader": "^5.0.0",
     "mini-css-extract-plugin": "^0.8.0",
     "node-sass": "^4.11.0",
     "sass-loader": "^8.0.0",
