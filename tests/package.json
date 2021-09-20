@@ -13,7 +13,7 @@
     "prepublish": "npm run snyk-protect"
   },
   "dependencies": {
-    "@mathssyfy/markdown": "^0.0.21",
+    "@mathssyfy/markdown": "^1.2.10",
     "@mathssyfy/plugin-markdown": "^0.0.21",
     "@mathssyfy/theme": "^0.0.22",
     "@nuxtjs/apollo": "^4.0.0-rc2.3",
