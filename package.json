@@ -24,7 +24,9 @@
     "release": "yarn --pure-lockfile && yarn tsc && node scripts/release.js",
     "changelog": "conventional-changelog -p angular -i CHANGELOG.md -s -r 2",
     "test": "node scripts/test.js",
-    "tsc": "lerna run tsc"
+    "tsc": "lerna run tsc",
+    "snyk-protect": "snyk protect",
+    "prepublish": "npm run snyk-protect"
   },
   "dependencies": {
     "@types/escape-html": "^0.0.20",
@@ -51,10 +53,12 @@
     "semantic-release": "^15.13.3",
     "socks": "^2.2.2",
     "typescript": "^3.2.4",
-    "yorkie": "^2.0.0"
+    "yorkie": "^2.0.0",
+    "snyk": "^1.316.1"
   },
   "jest": {
     "coverageDirectory": "./coverage/",
     "collectCoverage": true
-  }
+  },
+  "snyk": true
 }
